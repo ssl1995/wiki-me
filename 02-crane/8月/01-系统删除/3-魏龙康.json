@@ -1,0 +1,284 @@
+{
+  "body": {
+    "data": [
+      {
+        "basicInfo": {
+          "candidateId": 543488890,
+          "pipelineId": 97014,
+          "stageId": 130041,
+          "sourceId": 505549,
+          "applicationId": 574411713,
+          "age": 32,
+          "name": "魏龙康",
+          "phone": "15311440176",
+          "email": "kxst_wlk@163.com",
+          "stage": {
+            "id": 130041,
+            "name": "待入职",
+            "type": 102
+          },
+          "owner": {
+            "name": "尉炎炎",
+            "email": "yanyanwei@fintopia.tech",
+            "phone": "18512129773"
+          },
+          "archiveReasonId": null,
+          "certificateType": 1,
+          "citizenId": null,
+          "gender": "男",
+          "realHiredDate": null,
+          "academicDegree": "本科",
+          "resumeUrl": "https://moka-co.oss-cn-beijing.aliyuncs.com/fintopia/55771709-3258-4dc9-81b4-83660eb908f8.pdf?Expires=1723574575&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=KFgUszIFGjhBcMEk4Nk72ADOWB0%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E9%25AD%258F%25E9%25BE%2599%25E5%25BA%25B7%25E7%259A%2584%25E7%25AE%2580%25E5%258E%2586.pdf%22%3B%20filename%2A%3Dutf-8%27%27%25E9%25AD%258F%25E9%25BE%2599%25E5%25BA%25B7%25E7%259A%2584%25E7%25AE%2580%25E5%258E%2586.pdf",
+          "standardResumeUrl": "https://moka-co.oss-cn-beijing.aliyuncs.com/fintopia/htmlToPdf-dealer-b3936544493648008153d4bce32a63e1.pdf?Expires=1723545777&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=1PUymHnrZxNhSz%2FSiS%2FA7p6SlRY%3D&response-content-disposition=attachment%3B%20filename%3D%22fintopia%2FhtmlToPdf-dealer-b3936544493648008153d4bce32a63e1.pdf%22%3B%20&timestamp=1723459377030",
+          "experience": null,
+          "educationInfo": [
+            {
+              "id": "701290341",
+              "startDate": "2011-09",
+              "endDate": "2015-07",
+              "now": false,
+              "academicDegree": "本科",
+              "school": "内蒙古科技大学",
+              "speciality": "计算机科学与技术"
+            }
+          ],
+          "archiveReasons": null,
+          "referrer": null
+        },
+        "offerInfo": {
+          "department": {
+            "name": null,
+            "departmentCode": "bwuK",
+            "parentCode": null,
+            "sequence": 0
+          },
+          "customFields": [
+            {
+              "id": 341908,
+              "name": "身份证号码",
+              "value": "610324199202084057",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 327199,
+              "name": "合同期限",
+              "value": "3",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 327200,
+              "name": "试用期期限",
+              "value": "6",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 321007,
+              "name": "试用期基本工资（元/月）",
+              "value": "45000",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 321008,
+              "name": "转正后基本工资（元/月）",
+              "value": "45000",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 333183,
+              "name": "目标年终奖金（月）",
+              "value": "2",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 329356,
+              "name": "候选人确认日期",
+              "value": "2024-08-08",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 324923,
+              "name": "offer日期",
+              "value": "2024-08-01",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 355148,
+              "name": "试⽤期绩效⼯资（元/⽉）",
+              "value": null,
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 351632,
+              "name": "转正后绩效⼯资（元/⽉）",
+              "value": null,
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 333131,
+              "name": "实习期基本工资（元/天）",
+              "value": null,
+              "code": null,
+              "index": null
+            }
+          ],
+          "status": "accepted",
+          "locationString": "北京市 北京-朝阳区中青大厦-19层"
+        },
+        "jobInfo": {
+          "id": "f3361a0e-eded-40ea-9351-d45fc37a6411",
+          "mjCode": "MJ000046",
+          "hireMode": 1,
+          "title": "数据仓库工程师(MJ000046)"
+        },
+        "interviewInfo": [
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "40965689",
+                "applicationId": 574411713,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": "",
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "",
+                  "name": "马晓林",
+                  "employeeId": "",
+                  "id": 6120044,
+                  "email": "xiaolinma@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 3,
+            "roundName": "业务一面",
+            "interviewType": "视频面试",
+            "locationAddress": "北京市 北京-中青大厦",
+            "startTime": "2024-07-11T03:00:00.000Z"
+          },
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "40998233",
+                "applicationId": 574411713,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": "",
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "",
+                  "name": "郭飞飞",
+                  "employeeId": "",
+                  "id": 4780050,
+                  "email": "feifeiguo@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 5,
+            "roundName": "业务二面",
+            "interviewType": "视频面试",
+            "locationAddress": "北京市 北京-中青大厦",
+            "startTime": "2024-07-15T03:00:00.000Z"
+          },
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "41130416",
+                "applicationId": 574411713,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": "",
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "",
+                  "name": "王宝财",
+                  "employeeId": "",
+                  "id": 4781990,
+                  "email": "baocaiwang@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 9,
+            "roundName": "业务三面",
+            "interviewType": "视频面试",
+            "locationAddress": "北京市 北京-中青大厦",
+            "startTime": "2024-07-18T10:00:00.000Z"
+          },
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "41209166",
+                "applicationId": 574411713,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": "",
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "18512129773",
+                  "name": "尉炎炎",
+                  "employeeId": "",
+                  "id": 6715087,
+                  "email": "yanyanwei@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 4,
+            "roundName": "HR面试",
+            "interviewType": "视频面试",
+            "locationAddress": "北京市 北京-中青大厦",
+            "startTime": "2024-07-23T03:00:00.000Z"
+          }
+        ],
+        "examInfo": {
+          "applicationId": 574411713,
+          "candidateId": 543488890,
+          "jobId": "f3361a0e-eded-40ea-9351-d45fc37a6411",
+          "surveys": [
+            {
+              "name": "定制三（两履两表）",
+              "date": "2024-08-02T05:20:06.000Z",
+              "source": "开放平台三方",
+              "result": "安全报告（最终版)-安全",
+              "attachmentUrl": "https://moka-co-oss.mokahr.com/fintopia/ef696bbd52c141848a9a4336aa3708c8.pdf?Expires=1723632175&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=rqcGdttG1srkGrDul%2BHBUoozNI8%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E9%25AD%258F%25E9%25BE%2599%25E5%25BA%25B7_%25E6%259C%2580%25E7%25BB%2588%25E7%2589%2588%25E6%258A%25A5%25E5%2591%258A%25EF%25BC%2588%25E7%25BB%25BF%25E6%25A0%2587%25EF%25BC%2589_%25E5%25AE%259A%25E5%2588%25B6%25E4%25B8%2589%25EF%25BC%2588%25E4%25B8%25A4%25E5%25B1%25A5%25E4%25B8%25A4%25E8%25A1%25A8%25EF%25BC%2589_%25E7%2593%25B4%25E5%25B2%25B3%25E7%25A7%2591%25E6%258A%2580_i%25E8%2583%258C%25E8%25B0%2583%25E6%258A%25A5%25E5%2591%258A_LAB02408022114052.pdf%22&timestamp=1723459375291",
+              "comment": null,
+              "attachmentName": "魏龙康_最终版报告（绿标）_定制三（两履两表）_瓴岳科技_i背调报告_LAB02408022114052.pdf",
+              "attachments": [
+                {
+                  "url": "https://moka-co-oss.mokahr.com/fintopia/ef696bbd52c141848a9a4336aa3708c8.pdf?Expires=1723632175&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=rqcGdttG1srkGrDul%2BHBUoozNI8%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E9%25AD%258F%25E9%25BE%2599%25E5%25BA%25B7_%25E6%259C%2580%25E7%25BB%2588%25E7%2589%2588%25E6%258A%25A5%25E5%2591%258A%25EF%25BC%2588%25E7%25BB%25BF%25E6%25A0%2587%25EF%25BC%2589_%25E5%25AE%259A%25E5%2588%25B6%25E4%25B8%2589%25EF%25BC%2588%25E4%25B8%25A4%25E5%25B1%25A5%25E4%25B8%25A4%25E8%25A1%25A8%25EF%25BC%2589_%25E7%2593%25B4%25E5%25B2%25B3%25E7%25A7%2591%25E6%258A%2580_i%25E8%2583%258C%25E8%25B0%2583%25E6%258A%25A5%25E5%2591%258A_LAB02408022114052.pdf%22&timestamp=1723459375291",
+                  "attachmentName": "魏龙康_最终版报告（绿标）_定制三（两履两表）_瓴岳科技_i背调报告_LAB02408022114052.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "next": null,
+    "code": 200,
+    "msg": "success",
+    "message": null,
+    "success": null,
+    "errorMessage": null
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1723459377144,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
