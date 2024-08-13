@@ -1,0 +1,338 @@
+{
+  "language_zh": [
+    {
+      "code": "1",
+      "description": "保证金",
+      "oldCode": "保证金"
+    },
+    {
+      "code": "2",
+      "description": "审计费",
+      "oldCode": "审计费"
+    },
+    {
+      "code": "3",
+      "description": "律师费",
+      "oldCode": "律师费"
+    },
+    {
+      "code": "4",
+      "description": "承销费",
+      "oldCode": "承销费"
+    },
+    {
+      "code": "5",
+      "description": "打印费",
+      "oldCode": "打印费"
+    },
+    {
+      "code": "6",
+      "description": "咨询服务费",
+      "oldCode": "咨询服务费"
+    },
+    {
+      "code": "7",
+      "description": "保险费",
+      "oldCode": "保险费"
+    },
+    {
+      "code": "8",
+      "description": "培训费",
+      "oldCode": "培训费"
+    },
+    {
+      "code": "9",
+      "description": "展会费",
+      "oldCode": "展会费"
+    },
+    {
+      "code": "10",
+      "description": "商标注册费",
+      "oldCode": "商标注册费"
+    },
+    {
+      "code": "11",
+      "description": "会议费",
+      "oldCode": "会议费"
+    },
+    {
+      "code": "12",
+      "description": "维修费",
+      "oldCode": "维修费"
+    },
+    {
+      "code": "13",
+      "description": "Yosemite项目费用",
+      "oldCode": "Yosemite项目费用"
+    },
+    {
+      "code": "14",
+      "description": "分贝通",
+      "oldCode": "分贝通"
+    },
+    {
+      "code": "15",
+      "description": "税费",
+      "oldCode": "税费"
+    },
+    {
+      "code": "16",
+      "description": "税务代理费",
+      "oldCode": "税务代理费"
+    },
+    {
+      "code": "18",
+      "description": "Creative",
+      "oldCode": "Creative"
+    },
+    {
+      "code": "19",
+      "description": "国内电销坐席",
+      "oldCode": "国内电销坐席"
+    },
+    {
+      "code": "20",
+      "description": "国内客服坐席",
+      "oldCode": "国内客服坐席"
+    },
+    {
+      "code": "21",
+      "description": "墨西哥本地坐席",
+      "oldCode": "墨西哥本地坐席"
+    },
+    {
+      "code": "22",
+      "description": "印尼电销坐席",
+      "oldCode": "印尼电销坐席"
+    },
+    {
+      "code": "17",
+      "description": "其他",
+      "oldCode": "其他"
+    }
+  ],
+  "language_id": [
+    {
+      "code": "1",
+      "description": "Deposit",
+      "oldCode": "Deposit"
+    },
+    {
+      "code": "2",
+      "description": "Biaya audit",
+      "oldCode": "Biaya audit"
+    },
+    {
+      "code": "3",
+      "description": "Biaya pengacara",
+      "oldCode": "Biaya pengacara"
+    },
+    {
+      "code": "4",
+      "description": "Biaya penjaminan",
+      "oldCode": "Biaya penjaminan"
+    },
+    {
+      "code": "5",
+      "description": "Biaya printing",
+      "oldCode": "Biaya printing"
+    },
+    {
+      "code": "6",
+      "description": "Biaya jasa konsultasi",
+      "oldCode": "Biaya jasa konsultasi"
+    },
+    {
+      "code": "7",
+      "description": "Biaya asuransi",
+      "oldCode": "Biaya asuransi"
+    },
+    {
+      "code": "8",
+      "description": "Biaya traning",
+      "oldCode": "Biaya traning"
+    },
+    {
+      "code": "9",
+      "description": "Biaya pameran",
+      "oldCode": "Biaya pameran"
+    },
+    {
+      "code": "10",
+      "description": "Biaya pendaftaran merek",
+      "oldCode": "Biaya pendaftaran merek"
+    },
+    {
+      "code": "11",
+      "description": "Biaya konferensi",
+      "oldCode": "Biaya konferensi"
+    },
+    {
+      "code": "12",
+      "description": "Biaya pemeliharaan",
+      "oldCode": "Biaya pemeliharaan"
+    },
+    {
+      "code": "13",
+      "description": "Biaya proyek Yosemite",
+      "oldCode": "Biaya proyek Yosemite"
+    },
+    {
+      "code": "14",
+      "description": "Fen bei tong",
+      "oldCode": "Fen bei tong"
+    },
+    {
+      "code": "15",
+      "description": "Biaya pajak",
+      "oldCode": "Biaya pajak"
+    },
+    {
+      "code": "16",
+      "description": "Biaya agency pajak",
+      "oldCode": "Biaya agency pajak"
+    },
+    {
+      "code": "18",
+      "description": "Creative",
+      "oldCode": "Creative"
+    },
+    {
+      "code": "19",
+      "description": "Chinese Telemarketing Agent",
+      "oldCode": "Chinese Telemarketing Agent"
+    },
+    {
+      "code": "20",
+      "description": "Chinese Customer Service Agent",
+      "oldCode": "Chinese Customer Service Agent"
+    },
+    {
+      "code": "21",
+      "description": "Local Mexican Agent",
+      "oldCode": "Local Mexican Agent"
+    },
+    {
+      "code": "22",
+      "description": "Indonesian Telemarketing Agent",
+      "oldCode": "Indonesian Telemarketing Agent"
+    },
+    {
+      "code": "17",
+      "description": "Other",
+      "oldCode": "Other"
+    }
+  ],
+  "language_en": [
+    {
+      "code": "1",
+      "description": "Deposit",
+      "oldCode": "Deposit"
+    },
+    {
+      "code": "2",
+      "description": "Audit fee",
+      "oldCode": "Audit fee"
+    },
+    {
+      "code": "3",
+      "description": "lawyer fee",
+      "oldCode": "lawyer fee"
+    },
+    {
+      "code": "4",
+      "description": "Underwriting fee",
+      "oldCode": "Underwriting fee"
+    },
+    {
+      "code": "5",
+      "description": "Printing fee",
+      "oldCode": "Printing fee"
+    },
+    {
+      "code": "6",
+      "description": "Consultation service fee",
+      "oldCode": "Consultation service fee"
+    },
+    {
+      "code": "7",
+      "description": "Insurance fee",
+      "oldCode": "Insurance fee"
+    },
+    {
+      "code": "8",
+      "description": "Training fee",
+      "oldCode": "Training fee"
+    },
+    {
+      "code": "9",
+      "description": "Exhibition fee",
+      "oldCode": "Exhibition fee"
+    },
+    {
+      "code": "10",
+      "description": "Trademark registration fee",
+      "oldCode": "Trademark registration fee"
+    },
+    {
+      "code": "11",
+      "description": "Conference fee",
+      "oldCode": "Conference fee"
+    },
+    {
+      "code": "12",
+      "description": "Maintenance fees",
+      "oldCode": "Maintenance fees"
+    },
+    {
+      "code": "13",
+      "description": "Yosemite project fees",
+      "oldCode": "Yosemite project fees"
+    },
+    {
+      "code": "14",
+      "description": "Fen bei tong",
+      "oldCode": "Fen bei tong"
+    },
+    {
+      "code": "15",
+      "description": "Tax fees",
+      "oldCode": "Tax fees"
+    },
+    {
+      "code": "16",
+      "description": "Tax agency fee",
+      "oldCode": "Tax agency fee"
+    },
+    {
+      "code": "18",
+      "description": "Creative",
+      "oldCode": "Creative"
+    },
+    {
+      "code": "19",
+      "description": "Chinese Telemarketing Agent",
+      "oldCode": "Chinese Telemarketing Agent"
+    },
+    {
+      "code": "20",
+      "description": "Chinese Customer Service Agent",
+      "oldCode": "Chinese Customer Service Agent"
+    },
+    {
+      "code": "21",
+      "description": "Local Mexican Agent",
+      "oldCode": "Local Mexican Agent"
+    },
+    {
+      "code": "22",
+      "description": "Penyelia Telepemasaran Indonesia",
+      "oldCode": "Penyelia Telepemasaran Indonesia"
+    },
+    {
+      "code": "17",
+      "description": "Other",
+      "oldCode": "Other"
+    }
+  ]
+}
