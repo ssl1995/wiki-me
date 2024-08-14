@@ -1,0 +1,85 @@
+{
+    "flowInfoVOS": [
+        {
+            "flowId": "VNdKDCb",
+            "flowNumber": "F-OA2407290140",
+            "flowName": "离职申请",
+            "emplVOS": [
+                {
+                    "employeeId": "zwmNf6",
+                    "employeeName": "李巧"
+                }
+            ]
+        }
+    ],
+    "vacationVOS": [],
+    "annualVacation": {
+        "id": 3292,
+        "oaId": 3292,
+        "employeeId": "Zx0AsB",
+        "workNumber": "03175",
+        "name": "朱彦谕",
+        "state": "FORMAL",
+        "companyId": 15,
+        "secondDepartmentName": "技术部",
+        "thirdDepartmentName": "APP",
+        "entryTime": 1678760164589,
+        "leaveDate": null,
+        "divisionAge": "1 年 4 个月",
+        "map": null,
+        "employeeVacationVOS": [
+            {
+                "id": 155432,
+                "oaId": 155432,
+                "employeeId": "Zx0AsB",
+                "vacationId": 1,
+                "isIndonesia": null,
+                "employeeName": null,
+                "totalDays": 11,
+                "usedDays": 6,
+                "year": 2024,
+                "isCleared": "FALSE",
+                "remainDays": 5,
+                "lastMonthUsedDays": 0,
+                "currentMonthUsedDays": 0,
+                "monthUseDaysMap": {},
+                "currentEffectiveDays": 6,
+                "currentAdvanceDays": 0,
+                "baseDays": 11,
+                "timeCreated": 1678760223894,
+                "timeUpdated": 1722276072201
+            },
+            {
+                "id": 293516,
+                "oaId": 293516,
+                "employeeId": "Zx0AsB",
+                "vacationId": 1,
+                "isIndonesia": null,
+                "employeeName": null,
+                "totalDays": 11,
+                "usedDays": 0,
+                "year": 2025,
+                "isCleared": "FALSE",
+                "remainDays": 11,
+                "lastMonthUsedDays": 0,
+                "currentMonthUsedDays": 0,
+                "monthUseDaysMap": {},
+                "currentEffectiveDays": 0,
+                "currentAdvanceDays": 0,
+                "baseDays": 11,
+                "timeCreated": 1711911604178,
+                "timeUpdated": 1722276072226
+            }
+        ]
+    },
+    "reduction": "TRUE",
+    "reductionDate": 1722441600000,
+    "submit": false,
+    "edit": true,
+    "emplRelationUpdated": {
+        "employeeId": "mVwmTx",
+        "name": "孟繁雪",
+        "timeUpdated": 1722323530202
+    },
+    "hrbpVOS": []
+}

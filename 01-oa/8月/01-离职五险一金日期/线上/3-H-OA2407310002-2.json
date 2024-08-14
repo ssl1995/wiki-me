@@ -1,0 +1,100 @@
+{
+    "flowInfoVOS": [
+        {
+            "flowId": "5dkkKfz",
+            "flowNumber": "F-OA2407310125",
+            "flowName": "离职申请",
+            "emplVOS": [
+                {
+                    "employeeId": "MGMOc9",
+                    "employeeName": "李盼"
+                }
+            ]
+        },
+        {
+            "flowId": "1gLL5uQ",
+            "flowNumber": "F-OA2407310127",
+            "flowName": "在职证明申请",
+            "emplVOS": [
+                {
+                    "employeeId": "e1rsB",
+                    "employeeName": "蔡雯菲"
+                },
+                {
+                    "employeeId": "rmgtJ",
+                    "employeeName": "廖莉君"
+                }
+            ]
+        }
+    ],
+    "vacationVOS": [],
+    "annualVacation": {
+        "id": 5018,
+        "oaId": 5018,
+        "employeeId": "4LznTB",
+        "workNumber": "04821",
+        "name": "董双",
+        "state": "TRY",
+        "companyId": 52,
+        "secondDepartmentName": "产品部",
+        "thirdDepartmentName": "创意",
+        "entryTime": 1711987200000,
+        "leaveDate": null,
+        "divisionAge": " 4 个月",
+        "map": null,
+        "employeeVacationVOS": [
+            {
+                "id": 346142,
+                "oaId": 346142,
+                "employeeId": "4LznTB",
+                "vacationId": 1,
+                "isIndonesia": null,
+                "employeeName": null,
+                "totalDays": 3,
+                "usedDays": 3,
+                "year": 2024,
+                "isCleared": "FALSE",
+                "remainDays": 0,
+                "lastMonthUsedDays": 0,
+                "currentMonthUsedDays": 0,
+                "monthUseDaysMap": {},
+                "currentEffectiveDays": 3,
+                "currentAdvanceDays": 0,
+                "baseDays": 10,
+                "timeCreated": 1712023635903,
+                "timeUpdated": 1722448900457
+            },
+            {
+                "id": 346143,
+                "oaId": 346143,
+                "employeeId": "4LznTB",
+                "vacationId": 1,
+                "isIndonesia": null,
+                "employeeName": null,
+                "totalDays": 0,
+                "usedDays": 0,
+                "year": 2025,
+                "isCleared": "FALSE",
+                "remainDays": 0,
+                "lastMonthUsedDays": 0,
+                "currentMonthUsedDays": 0,
+                "monthUseDaysMap": {},
+                "currentEffectiveDays": 0,
+                "currentAdvanceDays": 0,
+                "baseDays": 10,
+                "timeCreated": 1712023635903,
+                "timeUpdated": 1722448900457
+            }
+        ]
+    },
+    "reduction": "TRUE",
+    "reductionDate": 1725120000000,
+    "submit": false,
+    "edit": true,
+    "emplRelationUpdated": {
+        "employeeId": "mVwmTx",
+        "name": "孟繁雪",
+        "timeUpdated": 1722476780068
+    },
+    "hrbpVOS": []
+}

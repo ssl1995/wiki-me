@@ -1,0 +1,96 @@
+{
+    "flowInfoVOS": [
+        {
+            "flowId": "WWr7JIw",
+            "flowNumber": "F-OA2407190794",
+            "flowName": "绩效目标审批流程",
+            "emplVOS": [
+                {
+                    "employeeId": "M210t9",
+                    "employeeName": "沈吟曦"
+                }
+            ]
+        },
+        {
+            "flowId": "GM0K8FK",
+            "flowNumber": "F-OA2408010250",
+            "flowName": "离职申请",
+            "emplVOS": [
+                {
+                    "employeeId": "mpBFx",
+                    "employeeName": "明亚运"
+                }
+            ]
+        }
+    ],
+    "vacationVOS": [],
+    "annualVacation": {
+        "id": 892,
+        "oaId": 892,
+        "employeeId": "NraS1",
+        "workNumber": "00873",
+        "name": "贾伟",
+        "state": "FORMAL",
+        "companyId": 15,
+        "secondDepartmentName": "风险管理部",
+        "thirdDepartmentName": "风险控制",
+        "entryTime": 1586486788153,
+        "leaveDate": null,
+        "divisionAge": "4 年 3 个月",
+        "map": null,
+        "employeeVacationVOS": [
+            {
+                "id": 159376,
+                "oaId": 159376,
+                "employeeId": "NraS1",
+                "vacationId": 1,
+                "isIndonesia": null,
+                "employeeName": null,
+                "totalDays": 14,
+                "usedDays": 3,
+                "year": 2024,
+                "isCleared": "FALSE",
+                "remainDays": 11,
+                "lastMonthUsedDays": 0,
+                "currentMonthUsedDays": 0,
+                "monthUseDaysMap": {},
+                "currentEffectiveDays": 8,
+                "currentAdvanceDays": 0,
+                "baseDays": 14,
+                "timeCreated": 1680289203087,
+                "timeUpdated": 1722448900433
+            },
+            {
+                "id": 292760,
+                "oaId": 292760,
+                "employeeId": "NraS1",
+                "vacationId": 1,
+                "isIndonesia": null,
+                "employeeName": null,
+                "totalDays": 14,
+                "usedDays": 0,
+                "year": 2025,
+                "isCleared": "FALSE",
+                "remainDays": 14,
+                "lastMonthUsedDays": 0,
+                "currentMonthUsedDays": 0,
+                "monthUseDaysMap": {},
+                "currentEffectiveDays": 0,
+                "currentAdvanceDays": 0,
+                "baseDays": 14,
+                "timeCreated": 1711911604174,
+                "timeUpdated": 1722448900451
+            }
+        ]
+    },
+    "reduction": "TRUE",
+    "reductionDate": 1725120000000,
+    "submit": false,
+    "edit": true,
+    "emplRelationUpdated": {
+        "employeeId": "mVwmTx",
+        "name": "孟繁雪",
+        "timeUpdated": 1722500300359
+    },
+    "hrbpVOS": []
+}
