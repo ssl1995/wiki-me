@@ -1,0 +1,104 @@
+{
+    "flowInfoVOS": [
+        {
+            "flowId": "ZYzbrfB",
+            "flowNumber": "F-OA2407180261",
+            "flowName": "离职申请",
+            "emplVOS": [
+                {
+                    "employeeId": "BpTQ",
+                    "employeeName": "邓霖霖"
+                }
+            ]
+        }
+    ],
+    "vacationVOS": [],
+    "annualVacation": {
+        "id": 3383,
+        "oaId": 3383,
+        "employeeId": "AeB6uG",
+        "workNumber": "03266",
+        "name": "李然",
+        "state": "FORMAL",
+        "companyId": 15,
+        "secondDepartmentName": "人力行政部",
+        "thirdDepartmentName": "人力资源",
+        "entryTime": 1680747555590,
+        "leaveDate": null,
+        "divisionAge": "1 年 3 个月",
+        "map": null,
+        "employeeVacationVOS": [
+            {
+                "id": 190928,
+                "oaId": 190928,
+                "employeeId": "AeB6uG",
+                "vacationId": 1,
+                "isIndonesia": null,
+                "employeeName": null,
+                "totalDays": 11,
+                "usedDays": 4,
+                "year": 2024,
+                "isCleared": "FALSE",
+                "remainDays": 7,
+                "lastMonthUsedDays": 0,
+                "currentMonthUsedDays": 0,
+                "monthUseDaysMap": {},
+                "currentEffectiveDays": 6,
+                "currentAdvanceDays": 0,
+                "baseDays": 11,
+                "timeCreated": 1680747592305,
+                "timeUpdated": 1721584867652
+            },
+            {
+                "id": 293564,
+                "oaId": 293564,
+                "employeeId": "AeB6uG",
+                "vacationId": 1,
+                "isIndonesia": null,
+                "employeeName": null,
+                "totalDays": 11,
+                "usedDays": 0,
+                "year": 2025,
+                "isCleared": "FALSE",
+                "remainDays": 11,
+                "lastMonthUsedDays": 0,
+                "currentMonthUsedDays": 0,
+                "monthUseDaysMap": {},
+                "currentEffectiveDays": 0,
+                "currentAdvanceDays": 0,
+                "baseDays": 11,
+                "timeCreated": 1711911604178,
+                "timeUpdated": 1721584867662
+            }
+        ]
+    },
+    "reduction": "TRUE",
+    "reductionDate": 1727712000000,
+    "submit": false,
+    "edit": true,
+    "emplRelationUpdated": {
+        "employeeId": "mVwmTx",
+        "name": "孟繁雪",
+        "timeUpdated": 1721614839779
+    },
+    "hrbpVOS": [
+        {
+            "fromHrbpName": "李然",
+            "fromHrbpId": "AeB6uG",
+            "toHrbpName": "王晶",
+            "toHrbpId": "BYKMSQ",
+            "employeeIds": [
+                "5QNKTz"
+            ],
+            "emplVOS": [
+                {
+                    "employeeId": "5QNKTz",
+                    "employeeName": "ミヤザキ　ヤスヒロ（宮﨑 康浩）"
+                }
+            ],
+            "operator": "mVwmTx",
+            "operatorName": "孟繁雪",
+            "timeCreated": 1721614820000
+        }
+    ]
+}
