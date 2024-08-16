@@ -1,0 +1,462 @@
+{
+    "parameter": [],
+    "status": [
+        {
+            "code": "S",
+            "name": "已提交"
+        },
+        {
+            "code": "I",
+            "name": "初始化"
+        },
+        {
+            "code": "P",
+            "name": "审核中"
+        },
+        {
+            "code": "A",
+            "name": "通过"
+        },
+        {
+            "code": "R",
+            "name": "拒绝"
+        },
+        {
+            "code": "C",
+            "name": "驳回修改"
+        },
+        {
+            "code": "E",
+            "name": "结束"
+        }
+    ],
+    "action": [
+        {
+            "id": 1,
+            "name": "approve",
+            "description": "通过",
+            "manual": true
+        },
+        {
+            "id": 2,
+            "name": "reject",
+            "description": "拒绝",
+            "manual": true,
+            "comment": [
+                {
+                    "field": "comment",
+                    "description": "备注",
+                    "required": false
+                },
+                {
+                    "field": "reason",
+                    "description": "拒绝原因",
+                    "required": true
+                }
+            ],
+            "attachment": true
+        },
+        {
+            "id": 3,
+            "name": "submit",
+            "description": "提交",
+            "manual": true
+        },
+        {
+            "id": 4,
+            "name": "auto",
+            "description": "自动流转",
+            "manual": false
+        }
+    ],
+    "actor": [
+        {
+            "id": 1,
+            "name": "specific_user",
+            "description": "00100",
+            "action": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "name": "self",
+            "description": "发起人",
+            "action": [
+                3
+            ]
+        },
+        {
+            "id": 3,
+            "name": "specific_privilege",
+            "description": "FEE.ACCOUNTANT:会计:分公司权限",
+            "action": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 4,
+            "name": "specific_roles",
+            "description": "926",
+            "alias":"资金结算审批",
+            "action": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 5,
+            "name": "specific_roles",
+            "description": "926",
+            "alias":"税务",
+            "action": [
+                1,
+                2
+            ]
+        }
+    ],
+    "start": 1,
+    "end": {
+        "id": 999,
+        "status": "E"
+    },
+    "instructions": [],
+    "encodeId": false,
+    "messageLink":"https://treasury-test.yangqianguan.com/document/amc-invoice-oa?id=",
+
+    "callbacks": [
+        {
+            "id": 1,
+            "url": "https://treasury-test.yangqianguan.com/admin/amc_invoicing_summary/oa_flow_callback"
+        }
+    ],
+    "step": [
+        {
+            "index": 1,
+            "name": "发起人提交",
+            "description": "发起人提交节点",
+            "next": [
+                2
+            ],
+            "actor": [
+                2
+            ],
+            "show": false,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 3,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "C"
+                            ],
+                            "status": "S",
+                            "next": [
+                                2
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 4,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "S"
+                            ],
+                            "status": "C",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 2,
+            "name": "张玉乾",
+            "description": "张玉乾",
+            "index_key":"contract_attachment",
+            "previous": [
+                1
+            ],
+            "next": [
+                3
+            ],
+            "actor": [
+                1
+            ],
+            "show": true,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 1,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P"
+                            ],
+                            "status": "A",
+                            "next": [
+                                3
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 2,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "R",
+                            "next": [
+                                999
+                            ],
+                            "callback": true,
+                            "callbackId": 1
+                        }
+                    ]
+                },
+                {
+                    "action": 4,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "A",
+                                "C"
+                            ],
+                            "status": "P",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "name": "资金运营部",
+            "description": "资金运营部",
+
+            "previous": [
+                2
+            ],
+            "next": [
+                4
+            ],
+            "actor": [
+                4
+            ],
+            "show": true,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 1,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P"
+                            ],
+                            "status": "A",
+                            "next": [
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 2,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "R",
+                            "next": [
+                                999
+                            ],
+                            "callback": true,
+                            "callbackId": 1
+                        }
+                    ]
+                },
+                {
+                    "action": 4,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "A",
+                                "C"
+                            ],
+                            "status": "P",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 4,
+            "name": "财务会计",
+            "description": "会计审批",
+            "previous": [
+                3
+            ],
+            "next": [
+                5
+            ],
+            "actor": [
+                3
+            ],
+            "show": true,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 1,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P"
+                            ],
+                            "status": "A",
+                            "next": [
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 2,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "R",
+                            "next": [
+                                999
+                            ],
+                            "callback": true,
+                            "callbackId": 1
+                        }
+                    ]
+                },
+                {
+                    "action": 4,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "A",
+                                "C"
+                            ],
+                            "status": "P",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 5,
+            "name": "税务",
+            "description": "税务",
+            "index_key":"invoice_amount",
+            "previous": [
+                4
+            ],
+            "next": [
+                999
+            ],
+            "actor": [
+                5
+            ],
+            "show": true,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 1,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P"
+                            ],
+                            "status": "A",
+                            "next": [
+                                999
+                            ],
+                            "callback": true,
+                            "callbackId": 1
+                        }
+                    ]
+                },
+                {
+                    "action": 2,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "R",
+                            "next": [
+                                999
+                            ],
+                            "callback": true,
+                            "callbackId": 1
+                        }
+                    ]
+                },
+                {
+                    "action": 4,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "A",
+                                "C"
+                            ],
+                            "status": "P",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 999,
+            "name": "结束",
+            "description": "结束节点",
+            "previous": [
+                2
+            ],
+            "next": [
+                999
+            ],
+            "show": false,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 4,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I"
+                            ],
+                            "status": "E"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

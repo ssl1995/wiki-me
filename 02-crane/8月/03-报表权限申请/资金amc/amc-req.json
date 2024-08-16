@@ -1,0 +1,59 @@
+{
+  "businessCode": "TM",
+  "flowCode": "TMAMC",
+  "ownerWorkNumber": "00251",
+  "businessId": 719944,
+  "flowStepModules": [
+    {
+      "indexKey": "invoice_amount",
+      "flowModules": [
+        {
+          "moduleType": "ATTACHMENT",
+          "type": "files",
+          "label": "上传发票附件",
+          "field": "invoiceAttachments",
+          "preview": true,
+          "multiple": true,
+          "rule": {
+            "required": true,
+            "maxSize": 52428800
+          },
+          "fileName": null,
+          "url": null,
+          "key": null
+        },
+        {
+          // OA枚举字段
+          "moduleType": "MULTIPLE_BOX",
+          "type": "multiple_box",
+          "label": "新用户身份确认",
+          "field": "multiple_box",
+          "rule": {
+            "required": true
+          },
+          // 自定义新的组件请求
+           "formEnumType": [
+              {
+                "key": "张三",
+                "enumType": {
+                  "viewer": "viewer",
+                  "explorer": "explorer"
+                }
+              },
+              {
+                "key": "李四",
+                "enumType": {
+                  "creator": "creator",
+                  "explorer": "explorer"
+                }
+              }
+            ]
+        }
+      ]
+    }
+  ],
+  "parameter": null,
+  "html": null,
+  "auditComment": null,
+  "snapshot": "{\"payerEnterpriseSymbol\":\"LY\",\"payerEnterpriseType\":\"COMPANY\",\"payerBankAccount\":\"932500423609549\"}"
+}

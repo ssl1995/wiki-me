@@ -1,0 +1,458 @@
+{
+  "body": {
+    "id": "6LEzZuQ",
+    "flowStepId": "rbBMztJ",
+    "flowKey": "TM-TMAMC",
+    "state": "PENDING",
+    "priority": "P1",
+    "employeeId": "m7AUx",
+    "submitterId": "m7AUx",
+    "flowNumber": "F-TM2408060001",
+    "businessCode": "TM",
+    "flowCode": "TMAMC",
+    "html": "",
+    "flowModules": [
+      {
+        "moduleType": "ATTACHMENT",
+        "moduleType": "ATTACHMENT",
+        "type": "files",
+        "label": "上传合同附件",
+        "field": "contractAttachments",
+        "rule": {
+          "required": true,
+          "maxSize": 52428800
+        },
+        "value": [
+          {
+            "key": "oa/8aca600320bdc791a02aa5eeec731bbd",
+            "name": "2.jpg",
+            "url": "https://oa-static-test.yangqianguan.com/oa/8aca600320bdc791a02aa5eeec731bbd?attname=2.jpg&e=1723782386&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:PwFkFksAiK5smfGX1qdBMd6T-gg="
+          }
+        ],
+        "preview": true,
+        "multiple": true
+      }
+    ],
+    "needAction": "TRUE",
+    "auditSteps": [
+      {
+        "id": 280289,
+        "oaId": 280289,
+        "flowId": "6LEzZuQ",
+        "flowStepId": "8gDrph9",
+        "auditorId": "m7AUx",
+        "auditState": "APPROVE",
+        "auditor": {
+          "id": "m7AUx",
+          "name": "张桂远",
+          "employeeTypeId": 1,
+          "workNumber": "00100",
+          "departmentId": 242,
+          "departmentChain": "Indonesia-idn-backend",
+          "positionId": 233,
+          "state": "FORMAL",
+          "companyId": 8,
+          "oaBasicPrivilege": "OPEN",
+          "overseas": false,
+          "submitterId": -1,
+          "employeeNameList": [],
+          "suffix": "Indonesia-idn-backend null"
+        },
+        "enable": "TRUE",
+        "flowModules": [
+          {
+            "moduleType": "ATTACHMENT",
+            "moduleType": "ATTACHMENT",
+            "type": "files",
+            "label": "上传合同附件",
+            "field": "contractAttachments",
+            "rule": {
+              "required": true,
+              "maxSize": 52428800
+            },
+            "value": [
+              {
+                "key": "oa/8aca600320bdc791a02aa5eeec731bbd",
+                "name": "2.jpg",
+                "url": "https://oa-static-test.yangqianguan.com/oa/8aca600320bdc791a02aa5eeec731bbd?attname=2.jpg&e=1723782386&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:PwFkFksAiK5smfGX1qdBMd6T-gg="
+              }
+            ],
+            "preview": true,
+            "multiple": true
+          }
+        ],
+        "timeCreated": 1723778757403,
+        "timeUpdated": 1723778757403,
+        "flowStepState": "PENDING",
+        "auditComment": {}
+      },
+      {
+        "id": 279048,
+        "oaId": 279048,
+        "flowId": "6LEzZuQ",
+        "flowStepId": "wn519I7",
+        "auditorId": "m7AUx",
+        "auditState": "SUBMIT",
+        "auditor": {
+          "id": "m7AUx",
+          "name": "张桂远",
+          "employeeTypeId": 1,
+          "workNumber": "00100",
+          "departmentId": 242,
+          "departmentChain": "Indonesia-idn-backend",
+          "positionId": 233,
+          "state": "FORMAL",
+          "companyId": 8,
+          "oaBasicPrivilege": "OPEN",
+          "overseas": false,
+          "submitterId": -1,
+          "employeeNameList": [],
+          "suffix": "Indonesia-idn-backend null"
+        },
+        "enable": "TRUE",
+        "flowModules": [],
+        "timeCreated": 1722943271663,
+        "timeUpdated": 1722943271663,
+        "flowStepState": "PENDING",
+        "auditComment": {}
+      }
+    ],
+    "notStartedAuditSteps": null,
+    "actions": [
+      {
+        "name": "APPROVE",
+        "comments": null,
+        "attachment": false,
+        "flowModules": [
+          {
+            "moduleType": "MULTIPLE_BOX",
+            "type": "multiple_box",
+            "label": "新用户审批确认",
+            "field": "multiple_box_test",
+            "rule": {
+              "required": true
+            },
+            // 预设好的表单枚举值
+            "formEnumType": [
+              {
+                "key": "张三",
+                "enumType": {
+                  "viewer": "viewer",
+                  "explorer": "explorer"
+                }
+              },
+              {
+                "key": "李四",
+                "enumType": {
+                  "creator": "creator",
+                  "explorer": "explorer"
+                }
+              }
+            ],
+            // 用户填的值,会复杂一点，跟前端约束好数据结构
+            "value": null
+          }
+        ],
+        "description": "通过",
+        "indexLevelRequestChangeTo": null,
+        "formKey": null
+      },
+      {
+        "name": "REJECT",
+        "comments": [
+          {
+            "field": "comment",
+            "description": "备注",
+            "required": false
+          },
+          {
+            "field": "reason",
+            "description": "拒绝原因",
+            "required": true
+          }
+        ],
+        "attachment": true,
+        "flowModules": null,
+        "description": "拒绝",
+        "indexLevelRequestChangeTo": null,
+        "formKey": null
+      }
+    ],
+    "actors": [],
+    "flowNodeVO": {
+      "startStep": 1,
+      "endStep": 999,
+      "stepNodeList": [
+        {
+          "flowStepId": "wn519I7",
+          "stepIndex": 1,
+          "inDegree": 0,
+          "actionList": [
+            {
+              "indexStepNode": 2,
+              "actionType": "SUBMIT",
+              "expression": "",
+              "executed": true,
+              "nextLevelList": [
+                0
+              ]
+            }
+          ],
+          "auditorName": "张桂远",
+          "stepState": "SUBMIT",
+          "level": 0,
+          "canHandover": true,
+          "canWithdrawHandover": false,
+          "auditorType": "SELF",
+          "employeeNameList": []
+        },
+        {
+          "flowStepId": "8gDrph9",
+          "stepIndex": 2,
+          "inDegree": 1,
+          "actionList": [
+            {
+              "indexStepNode": 3,
+              "actionType": "APPROVE",
+              "expression": "",
+              "executed": true,
+              "nextLevelList": [
+                0
+              ]
+            },
+            {
+              "indexStepNode": 999,
+              "actionType": "REJECT",
+              "expression": "",
+              "executed": false,
+              "nextLevelList": [
+                0
+              ]
+            }
+          ],
+          "auditorName": "张桂远",
+          "stepState": "ACCEPT",
+          "level": 0,
+          "canHandover": true,
+          "canWithdrawHandover": false,
+          "auditorType": "SPECIFIC_USER",
+          "employeeNameList": []
+        },
+        {
+          "flowStepId": "rbBMztJ",
+          "stepIndex": 3,
+          "inDegree": 1,
+          "actionList": [
+            {
+              "indexStepNode": 4,
+              "actionType": "APPROVE",
+              "expression": "",
+              "executed": false,
+              "nextLevelList": [
+                0
+              ]
+            },
+            {
+              "indexStepNode": 999,
+              "actionType": "REJECT",
+              "expression": "",
+              "executed": false,
+              "nextLevelList": [
+                0
+              ]
+            }
+          ],
+          "auditorName": "资金结算审批",
+          "stepState": "PENDING",
+          "level": 0,
+          "canHandover": true,
+          "canWithdrawHandover": false,
+          "auditorType": "SPECIFIC_ROLES",
+          "employeeNameList": [
+            "lilixian-00234",
+            "lilixian",
+            "孟鹏",
+            "田鹏宇",
+            "王浩达",
+            "张红艳",
+            "黄彦翔",
+            "mp",
+            "yongjie",
+            "姜岁岁"
+          ]
+        },
+        {
+          "flowStepId": "pbJdGIz",
+          "stepIndex": 4,
+          "inDegree": 1,
+          "actionList": [
+            {
+              "indexStepNode": 5,
+              "actionType": "APPROVE",
+              "expression": "",
+              "executed": false,
+              "nextLevelList": [
+                0
+              ]
+            },
+            {
+              "indexStepNode": 999,
+              "actionType": "REJECT",
+              "expression": "",
+              "executed": false,
+              "nextLevelList": [
+                0
+              ]
+            }
+          ],
+          "auditorName": "会计",
+          "stepState": "INITIAL",
+          "level": 0,
+          "canHandover": true,
+          "canWithdrawHandover": false,
+          "auditorType": "SPECIFIC_PRIVILEGE",
+          "employeeNameList": [
+            "fasfaf",
+            "人力小号",
+            "乐心-00222",
+            "lilixian-00234",
+            "lilixian",
+            "刘祯昆",
+            "会计2-00503",
+            "2018062901",
+            "孟鹏",
+            "王昕",
+            "席苗 01275直属上级m1",
+            "czy国内hr  01342 正式下级1",
+            "李丹妮小号",
+            "田鹏宇",
+            "weifengxia",
+            "刘瑾婷",
+            "liu2222",
+            "吴哈哈",
+            "杨熙",
+            "王浩达",
+            "宋佩瑶",
+            "方枫瑗",
+            "刘玥",
+            "李建波",
+            "土豆皮",
+            "张红艳",
+            "潘维翔",
+            "王良",
+            "黄彦翔",
+            "claudia li",
+            "clavendar li 02681",
+            "白建瑗",
+            "mp",
+            "wei001_02863",
+            "wei02865-xiugai",
+            "施滢莺",
+            "finalidn",
+            "程飘航02936",
+            "xiaoxia-国内",
+            "xiaoxia-国籍巴西",
+            "方飘",
+            "方苑",
+            "别动国内OA自动化账号",
+            "yongjie",
+            "xiaoxia-03616",
+            "hrbp2",
+            "路朝阳old",
+            "宋测试-李钗-03845",
+            "姜岁岁",
+            "宋声林3",
+            "蓝影",
+            "三号-2-hrbp",
+            "28618631",
+            "宋测试重试2",
+            "2222",
+            "宋测试不同背调",
+            "sc-内部-098"
+          ]
+        },
+        {
+          "flowStepId": "P7o21tO",
+          "stepIndex": 5,
+          "inDegree": 1,
+          "actionList": [
+            {
+              "indexStepNode": 999,
+              "actionType": "APPROVE",
+              "expression": "",
+              "executed": false,
+              "nextLevelList": [
+                0
+              ]
+            },
+            {
+              "indexStepNode": 999,
+              "actionType": "REJECT",
+              "expression": "",
+              "executed": false,
+              "nextLevelList": [
+                0
+              ]
+            }
+          ],
+          "auditorName": "税务",
+          "stepState": "INITIAL",
+          "level": 0,
+          "canHandover": true,
+          "canWithdrawHandover": false,
+          "auditorType": "SPECIFIC_ROLES",
+          "employeeNameList": [
+            "lilixian-00234",
+            "lilixian",
+            "孟鹏",
+            "田鹏宇",
+            "王浩达",
+            "张红艳",
+            "黄彦翔",
+            "mp",
+            "yongjie",
+            "姜岁岁"
+          ]
+        },
+        {
+          "flowStepId": "AYGKBUG",
+          "stepIndex": 999,
+          "inDegree": 5,
+          "actionList": [],
+          "stepState": "INITIAL",
+          "level": 0,
+          "canHandover": false,
+          "canWithdrawHandover": false,
+          "employeeNameList": []
+        }
+      ]
+    },
+    "toDoInstruction": null,
+    "detailUrl": "https://treasury-test.yangqianguan.com/document/amc-invoice-oa?id=129",
+    "detailTitle": "AMC开票申请",
+    "showFlowInsurance": "TRUE",
+    "canPrint": "FALSE",
+    "canCancel": "FALSE",
+    "canWithdraw": "FALSE",
+    "canResubmit": "FALSE",
+    "canForceInterrupt": "FALSE",
+    "canModify": "FALSE",
+    "canEditLedger": "FALSE",
+    "isIndonesianFlow": "FALSE",
+    "canPurchase": "FALSE",
+    "canRejectPurchase": "FALSE",
+    "canIssue": "FALSE",
+    "avatar": null,
+    "employeeName": null,
+    "employeeGender": null,
+    "content": null
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1723778786179,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
