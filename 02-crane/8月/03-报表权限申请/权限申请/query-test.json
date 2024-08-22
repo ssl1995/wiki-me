@@ -1,0 +1,122 @@
+{
+	"body": {
+		"userGroupVo": {
+			"id": 1,
+			"name": "用户组1",
+			"sortId": 1
+		},
+		"directoryVo": [
+			{
+				"id": 1,
+				"name": "目录1",
+				"userGroupId": 1,
+				"parentId": -1,
+				"path": null,
+				"directoryLevel": "SENIOR",
+				"specialField": true,
+				"children": [
+					{
+						"id": 2,
+						"name": "目录1.1",
+						"userGroupId": 1,
+						"parentId": 1,
+						"path": null,
+						"directoryLevel": "SENIOR",
+						"specialField": true,
+						"children": [
+							{
+								"id": 3,
+								"name": "目录1.1.1",
+								"userGroupId": 1,
+								"parentId": 2,
+								"path": null,
+								"directoryLevel": "NO_SENIOR",
+								"specialField": false,
+								"children": null
+							}
+						]
+					}
+				]
+			}
+		],
+		"workBookVo": {
+			"list": [
+				{
+					"contentUrl": "www.baidu1.com",
+					"description": "描述1",
+					"absolutePath": "/",
+					"pathLevel": "/",
+					"importantLevel": "1",
+					"projectId": "1",
+					"projectName": "目录1",
+					"id": 1,
+					"name": "报表名称1",
+					"sortId": 1
+				}
+			],
+			"total": 1,
+			"pageNo": 1,
+			"pageSize": 10,
+			"pages": 1,
+			"size": 1
+		},
+		"allWorkBookVo": [
+			{
+				"contentUrl": "www.baidu1.com",
+				"description": "描述1",
+				"absolutePath": "/",
+				"pathLevel": "/",
+				"importantLevel": "1",
+				"projectId": "1",
+				"projectName": "目录1",
+				"id": 1,
+				"name": "报表名称1",
+				"sortId": 1
+			},
+			{
+				"contentUrl": "www.baidu2.com",
+				"description": "描述2",
+				"absolutePath": "/",
+				"pathLevel": "/",
+				"importantLevel": "2",
+				"projectId": "2",
+				"projectName": "目录1.1",
+				"id": 2,
+				"name": "报表名称2",
+				"sortId": 2
+			},
+			{
+				"contentUrl": "www.baidu3.com",
+				"description": "描述3",
+				"absolutePath": "/",
+				"pathLevel": "/",
+				"importantLevel": "3",
+				"projectId": "3",
+				"projectName": "目录1.1.1",
+				"id": 3,
+				"name": "报表名称3",
+				"sortId": 3
+			},
+			{
+				"contentUrl": "www.baidu4.com",
+				"description": "描述4",
+				"absolutePath": "/",
+				"pathLevel": "/",
+				"importantLevel": "4",
+				"projectId": "4",
+				"projectName": "目录2.1",
+				"id": 4,
+				"name": "报表名称4",
+				"sortId": 4
+			}
+		]
+	},
+	"status": {
+		"code": 0,
+		"type": "",
+		"detail": "",
+		"serverResponseTime": 1724309037106,
+		"displayType": "TOAST",
+		"url": null
+	}
+}

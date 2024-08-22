@@ -1,0 +1,14 @@
+{
+    "applyWorkNumber": [
+        "03541",
+        "00251"
+    ],
+    "userGroupVoList": [
+        {
+            "groupId": 1,
+            "siteRole": "EXPLORER",
+            "validTime": "SEVEN_DAYS",
+            "applyReason": "啊啊啊"
+        }
+    ]
+}
