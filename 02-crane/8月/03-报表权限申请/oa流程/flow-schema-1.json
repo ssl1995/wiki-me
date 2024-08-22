@@ -109,11 +109,11 @@
       ]
     }
   ],
-  "messageLink": "https://automl-test.yangqianguan.com/api/public/oa/renhangMessageLink?id=",
+  "messageLink": "https://crane-test.yangqianguan.com/rpc/table-au/messageLink?id=",
   "callbacks": [
     {
       "id": 1,
-      "url": "https://automl-test.yangqianguan.com/api/public/oa/renhangOACallback"
+      "url": "https://crane-test.yangqianguan.com/rpc/table-au/callback"
     }
   ],
   "start": 1,
@@ -175,10 +175,69 @@
     },
     {
       "index": 2,
-      "name": "指定审批人审批",
-      "description": "指定审批人审批",
+      "name": "发起人的直属上级",
+      "description": "发起人的直属上级",
       "actor": [
         2
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                999
+              ],
+              "callback": true,
+              "callbackId": 1
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ],
+              "callback": true,
+              "callbackId": 1
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "tableau报表管理员",
+      "description": "tableau报表管理员",
+      "actor": [
+        3
       ],
       "show": true,
       "init_status": "I",
