@@ -240,6 +240,7 @@
       "index": 3,
       "name": "tableau报表管理员",
       "description": "tableau报表管理员",
+      "index_key": "tableau_admin",
       "actor": [
         3
       ],

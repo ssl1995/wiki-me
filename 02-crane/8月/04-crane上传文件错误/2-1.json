@@ -1,83 +1,23 @@
-    "applyEmployees": [ {
-        "employeeId": 3659,
-        "employeeNumber": "03541",
-        "name": "宋声林",
-        "departmentChain": "人力行政部 hrbp测试专用",
-        "departmentName": "人力行政部",
-        "departmentId": 437,
-        "positionName": "初级开发",
-        "gender": "男",
-        "state": "正式",
-        "countryCode": "CN",
-        "supervisorNumber": "03862",
-        "virtualSupervisorNumber": "02124",
-        "mobile": "13639120051",
-        "entryTime": 1686585600000,
-        "pictures": {
-          "WORK_CARD_PHOTO": "https://oa-static-test.yangqianguan.com/oa/48d22a650bdb9ffc3fb0c295b9ac43da?e=1724148736&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:-mcrsOJW1lQRU_rzE34QomTziYw="
-        },
-        "subordinateAndVirtualEmployees": null,
-        "sameLevelEmployees": null,
-        "applyEmployees": null,
-        "onPosition": true,
-        "id": 3541,
-        "operateType": "EMPLOYEE",
-        "feature": null,
-        "businessCode": null,
-        "companyEmail": "shenglinsong@fintopia.tech"
+{
+  "body": {
+    "list": [
+      {
+        "id": "036e4317-ff3b-488b-8e9e-44507bfeb3b9",
+        "name": "内审内控总监"
       },
       {
-        "employeeId": 445,
-        "employeeNumber": "00215",
-        "name": "dd",
-        "departmentChain": "总裁办",
-        "departmentName": "总裁办",
-        "departmentId": 36,
-        "positionName": "总裁办ceshi",
-        "gender": "男",
-        "state": "正式",
-        "countryCode": "CN",
-        "supervisorNumber": "03541",
-        "virtualSupervisorNumber": null,
-        "mobile": "13423546546",
-        "entryTime": null,
-        "pictures": {
-          "WORK_CARD_PHOTO": "https://oa-static-test.yangqianguan.com/oa/cea0da4fffbd58c0f5ad51d3694bc4b2?e=1724148746&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:C0QUdq06ozJim1Rzp7oWE-ob01Y="
-        },
-        "subordinateAndVirtualEmployees": null,
-        "sameLevelEmployees": null,
-        "applyEmployees": null,
-        "onPosition": true,
-        "id": 215,
-        "operateType": "EMPLOYEE",
-        "feature": null,
-        "businessCode": null,
-        "companyEmail": "dd12313123@yangqianguan.com"
-      },
-      {
-        "employeeId": 3862,
-        "employeeNumber": "03743",
-        "name": "qa202307311823252",
-        "departmentChain": "技术部 后端123",
-        "departmentName": "技术部",
-        "departmentId": 65,
-        "positionName": "后端",
-        "gender": "女",
-        "state": "正式",
-        "countryCode": "CN",
-        "supervisorNumber": "03541",
-        "virtualSupervisorNumber": null,
-        "mobile": "202307311823252",
-        "entryTime": null,
-        "pictures": {},
-        "subordinateAndVirtualEmployees": null,
-        "sameLevelEmployees": null,
-        "applyEmployees": null,
-        "onPosition": true,
-        "id": 3743,
-        "operateType": "EMPLOYEE",
-        "feature": null,
-        "businessCode": null,
-        "companyEmail": "202307311823252@yangqianguan.com"
+        "id": "0438a981-e4af-4a22-bc36-2b18c9183b97",
+        "name": "国内风控分析（涉及运营报表）"
       }
     ],
+    "totalCount": 61
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1724310712367,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

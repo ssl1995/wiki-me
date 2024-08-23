@@ -1,0 +1,28 @@
+{
+  "body": [
+    {
+      "name": "AUTHORITY",
+      "description": "权限申请",
+      "flows": [
+        {
+          "businessCode": "OA",
+          "description": "测试环境机器",
+          "flowCode": "AUTHTM"
+        },
+        {
+          "businessCode": "CR",
+          "description": "Tableau报表申请",
+          "flowCode": "TAU"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1724402129946,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
