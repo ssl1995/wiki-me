@@ -144,7 +144,9 @@
               "status": "S",
               "next": [
                 2
-              ]
+              ],
+              "callback": true,
+              "callbackId": 1
             },
             {
               "previous_status": [
@@ -154,8 +156,10 @@
               "expression": "#launcherSpecificWorkNumber == null",
               "status": "S",
               "next": [
-                999
-              ]
+                3
+              ],
+              "callback": true,
+              "callbackId": 1
             }
           ]
         },
@@ -192,7 +196,7 @@
               ],
               "status": "A",
               "next": [
-                999
+                3
               ],
               "callback": true,
               "callbackId": 1
