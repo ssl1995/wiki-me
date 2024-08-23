@@ -102,7 +102,7 @@
       "id": 3,
       "name": "specific_roles",
       "description": "1543",
-      "alias": "tableAu报表管理员",
+      "alias": "tableau报表管理员",
       "action": [
         1,
         2
