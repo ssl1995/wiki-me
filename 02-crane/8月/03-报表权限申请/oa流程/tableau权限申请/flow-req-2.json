@@ -5,7 +5,8 @@
   "priority": "P1",
   "ownerWorkNumber": "03541",
   "parameter": {
-    "launcherSpecificWorkNumber": "03875"
+    "launcherSpecificWorkNumber": "03715",
+    "isSkipTableAuAdmin": "FALSE"
   },
   "auditComment": "宋测试8",
   "flowStepModules": [
