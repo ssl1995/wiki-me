@@ -3,6 +3,10 @@
     {
       "name": "launcherSpecificWorkNumber",
       "type": "java.lang.String"
+    },
+    {
+      "name": "isSkipTableAuAdmin",
+      "type": "java.lang.Boolean"
     }
   ],
   "status": [
@@ -153,10 +157,23 @@
                 "I",
                 "C"
               ],
-              "expression": "#launcherSpecificWorkNumber == null",
+              "expression": "#launcherSpecificWorkNumber == null && !#isSkipTableAuAdmin",
               "status": "S",
               "next": [
                 3
+              ],
+              "callback": true,
+              "callbackId": 1
+            },
+            {
+              "previous_status": [
+                "I",
+                "C"
+              ],
+              "expression": "#launcherSpecificWorkNumber == null && #isSkipTableAuAdmin",
+              "status": "S",
+              "next": [
+                999
               ],
               "callback": true,
               "callbackId": 1
@@ -194,9 +211,22 @@
               "previous_status": [
                 "P"
               ],
+              "expression": "!#isSkipTableAuAdmin",
               "status": "A",
               "next": [
                 3
+              ],
+              "callback": true,
+              "callbackId": 1
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "expression": "#isSkipTableAuAdmin",
+              "status": "A",
+              "next": [
+                999
               ],
               "callback": true,
               "callbackId": 1

@@ -1,11 +1,43 @@
 {
   "businessCode": "CR",
   "flowCode": "TAU",
-  "ownerWorkNumber": "03541",
-  "businessId": 100006,
+  "businessId": 100008,
   "priority": "P1",
+  "ownerWorkNumber": "03541",
   "parameter": {
     "launcherSpecificWorkNumber": "03875"
   },
-  "auditComment": "宋测试待办分类"
+  "auditComment": "宋测试8",
+  "flowStepModules": [
+    {
+      "indexKey": "tableau_admin",
+      "flowModules": [
+        {
+          "moduleType": "MULTIPLE_BOX",
+          "type": "multiple_box",
+          "label": "新用户身份确认",
+          "field": "multiple_box",
+          "rule": {
+            "required": true
+          },
+          "formEnumType": [
+            {
+              "key": "张三",
+              "enumType": {
+                "viewer": "viewer",
+                "explorer": "explorer"
+              }
+            },
+            {
+              "key": "李四",
+              "enumType": {
+                "creator": "creator",
+                "explorer": "explorer"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
