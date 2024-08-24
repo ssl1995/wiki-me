@@ -1,40 +1,41 @@
 {
   "businessCode": "CR",
   "flowCode": "TAU",
-  "businessId": 100008,
+  "businessId": 100009,
   "priority": "P1",
   "ownerWorkNumber": "03541",
   "parameter": {
     "launcherSpecificWorkNumber": "03715",
     "isSkipTableAuAdmin": "FALSE"
   },
-  "auditComment": "宋测试8",
+  "auditComment": "宋测试9",
   "flowStepModules": [
     {
       "indexKey": "tableau_admin",
       "flowModules": [
         {
-          "moduleType": "MULTIPLE_BOX",
-          "type": "multiple_box",
+          "moduleType": "SINGLE_COMPLEX_BOX",
+          "type": "complex_enum",
+          "field": "single_complex_box",
           "label": "新用户身份确认",
-          "field": "multiple_box",
           "rule": {
             "required": true
           },
           "formEnumType": [
             {
               "key": "张三",
-              "enumType": {
-                "viewer": "viewer",
-                "explorer": "explorer"
-              }
+              "enumType": [
+                "Crater",
+                "Viewer",
+                "Explorer"
+              ]
             },
             {
               "key": "李四",
-              "enumType": {
-                "creator": "creator",
-                "explorer": "explorer"
-              }
+              "enumType": [
+                "Viewer",
+                "Explorer"
+              ]
             }
           ]
         }

@@ -1,3 +1,7 @@
-查待办的条数
-
-https://oa-test.yangqianguan.com/admin/affair/classify?finish=FALSE
+2024-08-24 16:58:53,643 [http-nio-8081-exec-2] ssl-pc WARN com.yqg.oa.api.config
+.OaExceptionHandler#warn:278 trace_id=${ctx:trace_id} pod_name=unknown
+service_name=unknown deploy_stage=Normal business_type=oa project=OA
+error_code=10004 level
+=WARN JSON parse error:
+Can not deserialize value of type com.yqg.oa.common.constant.FlowModuleType from String "MULTIPLE_BOX":
+value not one of declared Enum instance names: [ATTACHMENT, SINGLE_BOX, TEXT];

@@ -10,8 +10,8 @@
         {
           "moduleType": "ATTACHMENT",
           "type": "files",
-          "label": "上传发票附件",
           "field": "invoiceAttachments",
+          "label": "上传发票附件",
           "preview": true,
           "multiple": true,
           "rule": {
@@ -26,8 +26,8 @@
           // OA枚举字段
           "moduleType": "MULTIPLE_BOX",
           "type": "multiple_box",
-          "label": "新用户身份确认",
           "field": "multiple_box",
+          "label": "新用户身份确认",
           "rule": {
             "required": true
           },
