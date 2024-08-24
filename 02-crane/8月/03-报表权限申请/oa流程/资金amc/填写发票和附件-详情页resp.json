@@ -1,0 +1,355 @@
+{
+    "body": {
+        "id": "7lG2Acl",
+        "flowStepId": "lez9DIg",
+        "flowKey": "TM-TMAMC",
+        "state": "PENDING",
+        "priority": "P1",
+        "employeeId": "angFm",
+        "employeeTypeId": 1,
+        "submitterId": "angFm",
+        "flowNumber": "F-TM2407190064",
+        "businessCode": "TM",
+        "flowCode": "TMAMC",
+        "html": "",
+        "flowModules": [],
+        "needAction": "TRUE",
+        "auditSteps": [
+            {
+                "id": 277277,
+                "oaId": 277277,
+                "flowId": "7lG2Acl",
+                "flowStepId": "jYnzesA",
+                "auditorId": "angFm",
+                "auditState": "SUBMIT",
+                "auditor": {
+                    "id": "angFm",
+                    "name": "lilixian",
+                    "employeeTypeId": 1,
+                    "workNumber": "00251",
+                    "departmentId": 428,
+                    "departmentChain": "Indonesia-idn-backend-1412412q-e we",
+                    "positionId": 244,
+                    "state": "FORMAL",
+                    "companyId": 160,
+                    "oaBasicPrivilege": "OPEN",
+                    "overseas": false,
+                    "submitterId": -1,
+                    "employeeNameList": [],
+                    "currentUserIsOutsourcingSuppliers": false,
+                    "suffix": "Indonesia-idn-backend-1412412q-e we null"
+                },
+                "enable": "TRUE",
+                "flowModules": [],
+                "timeCreated": 1721387034278,
+                "timeUpdated": 1721387034278,
+                "flowStepState": "PENDING",
+                "auditComment": {}
+            }
+        ],
+        "notStartedAuditSteps": null,
+        "actions": [
+            {
+                "name": "APPROVE",
+                "comments": null,
+                "attachment": false,
+                "flowModules": [
+                    {
+                        "moduleType": "ATTACHMENT",
+                        "moduleType": "ATTACHMENT",
+                        "type": "files",
+                        "label": "上传合同附件",
+                        "field": "contractAttachments",
+                        "rule": {
+                            "required": true,
+                            "maxSize": 52428800
+                        },
+                        "value": null,
+                        "preview": true,
+                        "multiple": true
+                    }
+                ],
+                "description": "通过",
+                "indexLevelRequestChangeTo": null,
+                "formKey": null
+            },
+            {
+                "name": "REJECT",
+                "comments": [
+                    {
+                        "field": "comment",
+                        "description": "备注",
+                        "required": false
+                    },
+                    {
+                        "field": "reason",
+                        "description": "拒绝原因",
+                        "required": true
+                    }
+                ],
+                "attachment": true,
+                "flowModules": null,
+                "description": "拒绝",
+                "indexLevelRequestChangeTo": null,
+                "formKey": null
+            }
+        ],
+        "actors": [],
+        "flowNodeVO": {
+            "startStep": 1,
+            "endStep": 999,
+            "stepNodeList": [
+                {
+                    "flowStepId": "jYnzesA",
+                    "stepIndex": 1,
+                    "inDegree": 0,
+                    "actionList": [
+                        {
+                            "indexStepNode": 2,
+                            "actionType": "SUBMIT",
+                            "expression": "",
+                            "executed": true,
+                            "nextLevelList": [
+                                0
+                            ]
+                        }
+                    ],
+                    "auditorName": "lilixian",
+                    "stepState": "SUBMIT",
+                    "level": 0,
+                    "canHandover": true,
+                    "canWithdrawHandover": false,
+                    "auditorType": "SELF",
+                    "employeeNameList": []
+                },
+                {
+                    "flowStepId": "lez9DIg",
+                    "stepIndex": 2,
+                    "inDegree": 1,
+                    "actionList": [
+                        {
+                            "indexStepNode": 3,
+                            "actionType": "APPROVE",
+                            "expression": "",
+                            "executed": false,
+                            "nextLevelList": [
+                                0
+                            ]
+                        },
+                        {
+                            "indexStepNode": 999,
+                            "actionType": "REJECT",
+                            "expression": "",
+                            "executed": false,
+                            "nextLevelList": [
+                                0
+                            ]
+                        }
+                    ],
+                    "auditorName": "张桂远",
+                    "stepState": "PENDING",
+                    "level": 0,
+                    "canHandover": true,
+                    "canWithdrawHandover": false,
+                    "auditorType": "SPECIFIC_USER",
+                    "employeeNameList": []
+                },
+                {
+                    "flowStepId": "m4zOVtx",
+                    "stepIndex": 3,
+                    "inDegree": 1,
+                    "actionList": [
+                        {
+                            "indexStepNode": 4,
+                            "actionType": "APPROVE",
+                            "expression": "",
+                            "executed": false,
+                            "nextLevelList": [
+                                0
+                            ]
+                        },
+                        {
+                            "indexStepNode": 999,
+                            "actionType": "REJECT",
+                            "expression": "",
+                            "executed": false,
+                            "nextLevelList": [
+                                0
+                            ]
+                        }
+                    ],
+                    "auditorName": "资金结算审批",
+                    "stepState": "INITIAL",
+                    "level": 0,
+                    "canHandover": true,
+                    "canWithdrawHandover": false,
+                    "auditorType": "SPECIFIC_ROLES",
+                    "employeeNameList": [
+                        "lilixian-00234",
+                        "孟鹏",
+                        "田鹏宇",
+                        "王浩达",
+                        "张红艳",
+                        "黄彦翔",
+                        "mp",
+                        "yongjie",
+                        "姜岁岁"
+                    ]
+                },
+                {
+                    "flowStepId": "kKzM0Co",
+                    "stepIndex": 4,
+                    "inDegree": 1,
+                    "actionList": [
+                        {
+                            "indexStepNode": 5,
+                            "actionType": "APPROVE",
+                            "expression": "",
+                            "executed": false,
+                            "nextLevelList": [
+                                0
+                            ]
+                        },
+                        {
+                            "indexStepNode": 999,
+                            "actionType": "REJECT",
+                            "expression": "",
+                            "executed": false,
+                            "nextLevelList": [
+                                0
+                            ]
+                        }
+                    ],
+                    "auditorName": "会计",
+                    "stepState": "INITIAL",
+                    "level": 0,
+                    "canHandover": true,
+                    "canWithdrawHandover": false,
+                    "auditorType": "SPECIFIC_PRIVILEGE",
+                    "employeeNameList": [
+                        "fasfaf",
+                        "人力小号",
+                        "乐心-00222",
+                        "lilixian-00234",
+                        "会计2-00503",
+                        "2018062901",
+                        "孟鹏",
+                        "王昕",
+                        "czy国内hr  01342 正式下级1",
+                        "田鹏宇",
+                        "weifengxia",
+                        "刘瑾婷",
+                        "杨熙",
+                        "王浩达",
+                        "宋佩瑶",
+                        "张红艳",
+                        "潘维翔",
+                        "黄彦翔",
+                        "claudia li",
+                        "mp",
+                        "wei001_02863",
+                        "wei02865-xiugai",
+                        "施滢莺",
+                        "程飘航02936",
+                        "xiaoxia-国内",
+                        "xiaoxia-国籍巴西",
+                        "方飘",
+                        "方苑",
+                        "别动国内OA自动化账号",
+                        "yongjie",
+                        "xiaoxia-03616",
+                        "hrbp2",
+                        "宋测试-李钗-03845",
+                        "姜岁岁",
+                        "蓝影",
+                        "三号-2-hrbp",
+                        "28618631",
+                        "宋测试重试2",
+                        "2222",
+                        "宋测试不同背调"
+                    ]
+                },
+                {
+                    "flowStepId": "Ee65pC8",
+                    "stepIndex": 5,
+                    "inDegree": 1,
+                    "actionList": [
+                        {
+                            "indexStepNode": 999,
+                            "actionType": "APPROVE",
+                            "expression": "",
+                            "executed": false,
+                            "nextLevelList": [
+                                0
+                            ]
+                        },
+                        {
+                            "indexStepNode": 999,
+                            "actionType": "REJECT",
+                            "expression": "",
+                            "executed": false,
+                            "nextLevelList": [
+                                0
+                            ]
+                        }
+                    ],
+                    "auditorName": "税务",
+                    "stepState": "INITIAL",
+                    "level": 0,
+                    "canHandover": true,
+                    "canWithdrawHandover": false,
+                    "auditorType": "SPECIFIC_ROLES",
+                    "employeeNameList": [
+                        "lilixian-00234",
+                        "孟鹏",
+                        "田鹏宇",
+                        "王浩达",
+                        "张红艳",
+                        "黄彦翔",
+                        "mp",
+                        "yongjie",
+                        "姜岁岁"
+                    ]
+                },
+                {
+                    "flowStepId": "MJlpLF9",
+                    "stepIndex": 999,
+                    "inDegree": 5,
+                    "actionList": [],
+                    "stepState": "INITIAL",
+                    "level": 0,
+                    "canHandover": false,
+                    "canWithdrawHandover": false,
+                    "employeeNameList": []
+                }
+            ]
+        },
+        "toDoInstruction": null,
+        "detailUrl": "https://treasury-test.yangqianguan.com/document/amc-invoice-oa?id=126",
+        "detailTitle": "AMC开票申请",
+        "showFlowInsurance": "TRUE",
+        "canPrint": "FALSE",
+        "canCancel": "FALSE",
+        "canWithdraw": "FALSE",
+        "canResubmit": "FALSE",
+        "canForceInterrupt": "FALSE",
+        "canModify": "FALSE",
+        "canEditLedger": "FALSE",
+        "isIndonesianFlow": "FALSE",
+        "canPurchase": "FALSE",
+        "canRejectPurchase": "FALSE",
+        "canIssue": "FALSE",
+        "avatar": null,
+        "employeeName": null,
+        "employeeGender": null,
+        "content": null
+    },
+    "status": {
+        "code": 0,
+        "type": "",
+        "detail": "",
+        "serverResponseTime": 1724496126203,
+        "displayType": "TOAST",
+        "url": null
+    }
+}

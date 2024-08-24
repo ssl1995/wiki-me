@@ -1,0 +1,84 @@
+{
+	"body": {
+		"id": "86kK5T9",
+		"flowStepId": "56Pz8Iz",
+		"flowKey": "CR-TAU",
+		"state": "PENDING",
+		"priority": "P1",
+		"employeeId": "ke8OSo",
+		"submitterId": "ke8OSo",
+		"flowNumber": "F-CR2408240006",
+		"businessCode": "CR",
+		"flowCode": "TAU",
+		"needAction": "TRUE",
+		"actions": [
+			{
+				"name": "APPROVE",
+				"comments": [
+					{
+						"field": "comment",
+						"description": "备注",
+						"required": false
+					}
+				],
+				"attachment": false,
+				"flowModules": [
+					{
+						"moduleType": "SINGLE_COMPLEX_BOX",
+						"type": "complex_enum",
+						"label": "新用户身份确认",
+						"field": "applyRoleForm",
+						"rule": {
+							"required": true,
+							"maxSize": null
+						},
+						"value": null,
+						"formEnumType": [
+							{
+								"key": "张三",
+								"enumType": [
+									"Crater",
+									"Viewer",
+									"Explorer"
+								]
+							},
+							{
+								"key": "李四",
+								"enumType": [
+									"Viewer",
+									"Explorer"
+								]
+							}
+						]
+					}
+				],
+				"description": "通过",
+				"indexLevelRequestChangeTo": null,
+				"formKey": null
+			},
+			{
+				"name": "REJECT",
+				"comments": [
+					{
+						"field": "reason",
+						"description": "拒绝原因",
+						"required": true
+					}
+				],
+				"attachment": false,
+				"flowModules": null,
+				"description": "拒绝",
+				"indexLevelRequestChangeTo": null,
+				"formKey": null
+			}
+		]
+	},
+	"status": {
+		"code": 0,
+		"type": "",
+		"detail": "",
+		"serverResponseTime": 1724500344181,
+		"displayType": "TOAST",
+		"url": null
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "flowNumber": "F-CR2408240005",
+  "flowId": 97029,
+  "flowCode": "TAU",
+  "preFlowId": null,
+  "businessId": 100011,
+  "flowState": "ACCEPT",
+  "auditorWorkNumber": "03875",
+  "actionType": "APPROVE",
+  "reason": null,
+  "businessSnapshot": "{}",
+  "flowModulesValue": {
+    "applyRoleForm": [
+      {
+        "key": "张三",
+        "enumType": "Crater"
+      },
+      {
+        "key": "李四",
+        "enumType": "Viewer"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "flowNumber": "F-TM2407160001",
+  "flowId": 94460,
+  "flowCode": "TMAMC",
+  "businessId": 46,
+  "flowState": "ACCEPT",
+  "auditorWorkNumber": "02505",
+  "actionType": "APPROVE",
+  "flowModulesValue": {
+    "applyRoleForm": [
+      {
+        "key": "张三",
+        "value": "Crater"
+      },
+      {
+        "key": "李四",
+        "value": "Viewer"
+      }
+    ]
+  },
+  "businessSnapshot": "null"
+}

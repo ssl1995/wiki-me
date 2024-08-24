@@ -1,14 +1,14 @@
 {
   "businessCode": "CR",
   "flowCode": "TAU",
-  "businessId": 100009,
+  "businessId": 100011,
   "priority": "P1",
   "ownerWorkNumber": "03541",
   "parameter": {
     "launcherSpecificWorkNumber": "03715",
     "isSkipTableAuAdmin": "FALSE"
   },
-  "auditComment": "宋测试9",
+  "auditComment": "宋测试11",
   "flowStepModules": [
     {
       "indexKey": "tableau_admin",
@@ -16,7 +16,7 @@
         {
           "moduleType": "SINGLE_COMPLEX_BOX",
           "type": "complex_enum",
-          "field": "single_complex_box",
+          "field": "applyRoleForm",
           "label": "新用户身份确认",
           "rule": {
             "required": true

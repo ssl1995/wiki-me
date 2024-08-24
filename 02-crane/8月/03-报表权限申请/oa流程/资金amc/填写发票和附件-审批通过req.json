@@ -1,0 +1,38 @@
+{
+  "flowId": "6LEzZuQ",
+  "flowStepId": "rbBMztJ",
+  "auditState": "APPROVE",
+  "flowModules": [
+    {
+      "moduleType": "ATTACHMENT",
+      "type": "files",
+      "label": "上传发票附件",
+      "field": "invoiceAttachments",
+      "rule": {
+        "required": true,
+        "maxSize": 52428800
+      },
+      "value": [
+        {
+          "name": "角色-新.xlsx",
+          "key": "oa/89c1f4906eba857940f045a38da97040",
+          "url": "https://oa-static-test.yangqianguan.com/oa/89c1f4906eba857940f045a38da97040?attname=%E8%A7%92%E8%89%B2-%E6%96%B0.xlsx&e=1724501629&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:E8N9_UGzao1D9dx4NN3-khJ68yU="
+        }
+      ],
+      "preview": true,
+      "multiple": true
+    },
+    {
+      "moduleType": "TEXT",
+      "type": "text",
+      "label": "发票金额",
+      "field": "amount",
+      "rule": {
+        "required": true,
+        "maxSize": null
+      },
+      "value": "200",
+      "format": "money"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "flowNumber": "F-TM2407160001",
+  "flowId": 94460,
+  "flowCode": "TMAMC",
+  "businessId": 46,
+  "flowState": "ACCEPT",
+  "auditorWorkNumber": "02505",
+  "actionType": "APPROVE",
+  "flowModulesValue": {
+    "amount": "100",
+    // 此处的 key 为发起流程时传的 field 的值
+    "invoiceAttachments": [
+      {
+        "key": "oa/dcf08b983e7d560b9532db7b56e75631",
+        "name": "大兴安岭v4.xlsx",
+        "url": "https://oa-static-test.yangqianguan.com/oa/dcf08b983e7d560b9532db7b56e75631?attname=%E5%A4%A7%E5%85%B4%E5%AE%89%E5%B2%ADv4.xlsx&e=1721103470&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:wCdfisfjJkIw2WOubqzhNhRB3yo="
+      }
+    ],
+    "contractAttachments": [
+      {
+        "key": "oa/9833bf204dc457643857e27bf4414190",
+        "name": "file.json",
+        "url": "https://oa-static-test.yangqianguan.com/oa/9833bf204dc457643857e27bf4414190?attname=file.json&e=1721103445&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:aD4QbrwHUH7tZEF8L8HgmYHDtLk="
+      }
+    ]
+  },
+  "businessSnapshot": "null"
+}
