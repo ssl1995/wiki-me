@@ -1,0 +1,27 @@
+{
+	"body": {
+		"list": [
+			{
+				"id": "260cbf6e-1db8-11eb-b38b-6bb8bf3d20df",
+				"name": "All Users",
+				"sortStrId": "260cbf6e-1db8-11eb-b38b-6bb8bf3d20df",
+				"sortId": 0
+			},
+			{
+				"id": "36083f41-c501-4ca9-b210-2ccd6ba159f9",
+				"name": "数据仓库 & 数据中台",
+				"sortStrId": "36083f41-c501-4ca9-b210-2ccd6ba159f9",
+				"sortId": 0
+			}
+		],
+		"totalCount": 2
+	},
+	"status": {
+		"code": 0,
+		"type": "",
+		"detail": "",
+		"serverResponseTime": 1724635908331,
+		"displayType": "TOAST",
+		"url": null
+	}
+}

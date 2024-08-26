@@ -1,0 +1,44 @@
+{
+  "body": [
+    {
+      "name": "1",
+      "description": "Creator"
+    },
+    {
+      "name": "2",
+      "description": "Explorer"
+    },
+    {
+      "name": "3",
+      "description": "ExplorerCanPublish"
+    },
+    {
+      "name": "4",
+      "description": "SiteAdministratorExplorer"
+    },
+    {
+      "name": "5",
+      "description": "ServerAdministrator"
+    },
+    {
+      "name": "6",
+      "description": "SiteAdministratorCreator"
+    },
+    {
+      "name": "7",
+      "description": "Unlicensed"
+    },
+    {
+      "name": "8",
+      "description": "Viewer"
+    }
+  ],
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1724635983020,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
