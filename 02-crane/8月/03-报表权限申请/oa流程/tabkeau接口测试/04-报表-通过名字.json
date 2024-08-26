@@ -2,124 +2,36 @@
   "body": {
     "list": [
       {
-        "id": "ffe3bfa5-8c38-4237-9872-72a9a7401dbd",
-        "name": "提额中心单项转化报表_copy",
-        "contentUrl": "_copy",
+        "id": "fd13696c-13fb-4cc6-8038-93f9ac797a4c",
+        "name": "电销测试test",
+        "contentUrl": "test_16776409204230",
         "description": "",
-        "projectId": "92ca8b59-5b5b-446e-8d60-c8b677cde9c2",
-        "projectName": "09_临时额度",
-        "absolutePath": "/国内借款业务/03_风控数据/09_临时额度",
+        "projectId": "9f3265de-8d91-43b2-889c-a7eff929e8b4",
+        "projectName": "99_其他",
+        "absolutePath": "/国内借款业务/06_联合运营/99_其他",
         "pathLevel": "3",
         "importantLevel": "1"
       },
       {
-        "id": "ffdecd45-8d1f-49ac-8e93-31c9b76e025f",
-        "name": "印尼-风控-结清复贷通过率",
-        "contentUrl": "--_16663549318780",
+        "id": "ae443c78-461f-44a6-913a-75734c6be0c6",
+        "name": "渠道买量数据-新test",
+        "contentUrl": "-test_17110940420090",
         "description": "",
-        "projectId": "1d10fbd8-0f0c-4725-b882-4aa497b6b3af",
-        "projectName": "复贷",
-        "absolutePath": "/自助分析/印尼风控分析/全流程监控/复贷",
-        "pathLevel": "4",
-        "importantLevel": "1"
-      },
-      {
-        "id": "ffb5b696-6b0b-4c19-81df-0081a6e36606",
-        "name": "夏雅娟-实验分流及评级监控",
-        "contentUrl": "-_16890467389570",
-        "description": "",
-        "projectId": "ca0502f1-8922-4617-adfe-22ddd35c4ac0",
-        "projectName": "首贷",
-        "absolutePath": "/自助分析/印尼风控分析/全流程监控/首贷",
-        "pathLevel": "4",
-        "importantLevel": "1"
-      },
-      {
-        "id": "ff8956a5-5d0c-4b35-85a9-06675ff10884",
-        "name": "全部产品-分期逾期报表",
-        "contentUrl": "-_16706446330710",
-        "description": "",
-        "projectId": "16c8fcc2-f41d-4467-a59b-bb7b75e166d6",
-        "projectName": "bak",
-        "absolutePath": "/Tableau Samples/bak",
-        "pathLevel": "2",
-        "importantLevel": "1"
-      },
-      {
-        "id": "ff713e76-4757-4581-b8a9-cef8dc519232",
-        "name": "黑卡退款vintage_raw",
-        "contentUrl": "vintage_raw",
-        "description": "",
-        "projectId": "35b321af-25e7-4c3c-81fd-f4d676d991e3",
-        "projectName": "国内商业分析",
-        "absolutePath": "/自助分析/国内商业分析",
-        "pathLevel": "2",
-        "importantLevel": "1"
-      },
-      {
-        "id": "ff562fb0-f803-4c65-bb99-737e0718f65a",
-        "name": "印尼-运营-理财邀请活动转化率",
-        "contentUrl": "--1",
-        "description": "",
-        "projectId": "975e9c2a-fcbb-4030-9ef5-73860b9a4964",
-        "projectName": "印尼项目分析",
-        "absolutePath": "/自助分析/印尼项目分析",
-        "pathLevel": "2",
-        "importantLevel": "1"
-      },
-      {
-        "id": "ff3d0dfe-5608-48f9-acb3-57a0418261e7",
-        "name": "贷后逾期风控报表",
-        "contentUrl": "_17054631654150",
-        "description": "",
-        "projectId": "ca0502f1-8922-4617-adfe-22ddd35c4ac0",
-        "projectName": "首贷",
-        "absolutePath": "/自助分析/印尼风控分析/全流程监控/首贷",
-        "pathLevel": "4",
-        "importantLevel": "1"
-      },
-      {
-        "id": "ff19aa56-9dc3-41c0-a55e-839279113582",
-        "name": "app新客复贷_额度监控",
-        "contentUrl": "app_",
-        "description": "",
-        "projectId": "6344f736-ab69-4c83-aec2-d50bfe00b001",
-        "projectName": "04_app新客复贷",
-        "absolutePath": "/国内借款业务/03_风控数据/01_首贷/04_app新客复贷",
-        "pathLevel": "4",
-        "importantLevel": "1"
-      },
-      {
-        "id": "fede0ade-aa77-4ec8-a3a7-e514e8cd00a3",
-        "name": "分链接注册率 - 落地页曝光到注册版",
-        "contentUrl": "-_16614950855220",
-        "description": "",
-        "projectId": "eb86ca0a-f12b-4e9c-891a-c982fb421c8a",
-        "projectName": "精准导流渠道",
-        "absolutePath": "/国内借款业务/02_运营数据/02_首贷/首贷运营监控/精准导流渠道",
-        "pathLevel": "5",
-        "importantLevel": "1"
-      },
-      {
-        "id": "fed277c0-db78-414b-835e-c56cc3005d54",
-        "name": "批扣报表",
-        "contentUrl": "39",
-        "description": "",
-        "projectId": "35b321af-25e7-4c3c-81fd-f4d676d991e3",
-        "projectName": "国内商业分析",
-        "absolutePath": "/自助分析/国内商业分析",
-        "pathLevel": "2",
+        "projectId": "9f3265de-8d91-43b2-889c-a7eff929e8b4",
+        "projectName": "99_其他",
+        "absolutePath": "/国内借款业务/06_联合运营/99_其他",
+        "pathLevel": "3",
         "importantLevel": "1"
       }
     ],
-    "totalCount": 2193
+    "totalCount": 2
   },
   "status": {
     "code": 0,
     "type": "",
     "detail": "",
+    "serverResponseTime": 1724652522440,
     "displayType": "TOAST",
-    "serverResponseTime": 1724635908331,
     "url": null
   }
 }
