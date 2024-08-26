@@ -56,7 +56,7 @@
                 "flowModules": [
                     {
                         "moduleType": "ATTACHMENT",
-                        "moduleType": "ATTACHMENT",
+
                         "type": "files",
                         "label": "上传合同附件",
                         "field": "contractAttachments",
@@ -65,8 +65,14 @@
                             "maxSize": 52428800
                         },
                         "value": null,
+
                         "preview": true,
-                        "multiple": true
+                        "multiple": true，
+
+                        xxx;{
+
+
+                    }
                     }
                 ],
                 "description": "通过",

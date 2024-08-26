@@ -113,7 +113,7 @@
       ]
     }
   ],
-  "messageLink": "https://crane-test.yangqianguan.com/rpc/table-au/messageLink?id=",
+  "messageLink": "https://crane-test.yangqianguan.com/flow/tableau?id=",
   "callbacks": [
     {
       "id": 1,
@@ -287,11 +287,13 @@
               "status": "A",
               "next": [
                 999
+
               ],
               "callback": true,
               "callbackId": 1
             }
-          ]
+          ],
+          "fromKey": "tableauAdminForm"
         },
         {
           "action": 2,
