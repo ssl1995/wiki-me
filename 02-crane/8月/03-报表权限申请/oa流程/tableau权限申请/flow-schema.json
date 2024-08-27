@@ -113,7 +113,7 @@
       ]
     }
   ],
-  "messageLink": "https://crane-test.yangqianguan.com/rpc/table-au/messageLink?id=",
+  "messageLink": "https://crane-test.yangqianguan.com/flow/tableau?id=",
   "callbacks": [
     {
       "id": 1,
