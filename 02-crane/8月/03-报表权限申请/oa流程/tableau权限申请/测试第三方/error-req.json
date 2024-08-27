@@ -1,0 +1,27 @@
+{
+  "object": null,
+  "httpParameter": {
+    "parameters": {},
+    "maskedQueryString": "",
+    "queryKeyString": "",
+    "maskedParameters": {}
+  },
+  "requestType": {
+    "host": "http://172.16.36.8:7050",
+    "path": "/dw/lighthouse/enums/SiteRole",
+    "method": "GET",
+    "responseType": {
+      "clazz": null,
+      "parameterizedType": null,
+      "format": null,
+      "charset": null
+    },
+    "connectTimeout": 2000,
+    "readTimeout": 2000,
+    "requestConverter": null,
+    "responseConverter": null,
+    "uniqueKey": "/dw/lighthouse/enums/SiteRole-GET"
+  },
+  "pathVariableMap": null,
+  "headers": null
+}

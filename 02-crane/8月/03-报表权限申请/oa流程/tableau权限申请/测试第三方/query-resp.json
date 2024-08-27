@@ -1,0 +1,23 @@
+{
+  "body": {
+    "list": [
+      {
+        "id": "036e4317-ff3b-488b-8e9e-44507bfeb3b9",
+        "name": "内审内控总监"
+      },
+      {
+        "id": "0438a981-e4af-4a22-bc36-2b18c9183b97",
+        "name": "国内风控分析（涉及运营报表）"
+      }
+    ],
+    "totalCount": 61
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1724310712367,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
