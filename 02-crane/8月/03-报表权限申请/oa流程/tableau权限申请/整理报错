@@ -4,3 +4,7 @@ const craneHost ={
 	feat: 'https://crane-feat.yangqianguan.com',
 	prod: 'https://crane.fintopia.tech'
 };
+
+
+https://crane-test.yangqianguan.com/admin/table-au/groupsByProject?current=1&pageSize=10&pageNo=1&absolutePath=/自助分析/市场运营分析/贷超
+https://crane-test.yangqianguan.com/admin/table-au/groupsByProject?current=1&pageNo=1&pageSize=10&absolutePath=/自助分析/市场运营分析/贷超

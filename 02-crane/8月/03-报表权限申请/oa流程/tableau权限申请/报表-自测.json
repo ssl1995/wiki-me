@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2",
+    "parentId": "1",
+    "name": "印度借款",
+    "description": "印度借款业务",
+    "contentPermissions": "LockedToProject",
+    "ownerId": "6ecdd9f6-4c32-45c5-93ad-aa1599ade4c4",
+    "absolutePath": "/数据源/印度借款",
+    "pathLevel": "2",
+    "importantLevel": "1",
+    "directoryLevel": "SENIOR",
+    "specialField": true,
+    "path": "/数据源/印度借款"
+  },
+  {
+    "id": "3",
+    "parentId": "2",
+    "name": "印度借款",
+    "description": "印度借款业务",
+    "contentPermissions": "LockedToProject",
+    "ownerId": "6ecdd9f6-4c32-45c5-93ad-aa1599ade4c4",
+    "absolutePath": "/数据源/印度借款",
+    "pathLevel": "2",
+    "importantLevel": "1",
+    "directoryLevel": "SENIOR",
+    "specialField": true,
+    "path": "/数据源/印度借款"
+  },
+  {
+    "id": "300",
+    "parentId": "200",
+    "name": "印度借款",
+    "description": "印度借款业务",
+    "contentPermissions": "LockedToProject",
+    "ownerId": "6ecdd9f6-4c32-45c5-93ad-aa1599ade4c4",
+    "absolutePath": "/数据源/印度借款",
+    "pathLevel": "2",
+    "importantLevel": "1",
+    "directoryLevel": "SENIOR",
+    "specialField": true,
+    "path": "/数据源/印度借款"
+  }
+]
