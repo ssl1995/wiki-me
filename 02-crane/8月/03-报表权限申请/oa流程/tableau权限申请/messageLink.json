@@ -1,0 +1,102 @@
+{
+  "body": {
+    "businessType": "Tableau报表申请",
+    "submitEmployee": {
+      "id": 3659,
+      "name": "宋声林",
+      "workNumber": "03541",
+      "oaEmployeeUrl": "https://oa-test.yangqianguan.com/oa/employee/profile?id=3659",
+      "departmentName": "后端"
+    },
+    "applyEmployeeList": [
+      {
+        "id": 2621,
+        "name": "刘文文",
+        "workNumber": "02509",
+        "oaEmployeeUrl": "https://oa-test.yangqianguan.com/oa/employee/profile?id=2621",
+        "departmentName": "前端"
+      },
+      {
+        "id": 4874,
+        "name": "刘奕彤",
+        "workNumber": "04705",
+        "oaEmployeeUrl": "https://oa-test.yangqianguan.com/oa/employee/profile?id=4874",
+        "departmentName": "前端"
+      }
+    ],
+    "applyUserGroupList": [
+      {
+        "userGroupId": "1",
+        "userGroupName": "用户组1",
+        "seniorDirectoryCount": 0,
+        "tableAuValidTime": "FOREVER",
+        "applyReason": "项目需要",
+        "applyUserGroupList": [
+          {
+            "id": "1",
+            "name": "目录1",
+            "description": null,
+            "contentPermissions": null,
+            "parentId": " ",
+            "ownerId": null,
+            "absolutePath": null,
+            "pathLevel": null,
+            "importantLevel": "1",
+            "directoryLevel": "SENIOR",
+            "specialField": true,
+            "path": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "userGroupId": "2",
+        "userGroupName": "用户组2",
+        "seniorDirectoryCount": 0,
+        "tableAuValidTime": "SEVEN_DAYS",
+        "applyReason": "新员工入职申请",
+        "applyUserGroupList": [
+          {
+            "id": "2",
+            "name": "目录2",
+            "description": null,
+            "contentPermissions": null,
+            "parentId": " ",
+            "ownerId": null,
+            "absolutePath": null,
+            "pathLevel": null,
+            "importantLevel": "2",
+            "directoryLevel": "NO_SENIOR",
+            "specialField": false,
+            "path": null,
+            "children": [
+              {
+                "id": "3",
+                "name": "目录2.1",
+                "description": null,
+                "contentPermissions": null,
+                "parentId": "2",
+                "ownerId": null,
+                "absolutePath": null,
+                "pathLevel": null,
+                "importantLevel": "1",
+                "directoryLevel": "SENIOR",
+                "specialField": true,
+                "path": null,
+                "children": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1724811838740,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

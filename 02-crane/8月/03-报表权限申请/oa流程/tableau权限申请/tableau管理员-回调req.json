@@ -3,9 +3,11 @@
   "flowId": 94460,
   "flowCode": "TMAMC",
   "businessId": 46,
-  "flowState": "ACCEPT",
-  "auditorWorkNumber": "02505",
+    "auditorWorkNumber": "02505",
   "actionType": "APPROVE",
+
+  "flowState": "ACCEPT",
+
   "flowModulesValue": {
     "applyRoleForm": [
       {
@@ -17,6 +19,5 @@
         "value": "Viewer"
       }
     ]
-  },
-  "businessSnapshot": "null"
+  }
 }

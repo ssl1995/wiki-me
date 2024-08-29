@@ -1,0 +1,16 @@
+{
+  "applyWorkNumber": [
+    "03541",
+    "00251",
+    "00001",
+    "00002",
+    "00003"
+  ],
+  "userGroupVoList": [
+    {
+      "groupId": "1",
+      "validTime": "SEVEN_DAYS",
+      "applyReason": "啊啊啊"
+    }
+  ]
+}
