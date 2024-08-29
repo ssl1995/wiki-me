@@ -1,0 +1,18 @@
+{
+  "body": {
+    "flowResponse": {
+      "flowId": "123",
+      "flowNumber": "F-CR2024082901",
+      "syncSnapshot": null
+    },
+    "oaFlowUrl": "https://oa-test.yangqianguan.com/oa/flow/detail?flowId=123"
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1724241543584,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
