@@ -1,44 +1,69 @@
 {
-  "body": [
+  "businessType": "Tableau报表申请",
+  "submitEmployee": {
+    "id": 488,
+    "name": "lilixian",
+    "workNumber": "00251",
+    "oaEmployeeUrl": null,
+    "departmentName": null,
+    "supervisorNumber": "02124",
+    "virtualSupervisorNumber": "03613",
+    "isDomestic": true,
+    "leaderWorkNumber": "02124"
+  },
+  "applyEmployeeList": [
     {
-      "name": "1",
-      "description": "Creator"
-    },
-    {
-      "name": "2",
-      "description": "Explorer"
-    },
-    {
-      "name": "3",
-      "description": "ExplorerCanPublish"
-    },
-    {
-      "name": "4",
-      "description": "SiteAdministratorExplorer"
-    },
-    {
-      "name": "5",
-      "description": "ServerAdministrator"
-    },
-    {
-      "name": "6",
-      "description": "SiteAdministratorCreator"
-    },
-    {
-      "name": "7",
-      "description": "Unlicensed"
-    },
-    {
-      "name": "8",
-      "description": "Viewer"
+      "id": 4890,
+      "name": "weiye5-04721",
+      "workNumber": "04721",
+      "oaEmployeeUrl": null,
+      "departmentName": null,
+      "supervisorNumber": "02124",
+      "virtualSupervisorNumber": "04442",
+      "isDomestic": true,
+      "leaderWorkNumber": "02124"
     }
   ],
-  "status": {
-    "code": 0,
-    "type": "",
-    "detail": "",
-    "serverResponseTime": 1724635983020,
-    "displayType": "TOAST",
-    "url": null
-  }
+  "applyUserGroupList": [
+    {
+      "userGroupId": "260cbf6e-1db8-11eb-b38b-6bb8bf3d20df",
+      "userGroupName": "All Users",
+      "seniorDirectoryCount": 0,
+      "tableAuValidTime": "SIXTY_DAYS",
+      "applyReason": "数据查询与分析",
+      "applyUserGroupList": [
+        {
+          "id": "8b544534-24f4-417c-92f5-31d2710ea138",
+          "name": "数据中台全球业务分析报表",
+          "description": "",
+          "contentPermissions": "ManagedByOwner",
+          "parentId": "",
+          "ownerId": "2a8cb29c-01ec-4fc3-aa0b-05acc36009c6",
+          "absolutePath": "数据中台全球业务分析报表",
+          "pathLevel": "0",
+          "importantLevel": "2",
+          "directoryLevel": "NO_SENIOR",
+          "specialField": false,
+          "path": "数据中台全球业务分析报表",
+          "children": null
+        },
+        {
+          "id": "3aa61e87-fca0-42ff-a785-55c8b0d480e9",
+          "name": "X_PROJECT",
+          "description": "",
+          "contentPermissions": "ManagedByOwner",
+          "parentId": "",
+          "ownerId": "6ecdd9f6-4c32-45c5-93ad-aa1599ade4c4",
+          "absolutePath": "X_PROJECT",
+          "pathLevel": "0",
+          "importantLevel": "2",
+          "directoryLevel": "NO_SENIOR",
+          "specialField": false,
+          "path": "X_PROJECT",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "containsSeniorDirectory": false
 }

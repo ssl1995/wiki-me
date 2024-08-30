@@ -1,22 +1,18 @@
 {
-  "flowNumber": "F-CR2408290002",
-  "flowId": 97473,
+  "flowNumber": "F-CR2408290003",
+  "flowId": 97574,
   "flowCode": "TAU",
-  "preFlowId": null,
-  "businessId": 9,
+  "businessId": 24,
   "flowState": "ACCEPT",
   "auditorWorkNumber": "03875",
   "actionType": "APPROVE",
   "reason": null,
   "businessSnapshot": "{}",
-
-
-
   "flowModulesValue": {
     "applyRoleForm": [
       {
-        "key": "宋声林",
-        "enumType": "Crater"
+        "key": "weiye@fintopia.tech",
+        "enumType": "Explorer"
       }
     ]
   }

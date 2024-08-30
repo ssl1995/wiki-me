@@ -17,6 +17,8 @@
       "flowModules": [
         {
           "moduleType": "SINGLE_COMPLEX_BOX",
+
+
           "type": "complex_enum",
           "field": "applyRoleForm",
           "label": "新用户身份确认",
