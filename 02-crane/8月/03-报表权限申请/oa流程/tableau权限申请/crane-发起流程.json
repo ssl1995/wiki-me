@@ -1,16 +1,14 @@
 {
+  "submitWorkNumber": "04690",
   "applyWorkNumber": [
-    "03541",
     "00251",
-    "00001",
-    "00002",
-    "00003"
+    "04721"
   ],
   "userGroupVoList": [
     {
-      "groupId": "1",
+      "groupId": "e5fcc198-38dc-4bfe-8c7e-ce00aeaf41e5",
       "validTime": "SEVEN_DAYS",
-      "applyReason": "啊啊啊"
+      "applyReason": "项目需要"
     }
   ]
 }

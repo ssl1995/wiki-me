@@ -1,17 +1,18 @@
 {
-  "businessType": "Tableau报表申请",
-  "submitEmployee": {
-    "id": 3659,
-    "name": "宋声林",
-    "workNumber": "03541",
-    "oaEmployeeUrl": null,
-    "departmentName": null,
-    "supervisorNumber": "03862",
-    "virtualSupervisorNumber": "02124",
-    "isDomestic": true,
-    "leaderWorkNumber": "03862"
-  },
-  "applyEmployeeList": [],
-  "applyUserGroupList": [],
-  "containsSeniorDirectory": false
+  "flowId": "no58qh6",
+  "flowStepId": "JQo2rSn",
+  "auditState": "APPROVE",
+  "flowModules": [
+    {
+      "moduleType": "SINGLE_COMPLEX_BOX",
+      "type": "complex_enum",
+      "label": "新用户身份确认",
+      "field": "applyRoleForm",
+      "rule": {
+        "required": true,
+        "maxSize": null
+      },
+      "formEnumType": []
+    }
+  ]
 }

@@ -1,19 +1,13 @@
 {
-  "flowNumber": "F-CR2408290003",
-  "flowId": 97574,
+  "flowNumber": "F-CR2409020001",
+  "flowId": 97743,
   "flowCode": "TAU",
-  "businessId": 24,
-  "flowState": "ACCEPT",
-  "auditorWorkNumber": "03875",
-  "actionType": "APPROVE",
+  "preFlowId": null,
+  "businessId": 27,
+  "flowState": "PENDING",
+  "auditorWorkNumber": "04690",
+  "actionType": "SUBMIT",
   "reason": null,
   "businessSnapshot": "{}",
-  "flowModulesValue": {
-    "applyRoleForm": [
-      {
-        "key": "weiye@fintopia.tech",
-        "enumType": "Explorer"
-      }
-    ]
-  }
+  "flowModulesValue": null
 }
