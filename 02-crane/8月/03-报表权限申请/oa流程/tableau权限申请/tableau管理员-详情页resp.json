@@ -35,7 +35,7 @@
 						"value": null,
 						"formEnumType": [
 							{
-								"key": "张三",
+								"key": "张三(邮箱-部门)",
 								"enumType": [
 									"Crater",
 									"Viewer",
@@ -43,7 +43,7 @@
 								]
 							},
 							{
-								"key": "李四",
+								"key": "张三(邮箱-部门)",
 								"enumType": [
 									"Viewer",
 									"Explorer"

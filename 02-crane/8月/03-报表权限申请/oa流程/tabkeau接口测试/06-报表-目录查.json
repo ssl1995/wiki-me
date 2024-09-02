@@ -1,0 +1,115 @@
+{
+	"body": {
+		"userGroupVo": {
+			"id": "cf02e73b-af32-4f9d-81e0-633c67c88d89",
+			"name": "印尼稽核非一线",
+			"sortStrId": "cf02e73b-af32-4f9d-81e0-633c67c88d89",
+			"sortId": 0
+		},
+		"directoryVo": [
+			{
+				"id": "71603941-5f12-441d-aee7-eaa6f88fef3b",
+				"name": "印尼借款业务_new",
+				"description": "",
+				"contentPermissions": "ManagedByOwner",
+				"parentId": "",
+				"ownerId": "b3c32f37-68e6-47ac-99a8-709051d7a9ba",
+				"absolutePath": "印尼借款业务_new",
+				"pathLevel": "0",
+				"importantLevel": "1",
+				"directoryLevel": "SENIOR",
+				"specialField": true,
+				"path": "印尼借款业务_new",
+				"children": [
+					{
+						"id": "0300d2d0-e355-4989-9cb1-27438b0422c6",
+						"name": "01_印尼商分",
+						"description": "",
+						"contentPermissions": "ManagedByOwner",
+						"parentId": "71603941-5f12-441d-aee7-eaa6f88fef3b",
+						"ownerId": "b3c32f37-68e6-47ac-99a8-709051d7a9ba",
+						"absolutePath": "/印尼借款业务_new/01_印尼商分",
+						"pathLevel": "2",
+						"importantLevel": "1",
+						"directoryLevel": "SENIOR",
+						"specialField": true,
+						"path": "/印尼借款业务_new/01_印尼商分",
+						"children": null
+					}
+				]
+			}
+		],
+		"workBookVo": {
+			"list": [
+				{
+					"contentUrl": "QC_case_detail",
+					"description": "",
+					"projectId": "b77951c8-5d5d-420c-a708-4dee62d1298b",
+					"projectName": "08_稽核分析",
+					"absolutePath": "/印尼借款业务_new/01_印尼商分/08_稽核分析",
+					"pathLevel": "3",
+					"importantLevel": "1",
+					"id": "a0bdf60e-c9b1-4678-8516-0cf5be70dcc0",
+					"name": "T_01_QC_case_detail",
+					"sortStrId": "a0bdf60e-c9b1-4678-8516-0cf5be70dcc0",
+					"sortId": 0
+				},
+				{
+					"contentUrl": "QCPerformance",
+					"description": "",
+					"projectId": "b3b92a64-a0d0-498e-8b4a-96cfb25f6ba9",
+					"projectName": "04_Indonesia _ Audit",
+					"absolutePath": "/印尼借款业务_new/06_Local_Indonesia/04_Indonesia _ Audit",
+					"pathLevel": "3",
+					"importantLevel": "1",
+					"id": "4de8c3b1-ee65-4141-8e5b-d35f45b3e3d4",
+					"name": "T01_QC Performance",
+					"sortStrId": "4de8c3b1-ee65-4141-8e5b-d35f45b3e3d4",
+					"sortId": 0
+				}
+			],
+			"total": 2,
+			"pageNo": 1,
+			"pageSize": 10,
+			"pages": 1,
+			"size": 2
+		},
+		"allWorkBookVo": [
+			{
+				"contentUrl": "QC_case_detail",
+				"description": "",
+				"projectId": "b77951c8-5d5d-420c-a708-4dee62d1298b",
+				"projectName": "08_稽核分析",
+				"absolutePath": "/印尼借款业务_new/01_印尼商分/08_稽核分析",
+				"pathLevel": "3",
+				"importantLevel": "1",
+				"id": "a0bdf60e-c9b1-4678-8516-0cf5be70dcc0",
+				"name": "T_01_QC_case_detail",
+				"sortStrId": "a0bdf60e-c9b1-4678-8516-0cf5be70dcc0",
+				"sortId": 0
+			},
+			{
+				"contentUrl": "QCPerformance",
+				"description": "",
+				"projectId": "b3b92a64-a0d0-498e-8b4a-96cfb25f6ba9",
+				"projectName": "04_Indonesia _ Audit",
+				"absolutePath": "/印尼借款业务_new/06_Local_Indonesia/04_Indonesia _ Audit",
+				"pathLevel": "3",
+				"importantLevel": "1",
+				"id": "4de8c3b1-ee65-4141-8e5b-d35f45b3e3d4",
+				"name": "T01_QC Performance",
+				"sortStrId": "4de8c3b1-ee65-4141-8e5b-d35f45b3e3d4",
+				"sortId": 0
+			}
+		]
+	},
+	"status": {
+		"code": 0,
+		"type": "",
+		"detail": "",
+		"serverResponseTime": 1724930467423,
+		"displayType": "TOAST",
+		"url": null
+	}
+}
+
