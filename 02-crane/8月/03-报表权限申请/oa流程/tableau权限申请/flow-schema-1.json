@@ -287,7 +287,6 @@
               "status": "A",
               "next": [
                 999
-
               ],
               "callback": true,
               "callbackId": 1
