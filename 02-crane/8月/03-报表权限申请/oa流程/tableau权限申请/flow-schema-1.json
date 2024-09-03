@@ -148,9 +148,7 @@
               "status": "S",
               "next": [
                 2
-              ],
-              "callback": true,
-              "callbackId": 1
+              ]
             },
             {
               "previous_status": [
@@ -161,9 +159,7 @@
               "status": "S",
               "next": [
                 3
-              ],
-              "callback": true,
-              "callbackId": 1
+              ]
             },
             {
               "previous_status": [
@@ -291,8 +287,7 @@
               "callback": true,
               "callbackId": 1
             }
-          ],
-          "fromKey": "tableauAdminForm"
+          ]
         },
         {
           "action": 2,
