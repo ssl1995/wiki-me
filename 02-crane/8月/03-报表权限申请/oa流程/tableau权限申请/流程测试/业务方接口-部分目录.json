@@ -1,0 +1,44 @@
+[
+  {
+    "id": "e9b8585d-de7d-4b21-b86a-05729fd7af72",
+    "name": "03_风控数据",
+    "description": "",
+    "contentPermissions": "ManagedByOwner",
+    "parentId": "bfdc242d-810c-4734-9ab5-62503532c878",
+    "ownerId": "c44cd07b-b979-47b2-90bb-a881b8a7a4c2",
+    "absolutePath": "/国内借款业务/03_风控数据",
+    "pathLevel": "2",
+    "importantLevel": "2",
+    "directoryLevel": "NO_SENIOR",
+    "specialField": false,
+    "path": "/国内借款业务/03_风控数据"
+  },
+  {
+    "id": "eb5a93d0-ff5e-4a42-91c2-0fbbc3729cf0",
+    "name": "06_联运",
+    "description": "",
+    "contentPermissions": "LockedToProject",
+    "parentId": "e9b8585d-de7d-4b21-b86a-05729fd7af72",
+    "ownerId": "764073df-6753-4092-bea5-6f9ded251f03",
+    "absolutePath": "/国内借款业务/03_风控数据/06_联运",
+    "pathLevel": "3",
+    "importantLevel": "2",
+    "directoryLevel": "NO_SENIOR",
+    "specialField": false,
+    "path": "/国内借款业务/03_风控数据/06_联运"
+  },
+  {
+    "id": "92ca8b59-5b5b-446e-8d60-c8b677cde9c2",
+    "name": "09_临时额度",
+    "description": "",
+    "contentPermissions": "ManagedByOwner",
+    "parentId": "e9b8585d-de7d-4b21-b86a-05729fd7af72",
+    "ownerId": "764073df-6753-4092-bea5-6f9ded251f03",
+    "absolutePath": "/国内借款业务/03_风控数据/09_临时额度",
+    "pathLevel": "3",
+    "importantLevel": "2",
+    "directoryLevel": "NO_SENIOR",
+    "specialField": false,
+    "path": "/国内借款业务/03_风控数据/09_临时额度"
+  }
+]
