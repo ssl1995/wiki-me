@@ -1,23 +1,13 @@
 {
-  "flowNumber": "F-CR2408290002",
-  "flowId": 97473,
+  "flowNumber": "F-CR2409050004",
+  "flowId": 98312,
   "flowCode": "TAU",
   "preFlowId": null,
-  "businessId": 9,
+  "businessId": 163,
   "flowState": "ACCEPT",
   "auditorWorkNumber": "03875",
-  "actionType": "APPROVE",
+  "actionType": "SUBMIT",
   "reason": null,
   "businessSnapshot": "{}",
-
-
-
-  "flowModulesValue": {
-    "applyRoleForm": [
-      {
-        "key": "宋声林",
-        "enumType": "Crater"
-      }
-    ]
-  }
+  "flowModulesValue": null
 }
