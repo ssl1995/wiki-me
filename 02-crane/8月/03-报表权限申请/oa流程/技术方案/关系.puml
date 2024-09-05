@@ -1,0 +1,15 @@
+@startuml
+skinparam sequenceMessageAlign right
+title 发票、2307编码、盖章版扫描件、OR单关系
+
+actor 发票 as a
+actor 2307编码 as b
+actor 盖章版扫描件 as c
+actor OR单编号 as d
+
+a -> b : 1对1
+b -> c : 1对1
+c -> d : 1对1
+
+
+@enduml

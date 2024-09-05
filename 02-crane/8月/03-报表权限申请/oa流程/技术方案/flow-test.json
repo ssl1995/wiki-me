@@ -1,0 +1,910 @@
+{
+    "parameter": [],
+    "status": [
+        {
+            "code": "S",
+            "name": "已提交"
+        },
+        {
+            "code": "I",
+            "name": "初始化"
+        },
+        {
+            "code": "P",
+            "name": "审核中"
+        },
+        {
+            "code": "A",
+            "name": "通过"
+        },
+        {
+            "code": "R",
+            "name": "拒绝"
+        },
+        {
+            "code": "C",
+            "name": "驳回修改"
+        },
+        {
+            "code": "V",
+            "name": "再审"
+        },
+        {
+            "code": "E",
+            "name": "结束"
+        }
+    ],
+    "action": [
+        {
+            "id": 1,
+            "name": "approve",
+            "description": "通过",
+            "manual": true,
+            "comment": [
+                {
+                    "field": "comment",
+                    "description": "备注",
+                    "required": false
+                }
+            ],
+            "attachment": false
+        },
+        {
+            "id": 2,
+            "name": "reject",
+            "description": "拒绝",
+            "manual": true,
+            "comment": [
+                {
+                    "field": "reason",
+                    "description": "拒绝原因",
+                    "required": true
+                }
+            ],
+            "attachment": false
+        },
+        {
+            "id": 3,
+            "name": "request_change_1",
+            "description": "驳回修改",
+            "manual": true,
+            "comment": [
+                {
+                    "field": "reason",
+                    "description": "驳回原因",
+                    "required": true
+                }
+            ],
+            "attachment": false
+        },
+        {
+            "id": 4,
+            "name": "request_change_2",
+            "description": "驳回修改",
+            "manual": true,
+            "comment": [
+                {
+                    "field": "reason",
+                    "description": "驳回原因",
+                    "required": true
+                }
+            ],
+            "attachment": false
+        },
+        {
+            "id": 5,
+            "name": "request_change_3",
+            "description": "驳回修改",
+            "manual": true,
+            "comment": [
+                {
+                    "field": "reason",
+                    "description": "驳回原因",
+                    "required": true
+                }
+            ],
+            "attachment": false
+        },
+        {
+            "id": 6,
+            "name": "submit",
+            "description": "提交",
+            "manual": true
+        },
+        {
+            "id": 7,
+            "name": "auto",
+            "description": "自动流转",
+            "manual": false
+        },
+        {
+            "id": 8,
+            "name": "request_change_4",
+            "description": "驳回修改",
+            "manual": true,
+            "comment": [
+                {
+                    "field": "reason",
+                    "description": "驳回原因",
+                    "required": true
+                }
+            ],
+            "attachment": false
+        },
+        {
+            "id": 9,
+            "name": "request_change_5",
+            "description": "驳回修改",
+            "manual": true,
+            "comment": [
+                {
+                    "field": "reason",
+                    "description": "驳回原因",
+                    "required": true
+                }
+            ],
+            "attachment": false
+        },
+        {
+            "id": 10,
+            "name": "request_change_6",
+            "description": "驳回修改",
+            "manual": true,
+            "comment": [
+                {
+                    "field": "reason",
+                    "description": "驳回原因",
+                    "required": true
+                }
+            ],
+            "attachment": false
+        },
+        {
+            "id": 11,
+            "name": "approve",
+            "description": "确认上传OR单附件",
+            "manual": true,
+            "comment": [
+                {
+                    "field": "comment",
+                    "description": "备注",
+                    "required": false
+                }
+            ],
+            "attachment": false
+        }
+    ],
+    "actor": [
+        {
+            "id": 1,
+            "name": "self",
+            "description": "自己",
+            "action": [
+                6
+            ]
+        },
+        {
+            "id": 2,
+            "name": "specific_privilege",
+            "description": "FEE.ACCOUNTANT:会计:分公司权限",
+            "action": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                8,
+                9,
+                10
+            ]
+        },
+        {
+            "id": 3,
+            "name": "launcher_specific_user",
+            "description": "launcherSpecificWorkNumber",
+            "action": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "id": 4,
+            "name": "specific_roles",
+            "description": "841",
+            "alias": "总裁办助理2",
+            "action": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                8
+            ]
+        },
+        {
+            "id": 5,
+            "name": "specific_roles",
+            "description": "1401",
+            "alias": "业务侧",
+            "action": [
+                11
+            ]
+        },
+        {
+            "id": 6,
+            "name": "belonger",
+            "description": "业务侧",
+            "action": [
+                11
+            ]
+        }
+    ],
+    "start": 1,
+    "end": {
+        "id": 999,
+        "status": "E"
+    },
+    "step": [
+        {
+            "index": 1,
+            "name": "2307报税抵扣发起",
+            "description": "2307报税抵扣发起节点",
+            "actor": [
+                1
+            ],
+            "show": false,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 6,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "C"
+                            ],
+                            "status": "S",
+                            "next": [
+                                2
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 7,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "S"
+                            ],
+                            "status": "C",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 2,
+            "name": "会计1",
+            "description": "会计1审批",
+            "actor": [
+                2
+            ],
+            "form": {
+                "actions": [
+                    1
+                ],
+                "key": "accountant1"
+            },
+            "show": true,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 1,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P"
+                            ],
+                            "status": "A",
+                            "next": [
+                                30
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 2,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "R",
+                            "next": [
+                                999
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 3,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                1
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 7,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "C",
+                                "A"
+                            ],
+                            "status": "P",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 30,
+            "name": "指定审批人/合伙人节点",
+            "description": "指定审批人/合伙人审批节点",
+            "init_status": "I",
+            "show": true,
+            "start_split": true,
+            "type": 1,
+            "actor": [],
+            "actions": [
+                {
+                    "action": 1,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P"
+                            ],
+                            "status": "A",
+                            "next": [
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 2,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "R",
+                            "next": [
+                                999
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 3,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                1
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 4,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                2
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 5,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                30
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 7,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "C",
+                                "A"
+                            ],
+                            "status": "P",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 4,
+            "name": "会计2",
+            "description": "会计2审批",
+            "actor": [
+                2
+            ],
+            "form": {
+                "actions": [
+                    1
+                ],
+                "key": "accountant2"
+            },
+            "show": true,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 1,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P"
+                            ],
+                            "status": "A",
+                            "next": [
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 2,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "R",
+                            "next": [
+                                999
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 3,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                1
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 4,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                2
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 5,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                30
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 7,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "C",
+                                "A"
+                            ],
+                            "status": "P",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 5,
+            "name": "总裁办助理2",
+            "description": "总裁办助理2审批节点",
+            "actor": [
+                4
+            ],
+            "form": {
+                "actions": [
+                    1
+                ],
+                "key": "presidentOffice"
+            },
+            "show": true,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 1,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P"
+                            ],
+                            "status": "A",
+                            "next": [
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 2,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "R",
+                            "next": [
+                                999
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 3,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                1
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 4,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                2
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 5,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                30
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 8,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 7,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "C",
+                                "A"
+                            ],
+                            "status": "P",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 6,
+            "name": "业务侧 ",
+            "description": "业务侧审批节点",
+            "actor": [
+                6
+            ],
+            "form": {
+                "actions": [
+                    11
+                ],
+                "key": "businessApproval"
+            },
+            "show": true,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 11,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P"
+                            ],
+                            "status": "A",
+                            "next": [
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 7,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "C",
+                                "A"
+                            ],
+                            "status": "P",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 7,
+            "name": "会计3",
+            "description": "会计3审批节点",
+            "actor": [
+                2
+            ],
+            "show": true,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 1,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P"
+                            ],
+                            "status": "A",
+                            "next": [
+                                999
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 2,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "R",
+                            "next": [
+                                999
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 3,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                1
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 4,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                2
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 5,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                30
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 8,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 9,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 10,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "P",
+                                "C"
+                            ],
+                            "status": "C",
+                            "next": [
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "action": 7,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I",
+                                "C",
+                                "A"
+                            ],
+                            "status": "P",
+                            "need_action": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 999,
+            "name": "结束",
+            "description": "结束节点",
+            "previous": [
+                4
+            ],
+            "next": [
+                999
+            ],
+            "show": false,
+            "init_status": "I",
+            "actions": [
+                {
+                    "action": 7,
+                    "conditions": [
+                        {
+                            "previous_status": [
+                                "I"
+                            ],
+                            "status": "E"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
