@@ -1,0 +1,3 @@
+https://chidori-admin-test.yangqianguan.com/rpc/employee/permission/related?businessCode=OA&feature=FLOW.INTERRUPT.OTHER
+
+https://chidori-admin-test.yangqianguan.com/rpc/employee/permission/related/group?businessCode=OA&featureList=FLOW.INTERRUPT.OTHER

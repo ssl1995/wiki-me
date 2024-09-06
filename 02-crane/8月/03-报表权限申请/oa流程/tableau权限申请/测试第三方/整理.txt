@@ -1,1 +1,17 @@
-https://dw-lighthouse.fintopia.tech/
+1、bug-更新目录调用成功，但是目录失败
+
+content:"flowCallBack-come,req=" and content:"F-CR2409040019"
+
+{"flowNumber":"F-CR2409040019","flowId":98206,"flowCode":"TAU","preFlowId":null,"businessId":150,"flowState":"ACCEPT","auditorWorkNumber":"03875","actionType":"SUBMIT","reason":null,"businessSnapshot":"{}","flowModulesValue":null}
+
+e5fcc198-38dc-4bfe-8c7e-ce00aeaf41e5 
+d28a4e1d-8d4e-4d60-905e-bf451ff99faa 
+cf02e73b-af32-4f9d-81e0-633c67c88d89 
+c33147aa-82f1-498d-a6a3-8f5ab9181bc9 
+
+
+财务海外支持 c33147aa-82f1-498d-a6a3-8f5ab9181bc9            已经是组  撤销成功
+印尼稽核非一线 cf02e73b-af32-4f9d-81e0-633c67c88d89          已经是组  撤销成功
+印尼机构资金非一线 d28a4e1d-8d4e-4d60-905e-bf451ff99faa       调用成功  撤销失败 
+印尼迁移权限组 e5fcc198-38dc-4bfe-8c7e-ce00aeaf41e5          已经是组  撤销失败
+
