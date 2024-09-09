@@ -1,0 +1,17 @@
+【【Chidori】权限、角色导出功能优化】
+https://www.tapd.cn/68702772/prong/stories/view/1168702772001155721
+
+【【BUG - 权限关联角色弹窗】：权限下拉框中展示的内容有误，且滑动时没有实现全部数据滚动】
+https://www.tapd.cn/68702772/prong/stories/view/1168702772001154631
+
+【【用户属性】用户属性值配置为「全量」时无法自动包括新增加的属性值】
+https://www.tapd.cn/68702772/prong/stories/view/1168702772001153627
+
+【【权限管理】勾选父权限后，子权限会被自动勾选上，此时想取消勾选子权限时，点击不生效】
+https://www.tapd.cn/68702772/prong/stories/view/1168702772001151767
+
+【离职用户需自动解除与角色/权限的关联关系】
+https://www.tapd.cn/68702772/prong/stories/view/1168702772001150858
+
+【【属性管理】维度名称不允许重复】
+https://www.tapd.cn/68702772/prong/stories/view/1168702772001146484
