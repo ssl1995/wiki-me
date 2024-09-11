@@ -1,0 +1,12 @@
+{
+  "id": null,
+  "categoryName": "自动未配置方法",
+  "categoryCode": "songTestAddAtt",
+  "source": "System",
+  "sourceType": "DEPARTMENT",
+  "showWay": "FLAT",
+  "configWay": "AUTO",
+  "status": "ABLE",
+  "operator": "",
+  "functionList": null
+}

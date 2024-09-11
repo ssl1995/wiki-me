@@ -1,0 +1,5475 @@
+{
+  "body": {
+    "list": [
+      {
+        "id": -1,
+        "feature": "CRANE.APPLY",
+        "name": "新版权限管理crane.权限申请",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "新版权限管理crane - 系统管理员",
+        "admin": [
+          {
+            "name": "曹维双",
+            "workNumber": "04606"
+          },
+          {
+            "name": "张红艳",
+            "workNumber": "02505"
+          },
+          {
+            "name": "王芳",
+            "workNumber": "02065"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712"
+          },
+          {
+            "name": "东征",
+            "workNumber": "01228"
+          },
+          {
+            "name": "宋声林",
+            "workNumber": "03541"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "刘老板-00001",
+            "workNumber": "00001"
+          },
+          {
+            "name": "波叔-00002",
+            "workNumber": "00002"
+          },
+          {
+            "name": "weiye4-04720",
+            "workNumber": "04720"
+          },
+          {
+            "name": "叶玮4",
+            "workNumber": "04714"
+          },
+          {
+            "name": "张hy-33",
+            "workNumber": "03478"
+          },
+          {
+            "name": "祁伟",
+            "workNumber": "04600"
+          },
+          {
+            "name": "孙聪new",
+            "workNumber": "00744"
+          },
+          {
+            "name": "路朝阳old",
+            "workNumber": "03781"
+          },
+          {
+            "name": "帅婧",
+            "workNumber": "04595"
+          },
+          {
+            "name": "郭进",
+            "workNumber": "03270"
+          },
+          {
+            "name": "刘奕彤",
+            "workNumber": "04705"
+          },
+          {
+            "name": "离职优化051601",
+            "workNumber": "04633"
+          },
+          {
+            "name": "宋声林2",
+            "workNumber": "03893"
+          },
+          {
+            "name": "宋声林3",
+            "workNumber": "03894"
+          },
+          {
+            "name": "宋声林4",
+            "workNumber": "03898"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          },
+          {
+            "name": "叶04690",
+            "workNumber": "04690"
+          },
+          {
+            "name": "别动CRANE自动化账号",
+            "workNumber": "04927"
+          }
+        ],
+        "businessName": "新版权限管理crane",
+        "businessCode": "CRANE",
+        "relatedRoles": null,
+        "createTime": "2024-08-27T05:20:02Z",
+        "updateTime": "2024-08-27T05:20:02Z",
+        "targetName": "权限申请",
+        "targetCode": "CRANE.APPLY",
+        "targetId": -1,
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "权限申请",
+        "children": [
+          {
+            "id": -1,
+            "feature": "CRANE.APPLY.Tableau",
+            "name": "新版权限管理crane.权限申请.Tableau权限申请",
+            "desc": "",
+            "status": "ABLE",
+            "type": null,
+            "securityLevel": null,
+            "supportDataRule": null,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-08-27T05:20:02Z",
+            "updateTime": "2024-08-27T05:20:02Z",
+            "targetName": "Tableau权限申请",
+            "targetCode": "CRANE.APPLY.Tableau",
+            "targetId": -1,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "Tableau权限申请",
+            "children": [
+              {
+                "id": 797,
+                "feature": "CRANE.APPLY.Tableau.FORM_QUERY",
+                "name": "新版权限管理crane.权限申请.Tableau权限申请.报表查询",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "securityLevel": "LOW",
+                "supportDataRule": false,
+                "attributeCategoryIds": [],
+                "attributeCategoryNameList": [],
+                "categoryVOS": null,
+                "operator": "",
+                "systemRoleName": "新版权限管理crane - 系统管理员",
+                "admin": [
+                  {
+                    "name": "曹维双",
+                    "workNumber": "04606"
+                  },
+                  {
+                    "name": "张红艳",
+                    "workNumber": "02505"
+                  },
+                  {
+                    "name": "王芳",
+                    "workNumber": "02065"
+                  },
+                  {
+                    "name": "叶玮2",
+                    "workNumber": "04712"
+                  },
+                  {
+                    "name": "东征",
+                    "workNumber": "01228"
+                  },
+                  {
+                    "name": "宋声林",
+                    "workNumber": "03541"
+                  },
+                  {
+                    "name": "lilixian",
+                    "workNumber": "00251"
+                  },
+                  {
+                    "name": "刘老板-00001",
+                    "workNumber": "00001"
+                  },
+                  {
+                    "name": "波叔-00002",
+                    "workNumber": "00002"
+                  },
+                  {
+                    "name": "weiye4-04720",
+                    "workNumber": "04720"
+                  },
+                  {
+                    "name": "叶玮4",
+                    "workNumber": "04714"
+                  },
+                  {
+                    "name": "张hy-33",
+                    "workNumber": "03478"
+                  },
+                  {
+                    "name": "祁伟",
+                    "workNumber": "04600"
+                  },
+                  {
+                    "name": "孙聪new",
+                    "workNumber": "00744"
+                  },
+                  {
+                    "name": "路朝阳old",
+                    "workNumber": "03781"
+                  },
+                  {
+                    "name": "帅婧",
+                    "workNumber": "04595"
+                  },
+                  {
+                    "name": "郭进",
+                    "workNumber": "03270"
+                  },
+                  {
+                    "name": "刘奕彤",
+                    "workNumber": "04705"
+                  },
+                  {
+                    "name": "离职优化051601",
+                    "workNumber": "04633"
+                  },
+                  {
+                    "name": "宋声林2",
+                    "workNumber": "03893"
+                  },
+                  {
+                    "name": "宋声林3",
+                    "workNumber": "03894"
+                  },
+                  {
+                    "name": "宋声林4",
+                    "workNumber": "03898"
+                  },
+                  {
+                    "name": "王昕",
+                    "workNumber": "01240"
+                  },
+                  {
+                    "name": "叶04690",
+                    "workNumber": "04690"
+                  },
+                  {
+                    "name": "别动CRANE自动化账号",
+                    "workNumber": "04927"
+                  }
+                ],
+                "businessName": "新版权限管理crane",
+                "businessCode": "CRANE",
+                "relatedRoles": null,
+                "createTime": "2024-08-27T05:20:02Z",
+                "updateTime": "2024-08-27T05:20:02Z",
+                "targetName": "报表查询",
+                "targetCode": "CRANE.APPLY.Tableau.FORM_QUERY",
+                "targetId": 797,
+                "errorMsg": "",
+                "operateType": "PERMISSION",
+                "shortName": "报表查询",
+                "children": null
+              },
+              {
+                "id": 798,
+                "feature": "CRANE.APPLY.Tableau.GROUP_QUERY",
+                "name": "新版权限管理crane.权限申请.Tableau权限申请.用户组查询",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "securityLevel": "LOW",
+                "supportDataRule": false,
+                "attributeCategoryIds": [],
+                "attributeCategoryNameList": [],
+                "categoryVOS": null,
+                "operator": "",
+                "systemRoleName": "新版权限管理crane - 系统管理员",
+                "admin": [
+                  {
+                    "name": "曹维双",
+                    "workNumber": "04606"
+                  },
+                  {
+                    "name": "张红艳",
+                    "workNumber": "02505"
+                  },
+                  {
+                    "name": "王芳",
+                    "workNumber": "02065"
+                  },
+                  {
+                    "name": "叶玮2",
+                    "workNumber": "04712"
+                  },
+                  {
+                    "name": "东征",
+                    "workNumber": "01228"
+                  },
+                  {
+                    "name": "宋声林",
+                    "workNumber": "03541"
+                  },
+                  {
+                    "name": "lilixian",
+                    "workNumber": "00251"
+                  },
+                  {
+                    "name": "刘老板-00001",
+                    "workNumber": "00001"
+                  },
+                  {
+                    "name": "波叔-00002",
+                    "workNumber": "00002"
+                  },
+                  {
+                    "name": "weiye4-04720",
+                    "workNumber": "04720"
+                  },
+                  {
+                    "name": "叶玮4",
+                    "workNumber": "04714"
+                  },
+                  {
+                    "name": "张hy-33",
+                    "workNumber": "03478"
+                  },
+                  {
+                    "name": "祁伟",
+                    "workNumber": "04600"
+                  },
+                  {
+                    "name": "孙聪new",
+                    "workNumber": "00744"
+                  },
+                  {
+                    "name": "路朝阳old",
+                    "workNumber": "03781"
+                  },
+                  {
+                    "name": "帅婧",
+                    "workNumber": "04595"
+                  },
+                  {
+                    "name": "郭进",
+                    "workNumber": "03270"
+                  },
+                  {
+                    "name": "刘奕彤",
+                    "workNumber": "04705"
+                  },
+                  {
+                    "name": "离职优化051601",
+                    "workNumber": "04633"
+                  },
+                  {
+                    "name": "宋声林2",
+                    "workNumber": "03893"
+                  },
+                  {
+                    "name": "宋声林3",
+                    "workNumber": "03894"
+                  },
+                  {
+                    "name": "宋声林4",
+                    "workNumber": "03898"
+                  },
+                  {
+                    "name": "王昕",
+                    "workNumber": "01240"
+                  },
+                  {
+                    "name": "叶04690",
+                    "workNumber": "04690"
+                  },
+                  {
+                    "name": "别动CRANE自动化账号",
+                    "workNumber": "04927"
+                  }
+                ],
+                "businessName": "新版权限管理crane",
+                "businessCode": "CRANE",
+                "relatedRoles": null,
+                "createTime": "2024-08-27T05:20:41Z",
+                "updateTime": "2024-08-27T05:20:41Z",
+                "targetName": "用户组查询",
+                "targetCode": "CRANE.APPLY.Tableau.GROUP_QUERY",
+                "targetId": 798,
+                "errorMsg": "",
+                "operateType": "PERMISSION",
+                "shortName": "用户组查询",
+                "children": null
+              },
+              {
+                "id": 799,
+                "feature": "CRANE.APPLY.Tableau.GROUP_APPLY",
+                "name": "新版权限管理crane.权限申请.Tableau权限申请.用户组申请",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "securityLevel": "LOW",
+                "supportDataRule": false,
+                "attributeCategoryIds": [],
+                "attributeCategoryNameList": [],
+                "categoryVOS": null,
+                "operator": "",
+                "systemRoleName": "新版权限管理crane - 系统管理员",
+                "admin": [
+                  {
+                    "name": "曹维双",
+                    "workNumber": "04606"
+                  },
+                  {
+                    "name": "张红艳",
+                    "workNumber": "02505"
+                  },
+                  {
+                    "name": "王芳",
+                    "workNumber": "02065"
+                  },
+                  {
+                    "name": "叶玮2",
+                    "workNumber": "04712"
+                  },
+                  {
+                    "name": "东征",
+                    "workNumber": "01228"
+                  },
+                  {
+                    "name": "宋声林",
+                    "workNumber": "03541"
+                  },
+                  {
+                    "name": "lilixian",
+                    "workNumber": "00251"
+                  },
+                  {
+                    "name": "刘老板-00001",
+                    "workNumber": "00001"
+                  },
+                  {
+                    "name": "波叔-00002",
+                    "workNumber": "00002"
+                  },
+                  {
+                    "name": "weiye4-04720",
+                    "workNumber": "04720"
+                  },
+                  {
+                    "name": "叶玮4",
+                    "workNumber": "04714"
+                  },
+                  {
+                    "name": "张hy-33",
+                    "workNumber": "03478"
+                  },
+                  {
+                    "name": "祁伟",
+                    "workNumber": "04600"
+                  },
+                  {
+                    "name": "孙聪new",
+                    "workNumber": "00744"
+                  },
+                  {
+                    "name": "路朝阳old",
+                    "workNumber": "03781"
+                  },
+                  {
+                    "name": "帅婧",
+                    "workNumber": "04595"
+                  },
+                  {
+                    "name": "郭进",
+                    "workNumber": "03270"
+                  },
+                  {
+                    "name": "刘奕彤",
+                    "workNumber": "04705"
+                  },
+                  {
+                    "name": "离职优化051601",
+                    "workNumber": "04633"
+                  },
+                  {
+                    "name": "宋声林2",
+                    "workNumber": "03893"
+                  },
+                  {
+                    "name": "宋声林3",
+                    "workNumber": "03894"
+                  },
+                  {
+                    "name": "宋声林4",
+                    "workNumber": "03898"
+                  },
+                  {
+                    "name": "王昕",
+                    "workNumber": "01240"
+                  },
+                  {
+                    "name": "叶04690",
+                    "workNumber": "04690"
+                  },
+                  {
+                    "name": "别动CRANE自动化账号",
+                    "workNumber": "04927"
+                  }
+                ],
+                "businessName": "新版权限管理crane",
+                "businessCode": "CRANE",
+                "relatedRoles": null,
+                "createTime": "2024-08-27T05:21:12Z",
+                "updateTime": "2024-08-27T05:21:12Z",
+                "targetName": "用户组申请",
+                "targetCode": "CRANE.APPLY.Tableau.GROUP_APPLY",
+                "targetId": 799,
+                "errorMsg": "",
+                "operateType": "PERMISSION",
+                "shortName": "用户组申请",
+                "children": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": -1,
+        "feature": "CRANE.ATTRIBUTE_CATEGORY",
+        "name": "新版权限管理crane.属性管理",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "新版权限管理crane - 系统管理员",
+        "admin": [
+          {
+            "name": "曹维双",
+            "workNumber": "04606"
+          },
+          {
+            "name": "张红艳",
+            "workNumber": "02505"
+          },
+          {
+            "name": "王芳",
+            "workNumber": "02065"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712"
+          },
+          {
+            "name": "东征",
+            "workNumber": "01228"
+          },
+          {
+            "name": "宋声林",
+            "workNumber": "03541"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "刘老板-00001",
+            "workNumber": "00001"
+          },
+          {
+            "name": "波叔-00002",
+            "workNumber": "00002"
+          },
+          {
+            "name": "weiye4-04720",
+            "workNumber": "04720"
+          },
+          {
+            "name": "叶玮4",
+            "workNumber": "04714"
+          },
+          {
+            "name": "张hy-33",
+            "workNumber": "03478"
+          },
+          {
+            "name": "祁伟",
+            "workNumber": "04600"
+          },
+          {
+            "name": "孙聪new",
+            "workNumber": "00744"
+          },
+          {
+            "name": "路朝阳old",
+            "workNumber": "03781"
+          },
+          {
+            "name": "帅婧",
+            "workNumber": "04595"
+          },
+          {
+            "name": "郭进",
+            "workNumber": "03270"
+          },
+          {
+            "name": "刘奕彤",
+            "workNumber": "04705"
+          },
+          {
+            "name": "离职优化051601",
+            "workNumber": "04633"
+          },
+          {
+            "name": "宋声林2",
+            "workNumber": "03893"
+          },
+          {
+            "name": "宋声林3",
+            "workNumber": "03894"
+          },
+          {
+            "name": "宋声林4",
+            "workNumber": "03898"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          },
+          {
+            "name": "叶04690",
+            "workNumber": "04690"
+          },
+          {
+            "name": "别动CRANE自动化账号",
+            "workNumber": "04927"
+          }
+        ],
+        "businessName": "新版权限管理crane",
+        "businessCode": "CRANE",
+        "relatedRoles": null,
+        "createTime": "2024-07-12T04:58:23Z",
+        "updateTime": "2024-07-29T10:35:26Z",
+        "targetName": "属性管理",
+        "targetCode": "CRANE.ATTRIBUTE_CATEGORY",
+        "targetId": -1,
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "属性管理",
+        "children": [
+          {
+            "id": 151,
+            "feature": "CRANE.ATTRIBUTE_CATEGORY.FUNCTION_UPDATE",
+            "name": "新版权限管理crane.属性管理.编辑方法",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "编辑方法",
+            "targetCode": "CRANE.ATTRIBUTE_CATEGORY.FUNCTION_UPDATE",
+            "targetId": 151,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "编辑方法",
+            "children": null
+          },
+          {
+            "id": 144,
+            "feature": "CRANE.ATTRIBUTE_CATEGORY.VALUE_UPDATE",
+            "name": "新版权限管理crane.属性管理.编辑属性",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "编辑属性",
+            "targetCode": "CRANE.ATTRIBUTE_CATEGORY.VALUE_UPDATE",
+            "targetId": 144,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "编辑属性",
+            "children": null
+          },
+          {
+            "id": 140,
+            "feature": "CRANE.ATTRIBUTE_CATEGORY.UPDATE",
+            "name": "新版权限管理crane.属性管理.编辑维度",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "编辑维度",
+            "targetCode": "CRANE.ATTRIBUTE_CATEGORY.UPDATE",
+            "targetId": 140,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "编辑维度",
+            "children": null
+          },
+          {
+            "id": 134,
+            "feature": "CRANE.ATTRIBUTE_CATEGORY.QUERY",
+            "name": "新版权限管理crane.属性管理.查询维度",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-29T10:42:43Z",
+            "targetName": "查询维度",
+            "targetCode": "CRANE.ATTRIBUTE_CATEGORY.QUERY",
+            "targetId": 134,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "查询维度",
+            "children": null
+          },
+          {
+            "id": 157,
+            "feature": "CRANE.ATTRIBUTE_CATEGORY.CREATE",
+            "name": "新版权限管理crane.属性管理.新增维度",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "MEDIUM",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-29T10:35:26Z",
+            "targetName": "新增维度",
+            "targetCode": "CRANE.ATTRIBUTE_CATEGORY.CREATE",
+            "targetId": 157,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "新增维度",
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": -1,
+        "feature": "CRANE.BUSINESS",
+        "name": "新版权限管理crane.系统管理",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "99999",
+        "systemRoleName": "新版权限管理crane - 系统管理员",
+        "admin": [
+          {
+            "name": "曹维双",
+            "workNumber": "04606"
+          },
+          {
+            "name": "张红艳",
+            "workNumber": "02505"
+          },
+          {
+            "name": "王芳",
+            "workNumber": "02065"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712"
+          },
+          {
+            "name": "东征",
+            "workNumber": "01228"
+          },
+          {
+            "name": "宋声林",
+            "workNumber": "03541"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "刘老板-00001",
+            "workNumber": "00001"
+          },
+          {
+            "name": "波叔-00002",
+            "workNumber": "00002"
+          },
+          {
+            "name": "weiye4-04720",
+            "workNumber": "04720"
+          },
+          {
+            "name": "叶玮4",
+            "workNumber": "04714"
+          },
+          {
+            "name": "张hy-33",
+            "workNumber": "03478"
+          },
+          {
+            "name": "祁伟",
+            "workNumber": "04600"
+          },
+          {
+            "name": "孙聪new",
+            "workNumber": "00744"
+          },
+          {
+            "name": "路朝阳old",
+            "workNumber": "03781"
+          },
+          {
+            "name": "帅婧",
+            "workNumber": "04595"
+          },
+          {
+            "name": "郭进",
+            "workNumber": "03270"
+          },
+          {
+            "name": "刘奕彤",
+            "workNumber": "04705"
+          },
+          {
+            "name": "离职优化051601",
+            "workNumber": "04633"
+          },
+          {
+            "name": "宋声林2",
+            "workNumber": "03893"
+          },
+          {
+            "name": "宋声林3",
+            "workNumber": "03894"
+          },
+          {
+            "name": "宋声林4",
+            "workNumber": "03898"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          },
+          {
+            "name": "叶04690",
+            "workNumber": "04690"
+          },
+          {
+            "name": "别动CRANE自动化账号",
+            "workNumber": "04927"
+          }
+        ],
+        "businessName": "新版权限管理crane",
+        "businessCode": "CRANE",
+        "relatedRoles": null,
+        "createTime": "2024-07-12T04:58:23Z",
+        "updateTime": "2024-07-12T04:58:23Z",
+        "targetName": "系统管理",
+        "targetCode": "CRANE.BUSINESS",
+        "targetId": -1,
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "系统管理",
+        "children": [
+          {
+            "id": 130,
+            "feature": "CRANE.BUSINESS.UPDATE",
+            "name": "新版权限管理crane.系统管理.编辑系统",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "编辑系统",
+            "targetCode": "CRANE.BUSINESS.UPDATE",
+            "targetId": 130,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "编辑系统",
+            "children": null
+          },
+          {
+            "id": 147,
+            "feature": "CRANE.BUSINESS.QUERY",
+            "name": "新版权限管理crane.系统管理.查询系统",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "查询系统",
+            "targetCode": "CRANE.BUSINESS.QUERY",
+            "targetId": 147,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "查询系统",
+            "children": null
+          },
+          {
+            "id": 131,
+            "feature": "CRANE.BUSINESS.DELETE",
+            "name": "新版权限管理crane.系统管理.删除系统",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "删除系统",
+            "targetCode": "CRANE.BUSINESS.DELETE",
+            "targetId": 131,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "删除系统",
+            "children": null
+          },
+          {
+            "id": 153,
+            "feature": "CRANE.BUSINESS.CREATE",
+            "name": "新版权限管理crane.系统管理.新增系统",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "新增系统",
+            "targetCode": "CRANE.BUSINESS.CREATE",
+            "targetId": 153,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "新增系统",
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": -1,
+        "feature": "CRANE.EMPLOYEE",
+        "name": "新版权限管理crane.人员管理",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "99999",
+        "systemRoleName": "新版权限管理crane - 系统管理员",
+        "admin": [
+          {
+            "name": "曹维双",
+            "workNumber": "04606"
+          },
+          {
+            "name": "张红艳",
+            "workNumber": "02505"
+          },
+          {
+            "name": "王芳",
+            "workNumber": "02065"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712"
+          },
+          {
+            "name": "东征",
+            "workNumber": "01228"
+          },
+          {
+            "name": "宋声林",
+            "workNumber": "03541"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "刘老板-00001",
+            "workNumber": "00001"
+          },
+          {
+            "name": "波叔-00002",
+            "workNumber": "00002"
+          },
+          {
+            "name": "weiye4-04720",
+            "workNumber": "04720"
+          },
+          {
+            "name": "叶玮4",
+            "workNumber": "04714"
+          },
+          {
+            "name": "张hy-33",
+            "workNumber": "03478"
+          },
+          {
+            "name": "祁伟",
+            "workNumber": "04600"
+          },
+          {
+            "name": "孙聪new",
+            "workNumber": "00744"
+          },
+          {
+            "name": "路朝阳old",
+            "workNumber": "03781"
+          },
+          {
+            "name": "帅婧",
+            "workNumber": "04595"
+          },
+          {
+            "name": "郭进",
+            "workNumber": "03270"
+          },
+          {
+            "name": "刘奕彤",
+            "workNumber": "04705"
+          },
+          {
+            "name": "离职优化051601",
+            "workNumber": "04633"
+          },
+          {
+            "name": "宋声林2",
+            "workNumber": "03893"
+          },
+          {
+            "name": "宋声林3",
+            "workNumber": "03894"
+          },
+          {
+            "name": "宋声林4",
+            "workNumber": "03898"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          },
+          {
+            "name": "叶04690",
+            "workNumber": "04690"
+          },
+          {
+            "name": "别动CRANE自动化账号",
+            "workNumber": "04927"
+          }
+        ],
+        "businessName": "新版权限管理crane",
+        "businessCode": "CRANE",
+        "relatedRoles": null,
+        "createTime": "2024-07-12T04:58:23Z",
+        "updateTime": "2024-07-12T04:58:23Z",
+        "targetName": "人员管理",
+        "targetCode": "CRANE.EMPLOYEE",
+        "targetId": -1,
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "人员管理",
+        "children": [
+          {
+            "id": 129,
+            "feature": "CRANE.EMPLOYEE.QUERY",
+            "name": "新版权限管理crane.人员管理.查询人员",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "查询人员",
+            "targetCode": "CRANE.EMPLOYEE.QUERY",
+            "targetId": 129,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "查询人员",
+            "children": null
+          },
+          {
+            "id": 148,
+            "feature": "CRANE.EMPLOYEE.ROLE_ASSIGN",
+            "name": "新版权限管理crane.人员管理.分配角色",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "分配角色",
+            "targetCode": "CRANE.EMPLOYEE.ROLE_ASSIGN",
+            "targetId": 148,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "分配角色",
+            "children": null
+          },
+          {
+            "id": 141,
+            "feature": "CRANE.EMPLOYEE.DETAIL_QUERY",
+            "name": "新版权限管理crane.人员管理.人员详情",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "人员详情",
+            "targetCode": "CRANE.EMPLOYEE.DETAIL_QUERY",
+            "targetId": 141,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "人员详情",
+            "children": null
+          },
+          {
+            "id": 143,
+            "feature": "CRANE.EMPLOYEE.ATTRIBUTE_CREATE",
+            "name": "新版权限管理crane.人员管理.属性配置",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "属性配置",
+            "targetCode": "CRANE.EMPLOYEE.ATTRIBUTE_CREATE",
+            "targetId": 143,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "属性配置",
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": -1,
+        "feature": "CRANE.OPERATION_LOG",
+        "name": "新版权限管理crane.操作记录",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "新版权限管理crane - 系统管理员",
+        "admin": [
+          {
+            "name": "曹维双",
+            "workNumber": "04606"
+          },
+          {
+            "name": "张红艳",
+            "workNumber": "02505"
+          },
+          {
+            "name": "王芳",
+            "workNumber": "02065"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712"
+          },
+          {
+            "name": "东征",
+            "workNumber": "01228"
+          },
+          {
+            "name": "宋声林",
+            "workNumber": "03541"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "刘老板-00001",
+            "workNumber": "00001"
+          },
+          {
+            "name": "波叔-00002",
+            "workNumber": "00002"
+          },
+          {
+            "name": "weiye4-04720",
+            "workNumber": "04720"
+          },
+          {
+            "name": "叶玮4",
+            "workNumber": "04714"
+          },
+          {
+            "name": "张hy-33",
+            "workNumber": "03478"
+          },
+          {
+            "name": "祁伟",
+            "workNumber": "04600"
+          },
+          {
+            "name": "孙聪new",
+            "workNumber": "00744"
+          },
+          {
+            "name": "路朝阳old",
+            "workNumber": "03781"
+          },
+          {
+            "name": "帅婧",
+            "workNumber": "04595"
+          },
+          {
+            "name": "郭进",
+            "workNumber": "03270"
+          },
+          {
+            "name": "刘奕彤",
+            "workNumber": "04705"
+          },
+          {
+            "name": "离职优化051601",
+            "workNumber": "04633"
+          },
+          {
+            "name": "宋声林2",
+            "workNumber": "03893"
+          },
+          {
+            "name": "宋声林3",
+            "workNumber": "03894"
+          },
+          {
+            "name": "宋声林4",
+            "workNumber": "03898"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          },
+          {
+            "name": "叶04690",
+            "workNumber": "04690"
+          },
+          {
+            "name": "别动CRANE自动化账号",
+            "workNumber": "04927"
+          }
+        ],
+        "businessName": "新版权限管理crane",
+        "businessCode": "CRANE",
+        "relatedRoles": null,
+        "createTime": "2024-07-19T04:00:01Z",
+        "updateTime": "2024-07-19T04:00:01Z",
+        "targetName": "操作记录",
+        "targetCode": "CRANE.OPERATION_LOG",
+        "targetId": -1,
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "操作记录",
+        "children": [
+          {
+            "id": 209,
+            "feature": "CRANE.OPERATION_LOG.caozuojil",
+            "name": "新版权限管理crane.操作记录.操作记录",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-19T04:00:01Z",
+            "updateTime": "2024-07-19T04:00:01Z",
+            "targetName": "操作记录",
+            "targetCode": "CRANE.OPERATION_LOG.caozuojil",
+            "targetId": 209,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "操作记录",
+            "children": null
+          },
+          {
+            "id": 150,
+            "feature": "CRANE.OPERATION_LOG.QUERY",
+            "name": "新版权限管理crane.操作记录.查询操作记录",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "查询操作记录",
+            "targetCode": "CRANE.OPERATION_LOG.QUERY",
+            "targetId": 150,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "查询操作记录",
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": -1,
+        "feature": "CRANE.PERMISSION",
+        "name": "新版权限管理crane.权限管理",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "新版权限管理crane - 系统管理员",
+        "admin": [
+          {
+            "name": "曹维双",
+            "workNumber": "04606"
+          },
+          {
+            "name": "张红艳",
+            "workNumber": "02505"
+          },
+          {
+            "name": "王芳",
+            "workNumber": "02065"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712"
+          },
+          {
+            "name": "东征",
+            "workNumber": "01228"
+          },
+          {
+            "name": "宋声林",
+            "workNumber": "03541"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "刘老板-00001",
+            "workNumber": "00001"
+          },
+          {
+            "name": "波叔-00002",
+            "workNumber": "00002"
+          },
+          {
+            "name": "weiye4-04720",
+            "workNumber": "04720"
+          },
+          {
+            "name": "叶玮4",
+            "workNumber": "04714"
+          },
+          {
+            "name": "张hy-33",
+            "workNumber": "03478"
+          },
+          {
+            "name": "祁伟",
+            "workNumber": "04600"
+          },
+          {
+            "name": "孙聪new",
+            "workNumber": "00744"
+          },
+          {
+            "name": "路朝阳old",
+            "workNumber": "03781"
+          },
+          {
+            "name": "帅婧",
+            "workNumber": "04595"
+          },
+          {
+            "name": "郭进",
+            "workNumber": "03270"
+          },
+          {
+            "name": "刘奕彤",
+            "workNumber": "04705"
+          },
+          {
+            "name": "离职优化051601",
+            "workNumber": "04633"
+          },
+          {
+            "name": "宋声林2",
+            "workNumber": "03893"
+          },
+          {
+            "name": "宋声林3",
+            "workNumber": "03894"
+          },
+          {
+            "name": "宋声林4",
+            "workNumber": "03898"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          },
+          {
+            "name": "叶04690",
+            "workNumber": "04690"
+          },
+          {
+            "name": "别动CRANE自动化账号",
+            "workNumber": "04927"
+          }
+        ],
+        "businessName": "新版权限管理crane",
+        "businessCode": "CRANE",
+        "relatedRoles": null,
+        "createTime": "2024-07-12T04:58:23Z",
+        "updateTime": "2024-07-14T14:47:12Z",
+        "targetName": "权限管理",
+        "targetCode": "CRANE.PERMISSION",
+        "targetId": -1,
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "权限管理",
+        "children": [
+          {
+            "id": 136,
+            "feature": "CRANE.PERMISSION.UPDATE",
+            "name": "新版权限管理crane.权限管理.编辑权限",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              44,
+              75,
+              76
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 44,
+                "categoryCode": "data_authority_business",
+                "categoryName": "权限控制系统维度",
+                "source": "System",
+                "sourceType": "BUSINESS",
+                "showWay": "TREE",
+                "configWay": "AUTO",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              {
+                "id": 75,
+                "categoryCode": "edjagr",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              {
+                "id": 76,
+                "categoryCode": "test_auto_attribute",
+                "categoryName": "测试自动属性",
+                "source": "System",
+                "sourceType": "BUSINESS",
+                "showWay": "FLAT",
+                "configWay": "AUTO",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-14T14:47:29Z",
+            "targetName": "编辑权限",
+            "targetCode": "CRANE.PERMISSION.UPDATE",
+            "targetId": 136,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "编辑权限",
+            "children": null
+          },
+          {
+            "id": 132,
+            "feature": "CRANE.PERMISSION.QUERY",
+            "name": "新版权限管理crane.权限管理.查询权限",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              81
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 81,
+                "categoryCode": "zdpz",
+                "categoryName": "自动配置",
+                "source": "System",
+                "sourceType": "FEE_TYPES",
+                "showWay": "TREE",
+                "configWay": "AUTO",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-08-22T08:38:03Z",
+            "targetName": "查询权限",
+            "targetCode": "CRANE.PERMISSION.QUERY",
+            "targetId": 132,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "查询权限",
+            "children": null
+          },
+          {
+            "id": 154,
+            "feature": "CRANE.PERMISSION.EXPORT",
+            "name": "新版权限管理crane.权限管理.导出权限",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "导出权限",
+            "targetCode": "CRANE.PERMISSION.EXPORT",
+            "targetId": 154,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "导出权限",
+            "children": null
+          },
+          {
+            "id": 137,
+            "feature": "CRANE.PERMISSION.ROLE_ASSIGN",
+            "name": "新版权限管理crane.权限管理.关联角色",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              56
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 56,
+                "categoryCode": "Depar",
+                "categoryName": "部门",
+                "source": "System",
+                "sourceType": "DEPARTMENT",
+                "showWay": "TREE",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-08-06T10:41:57Z",
+            "targetName": "关联角色",
+            "targetCode": "CRANE.PERMISSION.ROLE_ASSIGN",
+            "targetId": 137,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "关联角色",
+            "children": null
+          },
+          {
+            "id": 138,
+            "feature": "CRANE.PERMISSION.DETAIL_QUERY",
+            "name": "新版权限管理crane.权限管理.权限详情",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "权限详情",
+            "targetCode": "CRANE.PERMISSION.DETAIL_QUERY",
+            "targetId": 138,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "权限详情",
+            "children": null
+          },
+          {
+            "id": 146,
+            "feature": "CRANE.PERMISSION.DELETE",
+            "name": "新版权限管理crane.权限管理.删除权限",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              44,
+              69
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 44,
+                "categoryCode": "data_authority_business",
+                "categoryName": "权限控制系统维度",
+                "source": "System",
+                "sourceType": "BUSINESS",
+                "showWay": "TREE",
+                "configWay": "AUTO",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              {
+                "id": 69,
+                "categoryCode": "test-zzz",
+                "categoryName": "手动配置",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-14T14:47:20Z",
+            "targetName": "删除权限",
+            "targetCode": "CRANE.PERMISSION.DELETE",
+            "targetId": 146,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "删除权限",
+            "children": null
+          },
+          {
+            "id": 155,
+            "feature": "CRANE.PERMISSION.CREATE",
+            "name": "新版权限管理crane.权限管理.新增权限",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              44
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 44,
+                "categoryCode": "data_authority_business",
+                "categoryName": "权限控制系统维度",
+                "source": "System",
+                "sourceType": "BUSINESS",
+                "showWay": "TREE",
+                "configWay": "AUTO",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-14T14:47:12Z",
+            "targetName": "新增权限",
+            "targetCode": "CRANE.PERMISSION.CREATE",
+            "targetId": 155,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "新增权限",
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": -1,
+        "feature": "CRANE.ROLE",
+        "name": "新版权限管理crane.角色管理",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "新版权限管理crane - 系统管理员",
+        "admin": [
+          {
+            "name": "曹维双",
+            "workNumber": "04606"
+          },
+          {
+            "name": "张红艳",
+            "workNumber": "02505"
+          },
+          {
+            "name": "王芳",
+            "workNumber": "02065"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712"
+          },
+          {
+            "name": "东征",
+            "workNumber": "01228"
+          },
+          {
+            "name": "宋声林",
+            "workNumber": "03541"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "刘老板-00001",
+            "workNumber": "00001"
+          },
+          {
+            "name": "波叔-00002",
+            "workNumber": "00002"
+          },
+          {
+            "name": "weiye4-04720",
+            "workNumber": "04720"
+          },
+          {
+            "name": "叶玮4",
+            "workNumber": "04714"
+          },
+          {
+            "name": "张hy-33",
+            "workNumber": "03478"
+          },
+          {
+            "name": "祁伟",
+            "workNumber": "04600"
+          },
+          {
+            "name": "孙聪new",
+            "workNumber": "00744"
+          },
+          {
+            "name": "路朝阳old",
+            "workNumber": "03781"
+          },
+          {
+            "name": "帅婧",
+            "workNumber": "04595"
+          },
+          {
+            "name": "郭进",
+            "workNumber": "03270"
+          },
+          {
+            "name": "刘奕彤",
+            "workNumber": "04705"
+          },
+          {
+            "name": "离职优化051601",
+            "workNumber": "04633"
+          },
+          {
+            "name": "宋声林2",
+            "workNumber": "03893"
+          },
+          {
+            "name": "宋声林3",
+            "workNumber": "03894"
+          },
+          {
+            "name": "宋声林4",
+            "workNumber": "03898"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          },
+          {
+            "name": "叶04690",
+            "workNumber": "04690"
+          },
+          {
+            "name": "别动CRANE自动化账号",
+            "workNumber": "04927"
+          }
+        ],
+        "businessName": "新版权限管理crane",
+        "businessCode": "CRANE",
+        "relatedRoles": null,
+        "createTime": "2024-07-12T04:58:23Z",
+        "updateTime": "2024-07-14T14:47:45Z",
+        "targetName": "角色管理",
+        "targetCode": "CRANE.ROLE",
+        "targetId": -1,
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "角色管理",
+        "children": [
+          {
+            "id": 142,
+            "feature": "CRANE.ROLE.UPDATE",
+            "name": "新版权限管理crane.角色管理.编辑角色",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              44
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 44,
+                "categoryCode": "data_authority_business",
+                "categoryName": "权限控制系统维度",
+                "source": "System",
+                "sourceType": "BUSINESS",
+                "showWay": "TREE",
+                "configWay": "AUTO",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-14T14:47:36Z",
+            "targetName": "编辑角色",
+            "targetCode": "CRANE.ROLE.UPDATE",
+            "targetId": 142,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "编辑角色",
+            "children": null
+          },
+          {
+            "id": 139,
+            "feature": "CRANE.ROLE.QUERY",
+            "name": "新版权限管理crane.角色管理.查询角色",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "查询角色",
+            "targetCode": "CRANE.ROLE.QUERY",
+            "targetId": 139,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "查询角色",
+            "children": null
+          },
+          {
+            "id": 149,
+            "feature": "CRANE.ROLE.EXPORT",
+            "name": "新版权限管理crane.角色管理.导出角色",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "导出角色",
+            "targetCode": "CRANE.ROLE.EXPORT",
+            "targetId": 149,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "导出角色",
+            "children": null
+          },
+          {
+            "id": 135,
+            "feature": "CRANE.ROLE.PERMISSION_ASSIGN",
+            "name": "新版权限管理crane.角色管理.分配权限",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "分配权限",
+            "targetCode": "CRANE.ROLE.PERMISSION_ASSIGN",
+            "targetId": 135,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "分配权限",
+            "children": null
+          },
+          {
+            "id": 156,
+            "feature": "CRANE.ROLE.EMPLOYEE_ASSIGN",
+            "name": "新版权限管理crane.角色管理.分配员工",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "分配员工",
+            "targetCode": "CRANE.ROLE.EMPLOYEE_ASSIGN",
+            "targetId": 156,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "分配员工",
+            "children": null
+          },
+          {
+            "id": 133,
+            "feature": "CRANE.ROLE.DETAIL_QUERY",
+            "name": "新版权限管理crane.角色管理.角色详情",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": false,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "99999",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-12T04:58:23Z",
+            "targetName": "角色详情",
+            "targetCode": "CRANE.ROLE.DETAIL_QUERY",
+            "targetId": 133,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "角色详情",
+            "children": null
+          },
+          {
+            "id": 145,
+            "feature": "CRANE.ROLE.DELETE",
+            "name": "新版权限管理crane.角色管理.删除角色",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              44
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 44,
+                "categoryCode": "data_authority_business",
+                "categoryName": "权限控制系统维度",
+                "source": "System",
+                "sourceType": "BUSINESS",
+                "showWay": "TREE",
+                "configWay": "AUTO",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-14T14:47:50Z",
+            "targetName": "删除角色",
+            "targetCode": "CRANE.ROLE.DELETE",
+            "targetId": 145,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "删除角色",
+            "children": null
+          },
+          {
+            "id": 152,
+            "feature": "CRANE.ROLE.CREATE",
+            "name": "新版权限管理crane.角色管理.新增角色",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "HIGH",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              44
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 44,
+                "categoryCode": "data_authority_business",
+                "categoryName": "权限控制系统维度",
+                "source": "System",
+                "sourceType": "BUSINESS",
+                "showWay": "TREE",
+                "configWay": "AUTO",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "新版权限管理crane - 系统管理员",
+            "admin": [
+              {
+                "name": "曹维双",
+                "workNumber": "04606"
+              },
+              {
+                "name": "张红艳",
+                "workNumber": "02505"
+              },
+              {
+                "name": "王芳",
+                "workNumber": "02065"
+              },
+              {
+                "name": "叶玮2",
+                "workNumber": "04712"
+              },
+              {
+                "name": "东征",
+                "workNumber": "01228"
+              },
+              {
+                "name": "宋声林",
+                "workNumber": "03541"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "刘老板-00001",
+                "workNumber": "00001"
+              },
+              {
+                "name": "波叔-00002",
+                "workNumber": "00002"
+              },
+              {
+                "name": "weiye4-04720",
+                "workNumber": "04720"
+              },
+              {
+                "name": "叶玮4",
+                "workNumber": "04714"
+              },
+              {
+                "name": "张hy-33",
+                "workNumber": "03478"
+              },
+              {
+                "name": "祁伟",
+                "workNumber": "04600"
+              },
+              {
+                "name": "孙聪new",
+                "workNumber": "00744"
+              },
+              {
+                "name": "路朝阳old",
+                "workNumber": "03781"
+              },
+              {
+                "name": "帅婧",
+                "workNumber": "04595"
+              },
+              {
+                "name": "郭进",
+                "workNumber": "03270"
+              },
+              {
+                "name": "刘奕彤",
+                "workNumber": "04705"
+              },
+              {
+                "name": "离职优化051601",
+                "workNumber": "04633"
+              },
+              {
+                "name": "宋声林2",
+                "workNumber": "03893"
+              },
+              {
+                "name": "宋声林3",
+                "workNumber": "03894"
+              },
+              {
+                "name": "宋声林4",
+                "workNumber": "03898"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              },
+              {
+                "name": "叶04690",
+                "workNumber": "04690"
+              },
+              {
+                "name": "别动CRANE自动化账号",
+                "workNumber": "04927"
+              }
+            ],
+            "businessName": "新版权限管理crane",
+            "businessCode": "CRANE",
+            "relatedRoles": null,
+            "createTime": "2024-07-12T04:58:23Z",
+            "updateTime": "2024-07-14T14:47:45Z",
+            "targetName": "新增角色",
+            "targetCode": "CRANE.ROLE.CREATE",
+            "targetId": 152,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "新增角色",
+            "children": null
+          }
+        ]
+      }
+    ],
+    "total": 7,
+    "pageNo": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "size": 7
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1725951310521,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
