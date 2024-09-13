@@ -1,0 +1,12 @@
+{
+  "businessCode": "DS",
+  "flowCode": "MPT",
+  "ownerWorkNumber": "03541",
+  "businessId": 200001,
+  "priority": "P1",
+  "parameter": {
+    "employeeType": true,
+    "insideSuperWorkNumber": "00251"
+  },
+  "auditComment": "宋测试内部员工审批"
+}
