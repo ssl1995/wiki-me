@@ -1,0 +1,10 @@
+{
+  "id": 111,
+  "categoryName": "测试新增0914",
+  "categoryCode": "t---xx",
+  "source": "System",
+  "sourceType": "FINANCIAL_ENTITY",
+  "showWay": "FLAT",
+  "configWay": "MANUAL",
+  "status": "ABLE"
+}
