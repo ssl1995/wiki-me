@@ -1,0 +1,4 @@
+员工关联属性
+com.yqg.crane.admin.controller.EmployeeAttributeController#relateAttribute
+
+{"employeeNumber":"03541","categoryList":[{"attributeCategoryId":6,"attributeValueIds":[-1]},{"attributeCategoryId":44,"attributeValueIds":[-1,355,384,392,192,398,393],"categoryName":"权限控制系统维度","attributeNames":"全量、宋的系统、逻辑测试2、test1、新版权限管理crane、宋测试03875、0806测试叶"}]}
