@@ -1,0 +1,38 @@
+财务系统diff
+https://code.yangqianguan.com/D403988
+
+
+1、改pom文件
+<dependency>
+            <groupId>com.yqg.chidori</groupId>
+            <artifactId>chidori-spring-boot-starter</artifactId>
+            <version>2.2.2-SNAPSHOT</version>
+</dependency>
+
+
+ <dependency>
+            <groupId>com.yqg.crane</groupId>
+            <artifactId>crane-client</artifactId>
+            <version>1.0.6-SNAPSHOT</version>
+ </dependency>
+
+2、xxWebConfiguration加上Crane系统的配置
+@EnableCraneClientSpringApi
+
+3、后端按照@PreAuthorize去整理Controller控制路由层使用的所有情况
+比如：1、复合权限点的判断改成一个。2、如果有数据权限，可以使用Crane的数据权限。3、使用角色判断的，能否都统一改成权限点
+
+4、举例子
+4.1 无数据权限的判断
+@PreAuthorize("hasAuthority('FINANCE.ACCOUNT_AGE.QUERY')
+
+4.2 有数据权限的判断
+@PreAuthorize("@privilegeChecker.check('company', 'FINANCE.ASSET_RECONCILIATION.QUERY', #companyCode)")
+
+@PreAuthorize("hasAuthority('FINANCE.BALANCE.QUERY') " + "and @dataAuthorityChecker.checkDataAuthority(authentication, 'FINANCE.BALANCE.QUERY', 'finance_company_code', #companyCode)")
+
+属性管理：
+财务主体（finance_company_code），系统取值，问下小梅：编辑方法的具体作用和怎么使用？
+
+
+5、测试完成上线时，需要在chidori上做一个配置：crane.switch.newAuthorityBusinessList，配置上业务方自己的businessCode
