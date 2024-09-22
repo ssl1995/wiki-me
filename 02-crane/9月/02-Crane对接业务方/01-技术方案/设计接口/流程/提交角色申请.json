@@ -1,0 +1,15 @@
+{
+    "submitWorkNumber": "00251",
+    "applyWorkNumber": [
+        "00251",
+        "04721"
+    ],
+    "applyBusinessCode": "songTestSys",
+    "roleVoList": [
+        {
+            "roleId": 1,
+            "validTime": "SEVEN_DAYS",
+            "applyReason": "项目需要"
+        }
+    ]
+}

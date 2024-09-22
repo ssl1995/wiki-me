@@ -1,0 +1,62 @@
+1、都有
+https://oa-test.yangqianguan.com/oa/flow/detail?flowId=DBeY1T1
+{
+  "businessCode": "CR",
+  "flowCode": "RAY",
+  "businessId": 100002,
+  "priority": "P1",
+  "ownerWorkNumber": "03541",
+  "parameter": {
+    "leaderWorkNumber": "00251",
+    "adminWorkNumber": "00001"
+  },
+  "auditComment": "宋测试1"
+}
+
+
+2、只有管理员
+https://oa-test.yangqianguan.com/oa/flow/detail?flowId=101423
+
+{
+  "businessCode": "CR",
+  "flowCode": "RAY",
+  "businessId": 100002,
+  "priority": "P1",
+  "ownerWorkNumber": "03541",
+  "parameter": {
+    "leaderWorkNumber":null,
+    "adminWorkNumber": "00001"
+  },
+  "auditComment": "宋测试2"
+}
+
+3、只有上级
+https://oa-test.yangqianguan.com/oa/flow/detail?flowId=pQbnEIz
+{
+  "businessCode": "CR",
+  "flowCode": "RAY",
+  "businessId": 100004,
+  "priority": "P1",
+  "ownerWorkNumber": "03541",
+  "parameter": {
+    "leaderWorkNumber":"00251",
+    "adminWorkNumber": null
+  },
+  "auditComment": "宋测试4"
+}
+
+4、全通过
+https://oa-test.yangqianguan.com/oa/flow/detail?flowId=101426
+
+{
+  "businessCode": "CR",
+  "flowCode": "RAY",
+  "businessId": 100005,
+  "priority": "P1",
+  "ownerWorkNumber": "03541",
+  "parameter": {
+    "leaderWorkNumber": null,
+    "adminWorkNumber": null
+  },
+  "auditComment": "宋测试5"
+}

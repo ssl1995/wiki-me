@@ -1,0 +1,37 @@
+{
+    "body": {
+        "businessRoles": [
+            {
+                "businessCode": "yanshou_wf",
+                "businessName": "验收",
+                "roleTrees": [
+                    {
+                        "id": 424,
+                        "parentId": null,
+                        "parentName": null,
+                        "name": "验收 - 系统管理员",
+                        "timeStatus": "FOREVER", // FOREVER=永久，TEMP=临时
+                        "children": [
+                            {
+                                "id": 426,
+                                "parentId": 424,
+                                "parentName": null,
+                                "name": "财务专员",
+                                "timeStatus": "FOREVER" // FOREVER=永久，TEMP=临时
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "totalCount": 18
+    },
+    "status": {
+        "code": 0,
+        "type": "",
+        "detail": "",
+        "serverResponseTime": 1726823565880,
+        "displayType": "TOAST",
+        "url": null
+    }
+}

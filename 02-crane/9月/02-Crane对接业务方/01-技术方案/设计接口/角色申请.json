@@ -1,0 +1,29 @@
+{
+    "body": {
+        "list": [
+            {
+                "id": 4531,
+                "parentId": null,
+                "parentName": null,
+                "name": "业务管理员",
+                "ownStatus": {
+                    "timeStatus": "FOREVER", // FOREVER=永久，TEMP=临时
+                    "diffDay": 10 // 到期天数，当timeStatus=TEMP时，才返回
+                }
+            }
+        ],
+        "total": 2,
+        "pageNo": 1,
+        "pageSize": 10,
+        "pages": 1,
+        "size": 2
+    },
+    "status": {
+        "code": 0,
+        "type": "",
+        "detail": "",
+        "serverResponseTime": 1726824640751,
+        "displayType": "TOAST",
+        "url": null
+    }
+}
