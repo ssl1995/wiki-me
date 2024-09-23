@@ -107,7 +107,7 @@
       "id": 3,
       "name": "launcher_specific_user",
       "description": "adminWorkNumber",
-      "alias": "角色所属系统管理员审批",
+      "alias": "系统管理员审批",
       "action": [
         1,
         2

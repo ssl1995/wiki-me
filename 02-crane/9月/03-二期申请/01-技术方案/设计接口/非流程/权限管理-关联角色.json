@@ -1,0 +1,383 @@
+{
+  "body": {
+    "list": [
+      {
+        "id": 4589,
+        "parentId": null,
+        "parentName": null,
+        "name": "测试专用0813-勿动",
+        "businessCode": "FINANCE",
+        "businessName": null,
+        "desc": "",
+        "level": 1,
+        "type": "GENERAL",
+        "status": "ABLE",
+        "reason": "",
+        "systemRoleName": null,
+        "superSystemRoleName": null,
+        "admin": null,
+        "superAdmin": null,
+        "userCount": 2,
+        "isSystemAdmin": false,
+        "isSuperSystemAdmin": false,
+        "permissionId": 716,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "dataRule": {
+          "ruleItems": [
+            {
+              "attributeCategoryId": 62,
+              "attributeCategoryName": "财务主体",
+              "attributeCategoryCode": "finance_company_code",
+              "attributeCategoryVO": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributeFunctionId": null,
+              "attributeFunctionCode": null,
+              "attributeFunctionName": null,
+              "functionValues": null,
+              "attributeValues": [
+                {
+                  "id": 9,
+                  "categoryId": 62,
+                  "attributeCode": "YY",
+                  "attributeName": "岩屿",
+                  "specialField": false
+                }
+              ],
+              "allAttributeValues": [],
+              "attributeValueIds": [
+                9
+              ],
+              "attributeValueNames": [
+                "岩屿"
+              ],
+              "operator": null
+            }
+          ],
+          "logicalOperators": null
+        },
+        "targetId": 4589,
+        "targetCode": "FINANCE",
+        "operateType": "ROLE",
+        "targetName": "测试专用0813-勿动",
+        "errorMsg": "",
+        "children": null
+      },
+      {
+        "id": 4596,
+        "parentId": null,
+        "parentName": null,
+        "name": "外部yewei",
+        "businessCode": "FINANCE",
+        "businessName": null,
+        "desc": "",
+        "level": 1,
+        "type": "GENERAL",
+        "status": "ABLE",
+        "reason": "",
+        "systemRoleName": null,
+        "superSystemRoleName": null,
+        "admin": null,
+        "superAdmin": null,
+        "userCount": 2,
+        "isSystemAdmin": false,
+        "isSuperSystemAdmin": false,
+        "permissionId": 716,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "dataRule": {
+          "ruleItems": [
+            {
+              "attributeCategoryId": 62,
+              "attributeCategoryName": "财务主体",
+              "attributeCategoryCode": "finance_company_code",
+              "attributeCategoryVO": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributeFunctionId": null,
+              "attributeFunctionCode": null,
+              "attributeFunctionName": null,
+              "functionValues": null,
+              "attributeValues": [
+                {
+                  "id": -1,
+                  "categoryId": 62,
+                  "attributeCode": "all_values",
+                  "attributeName": "全量",
+                  "specialField": false
+                }
+              ],
+              "allAttributeValues": [],
+              "attributeValueIds": [
+                -1
+              ],
+              "attributeValueNames": [
+                "全量"
+              ],
+              "operator": null
+            }
+          ],
+          "logicalOperators": null
+        },
+        "targetId": 4596,
+        "targetCode": "FINANCE",
+        "operateType": "ROLE",
+        "targetName": "外部yewei",
+        "errorMsg": "",
+        "children": null
+      },
+      {
+        "id": 4599,
+        "parentId": null,
+        "parentName": null,
+        "name": "产品验收",
+        "businessCode": "FINANCE",
+        "businessName": null,
+        "desc": "818产品验收",
+        "level": 1,
+        "type": "INTERNAL",
+        "status": "ABLE",
+        "reason": "",
+        "systemRoleName": null,
+        "superSystemRoleName": null,
+        "admin": null,
+        "superAdmin": null,
+        "userCount": 1,
+        "isSystemAdmin": false,
+        "isSuperSystemAdmin": false,
+        "permissionId": 716,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "dataRule": {
+          "ruleItems": [
+            {
+              "attributeCategoryId": 62,
+              "attributeCategoryName": "财务主体",
+              "attributeCategoryCode": "finance_company_code",
+              "attributeCategoryVO": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributeFunctionId": 438,
+              "attributeFunctionCode": "belong_attribute",
+              "attributeFunctionName": "用户属性",
+              "functionValues": null,
+              "attributeValues": [],
+              "allAttributeValues": [],
+              "attributeValueIds": null,
+              "attributeValueNames": null,
+              "operator": null
+            }
+          ],
+          "logicalOperators": null
+        },
+        "targetId": 4599,
+        "targetCode": "FINANCE",
+        "operateType": "ROLE",
+        "targetName": "产品验收",
+        "errorMsg": "",
+        "children": null
+      },
+      {
+        "id": 4595,
+        "parentId": 4594,
+        "parentName": null,
+        "name": "角色小号",
+        "businessCode": "FINANCE",
+        "businessName": null,
+        "desc": "",
+        "level": 2,
+        "type": "GENERAL",
+        "status": "ABLE",
+        "reason": "",
+        "systemRoleName": null,
+        "superSystemRoleName": null,
+        "admin": null,
+        "superAdmin": null,
+        "userCount": 0,
+        "isSystemAdmin": false,
+        "isSuperSystemAdmin": false,
+        "permissionId": 716,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "dataRule": {
+          "ruleItems": [
+            {
+              "attributeCategoryId": 62,
+              "attributeCategoryName": "财务主体",
+              "attributeCategoryCode": "finance_company_code",
+              "attributeCategoryVO": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributeFunctionId": null,
+              "attributeFunctionCode": null,
+              "attributeFunctionName": null,
+              "functionValues": null,
+              "attributeValues": [
+                {
+                  "id": 8,
+                  "categoryId": 62,
+                  "attributeCode": "LY",
+                  "attributeName": "瓴岳",
+                  "specialField": false
+                },
+                {
+                  "id": 9,
+                  "categoryId": 62,
+                  "attributeCode": "YY",
+                  "attributeName": "岩屿",
+                  "specialField": false
+                },
+                {
+                  "id": 11,
+                  "categoryId": 62,
+                  "attributeCode": "MT",
+                  "attributeName": "米投",
+                  "specialField": false
+                }
+              ],
+              "allAttributeValues": [],
+              "attributeValueIds": [
+                8,
+                9,
+                11
+              ],
+              "attributeValueNames": [
+                "瓴岳",
+                "岩屿",
+                "米投"
+              ],
+              "operator": null
+            }
+          ],
+          "logicalOperators": null
+        },
+        "targetId": 4595,
+        "targetCode": "FINANCE",
+        "operateType": "ROLE",
+        "targetName": "角色小号",
+        "errorMsg": "",
+        "children": null
+      },
+      {
+        "id": 4377,
+        "parentId": 4376,
+        "parentName": null,
+        "name": "后端开发 - 财务系统",
+        "businessCode": "FINANCE",
+        "businessName": null,
+        "desc": "",
+        "level": 3,
+        "type": "INTERNAL",
+        "status": "ABLE",
+        "reason": "",
+        "systemRoleName": null,
+        "superSystemRoleName": null,
+        "admin": null,
+        "superAdmin": null,
+        "userCount": 2,
+        "isSystemAdmin": false,
+        "isSuperSystemAdmin": false,
+        "permissionId": 716,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "dataRule": {
+          "ruleItems": [
+            {
+              "attributeCategoryId": 62,
+              "attributeCategoryName": "财务主体",
+              "attributeCategoryCode": "finance_company_code",
+              "attributeCategoryVO": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributeFunctionId": 438,
+              "attributeFunctionCode": "belong_attribute",
+              "attributeFunctionName": "用户属性",
+              "functionValues": null,
+              "attributeValues": [],
+              "allAttributeValues": [],
+              "attributeValueIds": null,
+              "attributeValueNames": null,
+              "operator": null
+            }
+          ],
+          "logicalOperators": null
+        },
+        "targetId": 4377,
+        "targetCode": "FINANCE",
+        "operateType": "ROLE",
+        "targetName": "后端开发 - 财务系统",
+        "errorMsg": "",
+        "children": null
+      }
+    ],
+    "total": 5,
+    "pageNo": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "size": 5
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1727075531520,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

@@ -1,0 +1,1845 @@
+{
+	"body": [
+		{
+			"id": 4362,
+			"parentId": null,
+			"parentName": null,
+			"name": "财务系统 - 系统管理员",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "INTERNAL",
+			"status": "DELETED",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 4,
+			"isSystemAdmin": true,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "FOREVER",
+				"dayDiff": null
+			},
+			"targetId": 4362,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "财务系统 - 系统管理员",
+			"operateType": "ROLE",
+			"children": null
+		},
+		{
+			"id": 4363,
+			"parentId": null,
+			"parentName": null,
+			"name": "财务总监",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "INTERNAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 7,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "FOREVER",
+				"dayDiff": null
+			},
+			"targetId": 4363,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "财务总监",
+			"operateType": "ROLE",
+			"children": [
+				{
+					"id": 4367,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "财务报告 - 国内",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 4,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "FOREVER",
+						"dayDiff": null
+					},
+					"targetId": 4367,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "财务报告 - 国内",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4368,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "财务报告 - 海外",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4368,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "财务报告 - 海外",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4364,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "财务测试员",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4364,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "财务测试员",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4369,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "财务经理 - 国内",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4369,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "财务经理 - 国内",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4370,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "财务经理 - 海外",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4370,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "财务经理 - 海外",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4372,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "出纳 - 国内",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4372,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "出纳 - 国内",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4373,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "关联方资金往来管理",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4373,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "关联方资金往来管理",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4374,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "核算主管 - 国内",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4374,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "核算主管 - 国内",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4378,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "会计",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 1,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4378,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "会计",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4379,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "会计主管",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4379,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "会计主管",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4380,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "内审内控总监",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4380,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "内审内控总监",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4381,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "税务经理 - 国内",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4381,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "税务经理 - 国内",
+					"operateType": "ROLE",
+					"children": [
+						{
+							"id": 4383,
+							"parentId": 4381,
+							"parentName": null,
+							"name": "税务专员-国内",
+							"businessCode": "FINANCE",
+							"businessName": "财务系统",
+							"desc": "",
+							"level": 3,
+							"type": "INTERNAL",
+							"status": "ABLE",
+							"reason": "",
+							"systemRoleName": "财务系统 - 系统管理员",
+							"superSystemRoleName": null,
+							"admin": [
+								{
+									"name": "宋佩瑶",
+									"workNumber": "02124"
+								},
+								{
+									"name": "lilixian",
+									"workNumber": "00251"
+								},
+								{
+									"name": "王昕",
+									"workNumber": "02616"
+								},
+								{
+									"name": "王昕",
+									"workNumber": "01240"
+								}
+							],
+							"superAdmin": null,
+							"userCount": 0,
+							"isSystemAdmin": false,
+							"isSuperSystemAdmin": false,
+							"permissionId": null,
+							"ownStatusVO": {
+								"timeStatus": "NO",
+								"dayDiff": null
+							},
+							"targetId": 4383,
+							"targetCode": "FINANCE",
+							"errorMsg": "",
+							"targetName": "税务专员-国内",
+							"operateType": "ROLE",
+							"children": null
+						}
+					]
+				},
+				{
+					"id": 4382,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "税务经理 - 海外",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4382,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "税务经理 - 海外",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4384,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "预算分析BP - 国内",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4384,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "预算分析BP - 国内",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4385,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "预算分析BP - 海外",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4385,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "预算分析BP - 海外",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4386,
+					"parentId": 4363,
+					"parentName": null,
+					"name": "云逸 - 财务专员",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4386,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "云逸 - 财务专员",
+					"operateType": "ROLE",
+					"children": null
+				}
+			]
+		},
+		{
+			"id": 4365,
+			"parentId": null,
+			"parentName": null,
+			"name": "CPO",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "INTERNAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 0,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "NO",
+				"dayDiff": null
+			},
+			"targetId": 4365,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "CPO",
+			"operateType": "ROLE",
+			"children": [
+				{
+					"id": 4366,
+					"parentId": 4365,
+					"parentName": null,
+					"name": "OA产品 - 财务合同人力",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4366,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "OA产品 - 财务合同人力",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4371,
+					"parentId": 4365,
+					"parentName": null,
+					"name": "产品经理 - 财务系统 - Lead",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4371,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "产品经理 - 财务系统 - Lead",
+					"operateType": "ROLE",
+					"children": null
+				}
+			]
+		},
+		{
+			"id": 4375,
+			"parentId": null,
+			"parentName": null,
+			"name": "CTO",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "INTERNAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 1,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "NO",
+				"dayDiff": null
+			},
+			"targetId": 4375,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "CTO",
+			"operateType": "ROLE",
+			"children": [
+				{
+					"id": 4579,
+					"parentId": 4375,
+					"parentName": null,
+					"name": "测试 Lead",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4579,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "测试 Lead",
+					"operateType": "ROLE",
+					"children": null
+				},
+				{
+					"id": 4376,
+					"parentId": 4375,
+					"parentName": null,
+					"name": "后端Lead - 内部工具",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4376,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "后端Lead - 内部工具",
+					"operateType": "ROLE",
+					"children": [
+						{
+							"id": 4377,
+							"parentId": 4376,
+							"parentName": null,
+							"name": "后端开发 - 财务系统",
+							"businessCode": "FINANCE",
+							"businessName": "财务系统",
+							"desc": "",
+							"level": 3,
+							"type": "INTERNAL",
+							"status": "ABLE",
+							"reason": "",
+							"systemRoleName": "财务系统 - 系统管理员",
+							"superSystemRoleName": null,
+							"admin": [
+								{
+									"name": "宋佩瑶",
+									"workNumber": "02124"
+								},
+								{
+									"name": "lilixian",
+									"workNumber": "00251"
+								},
+								{
+									"name": "王昕",
+									"workNumber": "02616"
+								},
+								{
+									"name": "王昕",
+									"workNumber": "01240"
+								}
+							],
+							"superAdmin": null,
+							"userCount": 2,
+							"isSystemAdmin": false,
+							"isSuperSystemAdmin": false,
+							"permissionId": null,
+							"ownStatusVO": {
+								"timeStatus": "NO",
+								"dayDiff": null
+							},
+							"targetId": 4377,
+							"targetCode": "FINANCE",
+							"errorMsg": "",
+							"targetName": "后端开发 - 财务系统",
+							"operateType": "ROLE",
+							"children": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 4387,
+			"parentId": null,
+			"parentName": null,
+			"name": "资金运营和内审内控负责人",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "INTERNAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 1,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "NO",
+				"dayDiff": null
+			},
+			"targetId": 4387,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "资金运营和内审内控负责人",
+			"operateType": "ROLE",
+			"children": null
+		},
+		{
+			"id": 4580,
+			"parentId": null,
+			"parentName": null,
+			"name": "测试专用0812",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "INTERNAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 2,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "NO",
+				"dayDiff": null
+			},
+			"targetId": 4580,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "测试专用0812",
+			"operateType": "ROLE",
+			"children": [
+				{
+					"id": 4592,
+					"parentId": 4580,
+					"parentName": null,
+					"name": "数据范围测试",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 1,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4592,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "数据范围测试",
+					"operateType": "ROLE",
+					"children": null
+				}
+			]
+		},
+		{
+			"id": 4589,
+			"parentId": null,
+			"parentName": null,
+			"name": "测试专用0813-勿动",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "GENERAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 2,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "NO",
+				"dayDiff": null
+			},
+			"targetId": 4589,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "测试专用0813-勿动",
+			"operateType": "ROLE",
+			"children": [
+				{
+					"id": 4590,
+					"parentId": 4589,
+					"parentName": null,
+					"name": "二级测试",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "INTERNAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 1,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4590,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "二级测试",
+					"operateType": "ROLE",
+					"children": [
+						{
+							"id": 4591,
+							"parentId": 4590,
+							"parentName": null,
+							"name": "三级测试yewei",
+							"businessCode": "FINANCE",
+							"businessName": "财务系统",
+							"desc": "",
+							"level": 3,
+							"type": "GENERAL",
+							"status": "ABLE",
+							"reason": "",
+							"systemRoleName": "财务系统 - 系统管理员",
+							"superSystemRoleName": null,
+							"admin": [
+								{
+									"name": "宋佩瑶",
+									"workNumber": "02124"
+								},
+								{
+									"name": "lilixian",
+									"workNumber": "00251"
+								},
+								{
+									"name": "王昕",
+									"workNumber": "02616"
+								},
+								{
+									"name": "王昕",
+									"workNumber": "01240"
+								}
+							],
+							"superAdmin": null,
+							"userCount": 0,
+							"isSystemAdmin": false,
+							"isSuperSystemAdmin": false,
+							"permissionId": null,
+							"ownStatusVO": {
+								"timeStatus": "NO",
+								"dayDiff": null
+							},
+							"targetId": 4591,
+							"targetCode": "FINANCE",
+							"errorMsg": "",
+							"targetName": "三级测试yewei",
+							"operateType": "ROLE",
+							"children": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 4594,
+			"parentId": null,
+			"parentName": null,
+			"name": "批量导入关联测试",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "INTERNAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 0,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "NO",
+				"dayDiff": null
+			},
+			"targetId": 4594,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "批量导入关联测试",
+			"operateType": "ROLE",
+			"children": [
+				{
+					"id": 4595,
+					"parentId": 4594,
+					"parentName": null,
+					"name": "角色小号",
+					"businessCode": "FINANCE",
+					"businessName": "财务系统",
+					"desc": "",
+					"level": 2,
+					"type": "GENERAL",
+					"status": "ABLE",
+					"reason": "",
+					"systemRoleName": "财务系统 - 系统管理员",
+					"superSystemRoleName": null,
+					"admin": [
+						{
+							"name": "宋佩瑶",
+							"workNumber": "02124"
+						},
+						{
+							"name": "lilixian",
+							"workNumber": "00251"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "02616"
+						},
+						{
+							"name": "王昕",
+							"workNumber": "01240"
+						}
+					],
+					"superAdmin": null,
+					"userCount": 0,
+					"isSystemAdmin": false,
+					"isSuperSystemAdmin": false,
+					"permissionId": null,
+					"ownStatusVO": {
+						"timeStatus": "NO",
+						"dayDiff": null
+					},
+					"targetId": 4595,
+					"targetCode": "FINANCE",
+					"errorMsg": "",
+					"targetName": "角色小号",
+					"operateType": "ROLE",
+					"children": null
+				}
+			]
+		},
+		{
+			"id": 4596,
+			"parentId": null,
+			"parentName": null,
+			"name": "外部yewei",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "GENERAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 2,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "NO",
+				"dayDiff": null
+			},
+			"targetId": 4596,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "外部yewei",
+			"operateType": "ROLE",
+			"children": null
+		},
+		{
+			"id": 4598,
+			"parentId": null,
+			"parentName": null,
+			"name": "通用yewei",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "GENERAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 1,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "NO",
+				"dayDiff": null
+			},
+			"targetId": 4598,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "通用yewei",
+			"operateType": "ROLE",
+			"children": null
+		},
+		{
+			"id": 4599,
+			"parentId": null,
+			"parentName": null,
+			"name": "产品验收",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "818产品验收",
+			"level": 1,
+			"type": "INTERNAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 1,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "NO",
+				"dayDiff": null
+			},
+			"targetId": 4599,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "产品验收",
+			"operateType": "ROLE",
+			"children": null
+		},
+		{
+			"id": 4619,
+			"parentId": null,
+			"parentName": null,
+			"name": "演示角色",
+			"businessCode": "FINANCE",
+			"businessName": "财务系统",
+			"desc": "",
+			"level": 1,
+			"type": "INTERNAL",
+			"status": "ABLE",
+			"reason": "",
+			"systemRoleName": "财务系统 - 系统管理员",
+			"superSystemRoleName": null,
+			"admin": [
+				{
+					"name": "宋佩瑶",
+					"workNumber": "02124"
+				},
+				{
+					"name": "lilixian",
+					"workNumber": "00251"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "02616"
+				},
+				{
+					"name": "王昕",
+					"workNumber": "01240"
+				}
+			],
+			"superAdmin": null,
+			"userCount": 0,
+			"isSystemAdmin": false,
+			"isSuperSystemAdmin": false,
+			"permissionId": null,
+			"ownStatusVO": {
+				"timeStatus": "NO",
+				"dayDiff": null
+			},
+			"targetId": 4619,
+			"targetCode": "FINANCE",
+			"errorMsg": "",
+			"targetName": "演示角色",
+			"operateType": "ROLE",
+			"children": null
+		}
+	],
+	"status": {
+		"code": 0,
+		"type": "",
+		"detail": "",
+		"serverResponseTime": 1727077072787,
+		"displayType": "TOAST",
+		"url": null
+	}
+}

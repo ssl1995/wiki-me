@@ -1,15 +1,19 @@
 {
-    "submitWorkNumber": "00251",
-    "applyWorkNumber": [
-        "00251",
-        "04721"
-    ],
-    "applyBusinessCode": "songTestSys",
-    "roleVoList": [
-        {
-            "roleId": 1,
-            "validTime": "SEVEN_DAYS",
-            "applyReason": "项目需要"
-        }
-    ]
+  "submitWorkNumber": "00001",
+  "applyWorkNumber": [
+    "00251"
+  ],
+  "applyBusinessCode": "wf_0712001",
+  "roleVoList": [
+    {
+      "roleId": 321,
+      "validTime": "SEVEN_DAYS",
+      "applyReason": "宋测试7天有效"
+    },
+    {
+      "roleId": 322,
+      "validTime": "NINETY_DAYS",
+      "applyReason": "宋测试90天有效"
+    }
+  ]
 }
