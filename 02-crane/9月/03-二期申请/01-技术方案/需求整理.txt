@@ -22,3 +22,16 @@
 角色详情：https://crane-test.yangqianguan.com/admin/role/id?id=4531
 
 https://crane-test.yangqianguan.com/admin/role?pageSize=10&businessCode=songSys&pageNo=1&timeStatus=FOREVER
+
+周会：
+1、权限申请二期
+开发正常，开发完了：流程发起、角色和权限页的类型改造、刷新两者类型Job
+待完成：流程回调代码、新增的申请角色页、到期邮件
+
+2、对接业务方
+等他们测试，今天感觉上不了线
+2.1: 只有一部分迁移的代码，需要确认一下
+
+3、chidori
+今晚我上一个线，新增一个角色的分组查询接口和改一个版本号
+
