@@ -1,0 +1,13 @@
+{
+  "flowNumber": "F-CR2409240006",
+  "flowId": 101717,
+  "businessId": 197,
+  "flowState": "WITHDRAW",
+  "auditorWorkNumber": "03541",
+  "actionType": "WITHDRAW",
+  "reason": "测试成功",
+  "businessSnapshot": "{}",
+  "flowModulesValue": null,
+  "flowCode": null,
+  "preFlowId": null
+}
