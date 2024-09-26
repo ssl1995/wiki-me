@@ -1,0 +1,2498 @@
+{
+  "body": {
+    "list": [
+      {
+        "id": 680,
+        "feature": "FINANCE.DOCUMENT",
+        "name": "财务系统.汇总/自动凭证列表",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "财务系统 - 系统管理员",
+        "admin": [
+          {
+            "name": "宋佩瑶",
+            "workNumber": "02124"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "02616"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          }
+        ],
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": [
+          {
+            "id": 4363,
+            "parentId": null,
+            "parentName": null,
+            "name": "财务总监",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4363,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "财务总监",
+            "errorMsg": ""
+          },
+          {
+            "id": 4367,
+            "parentId": 4363,
+            "parentName": null,
+            "name": "财务报告 - 国内",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 2,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4367,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "财务报告 - 国内",
+            "errorMsg": ""
+          },
+          {
+            "id": 4580,
+            "parentId": null,
+            "parentName": null,
+            "name": "测试专用0812",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4580,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "测试专用0812",
+            "errorMsg": ""
+          },
+          {
+            "id": 4589,
+            "parentId": null,
+            "parentName": null,
+            "name": "测试专用0813-勿动",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "GENERAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4589,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "测试专用0813-勿动",
+            "errorMsg": ""
+          },
+          {
+            "id": 4592,
+            "parentId": 4580,
+            "parentName": null,
+            "name": "数据范围测试",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 2,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4592,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "数据范围测试",
+            "errorMsg": ""
+          },
+          {
+            "id": 4594,
+            "parentId": null,
+            "parentName": null,
+            "name": "批量导入关联测试",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4594,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "批量导入关联测试",
+            "errorMsg": ""
+          },
+          {
+            "id": 4595,
+            "parentId": 4594,
+            "parentName": null,
+            "name": "角色小号",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 2,
+            "type": "GENERAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4595,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "角色小号",
+            "errorMsg": ""
+          },
+          {
+            "id": 4596,
+            "parentId": null,
+            "parentName": null,
+            "name": "外部yewei",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "GENERAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4596,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "外部yewei",
+            "errorMsg": ""
+          },
+          {
+            "id": 4599,
+            "parentId": null,
+            "parentName": null,
+            "name": "产品验收",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "818产品验收",
+            "level": 1,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4599,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "产品验收",
+            "errorMsg": ""
+          }
+        ],
+        "createTime": "2024-08-05T08:41:59Z",
+        "updateTime": "2024-08-05T08:41:59Z",
+        "targetName": "汇总/自动凭证列表",
+        "roleId": 4596,
+        "dataRule": null,
+        "targetId": 680,
+        "targetCode": "FINANCE.DOCUMENT",
+        "operateType": "PERMISSION",
+        "errorMsg": "",
+        "shortName": "汇总/自动凭证列表",
+        "children": [
+          {
+            "id": 680,
+            "feature": "FINANCE.DOCUMENT.QUERY",
+            "name": "财务系统.汇总/自动凭证列表.查看",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "MEDIUM",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "财务系统 - 系统管理员",
+            "admin": [
+              {
+                "name": "宋佩瑶",
+                "workNumber": "02124"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "02616"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              }
+            ],
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": [
+              {
+                "id": 4363,
+                "parentId": null,
+                "parentName": null,
+                "name": "财务总监",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4363,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "财务总监",
+                "errorMsg": ""
+              },
+              {
+                "id": 4367,
+                "parentId": 4363,
+                "parentName": null,
+                "name": "财务报告 - 国内",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 2,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4367,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "财务报告 - 国内",
+                "errorMsg": ""
+              },
+              {
+                "id": 4580,
+                "parentId": null,
+                "parentName": null,
+                "name": "测试专用0812",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4580,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "测试专用0812",
+                "errorMsg": ""
+              },
+              {
+                "id": 4589,
+                "parentId": null,
+                "parentName": null,
+                "name": "测试专用0813-勿动",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4589,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "测试专用0813-勿动",
+                "errorMsg": ""
+              },
+              {
+                "id": 4592,
+                "parentId": 4580,
+                "parentName": null,
+                "name": "数据范围测试",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 2,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4592,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "数据范围测试",
+                "errorMsg": ""
+              },
+              {
+                "id": 4594,
+                "parentId": null,
+                "parentName": null,
+                "name": "批量导入关联测试",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4594,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "批量导入关联测试",
+                "errorMsg": ""
+              },
+              {
+                "id": 4595,
+                "parentId": 4594,
+                "parentName": null,
+                "name": "角色小号",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 2,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4595,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "角色小号",
+                "errorMsg": ""
+              },
+              {
+                "id": 4596,
+                "parentId": null,
+                "parentName": null,
+                "name": "外部yewei",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4596,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "外部yewei",
+                "errorMsg": ""
+              },
+              {
+                "id": 4599,
+                "parentId": null,
+                "parentName": null,
+                "name": "产品验收",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "818产品验收",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4599,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "产品验收",
+                "errorMsg": ""
+              }
+            ],
+            "createTime": "2024-08-05T08:41:59Z",
+            "updateTime": "2024-08-05T08:41:59Z",
+            "targetName": "查看",
+            "roleId": 4596,
+            "dataRule": {
+              "ruleItems": [
+                {
+                  "attributeCategoryId": 62,
+                  "attributeCategoryName": "财务主体",
+                  "attributeCategoryCode": "finance_company_code",
+                  "attributeCategoryVO": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributeFunctionId": null,
+                  "attributeFunctionCode": null,
+                  "attributeFunctionName": null,
+                  "functionValues": null,
+                  "attributeValues": [
+                    {
+                      "id": 8,
+                      "categoryId": 62,
+                      "attributeCode": "LY",
+                      "attributeName": "瓴岳",
+                      "specialField": false
+                    },
+                    {
+                      "id": 9,
+                      "categoryId": 62,
+                      "attributeCode": "YY",
+                      "attributeName": "岩屿",
+                      "specialField": false
+                    },
+                    {
+                      "id": 11,
+                      "categoryId": 62,
+                      "attributeCode": "MT",
+                      "attributeName": "米投",
+                      "specialField": false
+                    },
+                    {
+                      "id": 74,
+                      "categoryId": 62,
+                      "attributeCode": "AS",
+                      "attributeName": "民生",
+                      "specialField": false
+                    }
+                  ],
+                  "allAttributeValues": [],
+                  "attributeValueIds": [
+                    8,
+                    9,
+                    11,
+                    74
+                  ],
+                  "attributeValueNames": [
+                    "瓴岳",
+                    "岩屿",
+                    "米投",
+                    "民生"
+                  ],
+                  "operator": null
+                }
+              ],
+              "logicalOperators": null
+            },
+            "targetId": 680,
+            "targetCode": "FINANCE.DOCUMENT.QUERY",
+            "operateType": "PERMISSION",
+            "errorMsg": "",
+            "shortName": "查看",
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": 694,
+        "feature": "FINANCE.ACCOUNT_DETAIL",
+        "name": "财务系统.明细账",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "财务系统 - 系统管理员",
+        "admin": [
+          {
+            "name": "宋佩瑶",
+            "workNumber": "02124"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "02616"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          }
+        ],
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": [
+          {
+            "id": 4363,
+            "parentId": null,
+            "parentName": null,
+            "name": "财务总监",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4363,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "财务总监",
+            "errorMsg": ""
+          },
+          {
+            "id": 4580,
+            "parentId": null,
+            "parentName": null,
+            "name": "测试专用0812",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4580,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "测试专用0812",
+            "errorMsg": ""
+          },
+          {
+            "id": 4592,
+            "parentId": 4580,
+            "parentName": null,
+            "name": "数据范围测试",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 2,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4592,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "数据范围测试",
+            "errorMsg": ""
+          },
+          {
+            "id": 4596,
+            "parentId": null,
+            "parentName": null,
+            "name": "外部yewei",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "GENERAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4596,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "外部yewei",
+            "errorMsg": ""
+          },
+          {
+            "id": 4599,
+            "parentId": null,
+            "parentName": null,
+            "name": "产品验收",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "818产品验收",
+            "level": 1,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4599,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "产品验收",
+            "errorMsg": ""
+          }
+        ],
+        "createTime": "2024-08-05T08:41:59Z",
+        "updateTime": "2024-08-05T08:41:59Z",
+        "targetName": "明细账",
+        "roleId": 4596,
+        "dataRule": null,
+        "targetId": 694,
+        "targetCode": "FINANCE.ACCOUNT_DETAIL",
+        "operateType": "PERMISSION",
+        "errorMsg": "",
+        "shortName": "明细账",
+        "children": [
+          {
+            "id": 694,
+            "feature": "FINANCE.ACCOUNT_DETAIL.QUERY",
+            "name": "财务系统.明细账.查看",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "MEDIUM",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "财务系统 - 系统管理员",
+            "admin": [
+              {
+                "name": "宋佩瑶",
+                "workNumber": "02124"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "02616"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              }
+            ],
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": [
+              {
+                "id": 4363,
+                "parentId": null,
+                "parentName": null,
+                "name": "财务总监",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4363,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "财务总监",
+                "errorMsg": ""
+              },
+              {
+                "id": 4580,
+                "parentId": null,
+                "parentName": null,
+                "name": "测试专用0812",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4580,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "测试专用0812",
+                "errorMsg": ""
+              },
+              {
+                "id": 4592,
+                "parentId": 4580,
+                "parentName": null,
+                "name": "数据范围测试",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 2,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4592,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "数据范围测试",
+                "errorMsg": ""
+              },
+              {
+                "id": 4596,
+                "parentId": null,
+                "parentName": null,
+                "name": "外部yewei",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4596,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "外部yewei",
+                "errorMsg": ""
+              },
+              {
+                "id": 4599,
+                "parentId": null,
+                "parentName": null,
+                "name": "产品验收",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "818产品验收",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4599,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "产品验收",
+                "errorMsg": ""
+              }
+            ],
+            "createTime": "2024-08-05T08:41:59Z",
+            "updateTime": "2024-08-05T08:41:59Z",
+            "targetName": "查看",
+            "roleId": 4596,
+            "dataRule": {
+              "ruleItems": [
+                {
+                  "attributeCategoryId": 62,
+                  "attributeCategoryName": "财务主体",
+                  "attributeCategoryCode": "finance_company_code",
+                  "attributeCategoryVO": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributeFunctionId": null,
+                  "attributeFunctionCode": null,
+                  "attributeFunctionName": null,
+                  "functionValues": null,
+                  "attributeValues": [
+                    {
+                      "id": 30,
+                      "categoryId": 62,
+                      "attributeCode": "YM",
+                      "attributeName": "阿里",
+                      "specialField": false
+                    },
+                    {
+                      "id": 36,
+                      "categoryId": 62,
+                      "attributeCode": "FT",
+                      "attributeName": "锋泰",
+                      "specialField": false
+                    },
+                    {
+                      "id": 68,
+                      "categoryId": 62,
+                      "attributeCode": "HR",
+                      "attributeName": "焕然",
+                      "specialField": false
+                    },
+                    {
+                      "id": 69,
+                      "categoryId": 62,
+                      "attributeCode": "CX",
+                      "attributeName": "短测",
+                      "specialField": false
+                    },
+                    {
+                      "id": 88,
+                      "categoryId": 62,
+                      "attributeCode": "XI",
+                      "attributeName": "YYH",
+                      "specialField": false
+                    }
+                  ],
+                  "allAttributeValues": [],
+                  "attributeValueIds": [
+                    30,
+                    36,
+                    68,
+                    69,
+                    88
+                  ],
+                  "attributeValueNames": [
+                    "阿里",
+                    "锋泰",
+                    "焕然",
+                    "短测",
+                    "YYH"
+                  ],
+                  "operator": null
+                }
+              ],
+              "logicalOperators": null
+            },
+            "targetId": 694,
+            "targetCode": "FINANCE.ACCOUNT_DETAIL.QUERY",
+            "operateType": "PERMISSION",
+            "errorMsg": "",
+            "shortName": "查看",
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": 714,
+        "feature": "FINANCE.BALANCE",
+        "name": "财务系统.余额表",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "财务系统 - 系统管理员",
+        "admin": [
+          {
+            "name": "宋佩瑶",
+            "workNumber": "02124"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "02616"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          }
+        ],
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": [
+          {
+            "id": 4363,
+            "parentId": null,
+            "parentName": null,
+            "name": "财务总监",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4363,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "财务总监",
+            "errorMsg": ""
+          },
+          {
+            "id": 4580,
+            "parentId": null,
+            "parentName": null,
+            "name": "测试专用0812",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4580,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "测试专用0812",
+            "errorMsg": ""
+          },
+          {
+            "id": 4589,
+            "parentId": null,
+            "parentName": null,
+            "name": "测试专用0813-勿动",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "GENERAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4589,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "测试专用0813-勿动",
+            "errorMsg": ""
+          },
+          {
+            "id": 4596,
+            "parentId": null,
+            "parentName": null,
+            "name": "外部yewei",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "GENERAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4596,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "外部yewei",
+            "errorMsg": ""
+          }
+        ],
+        "createTime": "2024-08-05T08:42:00Z",
+        "updateTime": "2024-08-05T08:42:00Z",
+        "targetName": "余额表",
+        "roleId": 4596,
+        "dataRule": null,
+        "targetId": 714,
+        "targetCode": "FINANCE.BALANCE",
+        "operateType": "PERMISSION",
+        "errorMsg": "",
+        "shortName": "余额表",
+        "children": [
+          {
+            "id": 714,
+            "feature": "FINANCE.BALANCE.QUERY",
+            "name": "财务系统.余额表.查看",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "MEDIUM",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "财务系统 - 系统管理员",
+            "admin": [
+              {
+                "name": "宋佩瑶",
+                "workNumber": "02124"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "02616"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              }
+            ],
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": [
+              {
+                "id": 4363,
+                "parentId": null,
+                "parentName": null,
+                "name": "财务总监",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4363,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "财务总监",
+                "errorMsg": ""
+              },
+              {
+                "id": 4580,
+                "parentId": null,
+                "parentName": null,
+                "name": "测试专用0812",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4580,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "测试专用0812",
+                "errorMsg": ""
+              },
+              {
+                "id": 4589,
+                "parentId": null,
+                "parentName": null,
+                "name": "测试专用0813-勿动",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4589,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "测试专用0813-勿动",
+                "errorMsg": ""
+              },
+              {
+                "id": 4596,
+                "parentId": null,
+                "parentName": null,
+                "name": "外部yewei",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4596,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "外部yewei",
+                "errorMsg": ""
+              }
+            ],
+            "createTime": "2024-08-05T08:42:00Z",
+            "updateTime": "2024-08-05T08:42:00Z",
+            "targetName": "查看",
+            "roleId": 4596,
+            "dataRule": {
+              "ruleItems": [
+                {
+                  "attributeCategoryId": 62,
+                  "attributeCategoryName": "财务主体",
+                  "attributeCategoryCode": "finance_company_code",
+                  "attributeCategoryVO": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributeFunctionId": null,
+                  "attributeFunctionCode": null,
+                  "attributeFunctionName": null,
+                  "functionValues": null,
+                  "attributeValues": [
+                    {
+                      "id": 11,
+                      "categoryId": 62,
+                      "attributeCode": "MT",
+                      "attributeName": "米投",
+                      "specialField": false
+                    }
+                  ],
+                  "allAttributeValues": [],
+                  "attributeValueIds": [
+                    11
+                  ],
+                  "attributeValueNames": [
+                    "米投"
+                  ],
+                  "operator": null
+                }
+              ],
+              "logicalOperators": null
+            },
+            "targetId": 714,
+            "targetCode": "FINANCE.BALANCE.QUERY",
+            "operateType": "PERMISSION",
+            "errorMsg": "",
+            "shortName": "查看",
+            "children": null
+          },
+          {
+            "id": 715,
+            "feature": "FINANCE.BALANCE.EXCEL_IMPORT",
+            "name": "财务系统.余额表.导入余额",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "MEDIUM",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "财务系统 - 系统管理员",
+            "admin": [
+              {
+                "name": "宋佩瑶",
+                "workNumber": "02124"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "02616"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              }
+            ],
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": [
+              {
+                "id": 4363,
+                "parentId": null,
+                "parentName": null,
+                "name": "财务总监",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4363,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "财务总监",
+                "errorMsg": ""
+              },
+              {
+                "id": 4580,
+                "parentId": null,
+                "parentName": null,
+                "name": "测试专用0812",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4580,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "测试专用0812",
+                "errorMsg": ""
+              },
+              {
+                "id": 4596,
+                "parentId": null,
+                "parentName": null,
+                "name": "外部yewei",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4596,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "外部yewei",
+                "errorMsg": ""
+              },
+              {
+                "id": 4599,
+                "parentId": null,
+                "parentName": null,
+                "name": "产品验收",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "818产品验收",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4599,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "产品验收",
+                "errorMsg": ""
+              }
+            ],
+            "createTime": "2024-08-05T08:42:00Z",
+            "updateTime": "2024-08-05T08:42:00Z",
+            "targetName": "导入余额",
+            "roleId": 4596,
+            "dataRule": {
+              "ruleItems": [
+                {
+                  "attributeCategoryId": 62,
+                  "attributeCategoryName": "财务主体",
+                  "attributeCategoryCode": "finance_company_code",
+                  "attributeCategoryVO": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributeFunctionId": null,
+                  "attributeFunctionCode": null,
+                  "attributeFunctionName": null,
+                  "functionValues": null,
+                  "attributeValues": [
+                    {
+                      "id": 13,
+                      "categoryId": 62,
+                      "attributeCode": "TE",
+                      "attributeName": "TECL",
+                      "specialField": false
+                    }
+                  ],
+                  "allAttributeValues": [],
+                  "attributeValueIds": [
+                    13
+                  ],
+                  "attributeValueNames": [
+                    "TECL"
+                  ],
+                  "operator": null
+                }
+              ],
+              "logicalOperators": null
+            },
+            "targetId": 715,
+            "targetCode": "FINANCE.BALANCE.EXCEL_IMPORT",
+            "operateType": "PERMISSION",
+            "errorMsg": "",
+            "shortName": "导入余额",
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": 716,
+        "feature": "FINANCE.ACCOUNT_AGE",
+        "name": "财务系统.账龄",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "securityLevel": null,
+        "supportDataRule": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "财务系统 - 系统管理员",
+        "admin": [
+          {
+            "name": "宋佩瑶",
+            "workNumber": "02124"
+          },
+          {
+            "name": "lilixian",
+            "workNumber": "00251"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "02616"
+          },
+          {
+            "name": "王昕",
+            "workNumber": "01240"
+          }
+        ],
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": [
+          {
+            "id": 4377,
+            "parentId": 4376,
+            "parentName": null,
+            "name": "后端开发 - 财务系统",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 3,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4377,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "后端开发 - 财务系统",
+            "errorMsg": ""
+          },
+          {
+            "id": 4589,
+            "parentId": null,
+            "parentName": null,
+            "name": "测试专用0813-勿动",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "GENERAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4589,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "测试专用0813-勿动",
+            "errorMsg": ""
+          },
+          {
+            "id": 4595,
+            "parentId": 4594,
+            "parentName": null,
+            "name": "角色小号",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 2,
+            "type": "GENERAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4595,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "角色小号",
+            "errorMsg": ""
+          },
+          {
+            "id": 4596,
+            "parentId": null,
+            "parentName": null,
+            "name": "外部yewei",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "",
+            "level": 1,
+            "type": "GENERAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4596,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "外部yewei",
+            "errorMsg": ""
+          },
+          {
+            "id": 4599,
+            "parentId": null,
+            "parentName": null,
+            "name": "产品验收",
+            "businessCode": "FINANCE",
+            "businessName": null,
+            "desc": "818产品验收",
+            "level": 1,
+            "type": "INTERNAL",
+            "status": "ABLE",
+            "reason": "",
+            "systemRoleName": null,
+            "superSystemRoleName": null,
+            "admin": null,
+            "superAdmin": null,
+            "userCount": 0,
+            "isSystemAdmin": false,
+            "isSuperSystemAdmin": false,
+            "permissionId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "targetId": 4599,
+            "targetCode": "FINANCE",
+            "operateType": "ROLE",
+            "targetName": "产品验收",
+            "errorMsg": ""
+          }
+        ],
+        "createTime": "2024-08-05T08:42:00Z",
+        "updateTime": "2024-08-05T08:42:00Z",
+        "targetName": "账龄",
+        "roleId": 4596,
+        "dataRule": null,
+        "targetId": 716,
+        "targetCode": "FINANCE.ACCOUNT_AGE",
+        "operateType": "PERMISSION",
+        "errorMsg": "",
+        "shortName": "账龄",
+        "children": [
+          {
+            "id": 716,
+            "feature": "FINANCE.ACCOUNT_AGE.QUERY",
+            "name": "财务系统.账龄. 查看",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "LOW",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "财务系统 - 系统管理员",
+            "admin": [
+              {
+                "name": "宋佩瑶",
+                "workNumber": "02124"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "02616"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              }
+            ],
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": [
+              {
+                "id": 4377,
+                "parentId": 4376,
+                "parentName": null,
+                "name": "后端开发 - 财务系统",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 3,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4377,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "后端开发 - 财务系统",
+                "errorMsg": ""
+              },
+              {
+                "id": 4589,
+                "parentId": null,
+                "parentName": null,
+                "name": "测试专用0813-勿动",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4589,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "测试专用0813-勿动",
+                "errorMsg": ""
+              },
+              {
+                "id": 4595,
+                "parentId": 4594,
+                "parentName": null,
+                "name": "角色小号",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 2,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4595,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "角色小号",
+                "errorMsg": ""
+              },
+              {
+                "id": 4596,
+                "parentId": null,
+                "parentName": null,
+                "name": "外部yewei",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4596,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "外部yewei",
+                "errorMsg": ""
+              },
+              {
+                "id": 4599,
+                "parentId": null,
+                "parentName": null,
+                "name": "产品验收",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "818产品验收",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4599,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "产品验收",
+                "errorMsg": ""
+              }
+            ],
+            "createTime": "2024-08-05T08:42:00Z",
+            "updateTime": "2024-08-05T08:42:00Z",
+            "targetName": " 查看",
+            "roleId": 4596,
+            "dataRule": {
+              "ruleItems": [
+                {
+                  "attributeCategoryId": 62,
+                  "attributeCategoryName": "财务主体",
+                  "attributeCategoryCode": "finance_company_code",
+                  "attributeCategoryVO": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributeFunctionId": null,
+                  "attributeFunctionCode": null,
+                  "attributeFunctionName": null,
+                  "functionValues": null,
+                  "attributeValues": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ],
+                  "allAttributeValues": [],
+                  "attributeValueIds": [
+                    -1
+                  ],
+                  "attributeValueNames": [
+                    "全量"
+                  ],
+                  "operator": null
+                }
+              ],
+              "logicalOperators": null
+            },
+            "targetId": 716,
+            "targetCode": "FINANCE.ACCOUNT_AGE.QUERY",
+            "operateType": "PERMISSION",
+            "errorMsg": "",
+            "shortName": " 查看",
+            "children": null
+          },
+          {
+            "id": 717,
+            "feature": "FINANCE.ACCOUNT_AGE.EXCEL_EXPORT",
+            "name": "财务系统.账龄.导出",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "securityLevel": "LOW",
+            "supportDataRule": true,
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": "财务系统 - 系统管理员",
+            "admin": [
+              {
+                "name": "宋佩瑶",
+                "workNumber": "02124"
+              },
+              {
+                "name": "lilixian",
+                "workNumber": "00251"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "02616"
+              },
+              {
+                "name": "王昕",
+                "workNumber": "01240"
+              }
+            ],
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": [
+              {
+                "id": 4589,
+                "parentId": null,
+                "parentName": null,
+                "name": "测试专用0813-勿动",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4589,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "测试专用0813-勿动",
+                "errorMsg": ""
+              },
+              {
+                "id": 4596,
+                "parentId": null,
+                "parentName": null,
+                "name": "外部yewei",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "",
+                "level": 1,
+                "type": "GENERAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4596,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "外部yewei",
+                "errorMsg": ""
+              },
+              {
+                "id": 4599,
+                "parentId": null,
+                "parentName": null,
+                "name": "产品验收",
+                "businessCode": "FINANCE",
+                "businessName": null,
+                "desc": "818产品验收",
+                "level": 1,
+                "type": "INTERNAL",
+                "status": "ABLE",
+                "reason": "",
+                "systemRoleName": null,
+                "superSystemRoleName": null,
+                "admin": null,
+                "superAdmin": null,
+                "userCount": 0,
+                "isSystemAdmin": false,
+                "isSuperSystemAdmin": false,
+                "permissionId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "targetId": 4599,
+                "targetCode": "FINANCE",
+                "operateType": "ROLE",
+                "targetName": "产品验收",
+                "errorMsg": ""
+              }
+            ],
+            "createTime": "2024-08-05T08:42:00Z",
+            "updateTime": "2024-08-05T08:42:00Z",
+            "targetName": "导出",
+            "roleId": 4596,
+            "dataRule": {
+              "ruleItems": [
+                {
+                  "attributeCategoryId": 62,
+                  "attributeCategoryName": "财务主体",
+                  "attributeCategoryCode": "finance_company_code",
+                  "attributeCategoryVO": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributeFunctionId": null,
+                  "attributeFunctionCode": null,
+                  "attributeFunctionName": null,
+                  "functionValues": null,
+                  "attributeValues": [
+                    {
+                      "id": 36,
+                      "categoryId": 62,
+                      "attributeCode": "FT",
+                      "attributeName": "锋泰",
+                      "specialField": false
+                    }
+                  ],
+                  "allAttributeValues": [],
+                  "attributeValueIds": [
+                    36
+                  ],
+                  "attributeValueNames": [
+                    "锋泰"
+                  ],
+                  "operator": null
+                }
+              ],
+              "logicalOperators": null
+            },
+            "targetId": 717,
+            "targetCode": "FINANCE.ACCOUNT_AGE.EXCEL_EXPORT",
+            "operateType": "PERMISSION",
+            "errorMsg": "",
+            "shortName": "导出",
+            "children": null
+          }
+        ]
+      }
+    ],
+    "total": 4,
+    "pageNo": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "size": 4
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1727336582677,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

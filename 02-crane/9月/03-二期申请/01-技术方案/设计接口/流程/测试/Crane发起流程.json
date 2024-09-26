@@ -1,15 +1,14 @@
 {
   "submitWorkNumber": "03541",
   "applyWorkNumber": [
-    "03818",
-    "04971"
+    "03818"
   ],
   "applyBusinessCode": "yewei00914",
   "roleVoList": [
     {
       "roleId": 4655,
       "validTime": "SEVEN_DAYS",
-      "applyReason": "宋测试7天有效"
+      "applyReason": "宋测试回调"
     }
   ]
 }

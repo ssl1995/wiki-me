@@ -1,0 +1,5 @@
+1、权限管理，删除
+https://crane-test.yangqianguan.com/admin/permission/songSys.business
+
+/admin/role/permission?current=1&pageSize=10&pageNo=1&roleId=4596&businessCode=FINANCE
+/admin/role/employee/query?current=1&pageSize=10&pageNo=1&roleId=313&departmentName=总部
