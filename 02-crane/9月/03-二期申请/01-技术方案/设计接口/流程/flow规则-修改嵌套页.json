@@ -114,7 +114,6 @@
       ]
     }
   ],
-  "messageLink": "https://crane-test.yangqianguan.com/rpc/role/apply/messageLink?id=",
   "messageLink": "https://crane-test.yangqianguan.com/flow/system?id=",
   "callbacks": [
     {

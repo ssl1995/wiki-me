@@ -1,0 +1,42 @@
+{
+  "permissionIds": [
+    858
+  ],
+
+  "addRoleIds": [
+    4687
+  ],
+
+  "deleteRoleIds": [],
+
+  "permissionDataRule": [
+    {
+      "permissionId": 858,
+      "roleId": "4685",
+      "dataRule": {
+        "ruleItems": []
+      }
+    },
+    {
+      "permissionId": 858,
+      "roleId": "4686",
+      "dataRule": {
+        "ruleItems": []
+      }
+    },
+    {
+      "permissionId": 858,
+      "roleId": "4687",
+      "dataRule": {
+        "ruleItems": []
+      }
+    },
+    {
+      "permissionId": 858,
+      "roleId": "4688",
+      "dataRule": {
+        "ruleItems": []
+      }
+    }
+  ]
+}
