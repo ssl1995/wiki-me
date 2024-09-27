@@ -1,0 +1,275 @@
+{
+  "id": 50,
+  "path": "1",
+  "children": [
+    {
+      "id": 52,
+      "parentId": 50,
+      "parentName": null,
+      "name": "洋钱罐-系统管理员-子级管理员",
+      "businessCode": "CRANE",
+      "businessName": "新版权限管理crane",
+      "desc": "哈啊哈",
+      "level": 3,
+      "type": "INTERNAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "新版权限管理crane - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "曹维双",
+          "workNumber": "04606"
+        },
+        {
+          "name": "张红艳",
+          "workNumber": "02505"
+        },
+        {
+          "name": "王芳",
+          "workNumber": "02065"
+        },
+        {
+          "name": "叶玮2",
+          "workNumber": "04712"
+        },
+        {
+          "name": "东征",
+          "workNumber": "01228"
+        },
+        {
+          "name": "宋声林",
+          "workNumber": "03541"
+        },
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "刘老板-00001",
+          "workNumber": "00001"
+        },
+        {
+          "name": "波叔-00002",
+          "workNumber": "00002"
+        },
+        {
+          "name": "weiye4-04720",
+          "workNumber": "04720"
+        },
+        {
+          "name": "叶玮4",
+          "workNumber": "04714"
+        },
+        {
+          "name": "张hy-33",
+          "workNumber": "03478"
+        },
+        {
+          "name": "祁伟",
+          "workNumber": "04600"
+        },
+        {
+          "name": "孙聪new",
+          "workNumber": "00744"
+        },
+        {
+          "name": "路朝阳old-03781",
+          "workNumber": "03781"
+        },
+        {
+          "name": "帅婧",
+          "workNumber": "04595"
+        },
+        {
+          "name": "郭进",
+          "workNumber": "03270"
+        },
+        {
+          "name": "刘奕彤",
+          "workNumber": "04705"
+        },
+        {
+          "name": "离职优化051601",
+          "workNumber": "04633"
+        },
+        {
+          "name": "宋声林2",
+          "workNumber": "03893"
+        },
+        {
+          "name": "宋声林3",
+          "workNumber": "03894"
+        },
+        {
+          "name": "宋声林4",
+          "workNumber": "03898"
+        },
+        {
+          "name": "王昕",
+          "workNumber": "01240"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        },
+        {
+          "name": "别动CRANE自动化账号",
+          "workNumber": "04927"
+        },
+        {
+          "name": "王凤武",
+          "workNumber": "00346"
+        },
+        {
+          "name": "曹维双",
+          "workNumber": "04606"
+        },
+        {
+          "name": "张红艳",
+          "workNumber": "02505"
+        },
+        {
+          "name": "王芳",
+          "workNumber": "02065"
+        },
+        {
+          "name": "叶玮2",
+          "workNumber": "04712"
+        },
+        {
+          "name": "东征",
+          "workNumber": "01228"
+        },
+        {
+          "name": "宋声林",
+          "workNumber": "03541"
+        },
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "刘老板-00001",
+          "workNumber": "00001"
+        },
+        {
+          "name": "波叔-00002",
+          "workNumber": "00002"
+        },
+        {
+          "name": "weiye4-04720",
+          "workNumber": "04720"
+        },
+        {
+          "name": "叶玮4",
+          "workNumber": "04714"
+        },
+        {
+          "name": "张hy-33",
+          "workNumber": "03478"
+        },
+        {
+          "name": "祁伟",
+          "workNumber": "04600"
+        },
+        {
+          "name": "孙聪new",
+          "workNumber": "00744"
+        },
+        {
+          "name": "路朝阳old-03781",
+          "workNumber": "03781"
+        },
+        {
+          "name": "帅婧",
+          "workNumber": "04595"
+        },
+        {
+          "name": "郭进",
+          "workNumber": "03270"
+        },
+        {
+          "name": "刘奕彤",
+          "workNumber": "04705"
+        },
+        {
+          "name": "离职优化051601",
+          "workNumber": "04633"
+        },
+        {
+          "name": "宋声林2",
+          "workNumber": "03893"
+        },
+        {
+          "name": "宋声林3",
+          "workNumber": "03894"
+        },
+        {
+          "name": "宋声林4",
+          "workNumber": "03898"
+        },
+        {
+          "name": "王昕",
+          "workNumber": "01240"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        },
+        {
+          "name": "别动CRANE自动化账号",
+          "workNumber": "04927"
+        },
+        {
+          "name": "王凤武",
+          "workNumber": "00346"
+        }
+      ],
+      "superAdmin": [
+        {
+          "name": "宋声林",
+          "workNumber": "03541"
+        },
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "赖小梅",
+          "workNumber": "04697"
+        },
+        {
+          "name": "曹维双",
+          "workNumber": "00188"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        },
+        {
+          "name": "刘文文01",
+          "workNumber": "03817"
+        },
+        {
+          "name": "刘奕彤",
+          "workNumber": "04705"
+        }
+      ],
+      "userCount": 2,
+      "isSystemAdmin": true,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 52,
+      "targetCode": "CRANE",
+      "targetName": "洋钱罐-系统管理员-子级管理员",
+      "operateType": "ROLE",
+      "errorMsg": "",
+      "children": null
+    }
+  ]
+}
