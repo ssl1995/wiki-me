@@ -1,10 +1,2 @@
-一、关联
-
-权限关联角色
-类型校验
-
-角色关联权限
-类型校验
-
-二、单独的新增、修改校验 --已完成
+/admin/role/apply?roleId=%s&businessCode=%s
 
