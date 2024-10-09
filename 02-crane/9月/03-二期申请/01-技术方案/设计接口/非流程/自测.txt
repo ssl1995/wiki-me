@@ -1,2 +1,36 @@
 /admin/role/apply?roleId=%s&businessCode=%s
 
+https://crane-test.yangqianguan.com/apply/system?roleId=4687&businessCode=newsystem2
+
+https://crane-test.yangqianguan.com/apply/system?roleId=%s&businessCode=%s
+
+
+  public static void main(String[] args) {
+    String json = "{\"03541\":[{\"id\":222,\"operator\":\"-1\",\"createTime\":1728442456.000000000,\"updateTime\":1728442456.000000000,\"permissionApplyId\":246,\"businessType\":\"ROLE_APPLY\",\"businessId\":\"4695\",\"applyNumber\":\"03541\",\"status\":\"CALLBACK_SUCCESS\",\"retryCount\":0,\"approvalTime\":1728442457.000000000,\"expireTime\":1729047257.000000000},{\"id\":223,\"operator\":\"-1\",\"createTime\":1728442511.000000000,\"updateTime\":1728442511.000000000,\"permissionApplyId\":247,\"businessType\":\"ROLE_APPLY\",\"businessId\":\"4685\",\"applyNumber\":\"03541\",\"status\":\"CALLBACK_SUCCESS\",\"retryCount\":0,\"approvalTime\":1728442512.000000000,\"expireTime\":1736218512.000000000}]}";
+    Map<String, List<PermissionApplyResultVO>> applyWorkNumberToApplyResultVoMap = JsonUtils.fromOrException(json, new TypeReference<Map<String, List<PermissionApplyResultVO>>>() {
+    });
+    System.out.println("--------");
+    Map<String, Map<String, List<PermissionApplyResultVO>>> res = Maps.newLinkedHashMap();
+
+    applyWorkNumberToApplyResultVoMap.forEach((workNumber, applyResults) -> {
+      Map<Long, List<PermissionApplyResultVO>> permissionIdMap = applyResults.stream().collect(Collectors.groupingBy(PermissionApplyResultVO::getPermissionApplyId));
+
+      permissionIdMap.forEach((permissionId, resultVoList) -> {
+        String businessCode = "abc";
+
+        Map<String, List<PermissionApplyResultVO>> businessCodeToResultVoMap = Maps.newHashMap();
+        businessCodeToResultVoMap.put(businessCode, resultVoList);
+        if (!res.containsKey(workNumber)) {
+          res.put(workNumber, businessCodeToResultVoMap);
+          return;
+        }
+
+        Map<String, List<PermissionApplyResultVO>> existBusinessCodeToResultVoMap = res.get(workNumber);
+
+
+        res.put(workNumber, existBusinessCodeToResultVoMap);
+      });
+    });
+
+    System.out.println(JsonUtils.toString(res));
+  }

@@ -1,23 +1,4 @@
 {
-  "mail": "anisahrosanti@fintopia.tech",
-  "mobile": "087722799813‬",
-  "name": "ANISAHROSANTI",
-  "ldapPassword": null,
-  "employeeType": "FORMAL",
-  "employeeContractType": "FORMAL",
-  "departmentName": "Collection",
-  "departmentId": 151,
-  "personalMail": "anisahrosantii@gmail.com",
-  "countryCode": "ID",
-  "defaultRoleIds": [
-    782
-  ],
-  "cancelRoleIds": null,
-  "isOverseasCompany": true,
-  "overseas": true,
-  "slaves": [
-    "anisahrosanti@easycash.id"
-  ],
-  "employeeNumber": null,
-  "sendOaPassword": true
+  "leaderWorkNumber": "02505",
+  "adminWorkNumber": "EmployeeSimpleVO(name=lilixian, workNumber=00251),EmployeeSimpleVO(name=宋声林, workNumber=03541)"
 }
