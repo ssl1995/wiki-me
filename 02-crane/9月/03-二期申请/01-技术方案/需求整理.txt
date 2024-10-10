@@ -1,17 +1,22 @@
-1、获取部门
-https://crane-test.yangqianguan.com/admin/user/fetch?businessCode=CRANE
+job相关：
 
-fetch接口返回的
+TableauPermissionCancelJob
+PermissionApplyResultCancelJob
+59 59 23 * * ?
+比如：2024-09-29 23:59:59
 
-2、权限查询
-
-https://crane-test.yangqianguan.com/admin/permission?current=1&pageSize=10&pageNo=1&businessCode=newsystem2
-
-3、申请角色
-
-https://crane-test.yangqianguan.com/admin/permission/role/tree/all?permissionId=136
+TableauPermissionCancelRetryJob
+PermissionApplyResultCancelRetryJob
+0 0/1 * * * ?
+比如：2024-09-29 16:43:00
 
 
-4、发起流程查询角色
+TableauPermissionExpireRemindJob
+PermissionApplyResultExpireRemindJob
+0 0 11 * * ?
+比如：2024-09-30 11:00:00
 
-https://crane-test.yangqianguan.com/admin/role/apply?businessCode=test001-071502&isFilterNoApplyRole=true
+TableauPermissionOpenRetryJob
+PermissionApplyResultOpenRetryJob
+0 0/1 * * * ?
+比如：2024-09-29 16:44:00
