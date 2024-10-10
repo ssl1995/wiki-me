@@ -1,0 +1,291 @@
+{
+  "body": {
+    "data": [
+      {
+        "basicInfo": {
+          "candidateId": 560800850,
+          "pipelineId": 97014,
+          "stageId": 130045,
+          "sourceId": 505542,
+          "applicationId": 592124798,
+          "age": 28,
+          "name": "许烨",
+          "phone": "13973214769",
+          "email": "752068432@qq.com",
+          "stage": {
+            "id": 130045,
+            "name": "背景调查",
+            "type": 101
+          },
+          "owner": {
+            "name": "王新浩",
+            "email": "xinhaowang@fintopia.tech",
+            "phone": "18811286202"
+          },
+          "archiveReasonId": null,
+          "certificateType": 1,
+          "citizenId": "",
+          "gender": "男",
+          "realHiredDate": null,
+          "academicDegree": "本科",
+          "resumeUrl": "https://moka-co.oss-cn-beijing.aliyuncs.com/fintopia/6ef183fb-67c6-4400-8229-0fd266e42df5.pdf?Expires=1728648711&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=Yr0UOuuq70iu%2BBLPwhIVBuEyAR0%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E8%25AE%25B8%25E7%2583%25A8%25E7%259A%2584%25E7%25AE%2580%25E5%258E%2586.pdf%22%3B%20filename%2A%3Dutf-8%27%27%25E8%25AE%25B8%25E7%2583%25A8%25E7%259A%2584%25E7%25AE%2580%25E5%258E%2586.pdf",
+          "standardResumeUrl": "https://moka-co.oss-cn-beijing.aliyuncs.com/fintopia/htmlToPdf-dealer-89a5a8fd88ae46eb8300d6f888d69a72.pdf?Expires=1728619913&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=0LlCzMPlCHHegq8qtDaab%2B4NSI4%3D&response-content-disposition=attachment%3B%20filename%3D%22fintopia%2FhtmlToPdf-dealer-89a5a8fd88ae46eb8300d6f888d69a72.pdf%22%3B%20&timestamp=1728533513204",
+          "experience": 6,
+          "educationInfo": [
+            {
+              "id": "724175307",
+              "startDate": "2014-09",
+              "endDate": "2018-06",
+              "now": false,
+              "academicDegree": "本科",
+              "school": "湖南科技大学",
+              "speciality": "网络工程"
+            }
+          ],
+          "archiveReasons": null,
+          "referrer": null
+        },
+        "offerInfo": {
+          "department": {
+            "name": null,
+            "departmentCode": "bwuK",
+            "parentCode": null,
+            "sequence": 0
+          },
+          "customFields": [
+            {
+              "id": 341908,
+              "name": "身份证号码",
+              "value": "430321199604276518",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 327199,
+              "name": "合同期限",
+              "value": "3",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 327200,
+              "name": "试用期期限",
+              "value": "6",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 321007,
+              "name": "试用期基本工资（元/月）",
+              "value": "38000",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 321008,
+              "name": "转正后基本工资（元/月）",
+              "value": "38000",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 333183,
+              "name": "目标年终奖金（月）",
+              "value": "2",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 329356,
+              "name": "候选人确认日期",
+              "value": "2024-10-11",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 324923,
+              "name": "offer日期",
+              "value": "2024-09-26",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 355148,
+              "name": "试⽤期绩效⼯资（元/⽉）",
+              "value": null,
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 351632,
+              "name": "转正后绩效⼯资（元/⽉）",
+              "value": null,
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 333131,
+              "name": "实习期基本工资（元/天）",
+              "value": null,
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 327202,
+              "name": "目标年终奖金（月）作废",
+              "value": null,
+              "code": null,
+              "index": null
+            }
+          ],
+          "status": "accepted",
+          "locationString": "北京市 北京-朝阳区中青大厦-19层"
+        },
+        "jobInfo": {
+          "id": "5523c70e-8685-4049-8e5b-a0605496fa24",
+          "mjCode": "MJ000038",
+          "hireMode": 1,
+          "title": "Java工程师-风控"
+        },
+        "interviewInfo": [
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "42704458",
+                "applicationId": 592124798,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": "",
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "",
+                  "name": "韩宝金",
+                  "employeeId": "",
+                  "id": 4781986,
+                  "email": "baojinhan@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 3,
+            "roundName": "业务一面",
+            "interviewType": "视频面试",
+            "locationAddress": null,
+            "startTime": "2024-09-11T03:00:00.000Z"
+          },
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "42764050",
+                "applicationId": 592124798,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": "",
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "",
+                  "name": "王凯",
+                  "employeeId": "",
+                  "id": 4783790,
+                  "email": "kaiwang10@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 5,
+            "roundName": "业务二面",
+            "interviewType": "视频面试",
+            "locationAddress": null,
+            "startTime": "2024-09-13T03:00:00.000Z"
+          },
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "42839703",
+                "applicationId": 592124798,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": "",
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "",
+                  "name": "彭波",
+                  "employeeId": "",
+                  "id": 4399646,
+                  "email": "bopeng@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 9,
+            "roundName": "业务三面",
+            "interviewType": "视频面试",
+            "locationAddress": null,
+            "startTime": "2024-09-23T10:00:00.000Z"
+          },
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "43094490",
+                "applicationId": 592124798,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": "",
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "15613559075",
+                  "name": "李巧",
+                  "employeeId": "",
+                  "id": 5749040,
+                  "email": "qiaoli@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 4,
+            "roundName": "HR面试",
+            "interviewType": "视频面试",
+            "locationAddress": null,
+            "startTime": "2024-09-25T03:00:00.000Z"
+          }
+        ],
+        "examInfo": {
+          "applicationId": 592124798,
+          "candidateId": 560800850,
+          "jobId": "5523c70e-8685-4049-8e5b-a0605496fa24",
+          "surveys": [
+            {
+              "name": "定制三（两履两表）",
+              "date": "2024-09-26T04:01:50.000Z",
+              "source": "开放平台三方",
+              "result": "异常报告（最终版)-低风险",
+              "attachmentUrl": "https://moka-co-oss.mokahr.com/fintopia/05db2e52362d481ba204d34c5958d094.pdf?Expires=1728706311&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=AEVjuO%2FFLZjz04k44ZWI08wcqak%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E8%25AE%25B8%25E7%2583%25A8_%25E6%259C%2580%25E7%25BB%2588%25E7%2589%2588%25E6%258A%25A5%25E5%2591%258A%25EF%25BC%2588%25E8%2593%259D%25E6%25A0%2587%25EF%25BC%2589_%25E5%25AE%259A%25E5%2588%25B6%25E4%25B8%2589%25EF%25BC%2588%25E4%25B8%25A4%25E5%25B1%25A5%25E4%25B8%25A4%25E8%25A1%25A8%25EF%25BC%2589_%25E7%2593%25B4%25E5%25B2%25B3%25E7%25A7%2591%25E6%258A%2580_i%25E8%2583%258C%25E8%25B0%2583%25E6%258A%25A5%25E5%2591%258A_LAB02409263735128.pdf%22&timestamp=1728533511740",
+              "comment": null,
+              "attachmentName": "许烨_最终版报告（蓝标）_定制三（两履两表）_瓴岳科技_i背调报告_LAB02409263735128.pdf",
+              "attachments": [
+                {
+                  "url": "https://moka-co-oss.mokahr.com/fintopia/05db2e52362d481ba204d34c5958d094.pdf?Expires=1728706311&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=AEVjuO%2FFLZjz04k44ZWI08wcqak%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E8%25AE%25B8%25E7%2583%25A8_%25E6%259C%2580%25E7%25BB%2588%25E7%2589%2588%25E6%258A%25A5%25E5%2591%258A%25EF%25BC%2588%25E8%2593%259D%25E6%25A0%2587%25EF%25BC%2589_%25E5%25AE%259A%25E5%2588%25B6%25E4%25B8%2589%25EF%25BC%2588%25E4%25B8%25A4%25E5%25B1%25A5%25E4%25B8%25A4%25E8%25A1%25A8%25EF%25BC%2589_%25E7%2593%25B4%25E5%25B2%25B3%25E7%25A7%2591%25E6%258A%2580_i%25E8%2583%258C%25E8%25B0%2583%25E6%258A%25A5%25E5%2591%258A_LAB02409263735128.pdf%22&timestamp=1728533511740",
+                  "attachmentName": "许烨_最终版报告（蓝标）_定制三（两履两表）_瓴岳科技_i背调报告_LAB02409263735128.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "next": null,
+    "code": 200,
+    "msg": "success",
+    "message": null,
+    "success": null,
+    "errorMessage": null
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1728533513312,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

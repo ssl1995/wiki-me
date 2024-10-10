@@ -1,0 +1,284 @@
+{
+  "body": {
+    "data": [
+      {
+        "basicInfo": {
+          "candidateId": 569898225,
+          "pipelineId": 97014,
+          "stageId": 130041,
+          "sourceId": 505549,
+          "applicationId": 601637293,
+          "age": 23,
+          "name": "徐子琳",
+          "phone": "18363619659",
+          "email": "541546621@qq.com",
+          "stage": {
+            "id": 130041,
+            "name": "待入职",
+            "type": 102
+          },
+          "owner": {
+            "name": "王新浩",
+            "email": "xinhaowang@fintopia.tech",
+            "phone": "18811286202"
+          },
+          "archiveReasonId": 287800,
+          "certificateType": 1,
+          "citizenId": "",
+          "gender": "女",
+          "realHiredDate": "2024-10-09T16:00:00.000Z",
+          "academicDegree": "本科",
+          "resumeUrl": "https://moka-co.oss-cn-beijing.aliyuncs.com/fintopia/c2a0211c-a948-41c5-b5f5-3b75ef61e43c.pdf?Expires=1728648438&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=fSNHY1ncpVQBfIQmjbSXnS9orwk%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E5%25BE%2590%25E5%25AD%2590%25E7%2590%25B3%25E7%259A%2584%25E7%25AE%2580%25E5%258E%2586.pdf%22%3B%20filename%2A%3Dutf-8%27%27%25E5%25BE%2590%25E5%25AD%2590%25E7%2590%25B3%25E7%259A%2584%25E7%25AE%2580%25E5%258E%2586.pdf",
+          "standardResumeUrl": "https://moka-co.oss-cn-beijing.aliyuncs.com/fintopia/htmlToPdf-dealer-33eb2fff916a4f41a71794b7ea561ca0.pdf?Expires=1728619639&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=aZkijVg617dJYpW1dPWY%2BacwnFI%3D&response-content-disposition=attachment%3B%20filename%3D%22fintopia%2FhtmlToPdf-dealer-33eb2fff916a4f41a71794b7ea561ca0.pdf%22%3B%20&timestamp=1728533239795",
+          "experience": 2,
+          "educationInfo": [
+            {
+              "id": "737832274",
+              "startDate": "2019-09",
+              "endDate": "2023-09",
+              "now": false,
+              "academicDegree": "本科",
+              "school": "哈尔滨理工大学",
+              "speciality": "视觉传达设计"
+            }
+          ],
+          "archiveReasons": {
+            "type": 3,
+            "name": "已录用"
+          },
+          "referrer": null
+        },
+        "offerInfo": {
+          "department": {
+            "name": null,
+            "departmentCode": "56Sz",
+            "parentCode": null,
+            "sequence": 0
+          },
+          "customFields": [
+            {
+              "id": 341908,
+              "name": "身份证号码",
+              "value": "370702200103142222",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 327199,
+              "name": "合同期限",
+              "value": "3",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 327200,
+              "name": "试用期期限",
+              "value": "6",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 321007,
+              "name": "试用期基本工资（元/月）",
+              "value": "12000",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 321008,
+              "name": "转正后基本工资（元/月）",
+              "value": "12000",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 333183,
+              "name": "目标年终奖金（月）",
+              "value": "2",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 329356,
+              "name": "候选人确认日期",
+              "value": "2024-10-08",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 324923,
+              "name": "offer日期",
+              "value": "2024-09-30",
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 355148,
+              "name": "试⽤期绩效⼯资（元/⽉）",
+              "value": null,
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 351632,
+              "name": "转正后绩效⼯资（元/⽉）",
+              "value": null,
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 333131,
+              "name": "实习期基本工资（元/天）",
+              "value": null,
+              "code": null,
+              "index": null
+            },
+            {
+              "id": 327202,
+              "name": "目标年终奖金（月）作废",
+              "value": null,
+              "code": null,
+              "index": null
+            }
+          ],
+          "status": "accepted",
+          "locationString": "北京市 北京-中青大厦"
+        },
+        "jobInfo": {
+          "id": "4e4076ce-2b64-408c-92c9-eb102f106ecc",
+          "mjCode": "MJ000493",
+          "hireMode": 1,
+          "title": "广告投放视觉设计师"
+        },
+        "interviewInfo": [
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "43235205",
+                "applicationId": 601637293,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": "",
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "15136840630",
+                  "name": "柴萌",
+                  "employeeId": "",
+                  "id": 6067000,
+                  "email": "mengchai@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 3,
+            "roundName": "业务一面",
+            "interviewType": "现场面试",
+            "locationAddress": "北京市 朝阳区 中青大厦-8层",
+            "startTime": "2024-09-27T03:00:00.000Z"
+          },
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "43273766",
+                "applicationId": 601637293,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": null,
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "",
+                  "name": "欧阳晓祺",
+                  "employeeId": "",
+                  "id": 4781979,
+                  "email": "xqouyang@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 5,
+            "roundName": "业务二面",
+            "interviewType": "现场面试",
+            "locationAddress": "北京市 北京-朝阳区中青大厦-18层",
+            "startTime": "2024-09-27T09:00:00.000Z"
+          },
+          {
+            "status": "已结束",
+            "interviewerFeedbacks": [
+              {
+                "feedbackId": "43290421",
+                "applicationId": 601637293,
+                "resultName": "Hire",
+                "resultType": 1,
+                "feedback": "",
+                "participated": "已填写反馈",
+                "interviewer": {
+                  "phone": "18310017517",
+                  "name": "张桂荣",
+                  "employeeId": "",
+                  "id": 4763411,
+                  "email": "guirongzhang@fintopia.tech"
+                }
+              }
+            ],
+            "roundId": 4,
+            "roundName": "HR面试",
+            "interviewType": "视频面试",
+            "locationAddress": null,
+            "startTime": "2024-09-29T06:00:00.000Z"
+          }
+        ],
+        "examInfo": {
+          "applicationId": 601637293,
+          "candidateId": 569898225,
+          "jobId": "4e4076ce-2b64-408c-92c9-eb102f106ecc",
+          "surveys": [
+            {
+              "name": "定制二（一履一表）",
+              "date": "2024-10-08T08:02:29.000Z",
+              "source": "开放平台三方",
+              "result": "异常报告（最终版)-低风险",
+              "attachmentUrl": "https://moka-co-oss.mokahr.com/fintopia/f6c46853793a4d478dac8640d0bf507a.pdf?Expires=1728706038&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=9IS5ahrD0BV%2BwzK8M2XvAiZnqMs%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E5%25BE%2590%25E5%25AD%2590%25E7%2590%25B3_%25E6%259C%2580%25E7%25BB%2588%25E7%2589%2588%25E6%258A%25A5%25E5%2591%258A%25EF%25BC%2588%25E8%2593%259D%25E6%25A0%2587%25EF%25BC%2589_%25E5%25AE%259A%25E5%2588%25B6%25E4%25BA%258C%25EF%25BC%2588%25E4%25B8%2580%25E5%25B1%25A5%25E4%25B8%2580%25E8%25A1%25A8%25EF%25BC%2589_%25E7%2593%25B4%25E5%25B2%25B3%25E7%25A7%2591%25E6%258A%2580_i%25E8%2583%258C%25E8%25B0%2583%25E6%258A%25A5%25E5%2591%258A_YYC02410087407746.pdf%22&timestamp=1728533238398",
+              "comment": null,
+              "attachmentName": "徐子琳_最终版报告（蓝标）_定制二（一履一表）_瓴岳科技_i背调报告_YYC02410087407746.pdf",
+              "attachments": [
+                {
+                  "url": "https://moka-co-oss.mokahr.com/fintopia/f6c46853793a4d478dac8640d0bf507a.pdf?Expires=1728706038&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=9IS5ahrD0BV%2BwzK8M2XvAiZnqMs%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E5%25BE%2590%25E5%25AD%2590%25E7%2590%25B3_%25E6%259C%2580%25E7%25BB%2588%25E7%2589%2588%25E6%258A%25A5%25E5%2591%258A%25EF%25BC%2588%25E8%2593%259D%25E6%25A0%2587%25EF%25BC%2589_%25E5%25AE%259A%25E5%2588%25B6%25E4%25BA%258C%25EF%25BC%2588%25E4%25B8%2580%25E5%25B1%25A5%25E4%25B8%2580%25E8%25A1%25A8%25EF%25BC%2589_%25E7%2593%25B4%25E5%25B2%25B3%25E7%25A7%2591%25E6%258A%2580_i%25E8%2583%258C%25E8%25B0%2583%25E6%258A%25A5%25E5%2591%258A_YYC02410087407746.pdf%22&timestamp=1728533238398",
+                  "attachmentName": "徐子琳_最终版报告（蓝标）_定制二（一履一表）_瓴岳科技_i背调报告_YYC02410087407746.pdf"
+                }
+              ]
+            },
+            {
+              "name": "标准版（国内）",
+              "date": "2024-10-08T02:20:32.000Z",
+              "source": "开放平台三方",
+              "result": "完成",
+              "attachmentUrl": "https://moka-co-oss.mokahr.com/fintopia/c9d46985ba4b419f80f293522be6d401.pdf?Expires=1728706038&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=85osz%2F%2Fx%2BpUJEO5fuBXefmr0wbo%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E5%2591%2598%25E5%25B7%25A5%25E8%2583%258C%25E6%2599%25AF%25E4%25BF%25A1%25E6%2581%25AF%25E6%25A0%25B8%25E5%25AE%259E%25E6%258A%25A5%25E5%2591%258A-%25E5%258C%2597%25E4%25BA%25AC%25E9%2594%258B%25E6%25B3%25B0%25E7%25A7%2591%25E6%258A%2580%25E6%259C%2589%25E9%2599%2590%25E5%2585%25AC%25E5%258F%25B8-%25E5%25BE%2590%25E5%25AD%2590%25E7%2590%25B3-%25E7%25BB%2588%25E7%2589%2588%28v2%29-%25E8%2593%259D%25E7%259B%25BE.pdf%22&timestamp=1728533238399",
+              "comment": null,
+              "attachmentName": "员工背景信息核实报告-北京锋泰科技有限公司-徐子琳-终版(v2)-蓝盾.pdf",
+              "attachments": [
+                {
+                  "url": "https://moka-co-oss.mokahr.com/fintopia/c9d46985ba4b419f80f293522be6d401.pdf?Expires=1728706038&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=85osz%2F%2Fx%2BpUJEO5fuBXefmr0wbo%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E5%2591%2598%25E5%25B7%25A5%25E8%2583%258C%25E6%2599%25AF%25E4%25BF%25A1%25E6%2581%25AF%25E6%25A0%25B8%25E5%25AE%259E%25E6%258A%25A5%25E5%2591%258A-%25E5%258C%2597%25E4%25BA%25AC%25E9%2594%258B%25E6%25B3%25B0%25E7%25A7%2591%25E6%258A%2580%25E6%259C%2589%25E9%2599%2590%25E5%2585%25AC%25E5%258F%25B8-%25E5%25BE%2590%25E5%25AD%2590%25E7%2590%25B3-%25E7%25BB%2588%25E7%2589%2588%28v2%29-%25E8%2593%259D%25E7%259B%25BE.pdf%22&timestamp=1728533238399",
+                  "attachmentName": "员工背景信息核实报告-北京锋泰科技有限公司-徐子琳-终版(v2)-蓝盾.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "next": null,
+    "code": 200,
+    "msg": "success",
+    "message": null,
+    "success": null,
+    "errorMessage": null
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1728533239873,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
