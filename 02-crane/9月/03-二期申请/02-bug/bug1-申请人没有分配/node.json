@@ -1,0 +1,50 @@
+{
+  "id": 4703,
+  "path": "4702",
+  "children": [
+    {
+      "id": 4704,
+      "parentId": 4702,
+      "parentName": null,
+      "name": "下级-下下级",
+      "businessCode": "1010-yewei",
+      "businessName": "1010测试系统yewei",
+      "desc": "",
+      "level": 3,
+      "type": "INTERNAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "1010测试系统yewei - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        },
+        {
+          "name": "叶玮2",
+          "workNumber": "04712"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 0,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetCode": "1010-yewei",
+      "targetId": 4704,
+      "targetName": "下级-下下级",
+      "errorMsg": "",
+      "operateType": "ROLE",
+      "children": null
+    }
+  ]
+}

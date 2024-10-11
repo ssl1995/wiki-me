@@ -1,8 +1,5 @@
 /admin/role/apply?roleId=%s&businessCode=%s
 
-https://crane-test.yangqianguan.com/apply/system?roleId=4687&businessCode=newsystem2
-
-https://crane-test.yangqianguan.com/apply/system?roleId=%s&businessCode=%s
 
 
   public static void main(String[] args) {

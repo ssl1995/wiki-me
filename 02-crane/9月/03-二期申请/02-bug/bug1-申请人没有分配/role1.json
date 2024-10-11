@@ -1,0 +1,346 @@
+[
+  {
+    "id": 4697,
+    "parentId": null,
+    "parentName": null,
+    "name": "1010-角色1号",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 1,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 2,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4697,
+    "targetName": "1010-角色1号",
+    "errorMsg": "",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4698,
+    "parentId": 4697,
+    "parentName": null,
+    "name": "角色1号-导出",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 2,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 2,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4698,
+    "targetName": "角色1号-导出",
+    "errorMsg": "",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4699,
+    "parentId": 4697,
+    "parentName": null,
+    "name": "角色1号-查询",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 2,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 1,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4699,
+    "targetName": "角色1号-查询",
+    "errorMsg": "",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4701,
+    "parentId": null,
+    "parentName": null,
+    "name": "1010-角色2号",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 1,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 3,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4701,
+    "targetName": "1010-角色2号",
+    "errorMsg": "",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4702,
+    "parentId": null,
+    "parentName": null,
+    "name": "1010-角色3号",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "测试描述测试描述测试描述测试描述",
+    "level": 1,
+    "type": "GENERAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 1,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "TEMP",
+      "dayDiff": 6
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4702,
+    "targetName": "1010-角色3号",
+    "errorMsg": "",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4704,
+    "parentId": 4702,
+    "parentName": null,
+    "name": "下级-下下级",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 3,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 0,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4704,
+    "targetName": "下级-下下级",
+    "errorMsg": "",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4705,
+    "parentId": 4699,
+    "parentName": null,
+    "name": "查询下边-下级角色111",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 3,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 0,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4705,
+    "targetName": "查询下边-下级角色111",
+    "errorMsg": "",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4706,
+    "parentId": null,
+    "parentName": null,
+    "name": "不关联权限",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 1,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 0,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4706,
+    "targetName": "不关联权限",
+    "errorMsg": "",
+    "operateType": "ROLE"
+  }
+]
