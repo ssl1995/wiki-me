@@ -2,3 +2,16 @@
 
 * and trace_id: f17881db1e4645a26050b3bf05f1cd73
 
+https://crane-test.yangqianguan.com/admin/employee/role
+
+https://crane-test.yangqianguan.com/admin/role/employee
+
+角色关联权限
+需校验权限与角色的类型是否满足上述条件，支持关联，若不支持，则报错：通用角色只允许关联通用权限
+
+权限关联角色
+需校验权限与角色的类型是否满足上述条件，支持关联，若不支持，则报错：内部权限只允许关联内部角色
+
+角色关联人员
+需校验权限与角色的类型是否满足上述条件，支持关联，若不支持，则报错：内部角色只允许关联正式员工
+

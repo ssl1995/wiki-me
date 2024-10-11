@@ -1,0 +1,18 @@
+{
+  "roleIds": [
+    4694
+  ],
+  "addPermissionIds": [
+    857
+  ],
+  "deletePermissionIds": [],
+  "permissionDataRule": [
+    {
+      "permissionId": 857,
+      "roleId": 4694,
+      "dataRule": {
+        "ruleItems": []
+      }
+    }
+  ]
+}

@@ -1,244 +1,390 @@
-{
-	"body": {
-		"data": [
-			{
-				"basicInfo": {
-					"candidateId": 568605042,
-					"pipelineId": 97014,
-					"stageId": 130041,
-					"sourceId": 505549,
-					"applicationId": 600109733,
-					"age": null,
-					"name": "孙浩铭",
-					"phone": "18686359826",
-					"email": "1048080973@qq.com",
-					"stage": {
-						"id": 130041,
-						"name": "待入职",
-						"type": 102
-					},
-					"owner": {
-						"name": "张桂荣",
-						"email": "guirongzhang@fintopia.tech",
-						"phone": "18310017517"
-					},
-					"archiveReasonId": 287800,
-					"certificateType": 1,
-					"citizenId": "",
-					"gender": "",
-					"realHiredDate": "2024-10-09T16:00:00.000Z",
-					"academicDegree": "硕士",
-					"resumeUrl": "https://moka-co.oss-cn-beijing.aliyuncs.com/fintopia/e12978e8-05b0-401d-b836-1f1b9eca4cb0.pdf?Expires=1728648687&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=59roaNtc7wkfrmBmhCdDxfV5WBg%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E5%25AD%2599%25E6%25B5%25A9%25E9%2593%25AD%25E7%259A%2584%25E7%25AE%2580%25E5%258E%2586.pdf%22%3B%20filename%2A%3Dutf-8%27%27%25E5%25AD%2599%25E6%25B5%25A9%25E9%2593%25AD%25E7%259A%2584%25E7%25AE%2580%25E5%258E%2586.pdf",
-					"standardResumeUrl": "https://moka-co.oss-cn-beijing.aliyuncs.com/fintopia/htmlToPdf-dealer-1623dab9be8a4179999b297c0ca6f74d.pdf?Expires=1728619889&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=ILduQZIHBONmSJzBBjJ4qKPpICw%3D&response-content-disposition=attachment%3B%20filename%3D%22fintopia%2FhtmlToPdf-dealer-1623dab9be8a4179999b297c0ca6f74d.pdf%22%3B%20&timestamp=1728533489358",
-					"experience": null,
-					"educationInfo": [
-						{
-							"id": "735988073",
-							"startDate": "",
-							"endDate": "",
-							"now": false,
-							"academicDegree": "硕士",
-							"school": "吉林艺术学院",
-							"speciality": ""
-						}
-					],
-					"archiveReasons": {
-						"type": 3,
-						"name": "已录用"
-					},
-					"referrer": null
-				},
-				"offerInfo": {
-					"department": {
-						"name": null,
-						"departmentCode": "56Sz",
-						"parentCode": null,
-						"sequence": 0
-					},
-					"customFields": [
-						{
-							"id": 341908,
-							"name": "身份证号码",
-							"value": "230106199905040419",
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 327199,
-							"name": "合同期限",
-							"value": "3",
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 327200,
-							"name": "试用期期限",
-							"value": "6",
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 321007,
-							"name": "试用期基本工资（元/月）",
-							"value": "10000",
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 321008,
-							"name": "转正后基本工资（元/月）",
-							"value": "10000",
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 333183,
-							"name": "目标年终奖金（月）",
-							"value": "2",
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 329356,
-							"name": "候选人确认日期",
-							"value": "2024-09-30",
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 324923,
-							"name": "offer日期",
-							"value": "2024-09-29",
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 355148,
-							"name": "试⽤期绩效⼯资（元/⽉）",
-							"value": null,
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 351632,
-							"name": "转正后绩效⼯资（元/⽉）",
-							"value": null,
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 333131,
-							"name": "实习期基本工资（元/天）",
-							"value": null,
-							"code": null,
-							"index": null
-						},
-						{
-							"id": 327202,
-							"name": "目标年终奖金（月）作废",
-							"value": null,
-							"code": null,
-							"index": null
-						}
-					],
-					"status": "accepted",
-					"locationString": "北京市 北京-中青大厦"
-				},
-				"jobInfo": {
-					"id": "08b03ced-f8f5-4d61-844b-8fcf4dca0a90",
-					"mjCode": "MJ000011",
-					"hireMode": 1,
-					"title": "视觉设计师"
-				},
-				"interviewInfo": [
-					{
-						"status": "已结束",
-						"interviewerFeedbacks": [
-							{
-								"feedbackId": "43147829",
-								"applicationId": 600109733,
-								"resultName": null,
-								"resultType": null,
-								"feedback": null,
-								"participated": "未填写反馈",
-								"interviewer": {
-									"phone": "",
-									"name": "郭欣",
-									"employeeId": "",
-									"id": 5861584,
-									"email": "xinguo@fintopia.tech"
-								}
-							}
-						],
-						"roundId": 3,
-						"roundName": "业务一面",
-						"interviewType": "视频面试",
-						"locationAddress": null,
-						"startTime": "2024-09-25T09:00:00.000Z"
-					},
-					{
-						"status": "已结束",
-						"interviewerFeedbacks": [
-							{
-								"feedbackId": "43213072",
-								"applicationId": 600109733,
-								"resultName": "Hire",
-								"resultType": 1,
-								"feedback": "",
-								"participated": "已填写反馈",
-								"interviewer": {
-									"phone": "18310017517",
-									"name": "张桂荣",
-									"employeeId": "",
-									"id": 4763411,
-									"email": "guirongzhang@fintopia.tech"
-								}
-							}
-						],
-						"roundId": 4,
-						"roundName": "HR面试",
-						"interviewType": "视频面试",
-						"locationAddress": null,
-						"startTime": "2024-09-26T07:00:00.000Z"
-					}
-				],
-				"examInfo": {
-					"applicationId": 600109733,
-					"candidateId": 568605042,
-					"jobId": "08b03ced-f8f5-4d61-844b-8fcf4dca0a90",
-					"surveys": [
-						{
-							"name": "标准版（国内）",
-							"date": "2024-09-27T07:29:45.000Z",
-							"source": "开放平台三方",
-							"result": "完成",
-							"attachmentUrl": "https://moka-co-oss.mokahr.com/fintopia/e7cc81a78ce141ffb55dee29215a97fb.pdf?Expires=1728706287&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=Fs1dTRXL086%2BY00Sf0wRIBVlhcQ%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E5%2591%2598%25E5%25B7%25A5%25E8%2583%258C%25E6%2599%25AF%25E4%25BF%25A1%25E6%2581%25AF%25E6%25A0%25B8%25E5%25AE%259E%25E6%258A%25A5%25E5%2591%258A-%25E5%258C%2597%25E4%25BA%25AC%25E9%2594%258B%25E6%25B3%25B0%25E7%25A7%2591%25E6%258A%2580%25E6%259C%2589%25E9%2599%2590%25E5%2585%25AC%25E5%258F%25B8-%25E5%25AD%2599%25E6%25B5%25A9%25E9%2593%25AD-%25E7%25BB%2588%25E7%2589%2588%28v1%29-%25E7%25BB%25BF%25E7%259B%25BE.pdf%22&timestamp=1728533487910",
-							"comment": null,
-							"attachmentName": "员工背景信息核实报告-北京锋泰科技有限公司-孙浩铭-终版(v1)-绿盾.pdf",
-							"attachments": [
-								{
-									"url": "https://moka-co-oss.mokahr.com/fintopia/e7cc81a78ce141ffb55dee29215a97fb.pdf?Expires=1728706287&OSSAccessKeyId=LTAI5tBgSyttQYpne6XoQCpt&Signature=Fs1dTRXL086%2BY00Sf0wRIBVlhcQ%3D&response-content-disposition=attachment%3B%20filename%3D%22%25E5%2591%2598%25E5%25B7%25A5%25E8%2583%258C%25E6%2599%25AF%25E4%25BF%25A1%25E6%2581%25AF%25E6%25A0%25B8%25E5%25AE%259E%25E6%258A%25A5%25E5%2591%258A-%25E5%258C%2597%25E4%25BA%25AC%25E9%2594%258B%25E6%25B3%25B0%25E7%25A7%2591%25E6%258A%2580%25E6%259C%2589%25E9%2599%2590%25E5%2585%25AC%25E5%258F%25B8-%25E5%25AD%2599%25E6%25B5%25A9%25E9%2593%25AD-%25E7%25BB%2588%25E7%2589%2588%28v1%29-%25E7%25BB%25BF%25E7%259B%25BE.pdf%22&timestamp=1728533487910",
-									"attachmentName": "员工背景信息核实报告-北京锋泰科技有限公司-孙浩铭-终版(v1)-绿盾.pdf"
-								}
-							]
-						}
-					]
-				}
-			}
-		],
-		"next": null,
-		"code": 200,
-		"msg": "success",
-		"message": null,
-		"success": null,
-		"errorMessage": null
-	},
-	"status": {
-		"code": 0,
-		"type": "",
-		"detail": "",
-		"serverResponseTime": 1728533489431,
-		"displayType": "TOAST",
-		"url": null
-	}
-}
+[
+  {
+    "id": 4697,
+    "parentId": null,
+    "parentName": null,
+    "name": "1010-角色1号",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 1,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 2,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4697,
+    "errorMsg": "",
+    "targetName": "1010-角色1号",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4698,
+    "parentId": 4697,
+    "parentName": null,
+    "name": "角色1号-导出",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 2,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 2,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4698,
+    "errorMsg": "",
+    "targetName": "角色1号-导出",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4699,
+    "parentId": 4697,
+    "parentName": null,
+    "name": "角色1号-查询",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 2,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 1,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4699,
+    "errorMsg": "",
+    "targetName": "角色1号-查询",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4701,
+    "parentId": null,
+    "parentName": null,
+    "name": "1010-角色2号",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 1,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 3,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4701,
+    "errorMsg": "",
+    "targetName": "1010-角色2号",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4702,
+    "parentId": null,
+    "parentName": null,
+    "name": "1010-角色3号",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "测试描述测试描述测试描述测试描述",
+    "level": 1,
+    "type": "GENERAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 1,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "TEMP",
+      "dayDiff": 6
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4702,
+    "errorMsg": "",
+    "targetName": "1010-角色3号",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4703,
+    "parentId": 4702,
+    "parentName": null,
+    "name": "3号-下级",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 2,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 1,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "FOREVER",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4703,
+    "errorMsg": "",
+    "targetName": "3号-下级",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4704,
+    "parentId": 4703,
+    "parentName": null,
+    "name": "下级-下下级",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 3,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 1,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "TEMP",
+      "dayDiff": 29
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4704,
+    "errorMsg": "",
+    "targetName": "下级-下下级",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4705,
+    "parentId": 4699,
+    "parentName": null,
+    "name": "查询下边-下级角色111",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 3,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 0,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4705,
+    "errorMsg": "",
+    "targetName": "查询下边-下级角色111",
+    "operateType": "ROLE"
+  },
+  {
+    "id": 4706,
+    "parentId": null,
+    "parentName": null,
+    "name": "不关联权限",
+    "businessCode": "1010-yewei",
+    "businessName": "1010测试系统yewei",
+    "desc": "",
+    "level": 1,
+    "type": "INTERNAL",
+    "status": "ABLE",
+    "reason": "",
+    "systemRoleName": "1010测试系统yewei - 系统管理员",
+    "superSystemRoleName": null,
+    "admin": [
+      {
+        "name": "叶玮",
+        "workNumber": "04690"
+      },
+      {
+        "name": "叶玮2",
+        "workNumber": "04712"
+      },
+      {
+        "name": "叶玮05004",
+        "workNumber": "05004"
+      }
+    ],
+    "superAdmin": null,
+    "userCount": 0,
+    "isSystemAdmin": false,
+    "isSuperSystemAdmin": false,
+    "permissionId": null,
+    "ownStatusVO": {
+      "timeStatus": "NO",
+      "dayDiff": null
+    },
+    "targetCode": "1010-yewei",
+    "targetId": 4706,
+    "errorMsg": "",
+    "targetName": "不关联权限",
+    "operateType": "ROLE"
+  }
+]
+
