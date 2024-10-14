@@ -1,0 +1,9 @@
+{
+  "id": 882,
+  "name": "宋的系统.通用权限",
+  "feature": "songSys.general",
+  "type": "GENERAL",
+  "securityLevel": "L1",
+  "departmentIds":[1,2,3],
+  "supportDataRule": false
+}
