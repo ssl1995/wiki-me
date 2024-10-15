@@ -1,17 +1,26 @@
 OA上线
 1、合代码
-2、加配置
-crane，需要改成ture
+2、修改配置
+未完成：crane.isOpen 改成 TRUE
+
 3、审批流设置json
-未完成：只用设置”系统权限申请“的json
+已完成：只用设置”系统权限申请“的json
+
 
 Crane上线
 1、直接发master到线上分支
 做好老线上备份
 未完成：注释掉tableau相关Controller
 
-2、各种配置
+2、先运行flyway
+未完成：运行flyway
+
+3、各种配置
 role.apply
 
 未完成：role.roleImportTemplateUrl  -- 需要上线后配置FileController
-未完成：permission.getPermissionImportTemplateUrl -- 需要上线后配置FileController
+未完成：permission.permissionImportTemplateUrl -- 需要上线后配置FileController
+
+4、配置定时任务
+
+未完成：四个定时任务
