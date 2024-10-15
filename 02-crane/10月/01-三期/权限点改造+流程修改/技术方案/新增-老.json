@@ -1,0 +1,7 @@
+{
+    "name": "宋的系统.三期方案",
+    "feature": "songSys.feature3",
+    "type": "INTERNAL",
+    "securityLevel": "HIGH",
+    "supportDataRule": false
+}
