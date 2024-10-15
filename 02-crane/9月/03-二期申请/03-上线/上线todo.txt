@@ -10,10 +10,10 @@ OA上线
 Crane上线
 1、直接发master到线上分支
 做好老线上备份
-未完成：注释掉tableau相关Controller
+已完成：注释掉tableau相关Controller
 
 2、先运行flyway
-未完成：运行flyway
+已完成：运行flyway
 
 3、各种配置
 role.apply
@@ -24,3 +24,22 @@ role.apply
 4、配置定时任务
 
 未完成：四个定时任务
+
+
+curl 'https://crane-test.yangqianguan.com/admin/role/apply?current=1&pageSize=10&businessCode=test1012code&isFilterNoApplyRole=true' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: null' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: YQG_UNITE_TOKEN_TEST=64127CFCE08725D6E888F0F06C30D32FFB65CBB6DA9055EE62DAC03A2AA279EB73C51474D90BB382-04690-01' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:8001/apply/system' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
+  -H 'YQG-PLATFORM-LANGUAGE: zh' \
+  -H 'fintopia-swim-lane-id: oassl' \
+  -H 'sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"'

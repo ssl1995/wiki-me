@@ -1,0 +1,542 @@
+{
+  "body": [
+    {
+      "id": 4725,
+      "parentId": null,
+      "parentName": null,
+      "name": "批量导入1",
+      "businessCode": "test1012code",
+      "businessName": "测试系统1012",
+      "desc": "测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1测试批量导入1",
+      "level": 1,
+      "type": "INTERNAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "测试系统1012 - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 1,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 4725,
+      "targetCode": "test1012code",
+      "operateType": "ROLE",
+      "targetName": "批量导入1",
+      "errorMsg": "",
+      "children": null
+    },
+    {
+      "id": 4726,
+      "parentId": null,
+      "parentName": null,
+      "name": "批量导入2",
+      "businessCode": "test1012code",
+      "businessName": "测试系统1012",
+      "desc": "测试批量导入2",
+      "level": 1,
+      "type": "GENERAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "测试系统1012 - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 3,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 4726,
+      "targetCode": "test1012code",
+      "operateType": "ROLE",
+      "targetName": "批量导入2",
+      "errorMsg": "",
+      "children": null
+    },
+    {
+      "id": 4727,
+      "parentId": null,
+      "parentName": null,
+      "name": "批量导入多层级",
+      "businessCode": "test1012code",
+      "businessName": "测试系统1012",
+      "desc": "1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述1级测试描述",
+      "level": 1,
+      "type": "INTERNAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "测试系统1012 - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 3,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 4727,
+      "targetCode": "test1012code",
+      "operateType": "ROLE",
+      "targetName": "批量导入多层级",
+      "errorMsg": "",
+      "children": [
+        {
+          "id": 4728,
+          "parentId": 4727,
+          "parentName": null,
+          "name": "批量导入2级",
+          "businessCode": "test1012code",
+          "businessName": "测试系统1012",
+          "desc": "2级",
+          "level": 2,
+          "type": "INTERNAL",
+          "status": "ABLE",
+          "reason": "",
+          "systemRoleName": "测试系统1012 - 系统管理员",
+          "superSystemRoleName": null,
+          "admin": [
+            {
+              "name": "lilixian",
+              "workNumber": "00251"
+            },
+            {
+              "name": "叶玮05004",
+              "workNumber": "05004"
+            },
+            {
+              "name": "叶玮",
+              "workNumber": "04690"
+            }
+          ],
+          "superAdmin": null,
+          "userCount": 1,
+          "isSystemAdmin": false,
+          "isSuperSystemAdmin": false,
+          "permissionId": null,
+          "ownStatusVO": {
+            "timeStatus": "NO",
+            "dayDiff": null
+          },
+          "targetId": 4728,
+          "targetCode": "test1012code",
+          "operateType": "ROLE",
+          "targetName": "批量导入2级",
+          "errorMsg": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "id": 4728,
+      "parentId": 4727,
+      "parentName": null,
+      "name": "批量导入2级",
+      "businessCode": "test1012code",
+      "businessName": "测试系统1012",
+      "desc": "2级",
+      "level": 2,
+      "type": "INTERNAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "测试系统1012 - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 1,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 4728,
+      "targetCode": "test1012code",
+      "operateType": "ROLE",
+      "targetName": "批量导入2级",
+      "errorMsg": "",
+      "children": [
+        {
+          "id": 4729,
+          "parentId": 4728,
+          "parentName": null,
+          "name": "批量导入3级",
+          "businessCode": "test1012code",
+          "businessName": "测试系统1012",
+          "desc": "3级",
+          "level": 2,
+          "type": "INTERNAL",
+          "status": "ABLE",
+          "reason": "",
+          "systemRoleName": "测试系统1012 - 系统管理员",
+          "superSystemRoleName": null,
+          "admin": [
+            {
+              "name": "lilixian",
+              "workNumber": "00251"
+            },
+            {
+              "name": "叶玮05004",
+              "workNumber": "05004"
+            },
+            {
+              "name": "叶玮",
+              "workNumber": "04690"
+            }
+          ],
+          "superAdmin": null,
+          "userCount": 1,
+          "isSystemAdmin": false,
+          "isSuperSystemAdmin": false,
+          "permissionId": null,
+          "ownStatusVO": {
+            "timeStatus": "NO",
+            "dayDiff": null
+          },
+          "targetId": 4729,
+          "targetCode": "test1012code",
+          "operateType": "ROLE",
+          "targetName": "批量导入3级",
+          "errorMsg": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "id": 4730,
+      "parentId": null,
+      "parentName": null,
+      "name": "到期时间测试",
+      "businessCode": "test1012code",
+      "businessName": "测试系统1012",
+      "desc": "",
+      "level": 1,
+      "type": "INTERNAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "测试系统1012 - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 2,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 4730,
+      "targetCode": "test1012code",
+      "operateType": "ROLE",
+      "targetName": "到期时间测试",
+      "errorMsg": "",
+      "children": null
+    },
+    {
+      "id": 4731,
+      "parentId": null,
+      "parentName": null,
+      "name": "测试批量1015",
+      "businessCode": "test1012code",
+      "businessName": "测试系统1012",
+      "desc": "",
+      "level": 1,
+      "type": "INTERNAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "测试系统1012 - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 1,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 4731,
+      "targetCode": "test1012code",
+      "operateType": "ROLE",
+      "targetName": "测试批量1015",
+      "errorMsg": "",
+      "children": null
+    },
+    {
+      "id": 4732,
+      "parentId": null,
+      "parentName": null,
+      "name": "测试批量1015-2",
+      "businessCode": "test1012code",
+      "businessName": "测试系统1012",
+      "desc": "测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试vvv测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试vvv测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试vvv测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试vvv测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试vvv测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试vvv测试测试测试测试测试",
+      "level": 1,
+      "type": "GENERAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "测试系统1012 - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 1,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 4732,
+      "targetCode": "test1012code",
+      "operateType": "ROLE",
+      "targetName": "测试批量1015-2",
+      "errorMsg": "",
+      "children": null
+    },
+    {
+      "id": 4733,
+      "parentId": null,
+      "parentName": null,
+      "name": "邮件测1",
+      "businessCode": "test1012code",
+      "businessName": "测试系统1012",
+      "desc": "邮件测1邮件测1",
+      "level": 1,
+      "type": "INTERNAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "测试系统1012 - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 1,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 4733,
+      "targetCode": "test1012code",
+      "operateType": "ROLE",
+      "targetName": "邮件测1",
+      "errorMsg": "",
+      "children": null
+    },
+    {
+      "id": 4734,
+      "parentId": null,
+      "parentName": null,
+      "name": "邮件测2",
+      "businessCode": "test1012code",
+      "businessName": "测试系统1012",
+      "desc": "邮件测1邮件测122222",
+      "level": 1,
+      "type": "INTERNAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "测试系统1012 - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 1,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 4734,
+      "targetCode": "test1012code",
+      "operateType": "ROLE",
+      "targetName": "邮件测2",
+      "errorMsg": "",
+      "children": null
+    },
+    {
+      "id": 4735,
+      "parentId": null,
+      "parentName": null,
+      "name": "邮件测3",
+      "businessCode": "test1012code",
+      "businessName": "测试系统1012",
+      "desc": "邮件测1333333",
+      "level": 1,
+      "type": "INTERNAL",
+      "status": "ABLE",
+      "reason": "",
+      "systemRoleName": "测试系统1012 - 系统管理员",
+      "superSystemRoleName": null,
+      "admin": [
+        {
+          "name": "lilixian",
+          "workNumber": "00251"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        },
+        {
+          "name": "叶玮",
+          "workNumber": "04690"
+        }
+      ],
+      "superAdmin": null,
+      "userCount": 1,
+      "isSystemAdmin": false,
+      "isSuperSystemAdmin": false,
+      "permissionId": null,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "targetId": 4735,
+      "targetCode": "test1012code",
+      "operateType": "ROLE",
+      "targetName": "邮件测3",
+      "errorMsg": "",
+      "children": null
+    }
+  ],
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1728975722359,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
