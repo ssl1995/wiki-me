@@ -114,11 +114,11 @@
       ]
     }
   ],
-  "messageLink": "https://crane-test.yangqianguan.com/flow/system?id=",
+  "messageLink": "https://crane.fintopia.tech/flow/system?id=",
   "callbacks": [
     {
       "id": 1,
-      "url": "https://crane-test.yangqianguan.com/rpc/role/apply/callback"
+      "url": "https://crane.fintopia.tech/rpc/role/apply/callback"
     }
   ],
   "start": 1,
