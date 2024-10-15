@@ -1,0 +1,15 @@
+{
+  "businessCode": "MS",
+  "flowCode": "MSFT",
+  "ownerWorkNumber": "03541",
+  "businessId": 300001,
+  "flowStepModules": null,
+  "fullClassName": null,
+  "submitterWorkNumber": null,
+  "priority": "P1",
+  "parameter": {
+    "totalLevel2": 2,
+    "isSkipApproval2": false
+  },
+  "auditComment": "宋测试动态审批"
+}

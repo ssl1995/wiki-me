@@ -3,22 +3,6 @@
     {
       "name": "launcherSpecificWorkNumber",
       "type": "java.lang.String"
-    },
-    {
-      "name": "totalLevel2",
-      "type": "java.lang.Integer"
-    },
-    {
-      "name": "currentLevel2",
-      "type": "java.lang.Integer"
-    },
-    {
-      "name": "isSkipApproval2",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "name": "historyCircleLeaderIds",
-      "type": "java.lang.String"
     }
   ],
   "status": [
@@ -107,12 +91,19 @@
     },
     {
       "id": 2,
-      "name": "circle_dept_leader",
+      "name": "launcher_specific_user",
       "description": "launcherSpecificWorkNumber",
       "action": [
         1,
         2
       ]
+    }
+  ],
+  "messageLink": "https://automl-test.yangqianguan.com/api/public/oa/renhangMessageLink?id=",
+  "callbacks": [
+    {
+      "id": 1,
+      "url": "https://automl-test.yangqianguan.com/api/public/oa/renhangOACallback"
     }
   ],
   "start": 1,
@@ -180,7 +171,6 @@
         2
       ],
       "show": true,
-      "circle": true,
       "init_status": "I",
       "actions": [
         {

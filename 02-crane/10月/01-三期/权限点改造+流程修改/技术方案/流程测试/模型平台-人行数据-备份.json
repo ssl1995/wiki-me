@@ -1,0 +1,255 @@
+{
+  "parameter": [
+    {
+      "name": "totalLevel2",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "currentLevel2",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "isSkipApproval2",
+      "type": "java.lang.Boolean"
+    }
+  ],
+  "status": [
+    {
+      "code": "S",
+      "name": "已提交"
+    },
+    {
+      "code": "I",
+      "name": "初始化"
+    },
+    {
+      "code": "P",
+      "name": "审核中"
+    },
+    {
+      "code": "A",
+      "name": "通过"
+    },
+    {
+      "code": "R",
+      "name": "拒绝"
+    },
+    {
+      "code": "C",
+      "name": "驳回修改"
+    },
+    {
+      "code": "V",
+      "name": "再审"
+    },
+    {
+      "code": "E",
+      "name": "结束"
+    }
+  ],
+  "action": [
+    {
+      "id": 1,
+      "name": "approve",
+      "description": "通过",
+      "manual": true,
+      "comment": [
+        {
+          "field": "comment",
+          "description": "备注",
+          "required": false
+        }
+      ],
+      "attachment": false
+    },
+    {
+      "id": 2,
+      "name": "reject",
+      "description": "拒绝",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "拒绝原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "submit",
+      "description": "提交",
+      "manual": true
+    },
+    {
+      "id": 4,
+      "name": "auto",
+      "description": "自动流转",
+      "manual": false
+    }
+  ],
+  "actor": [
+    {
+      "id": 1,
+      "name": "self",
+      "description": "自己",
+      "action": [
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "circle_dept_leader",
+      "description": "循环至I4/I4/M1",
+      "action": [
+        1,
+        2
+      ]
+    }
+  ],
+  "start": 1,
+  "end": {
+    "id": 999,
+    "status": "E"
+  },
+  "step": [
+    {
+      "index": 1,
+      "name": "发起人提交",
+      "description": "发起人提交节点",
+      "actor": [
+        1
+      ],
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C"
+              ],
+              "expression": "!#isSkipApproval2",
+              "status": "S",
+              "next": [
+                2
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C"
+              ],
+              "expression": "#isSkipApproval2",
+              "status": "S",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "S"
+              ],
+              "status": "C",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "循环审批",
+      "description": "循环审批",
+      "actor": [
+        2
+      ],
+      "show": true,
+      "circle": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "P",
+              "expression": "#totalLevel2 > #currentLevel2",
+              "next": [
+                2
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel2 == #currentLevel2",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 999,
+      "name": "结束",
+      "description": "结束节点",
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I"
+              ],
+              "status": "E"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
