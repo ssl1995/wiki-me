@@ -1,6 +1,7 @@
 {
   "deptName": "idn-backend",
   "totalLevel51": 3,
+  "totalLevel2": 3,
   "specificNumber500": "",
   "specificDeptId": 242,
   "isHumanDirector": false,
@@ -53,6 +54,5 @@
   "isCFODeptLeaderSame": true,
   "historySecondDept": "{\"id\":243,\"oaId\":243,\"name\":\"ind-web\",\"leaderId\":\"kMVfo\",\"parentId\":119,\"level\":3,\"timeCreated\":1661414176602,\"timeUpdated\":1690950453837,\"isAvailable\":\"TRUE\",\"exMailId\":-1}",
   "superiorChainIncludeFC": false,
-  "totalLevel2": 3,
   "isSkipApproval55": "true"
 }
