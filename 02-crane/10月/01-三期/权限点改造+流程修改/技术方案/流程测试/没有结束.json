@@ -1,0 +1,212 @@
+{
+    "body": {
+        "id": "RJ84otM",
+        "flowStepId": null,
+        "flowKey": "CR-RAY",
+        "state": "WITHDRAW",
+        "priority": "P1",
+        "employeeId": "ke8OSo",
+        "employeeTypeId": 1,
+        "submitterId": "ke8OSo",
+        "flowNumber": "F-CR2410170001",
+        "businessCode": "CR",
+        "flowCode": "RAY",
+        "html": "",
+        "flowModules": [],
+        "needAction": "TRUE",
+        "auditSteps": [
+            {
+                "id": 295881,
+                "oaId": 295881,
+                "flowId": "RJ84otM",
+                "flowStepId": "1K45lCQ",
+                "auditorId": "ke8OSo",
+                "auditState": "WITHDRAW",
+                "reason": "cs",
+                "auditor": {
+                    "id": "ke8OSo",
+                    "name": "宋声林",
+                    "employeeTypeId": 1,
+                    "workNumber": "03541",
+                    "departmentId": 515,
+                    "departmentChain": "黄风岭八百里",
+                    "positionId": 61,
+                    "state": "FORMAL",
+                    "companyId": 8,
+                    "oaBasicPrivilege": "OPEN",
+                    "overseas": false,
+                    "submitterId": -1,
+                    "employeeNameList": [],
+                    "currentUserIsOutsourcingSuppliers": false,
+                    "numberOfEntries": 1,
+                    "suffix": "黄风岭八百里 null"
+                },
+                "enable": "TRUE",
+                "flowModules": [],
+                "timeCreated": 1729095424735,
+                "timeUpdated": 1729095424735,
+                "flowStepState": "PENDING",
+                "auditComment": {}
+            },
+            {
+                "id": 295879,
+                "oaId": 295879,
+                "flowId": "RJ84otM",
+                "flowStepId": "1K45lCQ",
+                "auditorId": "ke8OSo",
+                "auditState": "SUBMIT",
+                "auditor": {
+                    "id": "ke8OSo",
+                    "name": "宋声林",
+                    "employeeTypeId": 1,
+                    "workNumber": "03541",
+                    "departmentId": 515,
+                    "departmentChain": "黄风岭八百里",
+                    "positionId": 61,
+                    "state": "FORMAL",
+                    "companyId": 8,
+                    "oaBasicPrivilege": "OPEN",
+                    "overseas": false,
+                    "submitterId": -1,
+                    "employeeNameList": [],
+                    "currentUserIsOutsourcingSuppliers": false,
+                    "numberOfEntries": 1,
+                    "suffix": "黄风岭八百里 null"
+                },
+                "enable": "TRUE",
+                "flowModules": [],
+                "timeCreated": 1729094755241,
+                "timeUpdated": 1729094755241,
+                "flowStepState": "PENDING",
+                "auditComment": {
+                    "备注": "发起—>逐级审批至I4/M1"
+                }
+            }
+        ],
+        "notStartedAuditSteps": null,
+        "actions": [],
+        "actors": null,
+        "flowNodeVO": {
+            "startStep": 1,
+            "endStep": 999,
+            "stepNodeList": [
+                {
+                    "flowStepId": "1K45lCQ",
+                    "stepIndex": 1,
+                    "inDegree": 0,
+                    "actionList": [
+                        {
+                            "indexStepNode": 3,
+                            "actionType": "SUBMIT",
+                            "expression": "#isSkipLeader && !#isSkipApproval3 && #isSkipApproval14 && #isSkipApproval25 && #isSkipManager!=null && #isSkipAdmin!=null && #isSkipManagerOrAdmin!=null",
+                            "executed": false,
+                            "nextLevelList": [
+                                1
+                            ]
+                        }
+                    ],
+                    "auditorName": "宋声林",
+                    "stepState": "WITHDRAW",
+                    "level": 0,
+                    "canHandover": false,
+                    "canWithdrawHandover": false,
+                    "auditorType": "SELF",
+                    "employeeNameList": []
+                },
+                {
+                    "flowStepId": "mgZEeix",
+                    "stepIndex": 3,
+                    "inDegree": 2,
+                    "actionList": [
+                        {
+                            "indexStepNode": 3,
+                            "actionType": "APPROVE",
+                            "expression": "#totalLevel3 > #currentLevel3",
+                            "executed": false,
+                            "nextLevelList": [
+                                2
+                            ]
+                        },
+                        {
+                            "indexStepNode": 999,
+                            "actionType": "REJECT",
+                            "expression": "",
+                            "executed": false,
+                            "nextLevelList": [
+                                0
+                            ]
+                        }
+                    ],
+                    "auditorName": "宋测试-杨丽君-03875",
+                    "stepState": "BREAK",
+                    "level": 1,
+                    "canHandover": false,
+                    "canWithdrawHandover": false,
+                    "auditorType": "CIRCLE_DEPT_LEADER",
+                    "employeeNameList": []
+                },
+                {
+                    "flowStepId": "mgZEeix",
+                    "stepIndex": 3,
+                    "inDegree": 0,
+                    "actionList": [
+                        {
+                            "indexStepNode": 999,
+                            "actionType": "REJECT",
+                            "expression": "",
+                            "executed": false,
+                            "nextLevelList": [
+                                0
+                            ]
+                        }
+                    ],
+                    "auditorName": "宋测试-李树娟-03877",
+                    "stepState": "INITIAL",
+                    "level": 2,
+                    "canHandover": false,
+                    "canWithdrawHandover": false,
+                    "auditorType": "CIRCLE_DEPT_LEADER",
+                    "employeeNameList": []
+                },
+                {
+                    "flowStepId": "llZmJCg",
+                    "stepIndex": 999,
+                    "inDegree": 2,
+                    "actionList": [],
+                    "stepState": "END",
+                    "level": 0,
+                    "canHandover": false,
+                    "canWithdrawHandover": false,
+                    "employeeNameList": []
+                }
+            ]
+        },
+        "toDoInstruction": null,
+        "detailUrl": "https://crane-test.yangqianguan.com/flow/system?id=200012",
+        "detailTitle": "系统权限申请",
+        "showFlowInsurance": "TRUE",
+        "canPrint": "FALSE",
+        "canCancel": "FALSE",
+        "canWithdraw": "FALSE",
+        "canResubmit": "FALSE",
+        "canForceInterrupt": "FALSE",
+        "canModify": "FALSE",
+        "canEditLedger": "FALSE",
+        "isIndonesianFlow": "FALSE",
+        "canPurchase": "FALSE",
+        "canRejectPurchase": "FALSE",
+        "canIssue": "FALSE",
+        "avatar": null,
+        "employeeName": null,
+        "employeeGender": null,
+        "content": null
+    },
+    "status": {
+        "code": 0,
+        "type": "",
+        "detail": "",
+        "serverResponseTime": 1729096438883,
+        "displayType": "TOAST",
+        "url": null
+    }
+}
