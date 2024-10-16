@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "employeeId": 1,
+    "employeeNumber": "00001",
+    "name": "张三"
+  },
+  {
+    "id": 2,
+    "employeeId": 2,
+    "employeeNumber": "00002",
+    "name": "李四"
+  }
+]
