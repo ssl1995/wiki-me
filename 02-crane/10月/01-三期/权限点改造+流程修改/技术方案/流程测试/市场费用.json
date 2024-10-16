@@ -1,0 +1,7365 @@
+{
+  "parameter": [
+    {
+      "name": "totalLevel8",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "currentLevel8",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "specificNumber",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "containsCEO",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "workNumber",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "isSimpleFlow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "needToSubmitter",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "isNewFlow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "departmentId",
+      "type": "java.lang.Long"
+    },
+    {
+      "name": "isCFOEqualCEO",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "isLoanAssistance",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "totalLevel9",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "currentLevel9",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "totalLevel10",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "currentLevel10",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "isSpecificRole",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "isIndonesianFlow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "totalLevel55",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "currentLevel55",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "isSkipApproval58",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "isSkipRiskControl",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "purposes",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "isGADepartment",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "isSkipFinancialFeedback",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "hasNUCKY",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "isSkipApproval80",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "JIMMYAndNUCKY",
+      "type": "java.lang.String"
+    }
+  ],
+  "ii8nMessage": [
+    {
+      "language": "zh",
+      "messages": [
+        {
+          "key": "已收到对方用印合同，交至总裁办",
+          "message": "已收到对方用印合同，交至总裁办"
+        },
+        {
+          "key": "已收到双方用印合同，交至法务",
+          "message": "已收到双方用印合同，交至法务"
+        },
+        {
+          "key": "已收到对方用印合同，交至总裁办",
+          "message": "已收到对方用印合同，交至总裁办"
+        },
+        {
+          "key": "已收到双方用印合同，交至法务",
+          "message": "已收到双方用印合同，交至法务"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "messages": [
+        {
+          "key": "已收到对方用印合同，交至总裁办",
+          "message": "Received the printed contract from the other party and handed it over to the President's Office"
+        },
+        {
+          "key": "已收到双方用印合同，交至法务",
+          "message": "The printed contract of both parties has been received and handed over to the legal department"
+        },
+        {
+          "key": "已收到对方用印合同，交至总裁办",
+          "message": "Received the printed contract from the other party and handed it over to the President's Office"
+        },
+        {
+          "key": "已收到双方用印合同，交至法务",
+          "message": "The printed contract of both parties has been received and handed over to the legal department"
+        }
+      ]
+    },
+    {
+      "language": "id",
+      "messages": [
+        {
+          "key": "已收到对方用印合同，交至总裁办",
+          "message": "Menerima kontrak dari pihak lain dan menyerahkannya ke Kantor Presiden"
+        },
+        {
+          "key": "已收到双方用印合同，交至法务",
+          "message": "Kontrak dari kedua belah pihak telah diterima dan diserahkan ke bagian legaln"
+        },
+        {
+          "key": "已收到对方用印合同，交至总裁办",
+          "message": "Menerima kontrak dari pihak lain dan menyerahkannya ke Kantor Presiden"
+        },
+        {
+          "key": "已收到双方用印合同，交至法务",
+          "message": "Kontrak dari kedua belah pihak telah diterima dan diserahkan ke bagian legal"
+        }
+      ]
+    }
+  ],
+  "status": [
+    {
+      "code": "S",
+      "name": "已提交"
+    },
+    {
+      "code": "I",
+      "name": "初始化"
+    },
+    {
+      "code": "P",
+      "name": "审核中"
+    },
+    {
+      "code": "A",
+      "name": "通过"
+    },
+    {
+      "code": "R",
+      "name": "拒绝"
+    },
+    {
+      "code": "C",
+      "name": "驳回修改"
+    },
+    {
+      "code": "V",
+      "name": "再审"
+    },
+    {
+      "code": "E",
+      "name": "结束"
+    }
+  ],
+  "action": [
+    {
+      "id": 1,
+      "name": "approve",
+      "description": "通过",
+      "manual": true,
+      "comment": [
+        {
+          "field": "comment",
+          "description": "备注",
+          "required": false
+        }
+      ],
+      "attachment": true
+    },
+    {
+      "id": 2,
+      "name": "reject",
+      "description": "拒绝",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "拒绝原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "request_change_6",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "request_change_7",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "request_change_8",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "request_change_9",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "request_change_10",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "request_change_11",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "request_change_12",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "request_change_13",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "request_change_14",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "request_change_15",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "request_change_16",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "request_change_17",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "request_change_18",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "submit",
+      "description": "提交",
+      "manual": true
+    },
+    {
+      "id": 17,
+      "name": "auto",
+      "description": "自动流转",
+      "manual": false
+    },
+    {
+      "id": 18,
+      "name": "approve",
+      "description": "已收到对方用印合同，交至总裁办",
+      "manual": true
+    },
+    {
+      "id": 19,
+      "name": "approve",
+      "description": "提交",
+      "manual": true,
+      "comment": [
+        {
+          "field": "feedback",
+          "description": "反馈",
+          "required": true
+        }
+      ],
+      "attachment": true
+    },
+    {
+      "id": 20,
+      "name": "approve",
+      "description": "提交",
+      "manual": true
+    },
+    {
+      "id": 22,
+      "name": "approve",
+      "description": "已收到双方用印合同，交至法务",
+      "manual": true
+    },
+    {
+      "id": 23,
+      "name": "request_change_19",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "request_change_1",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "approve",
+      "description": "提交",
+      "manual": true,
+      "comment": [
+        {
+          "field": "feedback",
+          "description": "反馈",
+          "required": true
+        }
+      ],
+      "attachment": true
+    },
+    {
+      "id": 52,
+      "name": "approve",
+      "description": "提交",
+      "manual": true
+    },
+    {
+      "id": 53,
+      "name": "approve",
+      "description": "通过",
+      "manual": true,
+      "comment": [
+        {
+          "field": "comment",
+          "description": "备注",
+          "required": false
+        }
+      ],
+      "attachment": true
+    },
+    {
+      "id": 54,
+      "name": "reject",
+      "description": "拒绝",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "拒绝原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "approve",
+      "description": "已收到对方用印合同，交至总裁办",
+      "manual": true
+    },
+    {
+      "id": 56,
+      "name": "approve",
+      "description": "已收到双方用印合同，交至法务",
+      "manual": true
+    },
+    {
+      "id": 57,
+      "name": "request_change_1",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "request_change_53",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "request_change_54",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "request_change_55",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "request_change_56",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "request_change_57",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "request_change_58",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "request_change_59",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "request_change_60",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "request_change_61",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "request_change_62",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "request_change_68",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "request_change_69",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "request_change_70",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "request_change_71",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "request_change_72",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "request_change_73",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "request_change_76",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "request_change_66",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "request_change_67",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "request_change_80",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        },
+        {
+          "field": "remark",
+          "description": "备注",
+          "required": false
+        }
+      ],
+      "attachment": true
+    },
+    {
+      "id": 78,
+      "name": "request_change_90",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        },
+        {
+          "field": "remark",
+          "description": "备注",
+          "required": false
+        }
+      ],
+      "attachment": true
+    }
+  ],
+  "actor": [
+    {
+      "id": 1,
+      "name": "self",
+      "description": "自己",
+      "action": [
+        16,
+        18,
+        20,
+        22,
+        55,
+        56
+      ]
+    },
+    {
+      "id": 2,
+      "name": "specific_privilege",
+      "description": "BUS_CONTRACT.AUDIT.FORENSIC:法务审批",
+      "action": [
+        1,
+        2,
+        3,
+        21
+      ]
+    },
+    {
+      "id": 3,
+      "name": "circle_dept_leader",
+      "description": "发起人Leader循环",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 4,
+      "name": "launcher_specific_users",
+      "description": "specificNumber",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ]
+    },
+    {
+      "id": 5,
+      "name": "launcher_specific_users",
+      "description": "partnerNumber",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "id": 7,
+      "name": "specific_privilege",
+      "description": "FLOW.AUDIT.FC:财务总监",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": 8,
+      "name": "specific_user",
+      "description": "00281:00354",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": 9,
+      "name": "specific_privilege",
+      "description": "BUS_CONTRACT.AUDIT.FINANCE_BRANCH:财务:分公司权限",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": 10,
+      "name": "specific_privilege",
+      "description": "FLOW.AUDIT.CFO:CFO",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": 11,
+      "name": "specific_privilege",
+      "description": "FLOW.AUDIT.CEO:CEO",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": 12,
+      "name": "specific_privilege",
+      "description": "BUS_CONTRACT.AUDIT.ZCB:总裁办",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": 13,
+      "name": "specific_privilege",
+      "description": "BUS_CONTRACT.AUDIT.FORENSIC:法务归档",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        23
+      ]
+    },
+    {
+      "id": 14,
+      "name": "specific_privilege",
+      "description": "BUS_CONTRACT.AUDIT.FORENSIC:法务反馈",
+      "action": [
+        19,
+        24
+      ]
+    },
+    {
+      "id": 15,
+      "name": "specific_privilege",
+      "description": "FLOW.AUDIT.FC:财务总监反馈",
+      "action": [
+        19,
+        24
+      ]
+    },
+    {
+      "id": 16,
+      "name": "specific_privilege",
+      "description": "BUS_CONTRACT.AUDIT.FINANCE_BRANCH:财务反馈:分公司权限",
+      "action": [
+        19,
+        24
+      ]
+    },
+    {
+      "id": 17,
+      "name": "specific_user",
+      "description": "00281:00354",
+      "alias": "财务反馈",
+      "action": [
+        19,
+        24
+      ]
+    },
+    {
+      "id": 18,
+      "name": "specific_roles",
+      "description": "680",
+      "alias": "机构资金运营",
+      "action": [
+        19,
+        24
+      ]
+    },
+    {
+      "id": 19,
+      "name": "specific_user",
+      "description": "00003",
+      "alias": "邓霖霖",
+      "action": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 20,
+      "name": "specific_roles",
+      "description": "734",
+      "alias": "预算分析-国内",
+      "action": [
+        19,
+        24
+      ]
+    },
+    {
+      "id": 21,
+      "name": "specific_roles",
+      "description": "125,734",
+      "alias": "财务总监和预算分析角色",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": 51,
+      "name": "specific_roles",
+      "description": "719",
+      "alias": "法务反馈",
+      "action": [
+        51,
+        57
+      ]
+    },
+    {
+      "id": 52,
+      "name": "specific_roles",
+      "description": "713",
+      "alias": "财务反馈",
+      "action": [
+        51,
+        57
+      ]
+    },
+    {
+      "id": 53,
+      "name": "specific_roles",
+      "description": "719",
+      "alias": "法务审批",
+      "action": [
+        53,
+        54,
+        57,
+        58
+      ]
+    },
+    {
+      "id": 54,
+      "name": "specific_roles",
+      "description": "713",
+      "alias": "财务审批",
+      "action": [
+        53,
+        54,
+        57,
+        58,
+        59,
+        60,
+        77
+      ]
+    },
+    {
+      "id": 55,
+      "name": "specific_user",
+      "description": "00258",
+      "alias": "JIMMY MUHAMAD RIFAI GANI",
+      "action": [
+        53,
+        54,
+        57,
+        58,
+        59,
+        60,
+        61,
+        77
+      ]
+    },
+    {
+      "id": 56,
+      "name": "specific_user",
+      "description": "00858",
+      "alias": "Sherry",
+      "action": [
+        53,
+        54,
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "id": 57,
+      "name": "specific_roles",
+      "description": "44",
+      "alias": "CEO",
+      "action": [
+        53,
+        54,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        74,
+        75,
+        76,
+        78
+      ]
+    },
+    {
+      "id": 58,
+      "name": "specific_roles",
+      "description": "180,299,295",
+      "alias": "总裁办",
+      "action": [
+        53,
+        54,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        68,
+        70,
+        74,
+        75,
+        76,
+        78
+      ]
+    },
+    {
+      "id": 60,
+      "name": "specific_roles",
+      "description": "719",
+      "alias": "法务归档",
+      "action": [
+        53,
+        54,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        69,
+        70,
+        71,
+        73,
+        74,
+        77,
+        78
+      ]
+    },
+    {
+      "id": 61,
+      "name": "circle_dept_leader",
+      "description": "发起人Leader循环至M3",
+      "action": [
+        53,
+        54,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "id": 62,
+      "name": "specific_roles",
+      "description": "990",
+      "alias": "总裁办初审（印尼）",
+      "action": [
+        53,
+        54,
+        58,
+        59,
+        60,
+        61,
+        62,
+        69,
+        74,
+        77,
+        78
+      ]
+    },
+    {
+      "id": 64,
+      "name": "specific_roles",
+      "description": "823",
+      "alias": "风控审核",
+      "action": [
+        53,
+        54,
+        62,
+        78
+      ]
+    },
+    {
+      "id": 65,
+      "name": "specific_user",
+      "description": "03613",
+      "alias": "田文伟",
+      "action": [
+        53,
+        54,
+        62,
+        63,
+        78
+      ]
+    },
+    {
+      "id": 66,
+      "name": "specific_user",
+      "description": "00003",
+      "alias": "邓霖霖",
+      "action": [
+        53,
+        54,
+        62,
+        63,
+        75,
+        78
+      ]
+    },
+    {
+      "id": 22,
+      "name": "specific_roles",
+      "description": "439",
+      "alias": "财务经理-国内1",
+      "action": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": 90,
+      "name": "launcher_specific_user",
+      "description": "JIMMYAndNUCKY",
+      "alias": "Jimmy/NUCKY",
+      "action": [
+        53,
+        54,
+        58,
+        59,
+        60,
+        77,
+        61
+      ]
+    }
+  ],
+  "notify": [
+    {
+      "id": 1,
+      "name": "specific_user",
+      "description": "00858,00936,00251"
+    },
+    {
+      "id": 2,
+      "name": "specific_roles",
+      "description": "694"
+    },
+    {
+      "id": 3,
+      "name": "specific_roles",
+      "description": "208"
+    },
+    {
+      "id": 4,
+      "name": "specific_roles",
+      "description": "125"
+    },
+    {
+      "id": 5,
+      "name": "specific_roles",
+      "description": "137"
+    },
+    {
+      "id": 6,
+      "name": "specific_roles",
+      "description": "720"
+    },
+    {
+      "id": 7,
+      "name": "specific_user",
+      "description": "03167,03168"
+    }
+  ],
+  "prints": [
+    {
+      "steps": [
+        18,
+        20,
+        60,
+        80,
+        90
+      ],
+      "actors": [
+        12,
+        13,
+        58,
+        90
+      ]
+    }
+  ],
+  "start": 1,
+  "end": {
+    "id": 999,
+    "status": "E"
+  },
+  "instructions": [
+    {
+      "id": 1,
+      "content": "${message.flow.bus_contract.upload}"
+    },
+    {
+      "id": 2,
+      "content": "${message.flow.bus_contract.remark}"
+    },
+    {
+      "id": 3,
+      "content": "${message.flow.bus_contract.seal_license}"
+    },
+    {
+      "id": 4,
+      "content": "${message.flow.bus_contract.confirm}"
+    },
+    {
+      "id": 5,
+      "content": "${message.flow.bus_contract.handle}"
+    }
+  ],
+  "step": [
+    {
+      "index": 1,
+      "name": "发起人提交",
+      "description": "发起人提交节点",
+      "actor": [
+        1
+      ],
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 16,
+          "notifies": [
+            {
+              "expression": "!#isIndonesianFlow && #isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            },
+            {
+              "expression": "#isIndonesianFlow",
+              "notifyIds": [
+                7
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "!#isIndonesianFlow && !#isNewFlow && !#isLoanAssistance",
+              "next": [
+                7
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "!#isIndonesianFlow && #isNewFlow && #isSimpleFlow && !#isLoanAssistance",
+              "next": [
+                2
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "!#isIndonesianFlow && #isNewFlow && #isSimpleFlow && #isLoanAssistance",
+              "next": [
+                2,
+                21
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "!#isIndonesianFlow && #isNewFlow && !#isSimpleFlow && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36) && !#isLoanAssistance",
+              "next": [
+                2,
+                3
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "!#isIndonesianFlow && #isNewFlow && !#isSimpleFlow && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36) && #isLoanAssistance",
+              "next": [
+                2,
+                3,
+                21
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "!#isIndonesianFlow && #isNewFlow && !#isSimpleFlow && #departmentId == 57 && !#isLoanAssistance",
+              "next": [
+                2,
+                4
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "!#isIndonesianFlow && #isNewFlow && !#isSimpleFlow && #departmentId == 57 && #isLoanAssistance",
+              "next": [
+                2,
+                4,
+                21
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "(!#isIndonesianFlow && #isNewFlow && !#isSimpleFlow && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57) && !#isLoanAssistance) && (#isSkipFinancialFeedback == null || !#isSkipFinancialFeedback)",
+              "next": [
+                2,
+                5
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "(!#isIndonesianFlow && #isNewFlow && !#isSimpleFlow && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57) && #isLoanAssistance) && (#isSkipFinancialFeedback == null || !#isSkipFinancialFeedback)",
+              "next": [
+                2,
+                5,
+                21
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "(!#isIndonesianFlow && #isNewFlow && !#isSimpleFlow && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57) && !#isLoanAssistance) && #isSkipFinancialFeedback != null && #isSkipFinancialFeedback",
+              "next": [
+                2
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "(!#isIndonesianFlow && #isNewFlow && !#isSimpleFlow && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57) && #isLoanAssistance) && #isSkipFinancialFeedback != null && #isSkipFinancialFeedback",
+              "next": [
+                2,
+                21
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "S"
+              ],
+              "status": "S",
+              "expression": "#isIndonesianFlow",
+              "next": [
+                51,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "S"
+              ],
+              "status": "C",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "法务反馈",
+      "description": "法务反馈节点",
+      "actor": [
+        14
+      ],
+      "form": {
+        "actions": [
+          19
+        ],
+        "key": "bus_contract_risk_fo1"
+      },
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 19,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "parallel_steps": [
+                3,
+                4,
+                5,
+                21
+              ],
+              "status": "A",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 24,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "财务总监",
+      "description": "财务总监反馈节点",
+      "actor": [
+        15
+      ],
+      "form": {
+        "actions": [
+          19
+        ],
+        "key": "bus_contract_risk_fi1"
+      },
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 19,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "parallel_steps": [
+                2,
+                21
+              ],
+              "status": "A",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 24,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "预算分析-国内",
+      "description": "预算分析-国内审批节点",
+      "actor": [
+        20
+      ],
+      "form": {
+        "actions": [
+          19
+        ],
+        "key": "bus_contract_risk_fi1"
+      },
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 19,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "parallel_steps": [
+                2,
+                21
+              ],
+              "status": "A",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 24,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "财务",
+      "description": "财务反馈节点",
+      "actor": [
+        16
+      ],
+      "form": {
+        "actions": [
+          19
+        ],
+        "key": "bus_contract_risk_fi1"
+      },
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 19,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "parallel_steps": [
+                2,
+                21
+              ],
+              "status": "A",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 24,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "发起人提交",
+      "description": "发起人提交节点",
+      "actor": [
+        1
+      ],
+      "form": {
+        "actions": [
+          20
+        ],
+        "key": "bus_contract_audit"
+      },
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 20,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "法务审批",
+      "description": "法务审批节点",
+      "actor": [
+        2
+      ],
+      "form": {
+        "actions": [
+          1
+        ],
+        "key": "bus_contract_risk_fo2"
+      },
+      "instruction": [
+        1
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 > 0",
+              "next": [
+                8
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && #isSimpleFlow && #needToSubmitter != null && #needToSubmitter",
+              "next": [
+                17
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && #isSimpleFlow && (#needToSubmitter == null || (#needToSubmitter != null && !#needToSubmitter))",
+              "next": [
+                18
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSpecificRole",
+              "next": [
+                11
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && !#containsCEO && #totalLevel9 == 0 && #totalLevel10 != 0",
+              "next": [
+                10
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && !#containsCEO && #totalLevel9 == 0 && #totalLevel10 == 0 && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && !#containsCEO && #totalLevel9 == 0 && #totalLevel10 == 0 && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && !#containsCEO && #totalLevel9 == 0 && #totalLevel10 == 0 && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && !#containsCEO && #totalLevel9 == 0 && #totalLevel10 == 0 && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && !#containsCEO && #totalLevel9 != 0",
+              "next": [
+                9
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && #containsCEO && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && #containsCEO && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && #containsCEO && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && #containsCEO && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && #specificNumber2 != '00001' && #specificNumber2 != '00234'",
+              "next": [
+                10
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 == null && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 == null && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 == null && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 == null && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && #specificNumber3 != '00001' && #specificNumber3 != '00234' && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && #specificNumber3 != '00001' && #specificNumber3 != '00234'  && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && #specificNumber3 != '00001' && #specificNumber3 != '00234'  && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && #specificNumber3 != '00001' && #specificNumber3 != '00234'  && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && (#specificNumber3 == '00001' || #specificNumber3 == '00234') && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && (#specificNumber3 == '00001' || #specificNumber3 == '00234') && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && (#specificNumber3 == '00001' || #specificNumber3 == '00234') && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow&& (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && (#specificNumber3 == '00001' || #specificNumber3 == '00234') &&  (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "上级循环审批，直到I5或M3",
+      "description": "循环审批节点",
+      "actor": [
+        3
+      ],
+      "show": true,
+      "circle": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "P",
+              "expression": "#totalLevel8 > #currentLevel8",
+              "next": [
+                8
+              ],
+              "need_action": true
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel8 == #currentLevel8 && #isSimpleFlow && #needToSubmitter != null && #needToSubmitter",
+              "next": [
+                17
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel8 == #currentLevel8 && #isSimpleFlow && (#needToSubmitter == null || (#needToSubmitter != null && !#needToSubmitter))",
+              "next": [
+                18
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel8 == #currentLevel8 && !#isSimpleFlow && #totalLevel9 != 0",
+              "next": [
+                9
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel8 == #currentLevel8 && !#isSimpleFlow && #totalLevel9 == 0 && #totalLevel10 != 0",
+              "next": [
+                10
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel8 == #currentLevel8 && !#isSimpleFlow && #totalLevel9 == 0 && #totalLevel10 == 0 && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel8 == #currentLevel8 && !#isSimpleFlow && #totalLevel9 == 0 && #totalLevel10 == 0 && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel8 == #currentLevel8 && !#isSimpleFlow && #totalLevel9 == 0 && #totalLevel10 == 0 && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel8 == #currentLevel8 && !#isSimpleFlow && #totalLevel9 == 0 && #totalLevel10 == 0 && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "指定的人审批",
+      "description": "指定的人审批",
+      "actor": [
+        4
+      ],
+      "show": true,
+      "circle": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "P",
+              "expression": "#totalLevel9 > #currentLevel9",
+              "next": [
+                9
+              ],
+              "need_action": true
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel9 == #currentLevel9 && #totalLevel10 != 0",
+              "next": [
+                10
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel9 == #currentLevel9 && #totalLevel10 == 0 && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel9 == #currentLevel9 && #totalLevel10 == 0 && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel9 == #currentLevel9 && #totalLevel10 == 0 && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel9 == #currentLevel9 && #totalLevel10 == 0 && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "指定合伙人审批",
+      "description": "指定合伙人审批",
+      "actor": [
+        5
+      ],
+      "show": true,
+      "circle": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "P",
+              "expression": "#totalLevel10 > #currentLevel10",
+              "next": [
+                10
+              ],
+              "need_action": true
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel10 == #currentLevel10 && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel10 == #currentLevel10 && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel10 == #currentLevel10 && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel10 == #currentLevel10 && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "name": "邓霖霖审批",
+      "description": "指定的人审批节点",
+      "actor": [
+        19
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSimpleFlow && #needToSubmitter != null && #needToSubmitter",
+              "next": [
+                17
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSimpleFlow && (#needToSubmitter == null || (#needToSubmitter != null && !#needToSubmitter))",
+              "next": [
+                18
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && !#containsCEO && #totalLevel9 == 0 && #totalLevel10 != 0",
+              "next": [
+                10
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && !#containsCEO && #totalLevel9 != 0",
+              "next": [
+                9
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && !#containsCEO && #totalLevel9 == 0 && #totalLevel10 == 0 && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && !#containsCEO && #totalLevel9 == 0 && #totalLevel10 == 0 && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && !#containsCEO && #totalLevel9 == 0 && #totalLevel10 == 0 && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && !#containsCEO && #totalLevel9 == 0 && #totalLevel10 == 0 && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && #containsCEO && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#isLoanAssistance || #purposes!='债转和国内TP'))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && #containsCEO && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && #containsCEO && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && #containsCEO && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && #specificNumber2 != '00001' && #specificNumber2 != '00234'",
+              "next": [
+                10
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 == null && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 == null && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 == null && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSpecificRole && #totalLevel8 == 0 && !#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 == null && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && #specificNumber3 != '00001' && #specificNumber3 != '00234' && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && #specificNumber3 != '00001' && #specificNumber3 != '00234'  && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && #specificNumber3 != '00001' && #specificNumber3 != '00234' && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId != 2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && #specificNumber3 != '00001' && #specificNumber3 != '00234' && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && (#specificNumber3 == '00001' || #specificNumber3 == '00234') && (#departmentId == 12 || #departmentId == 15 || #departmentId == 36 || (#departmentId == 2 && (#purposes != '债转和国内TP' || #isLoanAssistance)))",
+              "next": [
+                12
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && (#specificNumber3 == '00001' || #specificNumber3 == '00234') && #departmentId == 57",
+              "next": [
+                13
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && (#specificNumber3 == '00001' || #specificNumber3 == '00234') && (#departmentId != 12 && #departmentId != 15 && #departmentId != 36 && #departmentId != 57 && #departmentId !=2 && #departmentId != 45 && #departmentId != 79 && #departmentId != 80)",
+              "next": [
+                14
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSimpleFlow && (#specificNumber == '00001' || #specificNumber == '00234') && #specificNumber2 != null && (#specificNumber2 == '00001' || #specificNumber2 == '00234') && #specificNumber3 != null && (#specificNumber3 == '00001' || #specificNumber3 == '00234') && (#departmentId == 45 || #departmentId == 79 || #departmentId == 80 || (#departmentId == 2 && !#isLoanAssistance && #purposes == '债转和国内TP'))",
+              "next": [
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "财务总监审批",
+      "description": "财务总监审批节点",
+      "actor": [
+        7
+      ],
+      "instruction": [
+        2
+      ],
+      "form": {
+        "actions": [
+          1
+        ],
+        "key": "bus_contract_risk_fi2"
+      },
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isCFOEqualCEO",
+              "next": [
+                15
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isCFOEqualCEO",
+              "next": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "action": 7,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "name": "预算分析和财务总监审批",
+      "description": "预算分析和财务总监审批节点",
+      "actor": [
+        21
+      ],
+      "instruction": [
+        2
+      ],
+      "form": {
+        "actions": [
+          1
+        ],
+        "key": "bus_contract_risk_fi2"
+      },
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isCFOEqualCEO",
+              "next": [
+                15
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isCFOEqualCEO",
+              "next": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "action": 7,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "普通财务审批",
+      "description": "普通财务审批节点",
+      "actor": [
+        9
+      ],
+      "instruction": [
+        2
+      ],
+      "form": {
+        "actions": [
+          1
+        ],
+        "key": "bus_contract_risk_fi2"
+      },
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isCFOEqualCEO",
+              "next": [
+                15
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isCFOEqualCEO",
+              "next": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "action": 7,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "name": "CFO审批",
+      "description": "CFO审批节点",
+      "actor": [
+        10
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "expression": "!#containsCEO",
+              "status": "A",
+              "next": [
+                16
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "expression": "#containsCEO && #needToSubmitter != null && #needToSubmitter",
+              "status": "A",
+              "next": [
+                17
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#containsCEO && (#needToSubmitter == null || (#needToSubmitter != null && !#needToSubmitter))",
+              "next": [
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "action": 7,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "action": 9,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "action": 10,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "action": 11,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "name": "CEO审批",
+      "description": "CEO审批节点",
+      "actor": [
+        11
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#needToSubmitter != null && #needToSubmitter",
+              "next": [
+                17
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#needToSubmitter == null || (#needToSubmitter != null && !#needToSubmitter)",
+              "next": [
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "action": 7,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "action": 9,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "action": 10,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "action": 11,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "action": 12,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "name": "发起人处理",
+      "description": "发起人处理节点",
+      "actor": [
+        1
+      ],
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 18,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "name": "总裁办审批",
+      "description": "总裁办审批节点",
+      "actor": [
+        12
+      ],
+      "instruction": [
+        3
+      ],
+      "form": {
+        "actions": [
+          1
+        ],
+        "key": "update"
+      },
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "action": 7,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "action": 9,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "action": 10,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "action": 11,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "action": 12,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "action": 13,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "action": 14,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "name": "发起人处理",
+      "description": "发起人处理节点",
+      "actor": [
+        1
+      ],
+      "instruction": [
+        5
+      ],
+      "show": false,
+      "form": {
+        "actions": [
+          22
+        ],
+        "key": "bus_contract_sign"
+      },
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 22,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "name": "法务审批",
+      "description": "法务审批节点",
+      "actor": [
+        13
+      ],
+      "instruction": [
+        4
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "action": 7,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "action": 9,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "action": 10,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "action": 11,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "action": 12,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "action": 13,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "action": 14,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "action": 15,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "action": 23,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "name": "资金运营",
+      "description": "资金运营反馈节点",
+      "actor": [
+        18
+      ],
+      "form": {
+        "actions": [
+          19
+        ],
+        "key": "bus_contract_risk_tr"
+      },
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 19,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "parallel_steps": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "status": "A",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 24,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "name": "财务经理-国内",
+      "description": "财务经理-国内",
+      "actor": [
+        22
+      ],
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isCFOEqualCEO",
+              "next": [
+                15
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isCFOEqualCEO",
+              "next": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "notifies": [
+            {
+              "expression": "#isSpecificRole",
+              "notifyIds": [
+                1
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isNewFlow",
+              "next": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "action": 7,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "name": "法务反馈",
+      "description": "法务反馈节点",
+      "actor": [
+        51
+      ],
+      "form": {
+        "actions": [
+          51
+        ],
+        "key": "bus_contract_risk_fo1"
+      },
+      "type": 2,
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 51,
+          "notifies": [
+            {
+              "notifyIds": [
+                2,
+                3
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "parallel_steps": [
+                52
+              ],
+              "status": "A",
+              "next": [
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "action": 57,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "name": "财务反馈",
+      "description": "财务反馈节点",
+      "actor": [
+        52
+      ],
+      "form": {
+        "actions": [
+          51
+        ],
+        "key": "bus_contract_risk_fi1"
+      },
+      "type": 2,
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 51,
+          "notifies": [
+            {
+              "notifyIds": [
+                4,
+                5
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "parallel_steps": [
+                51
+              ],
+              "status": "A",
+              "next": [
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "action": 57,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "name": "发起人提交",
+      "description": "发起人提交节点",
+      "actor": [
+        1
+      ],
+      "form": {
+        "actions": [
+          52
+        ],
+        "key": "bus_contract_audit"
+      },
+      "type": 2,
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 52,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "name": "法务审批",
+      "description": "法务审批节点",
+      "actor": [
+        53
+      ],
+      "form": {
+        "actions": [
+          53
+        ],
+        "key": "bus_contract_risk_fo2"
+      },
+      "instruction": [
+        1
+      ],
+      "type": 2,
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "notifies": [
+            {
+              "notifyIds": [
+                2,
+                3
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel55 > 0 && !#hasNUCKY",
+              "next": [
+                55
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isIndonesianFlow && (#hasNUCKY ? #isSkipApproval80 : #totalLevel55 == 0)",
+              "next": [
+                56
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C"
+              ],
+              "status": "S",
+              "expression": "#isIndonesianFlow && #hasNUCKY && !#isSkipApproval80",
+              "next": [
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "notifies": [
+            {
+              "notifyIds": [
+                2,
+                3
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 58,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "name": "上级循环审批",
+      "description": "上级循环审批节点",
+      "actor": [
+        61
+      ],
+      "type": 2,
+      "show": true,
+      "circle": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "P",
+              "expression": "#totalLevel55 > #currentLevel55",
+              "next": [
+                55
+              ],
+              "need_action": true
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#totalLevel55 == #currentLevel55",
+              "next": [
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 58,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "action": 59,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "action": 60,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "name": "财务审批",
+      "description": "财务审批节点",
+      "actor": [
+        54
+      ],
+      "instruction": [
+        2
+      ],
+      "form": {
+        "actions": [
+          53
+        ],
+        "key": "bus_contract_risk_fi2"
+      },
+      "type": 2,
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "notifies": [
+            {
+              "notifyIds": [
+                4,
+                5
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#hasNUCKY",
+              "next": [
+                57
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#hasNUCKY",
+              "next": [
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "notifies": [
+            {
+              "notifyIds": [
+                4,
+                5
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 58,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "action": 59,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "action": 60,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "#totalLevel55 > 0 && !#hasNUCKY",
+              "status": "C",
+              "next": [
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "action": 77,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "!#isSkipApproval80 && #hasNUCKY",
+              "status": "C",
+              "next": [
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "name": "JIMMY MUHAMAD RIFAI GANI审批",
+      "description": "JIMMY MUHAMAD RIFAI GANI审批节点",
+      "actor": [
+        55
+      ],
+      "type": 2,
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSkipRiskControl && !#isSkipApproval58",
+              "next": [
+                58
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSkipRiskControl && #isSkipApproval58 && !#isGADepartment",
+              "next": [
+                68
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSkipRiskControl && #isSkipApproval58 && #isGADepartment",
+              "next": [
+                66
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSkipRiskControl",
+              "next": [
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 58,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "action": 59,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "action": 60,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "#totalLevel55 > 0 && !#hasNUCKY",
+              "status": "C",
+              "next": [
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "action": 77,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "!#isSkipApproval80 && #hasNUCKY",
+              "status": "C",
+              "next": [
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "action": 61,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "name": "风控审核",
+      "description": "风控审核节点",
+      "actor": [
+        64
+      ],
+      "type": 1,
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSkipApproval58",
+              "next": [
+                58
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSkipApproval58",
+              "next": [
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 62,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#hasNUCKY",
+              "next": [
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "action": 78,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#hasNUCKY",
+              "next": [
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "name": "虚拟汇报链循环审批",
+      "description": "虚拟汇报链循环",
+      "show": true,
+      "start_split": true,
+      "type": 1,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isGADepartment",
+              "next": [
+                68
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isGADepartment",
+              "next": [
+                66
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 62,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#hasNUCKY",
+              "next": [
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "action": 78,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#hasNUCKY",
+              "next": [
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "name": "田文伟审批",
+      "description": "田文伟审批节点",
+      "actor": [
+        65
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 62,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#hasNUCKY",
+              "next": [
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "action": 78,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#hasNUCKY",
+              "next": [
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "action": 63,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#isSkipApproval58",
+              "next": [
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "name": "邓霖霖审批",
+      "description": "邓霖霖审批节点",
+      "actor": [
+        66
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 62,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#hasNUCKY",
+              "next": [
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "action": 78,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#hasNUCKY",
+              "next": [
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "action": 63,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#isSkipApproval58",
+              "next": [
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "action": 75,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isGADepartment",
+              "next": [
+                66
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "name": "CEO审批",
+      "description": "CEO审批节点",
+      "actor": [
+        57
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#needToSubmitter != null && #needToSubmitter",
+              "next": [
+                69
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#needToSubmitter == null || (#needToSubmitter != null && !#needToSubmitter)",
+              "next": [
+                71
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 62,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#hasNUCKY",
+              "next": [
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "action": 78,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#hasNUCKY",
+              "next": [
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "action": 63,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#isSkipApproval58",
+              "next": [
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "action": 74,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#isSkipRiskControl",
+              "next": [
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "action": 75,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isGADepartment",
+              "next": [
+                66
+              ]
+            }
+          ]
+        },
+        {
+          "action": 76,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isGADepartment",
+              "next": [
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "name": "发起人处理",
+      "description": "发起人处理节点",
+      "actor": [
+        1
+      ],
+      "show": false,
+      "type": 2,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 55,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "name": "印尼总裁办初审",
+      "description": "印尼总裁办初审节点",
+      "actor": [
+        62
+      ],
+      "show": true,
+      "type": 2,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                71
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 58,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "action": 59,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "action": 60,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "#totalLevel55 > 0 && !#hasNUCKY",
+              "status": "C",
+              "next": [
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "action": 77,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "!#isSkipApproval80 && #hasNUCKY",
+              "status": "C",
+              "next": [
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "action": 61,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "action": 62,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#hasNUCKY",
+              "next": [
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "action": 78,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#hasNUCKY",
+              "next": [
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "action": 69,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                69
+              ]
+            }
+          ]
+        },
+        {
+          "action": 74,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#isSkipRiskControl",
+              "next": [
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "name": "总裁办审批",
+      "description": "总裁办审批节点",
+      "actor": [
+        58
+      ],
+      "instruction": [
+        3
+      ],
+      "form": {
+        "actions": [
+          53
+        ],
+        "key": "update"
+      },
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "notifies": [
+            {
+              "notifyIds": [
+                6
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "notifies": [
+            {
+              "notifyIds": [
+                6
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 63,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "(#needToSubmitter == null || (#needToSubmitter != null && !#needToSubmitter)) && !#isSkipApproval58",
+              "next": [
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "action": 68,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#needToSubmitter == null || (#needToSubmitter != null && !#needToSubmitter)",
+              "next": [
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "action": 70,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#needToSubmitter != null && #needToSubmitter",
+              "next": [
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "action": 62,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "(#needToSubmitter == null || (#needToSubmitter != null && !#needToSubmitter)) && !#hasNUCKY",
+              "next": [
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "action": 78,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "(#needToSubmitter == null || (#needToSubmitter != null && !#needToSubmitter)) && #hasNUCKY",
+              "next": [
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "action": 74,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#isSkipRiskControl",
+              "next": [
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "action": 75,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isGADepartment",
+              "next": [
+                66
+              ]
+            }
+          ]
+        },
+        {
+          "action": 76,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#isGADepartment",
+              "next": [
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "name": "发起人处理",
+      "description": "发起人处理节点",
+      "actor": [
+        1
+      ],
+      "instruction": [
+        5
+      ],
+      "type": 2,
+      "show": false,
+      "form": {
+        "actions": [
+          56
+        ],
+        "key": "bus_contract_sign"
+      },
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 56,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                74
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "name": "法务归档",
+      "description": "法务归档节点",
+      "actor": [
+        60
+      ],
+      "instruction": [
+        4
+      ],
+      "type": 2,
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 58,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "action": 59,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "action": 60,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "#totalLevel55 > 0 && !#hasNUCKY",
+              "status": "C",
+              "next": [
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "action": 77,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "!#isSkipApproval80 && #hasNUCKY",
+              "status": "C",
+              "next": [
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "action": 61,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "action": 62,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#hasNUCKY",
+              "next": [
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "action": 78,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#hasNUCKY",
+              "next": [
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "action": 69,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#needToSubmitter != null && #needToSubmitter",
+              "next": [
+                69
+              ]
+            }
+          ]
+        },
+        {
+          "action": 70,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "#needToSubmitter != null && #needToSubmitter",
+              "next": [
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "action": 73,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "action": 74,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "expression": "!#isSkipRiskControl",
+              "next": [
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "name": "上级循环审批（排除掉NUCKY）",
+      "description": "循环审批节点",
+      "init_status": "I",
+      "show": true,
+      "start_split": true,
+      "type": 2,
+      "actor": [
+
+      ],
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 58,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "action": 59,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "action": 60,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "#totalLevel55 > 0 && !#hasNUCKY",
+              "status": "C",
+              "next": [
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "action": 77,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "!#isSkipApproval80 && #hasNUCKY",
+              "status": "C",
+              "next": [
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "name": "JIMMY/NUCKY",
+      "description": "JIMMY/NUCKY",
+      "actor": [
+        90
+      ],
+      "type": 2,
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 53,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSkipRiskControl && !#isSkipApproval58",
+              "next": [
+                58
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSkipRiskControl && #isSkipApproval58 && !#isGADepartment",
+              "next": [
+                68
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSkipRiskControl && #isSkipApproval58 && #isGADepartment",
+              "next": [
+                66
+              ]
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSkipRiskControl",
+              "next": [
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "action": 54,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 58,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                53
+              ]
+            }
+          ]
+        },
+        {
+          "action": 59,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "action": 60,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "#totalLevel55 > 0 && !#hasNUCKY",
+              "status": "C",
+              "next": [
+                55
+              ]
+            }
+          ]
+        },
+        {
+          "action": 77,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "!#isSkipApproval80 && #hasNUCKY",
+              "status": "C",
+              "next": [
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "action": 61,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "C",
+              "next": [
+                56
+              ]
+            }
+          ]
+        },
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 999,
+      "name": "结束",
+      "description": "结束节点",
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "I"
+              ],
+              "status": "E"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
