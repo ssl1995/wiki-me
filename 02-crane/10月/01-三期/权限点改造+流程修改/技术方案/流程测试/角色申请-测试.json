@@ -579,7 +579,7 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel14 == #currentLevel14 && !#isSkipManager && #isSkipAdmin && #isSkipManagerOrAdmin",
+              "expression": "#totalLevel14 == #currentLevel14 && !#isSkipManager && #isSkipAdmin!=null && #isSkipManagerOrAdmin",
               "next": [
                 36
               ],
@@ -689,7 +689,7 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel25 == #currentLevel25 && !#isSkipManager && #isSkipAdmin && #isSkipManagerOrAdmin",
+              "expression": "#totalLevel25 == #currentLevel25 && !#isSkipManager && #isSkipAdmin!=null && #isSkipManagerOrAdmin",
               "next": [
                 36
               ],
