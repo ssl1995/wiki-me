@@ -1,26 +1,141 @@
-[
-  {
-    "id": 1,
-    "name": "产品部",
-    "level": 3,
-    "leaderId": 218,
-    "leaderName": "test4",
-    "leaderWorkNumber": "00007",
-    "parentName": "diff",
-    "isAvailable": "TRUE",
-    "specialField": false,
-    "children": null
-  },
-  {
-    "id": 2,
-    "name": "技术部",
-    "level": 3,
-    "leaderId": 218,
-    "leaderName": "test4",
-    "leaderWorkNumber": "00007",
-    "parentName": "diff",
-    "isAvailable": "TRUE",
-    "specialField": false,
-    "children": null
+{
+  "body": [
+    {
+      "id": 857,
+      "feature": "songSys.f1",
+      "name": "宋的系统.一级权限",
+      "desc": "",
+      "status": "ABLE",
+      "type": "INTERNAL",
+      "securityLevel": "L3",
+      "supportDataRule": false,
+      "attributeCategoryIds": [],
+      "attributeCategoryNameList": [],
+      "categoryVOS": null,
+      "operator": "",
+      "systemRoleName": "宋的系统 - 系统管理员",
+      "admin": [
+        {
+          "name": "宋声林",
+          "workNumber": "03541"
+        },
+        {
+          "name": "叶玮2",
+          "workNumber": "04712"
+        },
+        {
+          "name": "叶玮05004",
+          "workNumber": "05004"
+        }
+      ],
+      "businessName": "宋的系统",
+      "businessCode": "songSys",
+      "relatedRoles": null,
+      "createTime": "2024-09-24T07:47:35Z",
+      "updateTime": "2024-10-17T04:18:03Z",
+      "optionType": "OPTION",
+      "relatedDepartmentIds": [
+        128,
+        133
+      ],
+      "relatedDepartmentList": [
+        {
+          "id": 128,
+          "parentId": -1,
+          "name": "上海岩屿投资有限公司",
+          "level": 1,
+          "leaderId": 213,
+          "leaderName": "波叔-00002",
+          "leaderWorkNumber": "00002",
+          "parentName": null,
+          "isAvailable": "TRUE",
+          "specialField": false
+        },
+        {
+          "id": 133,
+          "parentId": -1,
+          "name": "测试重构的",
+          "level": 1,
+          "leaderId": 213,
+          "leaderName": "波叔-00002",
+          "leaderWorkNumber": "00002",
+          "parentName": null,
+          "isAvailable": "TRUE",
+          "specialField": false
+        }
+      ],
+      "managerEmployeeList": [
+        {
+          "employeeId": 212,
+          "employeeNumber": "00001",
+          "name": "刘老板-00001",
+          "departmentChain": "总裁办",
+          "departmentName": "总裁办",
+          "departmentId": 36,
+          "positionName": "Collection manager",
+          "gender": "男",
+          "state": "正式",
+          "countryCode": "CN",
+          "supervisorNumber": "-1",
+          "virtualSupervisorNumber": null,
+          "mobile": "18000001111",
+          "entryTime": 1564070400000,
+          "pictures": {},
+          "isInternalEmployee": true,
+          "subordinateAndVirtualEmployees": null,
+          "sameLevelEmployees": null,
+          "applyEmployees": null,
+          "onPosition": true,
+          "id": 1,
+          "operateType": "EMPLOYEE",
+          "feature": null,
+          "businessCode": null,
+          "companyEmail": "scceshi02@163.com"
+        },
+        {
+          "employeeId": 488,
+          "employeeNumber": "00251",
+          "name": "lilixian",
+          "departmentChain": "Indonesia idn-backend 1412412q e we",
+          "departmentName": "Indonesia",
+          "departmentId": 428,
+          "positionName": "Customer Service Specialist",
+          "gender": "女",
+          "state": "正式",
+          "countryCode": "CN",
+          "supervisorNumber": "04956",
+          "virtualSupervisorNumber": "03613",
+          "mobile": "1810103579999",
+          "entryTime": 1630080000000,
+          "pictures": {
+            "WORK_CARD_PHOTO": "https://oa-static-test.yangqianguan.com/oa/ec198aa8cda1387f44a0790e3e9c5776?e=1729142292&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:rd8HVZWPX4BGf4EkKIS5kXcyUZk="
+          },
+          "isInternalEmployee": true,
+          "subordinateAndVirtualEmployees": null,
+          "sameLevelEmployees": null,
+          "applyEmployees": null,
+          "onPosition": true,
+          "id": 251,
+          "operateType": "EMPLOYEE",
+          "feature": null,
+          "businessCode": null,
+          "companyEmail": "lixianli@fintopia.tech"
+        }
+      ],
+      "targetName": "一级权限",
+      "targetCode": "songSys.f1",
+      "targetId": 857,
+      "operateType": "PERMISSION",
+      "errorMsg": "",
+      "shortName": "一级权限"
+    }
+  ],
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1729138693387,
+    "displayType": "TOAST",
+    "url": null
   }
-]
+}
