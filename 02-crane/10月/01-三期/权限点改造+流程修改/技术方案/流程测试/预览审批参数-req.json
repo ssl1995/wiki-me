@@ -1,0 +1,15 @@
+{
+  "submitWorkNumber": "03541",
+  "applyWorkNumber": [
+    "03541"
+  ],
+  "applyBusinessCode": "songSys",
+  "applyBusinessVo": null,
+  "roleVoList": [
+    {
+      "roleId": 4694,
+      "validTime": "SEVEN_DAYS",
+      "applyReason": "到M1-第二次"
+    }
+  ]
+}
