@@ -1,7 +1,15 @@
 {
-    "name": "宋的系统.三期方案",
-    "feature": "songSys.feature3",
-    "type": "INTERNAL",
-    "securityLevel": "HIGH",
-    "supportDataRule": false
+  "submitWorkNumber": "03541",
+  "applyWorkNumber": [
+    "03541"
+  ],
+  "applyBusinessCode": "songSys",
+  "applyBusinessVo": null,
+  "roleVoList": [
+    {
+      "roleId": 4694,
+      "validTime": "SEVEN_DAYS",
+      "applyReason": "到M1-菜单模块/系统管理员"
+    }
+  ]
 }
