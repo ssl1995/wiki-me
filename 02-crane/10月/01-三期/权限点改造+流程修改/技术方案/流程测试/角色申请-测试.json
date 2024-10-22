@@ -145,7 +145,6 @@
       "id": 2,
       "name": "launcher_specific_user",
       "description": "leaderWorkNumber",
-      "alias": "直属上级",
       "action": [
         1,
         2

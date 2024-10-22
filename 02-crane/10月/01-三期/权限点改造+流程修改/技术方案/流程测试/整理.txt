@@ -10,3 +10,22 @@
 
 
 发起 Leader 到I4/M1 到I5/M2 M3 菜单 管理员
+
+
+
+
+
+
+新建
+/admin/permission
+
+查看
+/admin/permission/role/tree
+
+
+fetchSubordinateEmployeeInfoRPCTree
+fetchVirtualSubordinateEmployeeInfoRPCTree
+
+fetchEmployeeInfoRPCVOS 1
+
+fetchAllEmployeeInfoRPC 1
