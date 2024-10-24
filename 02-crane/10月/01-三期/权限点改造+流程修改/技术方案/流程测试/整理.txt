@@ -29,3 +29,8 @@ fetchVirtualSubordinateEmployeeInfoRPCTree
 fetchEmployeeInfoRPCVOS 1
 
 fetchAllEmployeeInfoRPC 1
+
+PermissionOperationTypeRefreshJob
+
+permission.permissionImportTemplateUrl
+
