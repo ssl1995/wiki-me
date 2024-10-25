@@ -125,7 +125,7 @@
         "status": "E"
     },
     "instructions": [],
-    "messageLink": "https://yqg-admin-test.yangqianguan.com/tool/advanced/flow-detail?businessId=",
+    "messageLink": "https://loan-admin-test.yangqianguan.com/institution-funding/funding-repay-rule-diff?id=",
     "callbacks": [
         {
             "id": 1,
