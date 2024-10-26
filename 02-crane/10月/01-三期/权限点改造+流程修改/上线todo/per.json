@@ -1,1 +1,469 @@
-[{"id":977,"feature":"yewei-102202.testL3.sddwde","name":"yewei-102202.测试L3.L3操作","desc":"","status":"ABLE","type":"INTERNAL","supportDataRule":false,"operationType":"MANAGE","attributeCategoryIds":[],"attributeCategoryNameList":[],"categoryVOS":null,"operator":"","systemRoleName":"yewei-102202 - 系统管理员","admin":[{"name":"赖小梅","workNumber":"04697","departmentName":"技术部"},{"name":"叶玮","workNumber":"04690","departmentName":"技术部"}],"businessName":"yewei-102202","businessCode":"yewei-102202","relatedRoles":[{"id":4827,"parentId":null,"parentName":null,"name":"特殊(admin与菜单负责人重复)","businessCode":"yewei-102202","businessName":null,"desc":"","level":1,"type":"INTERNAL","status":"ABLE","sourceType":"CREATE","reason":"","systemRoleName":null,"superSystemRoleName":null,"admin":null,"superAdmin":null,"userCount":0,"isSystemAdmin":false,"isSuperSystemAdmin":false,"permissionId":null,"ownStatusVO":{"timeStatus":"NO","dayDiff":null},"targetCode":"yewei-102202","targetId":4827,"errorMsg":"","targetName":"特殊(admin与菜单负责人重复)","operateType":"ROLE"}],"createTime":1729588749.000000000,"updateTime":1729588749.000000000,"relatedDepartmentIds":[106],"relatedDepartments":[{"id":106,"parentId":42,"name":"巴西","level":3,"leaderId":418,"leaderName":"吴极客","leaderWorkNumber":"00189","parentName":"海外拓展部","relatedRoles":null,"isAvailable":"TRUE","specialField":false}],"managers":[{"employeeId":4866,"employeeNumber":"04697","name":"赖小梅","departmentChain":"技术部","departmentName":"技术部","departmentId":39,"positionName":"测试","gender":"男","state":"正式","countryCode":"CN","supervisorNumber":"03875","virtualSupervisorNumber":null,"mobile":"17306420440","entryTime":1717603200000,"rank":"I2","pictures":{"WORK_CARD_PHOTO":"https://oa-static-test.yangqianguan.com/oa/aff6e10038c5383e3769968fa1c9f216?e=1729782626&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:FM13qG5CJsMd6fdYdCM20FFUj9Y="},"isInternalEmployee":true,"employeeTypeId":1,"employeeTypeVo":null,"subordinateAndVirtualEmployees":null,"sameLevelEmployees":null,"applyEmployees":null,"onPosition":true,"workNumber":"04697","operateType":"EMPLOYEE","id":4697,"feature":null,"businessCode":null,"companyEmail":"xiaomeilai@fintopia.tech"}],"targetName":"L3操作","securityLevel":"L3","isVirtualNode":false,"roleId":4827,"dataRule":{"ruleItems":[],"logicalOperators":null},"targetCode":"yewei-102202.testL3.sddwde","targetId":977,"errorMsg":"","operateType":"PERMISSION","shortName":"L3操作"},{"id":978,"feature":"yewei-102202.query33","name":"yewei-102202.L3查询","desc":"","status":"ABLE","type":"INTERNAL","supportDataRule":false,"operationType":"QUERY","attributeCategoryIds":[],"attributeCategoryNameList":[],"categoryVOS":null,"operator":"","systemRoleName":"yewei-102202 - 系统管理员","admin":[{"name":"赖小梅","workNumber":"04697","departmentName":"技术部"},{"name":"叶玮","workNumber":"04690","departmentName":"技术部"}],"businessName":"yewei-102202","businessCode":"yewei-102202","relatedRoles":[{"id":4827,"parentId":null,"parentName":null,"name":"特殊(admin与菜单负责人重复)","businessCode":"yewei-102202","businessName":null,"desc":"","level":1,"type":"INTERNAL","status":"ABLE","sourceType":"CREATE","reason":"","systemRoleName":null,"superSystemRoleName":null,"admin":null,"superAdmin":null,"userCount":0,"isSystemAdmin":false,"isSuperSystemAdmin":false,"permissionId":null,"ownStatusVO":{"timeStatus":"NO","dayDiff":null},"targetCode":"yewei-102202","targetId":4827,"errorMsg":"","targetName":"特殊(admin与菜单负责人重复)","operateType":"ROLE"}],"createTime":1729588779.000000000,"updateTime":1729588779.000000000,"relatedDepartmentIds":[106],"relatedDepartments":[{"id":106,"parentId":42,"name":"巴西","level":3,"leaderId":418,"leaderName":"吴极客","leaderWorkNumber":"00189","parentName":"海外拓展部","relatedRoles":null,"isAvailable":"TRUE","specialField":false}],"managers":null,"targetName":"L3查询","securityLevel":"L3","isVirtualNode":false,"roleId":4827,"dataRule":{"ruleItems":[],"logicalOperators":null},"targetCode":"yewei-102202.query33","targetId":978,"errorMsg":"","operateType":"PERMISSION","shortName":"L3查询"},{"id":979,"feature":"yewei-102202.test222.QUERY222","name":"yewei-102202.测试L2.查询L2","desc":"","status":"ABLE","type":"INTERNAL","supportDataRule":false,"operationType":"QUERY","attributeCategoryIds":[],"attributeCategoryNameList":[],"categoryVOS":null,"operator":"","systemRoleName":"yewei-102202 - 系统管理员","admin":[{"name":"赖小梅","workNumber":"04697","departmentName":"技术部"},{"name":"叶玮","workNumber":"04690","departmentName":"技术部"}],"businessName":"yewei-102202","businessCode":"yewei-102202","relatedRoles":[{"id":4827,"parentId":null,"parentName":null,"name":"特殊(admin与菜单负责人重复)","businessCode":"yewei-102202","businessName":null,"desc":"","level":1,"type":"INTERNAL","status":"ABLE","sourceType":"CREATE","reason":"","systemRoleName":null,"superSystemRoleName":null,"admin":null,"superAdmin":null,"userCount":0,"isSystemAdmin":false,"isSuperSystemAdmin":false,"permissionId":null,"ownStatusVO":{"timeStatus":"NO","dayDiff":null},"targetCode":"yewei-102202","targetId":4827,"errorMsg":"","targetName":"特殊(admin与菜单负责人重复)","operateType":"ROLE"},{"id":4828,"parentId":null,"parentName":null,"name":"特殊（审批流M2与发起人重复）","businessCode":"yewei-102202","businessName":null,"desc":"","level":1,"type":"INTERNAL","status":"ABLE","sourceType":"CREATE","reason":"","systemRoleName":null,"superSystemRoleName":null,"admin":null,"superAdmin":null,"userCount":0,"isSystemAdmin":false,"isSuperSystemAdmin":false,"permissionId":null,"ownStatusVO":{"timeStatus":"NO","dayDiff":null},"targetCode":"yewei-102202","targetId":4828,"errorMsg":"","targetName":"特殊（审批流M2与发起人重复）","operateType":"ROLE"}],"createTime":1729588836.000000000,"updateTime":1729588836.000000000,"relatedDepartmentIds":[106],"relatedDepartments":[{"id":106,"parentId":42,"name":"巴西","level":3,"leaderId":418,"leaderName":"吴极客","leaderWorkNumber":"00189","parentName":"海外拓展部","relatedRoles":null,"isAvailable":"TRUE","specialField":false}],"managers":[{"employeeId":4866,"employeeNumber":"04697","name":"赖小梅","departmentChain":"技术部","departmentName":"技术部","departmentId":39,"positionName":"测试","gender":"男","state":"正式","countryCode":"CN","supervisorNumber":"03875","virtualSupervisorNumber":null,"mobile":"17306420440","entryTime":1717603200000,"rank":"I2","pictures":{"WORK_CARD_PHOTO":"https://oa-static-test.yangqianguan.com/oa/aff6e10038c5383e3769968fa1c9f216?e=1729782626&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:FM13qG5CJsMd6fdYdCM20FFUj9Y="},"isInternalEmployee":true,"employeeTypeId":1,"employeeTypeVo":null,"subordinateAndVirtualEmployees":null,"sameLevelEmployees":null,"applyEmployees":null,"onPosition":true,"workNumber":"04697","operateType":"EMPLOYEE","id":4697,"feature":null,"businessCode":null,"companyEmail":"xiaomeilai@fintopia.tech"}],"targetName":"查询L2","securityLevel":"L2","isVirtualNode":false,"roleId":4827,"dataRule":{"ruleItems":[],"logicalOperators":null},"targetCode":"yewei-102202.test222.QUERY222","targetId":979,"errorMsg":"","operateType":"PERMISSION","shortName":"查询L2"},{"id":1000,"feature":"yewei-102202.test01.DDD.DDD2.DDD3","name":"yewei-102202.测试.导出.导入.操作","desc":"","status":"ABLE","type":"INTERNAL","supportDataRule":false,"operationType":"MANAGE","attributeCategoryIds":[],"attributeCategoryNameList":[],"categoryVOS":null,"operator":"","systemRoleName":"yewei-102202 - 系统管理员","admin":[{"name":"赖小梅","workNumber":"04697","departmentName":"技术部"},{"name":"叶玮","workNumber":"04690","departmentName":"技术部"}],"businessName":"yewei-102202","businessCode":"yewei-102202","relatedRoles":[{"id":4827,"parentId":null,"parentName":null,"name":"特殊(admin与菜单负责人重复)","businessCode":"yewei-102202","businessName":null,"desc":"","level":1,"type":"INTERNAL","status":"ABLE","sourceType":"CREATE","reason":"","systemRoleName":null,"superSystemRoleName":null,"admin":null,"superAdmin":null,"userCount":0,"isSystemAdmin":false,"isSuperSystemAdmin":false,"permissionId":null,"ownStatusVO":{"timeStatus":"NO","dayDiff":null},"targetCode":"yewei-102202","targetId":4827,"errorMsg":"","targetName":"特殊(admin与菜单负责人重复)","operateType":"ROLE"}],"createTime":1729666833.000000000,"updateTime":1729680805.000000000,"relatedDepartmentIds":[],"relatedDepartments":null,"managers":null,"targetName":"操作","securityLevel":"L1","isVirtualNode":false,"roleId":4827,"dataRule":{"ruleItems":[],"logicalOperators":null},"targetCode":"yewei-102202.test01.DDD.DDD2.DDD3","targetId":1000,"errorMsg":"","operateType":"PERMISSION","shortName":"操作"}]
+[
+  {
+    "id": 977,
+    "feature": "yewei-102202.testL3.sddwde",
+    "name": "yewei-102202.测试L3.L3操作",
+    "desc": "",
+    "status": "ABLE",
+    "type": "INTERNAL",
+    "supportDataRule": false,
+    "operationType": "MANAGE",
+    "attributeCategoryIds": [],
+    "attributeCategoryNameList": [],
+    "categoryVOS": null,
+    "operator": "",
+    "systemRoleName": "yewei-102202 - 系统管理员",
+    "admin": [
+      {
+        "name": "赖小梅",
+        "workNumber": "04697",
+        "departmentName": "技术部"
+      },
+      {
+        "name": "叶玮",
+        "workNumber": "04690",
+        "departmentName": "技术部"
+      }
+    ],
+    "businessName": "yewei-102202",
+    "businessCode": "yewei-102202",
+    "relatedRoles": [
+      {
+        "id": 4827,
+        "parentId": null,
+        "parentName": null,
+        "name": "特殊(admin与菜单负责人重复)",
+        "businessCode": "yewei-102202",
+        "businessName": null,
+        "desc": "",
+        "level": 1,
+        "type": "INTERNAL",
+        "status": "ABLE",
+        "sourceType": "CREATE",
+        "reason": "",
+        "systemRoleName": null,
+        "superSystemRoleName": null,
+        "admin": null,
+        "superAdmin": null,
+        "userCount": 0,
+        "isSystemAdmin": false,
+        "isSuperSystemAdmin": false,
+        "permissionId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "targetCode": "yewei-102202",
+        "targetId": 4827,
+        "errorMsg": "",
+        "targetName": "特殊(admin与菜单负责人重复)",
+        "operateType": "ROLE"
+      }
+    ],
+    "createTime": 1729588749.000000000,
+    "updateTime": 1729588749.000000000,
+    "relatedDepartmentIds": [
+      106
+    ],
+    "relatedDepartments": [
+      {
+        "id": 106,
+        "parentId": 42,
+        "name": "巴西",
+        "level": 3,
+        "leaderId": 418,
+        "leaderName": "吴极客",
+        "leaderWorkNumber": "00189",
+        "parentName": "海外拓展部",
+        "relatedRoles": null,
+        "isAvailable": "TRUE",
+        "specialField": false
+      }
+    ],
+    "managers": [
+      {
+        "employeeId": 4866,
+        "employeeNumber": "04697",
+        "name": "赖小梅",
+        "departmentChain": "技术部",
+        "departmentName": "技术部",
+        "departmentId": 39,
+        "positionName": "测试",
+        "gender": "男",
+        "state": "正式",
+        "countryCode": "CN",
+        "supervisorNumber": "03875",
+        "virtualSupervisorNumber": null,
+        "mobile": "17306420440",
+        "entryTime": 1717603200000,
+        "rank": "I2",
+        "pictures": {
+          "WORK_CARD_PHOTO": "https://oa-static-test.yangqianguan.com/oa/aff6e10038c5383e3769968fa1c9f216?e=1729782626&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:FM13qG5CJsMd6fdYdCM20FFUj9Y="
+        },
+        "isInternalEmployee": true,
+        "employeeTypeId": 1,
+        "employeeTypeVo": null,
+        "subordinateAndVirtualEmployees": null,
+        "sameLevelEmployees": null,
+        "applyEmployees": null,
+        "onPosition": true,
+        "workNumber": "04697",
+        "operateType": "EMPLOYEE",
+        "id": 4697,
+        "feature": null,
+        "businessCode": null,
+        "companyEmail": "xiaomeilai@fintopia.tech"
+      }
+    ],
+    "targetName": "L3操作",
+    "securityLevel": "L3",
+    "isVirtualNode": false,
+    "roleId": 4827,
+    "dataRule": {
+      "ruleItems": [],
+      "logicalOperators": null
+    },
+    "targetCode": "yewei-102202.testL3.sddwde",
+    "targetId": 977,
+    "errorMsg": "",
+    "operateType": "PERMISSION",
+    "shortName": "L3操作"
+  },
+  {
+    "id": 978,
+    "feature": "yewei-102202.query33",
+    "name": "yewei-102202.L3查询",
+    "desc": "",
+    "status": "ABLE",
+    "type": "INTERNAL",
+    "supportDataRule": false,
+    "operationType": "QUERY",
+    "attributeCategoryIds": [],
+    "attributeCategoryNameList": [],
+    "categoryVOS": null,
+    "operator": "",
+    "systemRoleName": "yewei-102202 - 系统管理员",
+    "admin": [
+      {
+        "name": "赖小梅",
+        "workNumber": "04697",
+        "departmentName": "技术部"
+      },
+      {
+        "name": "叶玮",
+        "workNumber": "04690",
+        "departmentName": "技术部"
+      }
+    ],
+    "businessName": "yewei-102202",
+    "businessCode": "yewei-102202",
+    "relatedRoles": [
+      {
+        "id": 4827,
+        "parentId": null,
+        "parentName": null,
+        "name": "特殊(admin与菜单负责人重复)",
+        "businessCode": "yewei-102202",
+        "businessName": null,
+        "desc": "",
+        "level": 1,
+        "type": "INTERNAL",
+        "status": "ABLE",
+        "sourceType": "CREATE",
+        "reason": "",
+        "systemRoleName": null,
+        "superSystemRoleName": null,
+        "admin": null,
+        "superAdmin": null,
+        "userCount": 0,
+        "isSystemAdmin": false,
+        "isSuperSystemAdmin": false,
+        "permissionId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "targetCode": "yewei-102202",
+        "targetId": 4827,
+        "errorMsg": "",
+        "targetName": "特殊(admin与菜单负责人重复)",
+        "operateType": "ROLE"
+      }
+    ],
+    "createTime": 1729588779.000000000,
+    "updateTime": 1729588779.000000000,
+    "relatedDepartmentIds": [
+      106
+    ],
+    "relatedDepartments": [
+      {
+        "id": 106,
+        "parentId": 42,
+        "name": "巴西",
+        "level": 3,
+        "leaderId": 418,
+        "leaderName": "吴极客",
+        "leaderWorkNumber": "00189",
+        "parentName": "海外拓展部",
+        "relatedRoles": null,
+        "isAvailable": "TRUE",
+        "specialField": false
+      }
+    ],
+    "managers": null,
+    "targetName": "L3查询",
+    "securityLevel": "L3",
+    "isVirtualNode": false,
+    "roleId": 4827,
+    "dataRule": {
+      "ruleItems": [],
+      "logicalOperators": null
+    },
+    "targetCode": "yewei-102202.query33",
+    "targetId": 978,
+    "errorMsg": "",
+    "operateType": "PERMISSION",
+    "shortName": "L3查询"
+  },
+  {
+    "id": 979,
+    "feature": "yewei-102202.test222.QUERY222",
+    "name": "yewei-102202.测试L2.查询L2",
+    "desc": "",
+    "status": "ABLE",
+    "type": "INTERNAL",
+    "supportDataRule": false,
+    "operationType": "QUERY",
+    "attributeCategoryIds": [],
+    "attributeCategoryNameList": [],
+    "categoryVOS": null,
+    "operator": "",
+    "systemRoleName": "yewei-102202 - 系统管理员",
+    "admin": [
+      {
+        "name": "赖小梅",
+        "workNumber": "04697",
+        "departmentName": "技术部"
+      },
+      {
+        "name": "叶玮",
+        "workNumber": "04690",
+        "departmentName": "技术部"
+      }
+    ],
+    "businessName": "yewei-102202",
+    "businessCode": "yewei-102202",
+    "relatedRoles": [
+      {
+        "id": 4827,
+        "parentId": null,
+        "parentName": null,
+        "name": "特殊(admin与菜单负责人重复)",
+        "businessCode": "yewei-102202",
+        "businessName": null,
+        "desc": "",
+        "level": 1,
+        "type": "INTERNAL",
+        "status": "ABLE",
+        "sourceType": "CREATE",
+        "reason": "",
+        "systemRoleName": null,
+        "superSystemRoleName": null,
+        "admin": null,
+        "superAdmin": null,
+        "userCount": 0,
+        "isSystemAdmin": false,
+        "isSuperSystemAdmin": false,
+        "permissionId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "targetCode": "yewei-102202",
+        "targetId": 4827,
+        "errorMsg": "",
+        "targetName": "特殊(admin与菜单负责人重复)",
+        "operateType": "ROLE"
+      },
+      {
+        "id": 4828,
+        "parentId": null,
+        "parentName": null,
+        "name": "特殊（审批流M2与发起人重复）",
+        "businessCode": "yewei-102202",
+        "businessName": null,
+        "desc": "",
+        "level": 1,
+        "type": "INTERNAL",
+        "status": "ABLE",
+        "sourceType": "CREATE",
+        "reason": "",
+        "systemRoleName": null,
+        "superSystemRoleName": null,
+        "admin": null,
+        "superAdmin": null,
+        "userCount": 0,
+        "isSystemAdmin": false,
+        "isSuperSystemAdmin": false,
+        "permissionId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "targetCode": "yewei-102202",
+        "targetId": 4828,
+        "errorMsg": "",
+        "targetName": "特殊（审批流M2与发起人重复）",
+        "operateType": "ROLE"
+      }
+    ],
+    "createTime": 1729588836.000000000,
+    "updateTime": 1729588836.000000000,
+    "relatedDepartmentIds": [
+      106
+    ],
+    "relatedDepartments": [
+      {
+        "id": 106,
+        "parentId": 42,
+        "name": "巴西",
+        "level": 3,
+        "leaderId": 418,
+        "leaderName": "吴极客",
+        "leaderWorkNumber": "00189",
+        "parentName": "海外拓展部",
+        "relatedRoles": null,
+        "isAvailable": "TRUE",
+        "specialField": false
+      }
+    ],
+    "managers": [
+      {
+        "employeeId": 4866,
+        "employeeNumber": "04697",
+        "name": "赖小梅",
+        "departmentChain": "技术部",
+        "departmentName": "技术部",
+        "departmentId": 39,
+        "positionName": "测试",
+        "gender": "男",
+        "state": "正式",
+        "countryCode": "CN",
+        "supervisorNumber": "03875",
+        "virtualSupervisorNumber": null,
+        "mobile": "17306420440",
+        "entryTime": 1717603200000,
+        "rank": "I2",
+        "pictures": {
+          "WORK_CARD_PHOTO": "https://oa-static-test.yangqianguan.com/oa/aff6e10038c5383e3769968fa1c9f216?e=1729782626&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:FM13qG5CJsMd6fdYdCM20FFUj9Y="
+        },
+        "isInternalEmployee": true,
+        "employeeTypeId": 1,
+        "employeeTypeVo": null,
+        "subordinateAndVirtualEmployees": null,
+        "sameLevelEmployees": null,
+        "applyEmployees": null,
+        "onPosition": true,
+        "workNumber": "04697",
+        "operateType": "EMPLOYEE",
+        "id": 4697,
+        "feature": null,
+        "businessCode": null,
+        "companyEmail": "xiaomeilai@fintopia.tech"
+      }
+    ],
+    "targetName": "查询L2",
+    "securityLevel": "L2",
+    "isVirtualNode": false,
+    "roleId": 4827,
+    "dataRule": {
+      "ruleItems": [],
+      "logicalOperators": null
+    },
+    "targetCode": "yewei-102202.test222.QUERY222",
+    "targetId": 979,
+    "errorMsg": "",
+    "operateType": "PERMISSION",
+    "shortName": "查询L2"
+  },
+  {
+    "id": 1000,
+    "feature": "yewei-102202.test01.DDD.DDD2.DDD3",
+    "name": "yewei-102202.测试.导出.导入.操作",
+    "desc": "",
+    "status": "ABLE",
+    "type": "INTERNAL",
+    "supportDataRule": false,
+    "operationType": "MANAGE",
+    "attributeCategoryIds": [],
+    "attributeCategoryNameList": [],
+    "categoryVOS": null,
+    "operator": "",
+    "systemRoleName": "yewei-102202 - 系统管理员",
+    "admin": [
+      {
+        "name": "赖小梅",
+        "workNumber": "04697",
+        "departmentName": "技术部"
+      },
+      {
+        "name": "叶玮",
+        "workNumber": "04690",
+        "departmentName": "技术部"
+      }
+    ],
+    "businessName": "yewei-102202",
+    "businessCode": "yewei-102202",
+    "relatedRoles": [
+      {
+        "id": 4827,
+        "parentId": null,
+        "parentName": null,
+        "name": "特殊(admin与菜单负责人重复)",
+        "businessCode": "yewei-102202",
+        "businessName": null,
+        "desc": "",
+        "level": 1,
+        "type": "INTERNAL",
+        "status": "ABLE",
+        "sourceType": "CREATE",
+        "reason": "",
+        "systemRoleName": null,
+        "superSystemRoleName": null,
+        "admin": null,
+        "superAdmin": null,
+        "userCount": 0,
+        "isSystemAdmin": false,
+        "isSuperSystemAdmin": false,
+        "permissionId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "targetCode": "yewei-102202",
+        "targetId": 4827,
+        "errorMsg": "",
+        "targetName": "特殊(admin与菜单负责人重复)",
+        "operateType": "ROLE"
+      }
+    ],
+    "createTime": 1729666833.000000000,
+    "updateTime": 1729680805.000000000,
+    "relatedDepartmentIds": [],
+    "relatedDepartments": null,
+    "managers": null,
+    "targetName": "操作",
+    "securityLevel": "L1",
+    "isVirtualNode": false,
+    "roleId": 4827,
+    "dataRule": {
+      "ruleItems": [],
+      "logicalOperators": null
+    },
+    "targetCode": "yewei-102202.test01.DDD.DDD2.DDD3",
+    "targetId": 1000,
+    "errorMsg": "",
+    "operateType": "PERMISSION",
+    "shortName": "操作"
+  }
+]
