@@ -125,7 +125,7 @@
     "status": "E"
   },
   "instructions": [],
-  "messageLink": "https://yqg-admin.fintopia.tech/tool/advanced/flow-detail?businessId=",
+  "messageLink": "https://loan-admin.fintopia.tech/institution-funding/funding-repay-rule-diff?businessId=",
   "callbacks": [
     {
       "id": 1,
