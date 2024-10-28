@@ -1,0 +1,18 @@
+{
+  "before": {
+    "overseas": false,
+    "employeeNameList": [],
+    "currentUserIsOutsourcingSuppliers": false,
+    "numberOfEntries": 1,
+    "suffix": "null null"
+  },
+  "after": {
+    "overseas": false,
+    "employeeNameList": [],
+    "currentUserIsOutsourcingSuppliers": false,
+    "numberOfEntries": 1,
+    "suffix": "null null"
+  },
+  "oaKafkaTopic": "OA_INFO_CHANGE",
+  "tableName": "employee"
+}

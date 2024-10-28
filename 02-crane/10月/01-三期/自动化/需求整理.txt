@@ -11,3 +11,6 @@
 
   PERMISSION_UPDATE_LEVEL_EMPTY(42020, "权限级别不能为空"),
   PERMISSION_UPDATE_OP_TYPE_EMPTY(42021, "权限类型不能为空"),
+
+
+com.yag.overseas_oa.common.sync.client.MultiHierarchicalContract.parseAndValidatateMetadata(MultiHierarchicalContract.java:42)
