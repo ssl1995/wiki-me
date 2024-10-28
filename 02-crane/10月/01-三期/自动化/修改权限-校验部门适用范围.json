@@ -1,0 +1,9 @@
+{
+  "id": 857,
+  "name": "宋的系统.一级权限",
+  "feature": "songSys.f1",
+  "operationType": "MANAGE",
+  "type": "INTERNAL",
+  "securityLevel": "L3",
+  "supportDataRule": false
+}

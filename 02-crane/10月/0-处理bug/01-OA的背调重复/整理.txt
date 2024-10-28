@@ -1,5 +1,0 @@
-1.员工本人可查看
-2.入职人的hrbp或者hrbp的leader可以查看
-3.角色:HRBP、高级HRBP经理、员工关系专员、员工关系主管、人力总监
-4.权限点：查询员工信息-全部信息：EMPLOYEE.QUERY.ALL_INFO
-5.权限点：如果有电子档案编辑权限点：EMPLOYEE.ELE_RECORD.UPDATE，可以编辑、删除、查看
