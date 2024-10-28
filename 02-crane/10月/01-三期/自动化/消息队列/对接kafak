@@ -1,0 +1,15 @@
+1、KafkaTopic
+新增枚举
+
+2、ConsumerGroup
+新增消费组
+
+3、消费服务
+OADepartmentConsumerGroupService  implements IConsumerGroupService
+
+4、消费组配置
+
+CraneConsumerConfiguration.departmentConsumerRunnerPoolConfig/startDepartmentConsumer
+
+5、真正的处理消息
+AuthorityMessageProcessor
