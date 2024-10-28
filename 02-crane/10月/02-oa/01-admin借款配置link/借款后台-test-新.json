@@ -125,7 +125,7 @@
         "status": "E"
     },
     "instructions": [],
-    "messageLink": "https://loan-admin-test.yangqianguan.com/institution-funding/funding-repay-rule-diff?businessId=",
+    "messageLink": "https://loan-admin.fintopia.tech/institution-funding/funding-repay-rule-diff?businessId=",
     "callbacks": [
         {
             "id": 1,
