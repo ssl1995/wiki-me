@@ -1,18 +1,37 @@
 {
-  "before": {
-    "overseas": false,
-    "employeeNameList": [],
-    "currentUserIsOutsourcingSuppliers": false,
-    "numberOfEntries": 1,
-    "suffix": "null null"
-  },
-  "after": {
-    "overseas": false,
-    "employeeNameList": [],
-    "currentUserIsOutsourcingSuppliers": false,
-    "numberOfEntries": 1,
-    "suffix": "null null"
-  },
-  "oaKafkaTopic": "OA_INFO_CHANGE",
-  "tableName": "employee"
+  "id": 5158,
+  "workNumber": "05158",
+  "employeeId": 2008391,
+  "employeeNumber": "05158",
+  "name": "宋测试Crane入职",
+    "state": "试用",
+    "rank": "M1",
+    "departmentId": 543,
+
+
+  "departmentChain": null,
+  "departmentName": null,
+
+  "positionName": null,
+  "gender": null,
+
+  "countryCode": null,
+  "supervisorNumber": null,
+  "virtualSupervisorNumber": null,
+  "mobile": null,
+  "entryTime": 1730217600000,
+
+  "pictures": null,
+  "isInternalEmployee": null,
+  "employeeTypeId": 1,
+  "employeeTypeVo": null,
+  "subordinateAndVirtualEmployees": null,
+  "sameLevelEmployees": null,
+  "applyEmployees": null,
+
+  "onPosition": false,
+  "operateType": "EMPLOYEE",
+  "feature": null,
+  "businessCode": null,
+  "companyEmail": null
 }
