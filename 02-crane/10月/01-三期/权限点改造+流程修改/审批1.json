@@ -1,0 +1,127 @@
+{
+  "body": {
+    "list": [
+      {
+        "businessName": "OA系统",
+        "roleId": null,
+        "createTime": "2024-10-30 11:36:01",
+        "ownStatus": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": "审批中",
+        "id": null,
+        "feature": "CRANE.EMPLOYEE.QUERY",
+        "name": "人员管理-查询人员",
+        "desc": "",
+        "status": "ABLE",
+        "type": "INTERNAL",
+        "supportDataRule": null,
+        "operationType": "QUERY",
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessCode": "CRANE",
+        "relatedRoles": null,
+        "updateTime": null,
+        "relatedDepartmentIds": [
+          1,
+          2
+        ],
+        "relatedDepartments": [
+          {
+            "id": 1,
+            "parentId": null,
+            "name": "产品部",
+            "level": null,
+            "leaderId": null,
+            "leaderName": null,
+            "leaderWorkNumber": null,
+            "parentName": null,
+            "relatedRoles": null,
+            "isAvailable": null,
+            "specialField": false
+          },
+          {
+            "id": 2,
+            "parentId": null,
+            "name": "技术部",
+            "level": null,
+            "leaderId": null,
+            "leaderName": null,
+            "leaderWorkNumber": null,
+            "parentName": null,
+            "relatedRoles": null,
+            "isAvailable": null,
+            "specialField": false
+          }
+        ],
+        "managers": null,
+        "targetName": "人员管理-查询人员",
+        "securityLevel": "L2",
+        "isVirtualNode": false,
+        "relatedRoleIds": [],
+        "targetCode": "CRANE.EMPLOYEE.QUERY",
+        "targetId": null,
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "人员管理-查询人员"
+      },
+      {
+        "businessName": "财务系统",
+        "roleId": null,
+        "createTime": "2024-10-30 11:36:01",
+        "ownStatus": {
+          "timeStatus": "TEMP",
+          "dayDiff": 30
+        },
+        "flowState": "已通过",
+        "id": null,
+        "feature": "FINANCE.EMPLOYEE.ASSIGN",
+        "name": "人员管理-分配角色",
+        "desc": "",
+        "status": "ABLE",
+        "type": "GENERAL",
+        "supportDataRule": null,
+        "operationType": "MANAGE",
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "updateTime": null,
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "人员管理-分配角色",
+        "securityLevel": "L3",
+        "isVirtualNode": false,
+        "relatedRoleIds": [],
+        "targetCode": "FINANCE.EMPLOYEE.ASSIGN",
+        "targetId": null,
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "人员管理-分配角色"
+      }
+    ],
+    "total": 2,
+    "pageNo": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "size": 2
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1730259361791,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

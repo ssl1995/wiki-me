@@ -1,16 +1,8 @@
-自动化整个需求：
-
-人员管理
-1、人员列表页，部门封装角色
+宋测试Crane入职
 
 
-自动化
-2、
+部门：技术部-前端-前端1-前端123
+
+id:543
 
 
-
-  PERMISSION_UPDATE_LEVEL_EMPTY(42020, "权限级别不能为空"),
-  PERMISSION_UPDATE_OP_TYPE_EMPTY(42021, "权限类型不能为空"),
-
-
-com.yag.overseas_oa.common.sync.client.MultiHierarchicalContract.parseAndValidatateMetadata(MultiHierarchicalContract.java:42)
