@@ -1,0 +1,53 @@
+{
+  "before": {
+    "id": "W11GCw",
+    "workNumber": "03875",
+    "name": "宋测试-杨丽君-03875",
+    "departmentId": 65,
+
+    "rank": null,
+    "employeeTypeId": 1,
+    "companyEmail": null,
+    "positionId": 56,
+    "state": "FORMAL",
+    "leaveDate": null,
+    "companyId": 8,
+    "overseas": false,
+    "submitterId": -1,
+    "supervisorId": 3997,
+    "virtualSupervisorId": null,
+    "workSpotId": 21,
+    "workSpotName": null,
+    "employeeInfoId": 4383,
+    "hrbpEmployeeId": null,
+    "entryTime": null,
+    "gender": null
+  },
+  "after": {
+    "id": "W11GCw",
+    "workNumber": "03875",
+    "name": "宋测试-杨丽君-03875",
+    "departmentId": 543,
+
+
+    "rank": null,
+    "employeeTypeId": 1,
+    "companyEmail": null,
+    "positionId": 56,
+    "state": "FORMAL",
+    "leaveDate": null,
+    "companyId": 8,
+    "overseas": false,
+    "submitterId": -1,
+    "supervisorId": 3997,
+    "virtualSupervisorId": null,
+    "workSpotId": 21,
+    "workSpotName": null,
+    "employeeInfoId": 4383,
+    "hrbpEmployeeId": null,
+    "entryTime": null,
+    "gender": null
+  },
+  "oaKafkaTopic": "OA_INFO_CHANGE",
+  "tableName": "employee"
+}

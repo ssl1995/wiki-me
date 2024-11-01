@@ -1,0 +1,24 @@
+{
+  "id": "W11GCw",
+  "name": "宋测试-杨丽君-03875",
+  "workNumber": "03875",
+  "departmentId": 543,
+
+  "employeeTypeId": 1,
+  "positionId": 56,
+  "state": "FORMAL",
+  "companyId": 8,
+  "oaBasicPrivilege": "OPEN",
+  "overseas": false,
+  "submitterId": -1,
+  "employeeNameList": [],
+  "currentUserIsOutsourcingSuppliers": false,
+  "numberOfEntries": 1,
+  "identityType": "ID_CARD",
+  "supervisorId": 3997,
+  "workSpotId": 21,
+  "employeeInfoId": 4383,
+  "emergencyContactId": 2798,
+  "ldapAccount": "03875",
+  "suffix": "null null"
+}

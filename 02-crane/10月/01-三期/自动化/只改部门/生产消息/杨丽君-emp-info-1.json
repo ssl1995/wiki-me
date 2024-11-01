@@ -1,0 +1,35 @@
+{
+  "before": {
+    "id": "W11GCw",
+    "name": "宋测试-杨丽君-03875",
+    "workNumber": "03875",
+    "departmentId": 543,
+    "rank": "M2",
+
+
+    "employeeTypeId": 1,
+    "companyEmail": "xiaomeilai222@fintopia.tech",
+    "positionId": 56,
+    "state": "FORMAL",
+    "officeInfo": "",
+    "companyId": 8,
+    "oaBasicPrivilege": "OPEN",
+    "overseas": false,
+    "address": "ENCRYPTED__4TNFfhpbbbcNowNv6fC0vQ==",
+    "censusRegisterAddress": "ENCRYPTED__J69knzB4Zo4UyqI0HD3trA==",
+    "submitterId": -1,
+    "employeeNameList": [],
+    "currentUserIsOutsourcingSuppliers": false,
+    "numberOfEntries": 1,
+    "identityType": "ID_CARD",
+    "supervisorId": 3997,
+    "workSpotId": 21,
+    "employeeInfoId": 4383,
+    "emergencyContactId": 2798,
+    "ldapAccount": "03875",
+    "hrbpEmployeeId": "01jF8",
+    "entryTime": 1696694400000,
+    "gender": "MALE",
+    "country": "CHINA",
+    "suffix": "null xiaomeilai222@fintopia.tech"
+  }

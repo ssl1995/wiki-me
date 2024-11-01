@@ -1,0 +1,52 @@
+{
+  "before": {
+    "id": "W11GCw",
+    "workNumber": "03875",
+    "name": "宋测试-杨丽君-03875",
+    "departmentId": 543,
+    "rank": "M2",
+
+    "employeeTypeId": 1,
+    "companyEmail": "xiaomeilai222@fintopia.tech",
+    "positionId": 56,
+    "state": "FORMAL",
+    "leaveDate": null,
+    "companyId": 8,
+    "overseas": false,
+    "submitterId": -1,
+    "supervisorId": 3997,
+    "virtualSupervisorId": null,
+    "workSpotId": 21,
+    "workSpotName": null,
+    "employeeInfoId": 4383,
+    "hrbpEmployeeId": "01jF8",
+    "entryTime": 1696694400000,
+    "gender": "MALE"
+  },
+  "after": {
+    "id": "W11GCw",
+    "workNumber": "03875",
+    "name": "宋测试-杨丽君-03875",
+    "departmentId": 543,
+    "rank": "M2",
+
+    "employeeTypeId": 1,
+    "companyEmail": "xiaomeilai222@fintopia.tech",
+    "positionId": 56,
+    "state": "FORMAL",
+    "leaveDate": null,
+    "companyId": 8,
+    "overseas": false,
+    "submitterId": -1,
+    "supervisorId": 3997,
+    "virtualSupervisorId": null,
+    "workSpotId": 21,
+    "workSpotName": null,
+    "employeeInfoId": 4383,
+    "hrbpEmployeeId": "01jF8",
+    "entryTime": 1696694400000,
+    "gender": "MALE"
+  },
+  "oaKafkaTopic": "OA_INFO_CHANGE",
+  "tableName": "employee_info"
+}

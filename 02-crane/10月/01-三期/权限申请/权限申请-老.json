@@ -1,0 +1,407 @@
+{
+  "body": {
+    "list": [
+      {
+        "isVirtualNode": false,
+        "relatedRoleIds": [],
+        "id": 857,
+        "name": "宋的系统.一级权限",
+        "feature": "songSys.f1",
+        "operationType": "QUERY", // 权限类型
+        "securityLevel": "L3", // 权限级别
+        "type": "INTERNAL", // 权限属性
+        "relatedDepartments": null,// 适用部门
+        "relatedDepartmentIds": [],
+        "attributeCategoryNameList": [],// 数据权限
+        "attributeCategoryIds": [],
+
+
+        "ownStatusVO": {// 拥有状态
+                "timeStatus": "TEMP",
+                "dayDiff": 331
+        },
+
+        "desc": "",
+        "status": "ABLE",
+        "supportDataRule": false,
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "宋的系统 - 系统管理员",
+        "admin": [
+          {
+            "name": "宋声林",
+            "workNumber": "03541",
+            "departmentName": "黄风岭八百里"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712",
+            "departmentName": "冠军组"
+          },
+          {
+            "name": "叶玮I1-05004",
+            "workNumber": "05004",
+            "departmentName": "律师123"
+          }
+        ],
+        "businessName": "宋的系统",
+        "businessCode": "songSys",
+        "relatedRoles": null,
+        "createTime": "2024-09-24T07:47:35Z",
+        "updateTime": "2024-10-17T04:18:03Z",
+        "managers": null,
+        "targetName": "一级权限",
+        "targetId": 857,
+        "targetCode": "songSys.f1",
+        "operateType": "PERMISSION",
+        "errorMsg": "",
+        "shortName": "一级权限",
+        "children": null
+      },
+      {
+        "securityLevel": "L3",
+        "isVirtualNode": false,
+        "relatedRoleIds": [],
+        "id": 903,
+        "feature": "songSys.feature3",
+        "name": "宋的系统.三期方案",
+        "desc": "",
+        "status": "ABLE",
+        "type": "INTERNAL",
+        "supportDataRule": false,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "宋的系统 - 系统管理员",
+        "admin": [
+          {
+            "name": "宋声林",
+            "workNumber": "03541",
+            "departmentName": "黄风岭八百里"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712",
+            "departmentName": "冠军组"
+          },
+          {
+            "name": "叶玮I1-05004",
+            "workNumber": "05004",
+            "departmentName": "律师123"
+          }
+        ],
+        "businessName": "宋的系统",
+        "businessCode": "songSys",
+        "relatedRoles": null,
+        "createTime": "2024-10-14T06:36:52Z",
+        "updateTime": "2024-10-14T06:36:52Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "三期方案",
+        "targetId": 903,
+        "targetCode": "songSys.feature3",
+        "operateType": "PERMISSION",
+        "errorMsg": "",
+        "shortName": "三期方案",
+        "children": null
+      },
+      {
+        "securityLevel": "L2",
+        "isVirtualNode": false,
+        "relatedRoleIds": [],
+        "id": 985,
+        "feature": "songSys.fxxxx",
+        "name": "宋的系统.宋测试批量新建",
+        "desc": "",
+        "status": "ABLE",
+        "type": "INTERNAL",
+        "supportDataRule": false,
+        "operationType": "QUERY",
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "宋的系统 - 系统管理员",
+        "admin": [
+          {
+            "name": "宋声林",
+            "workNumber": "03541",
+            "departmentName": "黄风岭八百里"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712",
+            "departmentName": "冠军组"
+          },
+          {
+            "name": "叶玮I1-05004",
+            "workNumber": "05004",
+            "departmentName": "律师123"
+          }
+        ],
+        "businessName": "宋的系统",
+        "businessCode": "songSys",
+        "relatedRoles": null,
+        "createTime": "2024-10-22T11:43:58Z",
+        "updateTime": "2024-10-22T11:43:58Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "宋测试批量新建",
+        "targetId": 985,
+        "targetCode": "songSys.fxxxx",
+        "operateType": "PERMISSION",
+        "errorMsg": "",
+        "shortName": "宋测试批量新建",
+        "children": null
+      },
+      {
+        "securityLevel": "L3",
+        "isVirtualNode": false,
+        "relatedRoleIds": [],
+        "id": 882,
+        "feature": "songSys.general",
+        "name": "宋的系统.通用权限",
+        "desc": "",
+        "status": "ABLE",
+        "type": "GENERAL",
+        "supportDataRule": false,
+        "operationType": "MANAGE",
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "宋的系统 - 系统管理员",
+        "admin": [
+          {
+            "name": "宋声林",
+            "workNumber": "03541",
+            "departmentName": "黄风岭八百里"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712",
+            "departmentName": "冠军组"
+          },
+          {
+            "name": "叶玮I1-05004",
+            "workNumber": "05004",
+            "departmentName": "律师123"
+          }
+        ],
+        "businessName": "宋的系统",
+        "businessCode": "songSys",
+        "relatedRoles": null,
+        "createTime": "2024-09-27T11:18:04Z",
+        "updateTime": "2024-10-27T13:55:30Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": [
+          {
+            "employeeId": 488,
+            "employeeNumber": "00251",
+            "name": "lilixian",
+            "departmentChain": "Indonesia idn-backend 1412412q e we",
+            "departmentName": "e we",
+            "departmentId": 428,
+            "positionName": "Customer Service Specialist",
+            "gender": "女",
+            "state": "正式",
+            "countryCode": "CN",
+            "supervisorNumber": "04956",
+            "virtualSupervisorNumber": "03613",
+            "mobile": "1810103579999",
+            "entryTime": 1630080000000,
+            "rank": "M3",
+            "pictures": {
+              "WORK_CARD_PHOTO": "https://oa-static-test.yangqianguan.com/oa/ec198aa8cda1387f44a0790e3e9c5776?e=1730390783&token=IAM-1uE_PaK7HqKjAZ39ClgE1sLIybi-_y7hYyE17zgU:e-O38fIe-ci2EMvj1AJJByuHjQc="
+            },
+            "isInternalEmployee": true,
+            "employeeTypeId": 1,
+            "employeeTypeVo": null,
+            "subordinateAndVirtualEmployees": null,
+            "sameLevelEmployees": null,
+            "applyEmployees": null,
+            "onPosition": true,
+            "id": 251,
+            "operateType": "EMPLOYEE",
+            "workNumber": "00251",
+            "feature": null,
+            "businessCode": null,
+            "companyEmail": "lixianli@fintopia.tech"
+          },
+          {
+            "employeeId": 3997,
+            "employeeNumber": "03877",
+            "name": "宋测试-李树娟-03877",
+            "departmentChain": "技术部 后端123",
+            "departmentName": "后端123",
+            "departmentId": 65,
+            "positionName": "后端",
+            "gender": "男",
+            "state": "正式",
+            "countryCode": "CN",
+            "supervisorNumber": "00001",
+            "virtualSupervisorNumber": null,
+            "mobile": "13639120201",
+            "entryTime": 1696780800000,
+            "rank": "M3",
+            "pictures": {},
+            "isInternalEmployee": true,
+            "employeeTypeId": 1,
+            "employeeTypeVo": null,
+            "subordinateAndVirtualEmployees": null,
+            "sameLevelEmployees": null,
+            "applyEmployees": null,
+            "onPosition": true,
+            "id": 3877,
+            "operateType": "EMPLOYEE",
+            "workNumber": "03877",
+            "feature": null,
+            "businessCode": null,
+            "companyEmail": "songtestAuto@fintopia.tech"
+          }
+        ],
+        "targetName": "通用权限",
+        "targetId": 882,
+        "targetCode": "songSys.general",
+        "operateType": "PERMISSION",
+        "errorMsg": "",
+        "shortName": "通用权限",
+        "children": null
+      },
+      {
+        "securityLevel": "L3",
+        "isVirtualNode": false,
+        "relatedRoleIds": [],
+        "id": 989,
+        "feature": "songSys.sdafasfad",
+        "name": "宋的系统.收拾收拾",
+        "desc": "",
+        "status": "ABLE",
+        "type": "INTERNAL",
+        "supportDataRule": false,
+        "operationType": "MANAGE",
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "宋的系统 - 系统管理员",
+        "admin": [
+          {
+            "name": "宋声林",
+            "workNumber": "03541",
+            "departmentName": "黄风岭八百里"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712",
+            "departmentName": "冠军组"
+          },
+          {
+            "name": "叶玮I1-05004",
+            "workNumber": "05004",
+            "departmentName": "律师123"
+          }
+        ],
+        "businessName": "宋的系统",
+        "businessCode": "songSys",
+        "relatedRoles": null,
+        "createTime": "2024-10-22T11:58:08Z",
+        "updateTime": "2024-10-22T11:58:08Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "收拾收拾",
+        "targetId": 989,
+        "targetCode": "songSys.sdafasfad",
+        "operateType": "PERMISSION",
+        "errorMsg": "",
+        "shortName": "收拾收拾",
+        "children": null
+      },
+      {
+        "securityLevel": "L3",
+        "isVirtualNode": false,
+        "relatedRoleIds": [],
+        "id": 923,
+        "feature": "songSys.testInsert",
+        "name": "宋的系统.测试新建",
+        "desc": "",
+        "status": "ABLE",
+        "type": "INTERNAL",
+        "supportDataRule": false,
+        "operationType": "MANAGE",
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "宋的系统 - 系统管理员",
+        "admin": [
+          {
+            "name": "宋声林",
+            "workNumber": "03541",
+            "departmentName": "黄风岭八百里"
+          },
+          {
+            "name": "叶玮2",
+            "workNumber": "04712",
+            "departmentName": "冠军组"
+          },
+          {
+            "name": "叶玮I1-05004",
+            "workNumber": "05004",
+            "departmentName": "律师123"
+          }
+        ],
+        "businessName": "宋的系统",
+        "businessCode": "songSys",
+        "relatedRoles": null,
+        "createTime": "2024-10-20T04:51:02Z",
+        "updateTime": "2024-10-31T13:40:03Z",
+        "relatedDepartmentIds": [
+          48
+        ],
+        "relatedDepartments": [
+          {
+            "id": 48,
+            "parentId": 1,
+            "name": "资金运营部",
+            "level": 2,
+            "leaderId": 409,
+            "leaderName": "资金运营",
+            "leaderWorkNumber": "00180",
+            "parentName": "总部",
+            "relatedRoles": null,
+            "isAvailable": "TRUE",
+            "specialField": false
+          }
+        ],
+        "managers": null,
+        "targetName": "测试新建",
+        "targetId": 923,
+        "targetCode": "songSys.testInsert",
+        "operateType": "PERMISSION",
+        "errorMsg": "",
+        "shortName": "测试新建",
+        "children": null
+      }
+    ],
+    "total": 6,
+    "pageNo": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "size": 6
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1730387237479,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
