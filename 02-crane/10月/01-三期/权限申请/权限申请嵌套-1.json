@@ -1,0 +1,119 @@
+{
+  "body": {
+    "businessType": "系统权限申请",
+    "applyBusinessVo": {
+      "id": 355,
+      "name": "宋的系统",
+      "code": "songSys",
+      "status": "ABLE",
+      "host": "songSys",
+      "wechatAppId": "",
+      "wechatSecret": "",
+      "cookieSecret": "",
+      "cookieMaxAge": 0,
+      "crossDomain": true,
+      "cookieAccessCodes": null,
+      "adminRoleName": "宋的系统 - 系统管理员",
+      "superAdminRoleName": "宋的系统 - 超级系统管理员",
+      "adminWorkNumber": null,
+      "systemRoleName": "宋的系统 - 系统管理员",
+      "admin": [
+        {
+          "name": "宋声林",
+          "workNumber": "03541",
+          "departmentName": "黄风岭八百里"
+        },
+        {
+          "name": "叶玮2",
+          "workNumber": "04712",
+          "departmentName": "销售部"
+        },
+        {
+          "name": "叶玮I1-05004",
+          "workNumber": "05004",
+          "departmentName": "法务部"
+        }
+      ],
+      "superAdmin": null,
+      "superSystemRoleName": null
+    },
+    "submitEmployee": {
+      "id": 488,
+      "name": "lilixian",
+      "workNumber": "00251",
+      "oaEmployeeUrl": "https://oa-test.yangqianguan.com/oa/employee/profile?id=angFm",
+      "departmentName": "Indonesia",
+      "departmentId": 428,
+      "leaderWorkNumber": "04956",
+      "supervisorNumber": "04956",
+      "virtualSupervisorNumber": "03613",
+      "isDomestic": true,
+      "rank": "M3",
+      "rankGEM3": true
+    },
+    "applyEmployeeList": [
+      {
+        "id": 3659,
+        "name": "宋声林",
+        "workNumber": "03541",
+        "oaEmployeeUrl": "https://oa-test.yangqianguan.com/oa/employee/profile?id=ke8OSo",
+        "departmentName": "黄风岭八百里",
+        "departmentId": 515,
+        "leaderWorkNumber": "03875",
+        "supervisorNumber": "03875",
+        "virtualSupervisorNumber": "02124",
+        "isDomestic": true,
+        "rank": "I2",
+        "rankGEM3": false
+      },
+      {
+        "id": 3937,
+        "name": "田鹏宇-1",
+        "workNumber": "03818",
+        "oaEmployeeUrl": "https://oa-test.yangqianguan.com/oa/employee/profile?id=xE4oT9",
+        "departmentName": "技术部",
+        "departmentId": 39,
+        "leaderWorkNumber": "03541",
+        "supervisorNumber": "03541",
+        "virtualSupervisorNumber": null,
+        "isDomestic": true,
+        "rank": "I3",
+        "rankGEM3": false
+      },
+      {
+        "id": 2000383,
+        "name": "叶测离职05070",
+        "workNumber": "05070",
+        "oaEmployeeUrl": "https://oa-test.yangqianguan.com/oa/employee/profile?id=gN8DDsA",
+        "departmentName": "自动创建的部门 (不要删",
+        "departmentId": 448,
+        "leaderWorkNumber": "03875",
+        "supervisorNumber": "03875",
+        "virtualSupervisorNumber": null,
+        "isDomestic": true,
+        "rank": "I1",
+        "rankGEM3": false
+      }
+    ],
+    "applyRoleGroupList": [
+      {
+        "roleId": 5581,
+        "roleName": "宋的系统.测试新建",
+        "seniorPermissionCount": 0,
+        "validTime": "SEVEN_DAYS",
+        "applyReason": "宋测试1",
+        "applyRolePermissionList": [],
+        "applyRolePermissionTempList": null
+      }
+    ],
+    "containsSeniorPermission": false
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1730367153192,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
