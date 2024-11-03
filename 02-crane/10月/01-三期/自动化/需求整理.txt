@@ -3,3 +3,21 @@
 部门前：后端123   id= 65
 部门后：前端123   id= 543
 
+
+
+上线todo:
+1、SQL的flyway
+v35-v43，kafka_message、role_department_relation、role、kafka_message_lock、permission_apply、permission_role_relation表的新增和修改
+
+2、api、sch、kafka的ci
+
+3、api、sch、kafka的cd
+kafka的生产配置，@维双
+
+4、Job相关：初始化部门和角色
+
+KafkaMessagePublishJob
+DepartmentRoleInitJob
+RelateEmployeeDepartmentRoleJob
+
+
