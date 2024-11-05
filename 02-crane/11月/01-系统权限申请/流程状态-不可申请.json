@@ -1,22 +1,839 @@
 {
-  "body": [
+  "parameter": [
     {
-      "securityLevel": "L3",
-      "isVirtualNode": false,
-      "roleId": 5581,
-      "ownStatusVO": {
-        "timeStatus": "NO",
-        "dayDiff": null
-      },
-      "flowState": "NO_APPLY"
+      "name": "isSeal",
+      "type": "java.lang.Boolean"
     }
   ],
-  "status": {
-    "code": 0,
-    "type": "",
-    "detail": "",
-    "serverResponseTime": 1730686993850,
-    "displayType": "TOAST",
-    "url": null
-  }
+  "status": [
+    {
+      "code": "S",
+      "name": "已提交"
+    },
+    {
+      "code": "I",
+      "name": "初始化"
+    },
+    {
+      "code": "P",
+      "name": "审核中"
+    },
+    {
+      "code": "A",
+      "name": "通过"
+    },
+    {
+      "code": "R",
+      "name": "拒绝"
+    },
+    {
+      "code": "C",
+      "name": "驳回修改"
+    },
+    {
+      "code": "V",
+      "name": "再审"
+    },
+    {
+      "code": "E",
+      "name": "结束"
+    }
+  ],
+  "action": [
+    {
+      "id": 1,
+      "name": "approve",
+      "description": "通过",
+      "manual": true,
+      "comment": [
+        {
+          "field": "comment",
+          "description": "备注",
+          "required": false
+        }
+      ],
+      "attachment": true
+    },
+    {
+      "id": 2,
+      "name": "reject",
+      "description": "拒绝",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "拒绝原因",
+          "required": true
+        }
+      ],
+      "attachment": false
+    },
+    {
+      "id": 3,
+      "name": "submit",
+      "description": "提交",
+      "manual": true
+    },
+    {
+      "id": 4,
+      "name": "auto",
+      "description": "自动流转",
+      "manual": false
+    },
+    {
+      "id": 5,
+      "name": "request_change_1",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "request_change_2",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "request_change_3",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "approve",
+      "description": "确认",
+      "manual": true,
+      "comment": [
+        {
+          "field": "comment",
+          "description": "备注",
+          "required": false
+        }
+      ],
+      "attachment": true
+    },
+    {
+      "id": 9,
+      "name": "request_change_4",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "request_change_8",
+      "description": "驳回修改",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "驳回原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "approve",
+      "description": "通过",
+      "manual": true,
+      "comment": [
+        {
+          "field": "feedback",
+          "description": "反馈",
+          "required": true
+        }
+      ],
+      "attachment": true
+    }
+  ],
+  "actor": [
+    {
+      "id": 1,
+      "name": "self",
+      "description": "自己",
+      "action": [
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "specific_privilege",
+      "description": "BUS_CONTRACT.AUDIT.FORENSIC:法务审批",
+      "action": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "name": "launcher_specific_user",
+      "description": "pmSpecificNumber",
+      "alias": "指定产品经理",
+      "action": [
+        1,
+        2,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "id": 4,
+      "name": "specific_roles",
+      "description": "561",
+      "alias": "法催审批",
+      "action": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "name": "specific_privilege",
+      "description": "BUS_CONTRACT.AUDIT.FORENSIC:法务确认",
+      "action": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": 9,
+      "name": "specific_privilege",
+      "description": "BUS_CONTRACT.AUDIT.CEO_OFFICE:总裁办",
+      "action": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        9,
+        12
+      ]
+    }
+  ],
+  "start": 1,
+  "end": {
+    "id": 999,
+    "status": "E"
+  },
+  "instructions": [
+    {
+      "id": 1,
+      "content": "请上传最终定稿（word或pdf版本）。"
+    },
+    {
+      "id": 2,
+      "content": "请上传线上签署协议。"
+    }
+  ],
+  "step": [
+    {
+      "index": 1,
+      "name": "申请人提交",
+      "description": "申请人提交节点",
+      "actor": [
+        1
+      ],
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C"
+              ],
+              "status": "S",
+              "next": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "S"
+              ],
+              "status": "C",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "index": 2,
+      "name": "法务审批",
+      "description": "法务审批节点",
+      "actor": [
+        2
+      ],
+      "form": {
+        "actions": [
+          1
+        ],
+        "key": "legal_audit"
+      },
+      "instruction": [
+        1
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "parallel_steps": [
+                4
+              ],
+              "status": "A",
+              "next": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "法催审批",
+      "description": "法催审批节点",
+      "actor": [
+        4
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 17,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "parallel_steps": [
+                2
+              ],
+              "status": "A",
+              "next": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "index": 3,
+      "name": "指定产品经理审批",
+      "description": "指定产品经理审批节点",
+      "actor": [
+        3
+      ],
+      "form": {
+        "actions": [
+          1
+        ],
+        "key": "pm_audit"
+      },
+      "instruction": [
+        2
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "A",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "action": 9,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "法务确认",
+      "description": "法务确认节点",
+      "actor": [
+        8
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 8,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "#isSeal",
+              "status": "A",
+              "next": [
+                9
+              ]
+            },
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "expression": "!#isSeal",
+              "status": "A",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "action": 9,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "action": 7,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "总裁办审批",
+      "description": "总裁办审批节点",
+      "actor": [
+        9
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "A",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ]
+            }
+          ]
+        },
+        {
+          "action": 5,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "action": 6,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "action": 9,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "action": 7,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "action": 12,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "C",
+              "next": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 999,
+      "name": "结束",
+      "description": "结束节点",
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I"
+              ],
+              "status": "E"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
