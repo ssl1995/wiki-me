@@ -1,0 +1,12 @@
+{
+  "submitWorkNumber": "02124",
+  "applyBusinessCode": "PPDL",
+  "roleVoList": [
+    {
+      "roleId": 6374,
+      "validTime": "THIRTY_DAYS",
+      "applyReason": "啊啊啊"
+    }
+  ],
+  "applyReason": "啊啊啊"
+}

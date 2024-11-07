@@ -1,0 +1,15 @@
+{
+  "submitWorkNumber": "02124",
+  "applyWorkNumber": [
+    "02124"
+  ],
+  "applyBusinessCode": "PPDL",
+  "roleVoList": [
+    {
+      "feature": "PPDL.0801-test2.XIUGAI.test5",
+      "roleId": 6374,
+      "validTime": "THIRTY_DAYS",
+      "applyReason": "啊啊啊"
+    }
+  ]
+}
