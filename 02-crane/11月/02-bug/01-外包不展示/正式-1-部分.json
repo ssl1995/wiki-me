@@ -1,0 +1,49 @@
+{
+  "body": [
+    {
+      "securityLevel": null,
+      "isVirtualNode": true,
+
+      "businessApplyType": null,
+      "ownStatusVO": null,
+
+      "id": 1192,
+      "feature": "yewei-test1106.1106",
+      "name": "叶测试1106.1106新增",
+      "desc": "",
+      "status": "ABLE",
+      "type": null,
+      "supportDataRule": null,
+      "operationType": null,
+      "attributeCategoryIds": [],
+      "attributeCategoryNameList": [],
+      "categoryVOS": null,
+      "operator": "",
+      "systemRoleName": "叶测试1106 - 系统管理员",
+      "businessName": "叶测试1106",
+      "businessCode": "yewei-test1106",
+      "relatedRoles": null,
+      "updateTime": "2024-11-06T03:52:22Z",
+      "relatedDepartmentIds": [],
+      "relatedDepartments": null,
+      "managers": null,
+      "targetName": "1106新增",
+      "specialOwnState": null,
+      "specialId": null,
+      "specialFlowState": null,
+      "targetId": 1192,
+      "targetCode": "yewei-test1106.1106",
+      "errorMsg": "",
+      "operateType": "PERMISSION",
+      "shortName": "1106新增"
+    }
+  ],
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1731050479910,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

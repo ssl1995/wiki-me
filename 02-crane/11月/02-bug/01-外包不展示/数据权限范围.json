@@ -1,0 +1,4443 @@
+{
+  "body": {
+    "list": [
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": [
+            {
+              "attributeCategory": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributes": [
+                {
+                  "id": 8,
+                  "categoryId": 62,
+                  "attributeCode": "LY",
+                  "attributeName": "瓴岳",
+                  "specialField": false
+                },
+                {
+                  "id": 9,
+                  "categoryId": 62,
+                  "attributeCode": "YY",
+                  "attributeName": "岩屿",
+                  "specialField": false
+                },
+                {
+                  "id": 11,
+                  "categoryId": 62,
+                  "attributeCode": "MT",
+                  "attributeName": "米投",
+                  "specialField": false
+                }
+              ]
+            }
+          ]
+        },
+        "currentDataScope": [
+          "财务主体: 瓴岳 岩屿 米投 "
+        ],
+        "id": 655,
+        "feature": "FINANCE.PLREPORT",
+        "name": "财务系统.PL环比表",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:41:59",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "PL环比表",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "businessApplyType": null,
+        "specialId": null,
+        "specialOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "specialFlowState": null,
+        "specialBusinessApplyType": null,
+        "errorMsg": "",
+        "targetId": 655,
+        "targetCode": "FINANCE.PLREPORT",
+        "operateType": "PERMISSION",
+        "shortName": "PL环比表",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": 8,
+                      "categoryId": 62,
+                      "attributeCode": "LY",
+                      "attributeName": "瓴岳",
+                      "specialField": false
+                    },
+                    {
+                      "id": 9,
+                      "categoryId": 62,
+                      "attributeCode": "YY",
+                      "attributeName": "岩屿",
+                      "specialField": false
+                    },
+                    {
+                      "id": 11,
+                      "categoryId": 62,
+                      "attributeCode": "MT",
+                      "attributeName": "米投",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 瓴岳 岩屿 米投 "
+            ],
+            "id": 655,
+            "feature": "FINANCE.PLREPORT.QUERY",
+            "name": "财务系统.PL环比表.查询",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "查询",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 655,
+            "targetCode": "FINANCE.PLREPORT.QUERY",
+            "operateType": "PERMISSION",
+            "shortName": "查询",
+            "children": null
+          }
+        ]
+      },
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": [
+            {
+              "attributeCategory": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributes": [
+                {
+                  "id": -1,
+                  "categoryId": 62,
+                  "attributeCode": "all_values",
+                  "attributeName": "全量",
+                  "specialField": false
+                }
+              ]
+            }
+          ]
+        },
+        "currentDataScope": [
+          "财务主体: 全量 "
+        ],
+        "id": 656,
+        "feature": "FINANCE.REPORT",
+        "name": "财务系统.报表",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:41:59",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "报表",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "businessApplyType": null,
+        "specialId": null,
+        "specialOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "specialFlowState": null,
+        "specialBusinessApplyType": null,
+        "errorMsg": "",
+        "targetId": 656,
+        "targetCode": "FINANCE.REPORT",
+        "operateType": "PERMISSION",
+        "shortName": "报表",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 656,
+            "feature": "FINANCE.REPORT.DEPARTMENT_ANALYSIS",
+            "name": "财务系统.报表.部门收支分析表",
+            "desc": "",
+            "status": "ABLE",
+            "type": null,
+            "supportDataRule": null,
+            "operationType": null,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "部门收支分析表",
+            "securityLevel": null,
+            "isVirtualNode": true,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 656,
+            "targetCode": "FINANCE.REPORT.DEPARTMENT_ANALYSIS",
+            "operateType": "PERMISSION",
+            "shortName": "部门收支分析表",
+            "children": [
+              {
+                "employeeNumber": "03541",
+                "employeeDataScope": {
+                  "employeeNumber": "03541",
+                  "categoryList": [
+                    {
+                      "attributeCategory": {
+                        "id": 62,
+                        "categoryCode": "finance_company_code",
+                        "categoryName": "财务主体",
+                        "source": "System",
+                        "sourceType": "FINANCIAL_ENTITY",
+                        "showWay": "FLAT",
+                        "configWay": "MANUAL",
+                        "status": "ABLE",
+                        "operator": "",
+                        "functionList": null
+                      },
+                      "attributes": [
+                        {
+                          "id": -1,
+                          "categoryId": 62,
+                          "attributeCode": "all_values",
+                          "attributeName": "全量",
+                          "specialField": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "currentDataScope": [
+                  "财务主体: 全量 "
+                ],
+                "id": 656,
+                "feature": "FINANCE.REPORT.DEPARTMENT_ANALYSIS.QUERY",
+                "name": "财务系统.报表.部门收支分析表.查询",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": true,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [
+                  62
+                ],
+                "attributeCategoryNameList": [],
+                "categoryVOS": [
+                  {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  }
+                ],
+                "operator": "",
+                "systemRoleName": null,
+                "admin": null,
+                "businessName": "财务系统",
+                "businessCode": "FINANCE",
+                "relatedRoles": null,
+                "createTime": "2024-08-05 16:41:59",
+                "updateTime": "2024-11-01T02:33:33Z",
+                "relatedDepartmentIds": [],
+                "relatedDepartments": null,
+                "managers": null,
+                "targetName": "查询",
+                "securityLevel": "L1",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "businessApplyType": null,
+                "specialId": null,
+                "specialOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "specialFlowState": null,
+                "specialBusinessApplyType": null,
+                "errorMsg": "",
+                "targetId": 656,
+                "targetCode": "FINANCE.REPORT.DEPARTMENT_ANALYSIS.QUERY",
+                "operateType": "PERMISSION",
+                "shortName": "查询",
+                "children": null
+              }
+            ]
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": 9,
+                      "categoryId": 62,
+                      "attributeCode": "YY",
+                      "attributeName": "岩屿",
+                      "specialField": false
+                    },
+                    {
+                      "id": 8,
+                      "categoryId": 62,
+                      "attributeCode": "LY",
+                      "attributeName": "瓴岳",
+                      "specialField": false
+                    },
+                    {
+                      "id": 11,
+                      "categoryId": 62,
+                      "attributeCode": "MT",
+                      "attributeName": "米投",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 岩屿 瓴岳 米投 "
+            ],
+            "id": 657,
+            "feature": "FINANCE.REPORT.FINANCIAL",
+            "name": "财务系统.报表.财报",
+            "desc": "",
+            "status": "ABLE",
+            "type": null,
+            "supportDataRule": null,
+            "operationType": null,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "财报",
+            "securityLevel": null,
+            "isVirtualNode": true,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 657,
+            "targetCode": "FINANCE.REPORT.FINANCIAL",
+            "operateType": "PERMISSION",
+            "shortName": "财报",
+            "children": [
+              {
+                "employeeNumber": "03541",
+                "employeeDataScope": {
+                  "employeeNumber": "03541",
+                  "categoryList": [
+                    {
+                      "attributeCategory": {
+                        "id": 62,
+                        "categoryCode": "finance_company_code",
+                        "categoryName": "财务主体",
+                        "source": "System",
+                        "sourceType": "FINANCIAL_ENTITY",
+                        "showWay": "FLAT",
+                        "configWay": "MANUAL",
+                        "status": "ABLE",
+                        "operator": "",
+                        "functionList": null
+                      },
+                      "attributes": [
+                        {
+                          "id": 9,
+                          "categoryId": 62,
+                          "attributeCode": "YY",
+                          "attributeName": "岩屿",
+                          "specialField": false
+                        },
+                        {
+                          "id": 8,
+                          "categoryId": 62,
+                          "attributeCode": "LY",
+                          "attributeName": "瓴岳",
+                          "specialField": false
+                        },
+                        {
+                          "id": 11,
+                          "categoryId": 62,
+                          "attributeCode": "MT",
+                          "attributeName": "米投",
+                          "specialField": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "currentDataScope": [
+                  "财务主体: 岩屿 瓴岳 米投 "
+                ],
+                "id": 657,
+                "feature": "FINANCE.REPORT.FINANCIAL.QUERY",
+                "name": "财务系统.报表.财报.生成",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": true,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [
+                  62
+                ],
+                "attributeCategoryNameList": [],
+                "categoryVOS": [
+                  {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  }
+                ],
+                "operator": "",
+                "systemRoleName": null,
+                "admin": null,
+                "businessName": "财务系统",
+                "businessCode": "FINANCE",
+                "relatedRoles": null,
+                "createTime": "2024-08-05 16:41:59",
+                "updateTime": "2024-11-01T02:33:33Z",
+                "relatedDepartmentIds": [],
+                "relatedDepartments": null,
+                "managers": null,
+                "targetName": "生成",
+                "securityLevel": "L2",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "businessApplyType": null,
+                "specialId": null,
+                "specialOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "specialFlowState": null,
+                "specialBusinessApplyType": null,
+                "errorMsg": "",
+                "targetId": 657,
+                "targetCode": "FINANCE.REPORT.FINANCIAL.QUERY",
+                "operateType": "PERMISSION",
+                "shortName": "生成",
+                "children": null
+              }
+            ]
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 658,
+            "feature": "FINANCE.REPORT.MERGED",
+            "name": "财务系统.报表.财报合并",
+            "desc": "",
+            "status": "ABLE",
+            "type": null,
+            "supportDataRule": null,
+            "operationType": null,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "财报合并",
+            "securityLevel": null,
+            "isVirtualNode": true,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 658,
+            "targetCode": "FINANCE.REPORT.MERGED",
+            "operateType": "PERMISSION",
+            "shortName": "财报合并",
+            "children": [
+              {
+                "employeeNumber": "03541",
+                "employeeDataScope": {
+                  "employeeNumber": "03541",
+                  "categoryList": []
+                },
+                "currentDataScope": [],
+                "id": 658,
+                "feature": "FINANCE.REPORT.MERGED.QUERY",
+                "name": "财务系统.报表.财报合并.查看",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": false,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [],
+                "attributeCategoryNameList": [],
+                "categoryVOS": null,
+                "operator": "",
+                "systemRoleName": null,
+                "admin": null,
+                "businessName": "财务系统",
+                "businessCode": "FINANCE",
+                "relatedRoles": null,
+                "createTime": "2024-08-05 16:41:59",
+                "updateTime": "2024-11-01T02:33:33Z",
+                "relatedDepartmentIds": [],
+                "relatedDepartments": null,
+                "managers": null,
+                "targetName": "查看",
+                "securityLevel": "L3",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "businessApplyType": null,
+                "specialId": null,
+                "specialOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "specialFlowState": null,
+                "specialBusinessApplyType": null,
+                "errorMsg": "",
+                "targetId": 658,
+                "targetCode": "FINANCE.REPORT.MERGED.QUERY",
+                "operateType": "PERMISSION",
+                "shortName": "查看",
+                "children": null
+              },
+              {
+                "employeeNumber": "03541",
+                "employeeDataScope": {
+                  "employeeNumber": "03541",
+                  "categoryList": []
+                },
+                "currentDataScope": [],
+                "id": 659,
+                "feature": "FINANCE.REPORT.MERGED.EXPORT",
+                "name": "财务系统.报表.财报合并.导出",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": false,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [],
+                "attributeCategoryNameList": [],
+                "categoryVOS": null,
+                "operator": "",
+                "systemRoleName": null,
+                "admin": null,
+                "businessName": "财务系统",
+                "businessCode": "FINANCE",
+                "relatedRoles": null,
+                "createTime": "2024-08-05 16:41:59",
+                "updateTime": "2024-11-01T02:33:33Z",
+                "relatedDepartmentIds": [],
+                "relatedDepartments": null,
+                "managers": null,
+                "targetName": "导出",
+                "securityLevel": "L3",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "businessApplyType": null,
+                "specialId": null,
+                "specialOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "specialFlowState": null,
+                "specialBusinessApplyType": null,
+                "errorMsg": "",
+                "targetId": 659,
+                "targetCode": "FINANCE.REPORT.MERGED.EXPORT",
+                "operateType": "PERMISSION",
+                "shortName": "导出",
+                "children": null
+              }
+            ]
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 660,
+            "feature": "FINANCE.REPORT.TEMPLATE",
+            "name": "财务系统.报表.财报配置",
+            "desc": "",
+            "status": "ABLE",
+            "type": null,
+            "supportDataRule": null,
+            "operationType": null,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "财报配置",
+            "securityLevel": null,
+            "isVirtualNode": true,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 660,
+            "targetCode": "FINANCE.REPORT.TEMPLATE",
+            "operateType": "PERMISSION",
+            "shortName": "财报配置",
+            "children": [
+              {
+                "employeeNumber": "03541",
+                "employeeDataScope": {
+                  "employeeNumber": "03541",
+                  "categoryList": [
+                    {
+                      "attributeCategory": {
+                        "id": 62,
+                        "categoryCode": "finance_company_code",
+                        "categoryName": "财务主体",
+                        "source": "System",
+                        "sourceType": "FINANCIAL_ENTITY",
+                        "showWay": "FLAT",
+                        "configWay": "MANUAL",
+                        "status": "ABLE",
+                        "operator": "",
+                        "functionList": null
+                      },
+                      "attributes": [
+                        {
+                          "id": -1,
+                          "categoryId": 62,
+                          "attributeCode": "all_values",
+                          "attributeName": "全量",
+                          "specialField": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "currentDataScope": [
+                  "财务主体: 全量 "
+                ],
+                "id": 660,
+                "feature": "FINANCE.REPORT.TEMPLATE.QUERY",
+                "name": "财务系统.报表.财报配置.查询",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": true,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [
+                  62
+                ],
+                "attributeCategoryNameList": [],
+                "categoryVOS": [
+                  {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  }
+                ],
+                "operator": "",
+                "systemRoleName": null,
+                "admin": null,
+                "businessName": "财务系统",
+                "businessCode": "FINANCE",
+                "relatedRoles": null,
+                "createTime": "2024-08-05 16:41:59",
+                "updateTime": "2024-11-01T02:33:33Z",
+                "relatedDepartmentIds": [],
+                "relatedDepartments": null,
+                "managers": null,
+                "targetName": "查询",
+                "securityLevel": "L3",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "businessApplyType": null,
+                "specialId": null,
+                "specialOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "specialFlowState": null,
+                "specialBusinessApplyType": null,
+                "errorMsg": "",
+                "targetId": 660,
+                "targetCode": "FINANCE.REPORT.TEMPLATE.QUERY",
+                "operateType": "PERMISSION",
+                "shortName": "查询",
+                "children": null
+              },
+              {
+                "employeeNumber": "03541",
+                "employeeDataScope": {
+                  "employeeNumber": "03541",
+                  "categoryList": [
+                    {
+                      "attributeCategory": {
+                        "id": 62,
+                        "categoryCode": "finance_company_code",
+                        "categoryName": "财务主体",
+                        "source": "System",
+                        "sourceType": "FINANCIAL_ENTITY",
+                        "showWay": "FLAT",
+                        "configWay": "MANUAL",
+                        "status": "ABLE",
+                        "operator": "",
+                        "functionList": null
+                      },
+                      "attributes": [
+                        {
+                          "id": -1,
+                          "categoryId": 62,
+                          "attributeCode": "all_values",
+                          "attributeName": "全量",
+                          "specialField": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "currentDataScope": [
+                  "财务主体: 全量 "
+                ],
+                "id": 661,
+                "feature": "FINANCE.REPORT.TEMPLATE.CREATE",
+                "name": "财务系统.报表.财报配置.创建",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": true,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [
+                  62
+                ],
+                "attributeCategoryNameList": [],
+                "categoryVOS": [
+                  {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  }
+                ],
+                "operator": "",
+                "systemRoleName": null,
+                "admin": null,
+                "businessName": "财务系统",
+                "businessCode": "FINANCE",
+                "relatedRoles": null,
+                "createTime": "2024-08-05 16:41:59",
+                "updateTime": "2024-11-01T02:33:33Z",
+                "relatedDepartmentIds": [],
+                "relatedDepartments": null,
+                "managers": null,
+                "targetName": "创建",
+                "securityLevel": "L3",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "businessApplyType": null,
+                "specialId": null,
+                "specialOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "specialFlowState": null,
+                "specialBusinessApplyType": null,
+                "errorMsg": "",
+                "targetId": 661,
+                "targetCode": "FINANCE.REPORT.TEMPLATE.CREATE",
+                "operateType": "PERMISSION",
+                "shortName": "创建",
+                "children": null
+              }
+            ]
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 662,
+            "feature": "FINANCE.REPORT.ADJUST",
+            "name": "财务系统.报表.调整项新增",
+            "desc": "",
+            "status": "ABLE",
+            "type": null,
+            "supportDataRule": null,
+            "operationType": null,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "调整项新增",
+            "securityLevel": null,
+            "isVirtualNode": true,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 662,
+            "targetCode": "FINANCE.REPORT.ADJUST",
+            "operateType": "PERMISSION",
+            "shortName": "调整项新增",
+            "children": [
+              {
+                "employeeNumber": "03541",
+                "employeeDataScope": {
+                  "employeeNumber": "03541",
+                  "categoryList": []
+                },
+                "currentDataScope": [],
+                "id": 662,
+                "feature": "FINANCE.REPORT.ADJUST.QUERY",
+                "name": "财务系统.报表.调整项新增.列表/导出",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": false,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [],
+                "attributeCategoryNameList": [],
+                "categoryVOS": null,
+                "operator": "",
+                "systemRoleName": null,
+                "admin": null,
+                "businessName": "财务系统",
+                "businessCode": "FINANCE",
+                "relatedRoles": null,
+                "createTime": "2024-08-05 16:41:59",
+                "updateTime": "2024-11-01T02:33:33Z",
+                "relatedDepartmentIds": [],
+                "relatedDepartments": null,
+                "managers": null,
+                "targetName": "列表/导出",
+                "securityLevel": "L2",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "businessApplyType": null,
+                "specialId": null,
+                "specialOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "specialFlowState": null,
+                "specialBusinessApplyType": null,
+                "errorMsg": "",
+                "targetId": 662,
+                "targetCode": "FINANCE.REPORT.ADJUST.QUERY",
+                "operateType": "PERMISSION",
+                "shortName": "列表/导出",
+                "children": null
+              },
+              {
+                "employeeNumber": "03541",
+                "employeeDataScope": {
+                  "employeeNumber": "03541",
+                  "categoryList": []
+                },
+                "currentDataScope": [],
+                "id": 663,
+                "feature": "FINANCE.REPORT.ADJUST.UPDATE",
+                "name": "财务系统.报表.调整项新增.删除/修改",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": false,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [],
+                "attributeCategoryNameList": [],
+                "categoryVOS": null,
+                "operator": "",
+                "systemRoleName": null,
+                "admin": null,
+                "businessName": "财务系统",
+                "businessCode": "FINANCE",
+                "relatedRoles": null,
+                "createTime": "2024-08-05 16:41:59",
+                "updateTime": "2024-11-01T02:33:33Z",
+                "relatedDepartmentIds": [],
+                "relatedDepartments": null,
+                "managers": null,
+                "targetName": "删除/修改",
+                "securityLevel": "L2",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "businessApplyType": null,
+                "specialId": null,
+                "specialOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "specialFlowState": null,
+                "specialBusinessApplyType": null,
+                "errorMsg": "",
+                "targetId": 663,
+                "targetCode": "FINANCE.REPORT.ADJUST.UPDATE",
+                "operateType": "PERMISSION",
+                "shortName": "删除/修改",
+                "children": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": [
+            {
+              "attributeCategory": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributes": [
+                {
+                  "id": 8,
+                  "categoryId": 62,
+                  "attributeCode": "LY",
+                  "attributeName": "瓴岳",
+                  "specialField": false
+                },
+                {
+                  "id": 9,
+                  "categoryId": 62,
+                  "attributeCode": "YY",
+                  "attributeName": "岩屿",
+                  "specialField": false
+                },
+                {
+                  "id": 11,
+                  "categoryId": 62,
+                  "attributeCode": "MT",
+                  "attributeName": "米投",
+                  "specialField": false
+                }
+              ]
+            }
+          ]
+        },
+        "currentDataScope": [
+          "财务主体: 瓴岳 岩屿 米投 "
+        ],
+        "id": 664,
+        "feature": "FINANCE.DRAFT",
+        "name": "财务系统.草稿/审核列表",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:41:59",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "草稿/审核列表",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "businessApplyType": null,
+        "specialId": null,
+        "specialOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "specialFlowState": null,
+        "specialBusinessApplyType": null,
+        "errorMsg": "",
+        "targetId": 664,
+        "targetCode": "FINANCE.DRAFT",
+        "operateType": "PERMISSION",
+        "shortName": "草稿/审核列表",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": 8,
+                      "categoryId": 62,
+                      "attributeCode": "LY",
+                      "attributeName": "瓴岳",
+                      "specialField": false
+                    },
+                    {
+                      "id": 9,
+                      "categoryId": 62,
+                      "attributeCode": "YY",
+                      "attributeName": "岩屿",
+                      "specialField": false
+                    },
+                    {
+                      "id": 11,
+                      "categoryId": 62,
+                      "attributeCode": "MT",
+                      "attributeName": "米投",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 瓴岳 岩屿 米投 "
+            ],
+            "id": 664,
+            "feature": "FINANCE.DRAFT.UPDATE",
+            "name": "财务系统.草稿/审核列表.编辑",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "编辑",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 664,
+            "targetCode": "FINANCE.DRAFT.UPDATE",
+            "operateType": "PERMISSION",
+            "shortName": "编辑",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 665,
+            "feature": "FINANCE.DRAFT.QUERY",
+            "name": "财务系统.草稿/审核列表.查看",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "查看",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 665,
+            "targetCode": "FINANCE.DRAFT.QUERY",
+            "operateType": "PERMISSION",
+            "shortName": "查看",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 666,
+            "feature": "FINANCE.DRAFT.IMPORT",
+            "name": "财务系统.草稿/审核列表.导入凭证",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "导入凭证",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 666,
+            "targetCode": "FINANCE.DRAFT.IMPORT",
+            "operateType": "PERMISSION",
+            "shortName": "导入凭证",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": 51,
+                      "categoryId": 62,
+                      "attributeCode": "CT",
+                      "attributeName": "51",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 51 "
+            ],
+            "id": 667,
+            "feature": "FINANCE.DRAFT.AUDIT",
+            "name": "财务系统.草稿/审核列表.审核",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "审核",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 667,
+            "targetCode": "FINANCE.DRAFT.AUDIT",
+            "operateType": "PERMISSION",
+            "shortName": "审核",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": 8,
+                      "categoryId": 62,
+                      "attributeCode": "LY",
+                      "attributeName": "瓴岳",
+                      "specialField": false
+                    },
+                    {
+                      "id": 9,
+                      "categoryId": 62,
+                      "attributeCode": "YY",
+                      "attributeName": "岩屿",
+                      "specialField": false
+                    },
+                    {
+                      "id": 11,
+                      "categoryId": 62,
+                      "attributeCode": "MT",
+                      "attributeName": "米投",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 瓴岳 岩屿 米投 "
+            ],
+            "id": 668,
+            "feature": "FINANCE.DRAFT.CREATE",
+            "name": "财务系统.草稿/审核列表.新建",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "新建",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 668,
+            "targetCode": "FINANCE.DRAFT.CREATE",
+            "operateType": "PERMISSION",
+            "shortName": "新建",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 669,
+            "feature": "FINANCE.DRAFT.WITHOUT_ORDER_DATE_LIMIT",
+            "name": "财务系统.草稿/审核列表.新建/修改/审核不受关账时间限制",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "新建/修改/审核不受关账时间限制",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 669,
+            "targetCode": "FINANCE.DRAFT.WITHOUT_ORDER_DATE_LIMIT",
+            "operateType": "PERMISSION",
+            "shortName": "新建/修改/审核不受关账时间限制",
+            "children": null
+          }
+        ]
+      },
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": [
+            {
+              "attributeCategory": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributes": [
+                {
+                  "id": -1,
+                  "categoryId": 62,
+                  "attributeCode": "all_values",
+                  "attributeName": "全量",
+                  "specialField": false
+                }
+              ]
+            }
+          ]
+        },
+        "currentDataScope": [
+          "财务主体: 全量 "
+        ],
+        "id": 670,
+        "feature": "FINANCE.ASSET_RECONCILIATION",
+        "name": "财务系统.固定资产对账",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:41:59",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "固定资产对账",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "businessApplyType": null,
+        "specialId": null,
+        "specialOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "specialFlowState": null,
+        "specialBusinessApplyType": null,
+        "errorMsg": "",
+        "targetId": 670,
+        "targetCode": "FINANCE.ASSET_RECONCILIATION",
+        "operateType": "PERMISSION",
+        "shortName": "固定资产对账",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 670,
+            "feature": "FINANCE.ASSET_RECONCILIATION.QUERY",
+            "name": "财务系统.固定资产对账.查看",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "查看",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 670,
+            "targetCode": "FINANCE.ASSET_RECONCILIATION.QUERY",
+            "operateType": "PERMISSION",
+            "shortName": "查看",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 671,
+            "feature": "FINANCE.ASSET_RECONCILIATION.UPDATE",
+            "name": "财务系统.固定资产对账.生成对账数据",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "生成对账数据",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 671,
+            "targetCode": "FINANCE.ASSET_RECONCILIATION.UPDATE",
+            "operateType": "PERMISSION",
+            "shortName": "生成对账数据",
+            "children": null
+          }
+        ]
+      },
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": []
+        },
+        "currentDataScope": [],
+        "id": 672,
+        "feature": "FINANCE.RELATED_RECONCILIATION",
+        "name": "财务系统.关联方对帐",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:41:59",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "关联方对帐",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "businessApplyType": null,
+        "specialId": null,
+        "specialOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "specialFlowState": null,
+        "specialBusinessApplyType": null,
+        "errorMsg": "",
+        "targetId": 672,
+        "targetCode": "FINANCE.RELATED_RECONCILIATION",
+        "operateType": "PERMISSION",
+        "shortName": "关联方对帐",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 672,
+            "feature": "FINANCE.RELATED_RECONCILIATION.QUERY",
+            "name": "财务系统.关联方对帐.查询",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "查询",
+            "securityLevel": "L1",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 672,
+            "targetCode": "FINANCE.RELATED_RECONCILIATION.QUERY",
+            "operateType": "PERMISSION",
+            "shortName": "查询",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 673,
+            "feature": "FINANCE.RELATED_RECONCILIATION.EXPORT",
+            "name": "财务系统.关联方对帐.导出",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "导出",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 673,
+            "targetCode": "FINANCE.RELATED_RECONCILIATION.EXPORT",
+            "operateType": "PERMISSION",
+            "shortName": "导出",
+            "children": null
+          }
+        ]
+      },
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": [
+            {
+              "attributeCategory": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributes": [
+                {
+                  "id": -1,
+                  "categoryId": 62,
+                  "attributeCode": "all_values",
+                  "attributeName": "全量",
+                  "specialField": false
+                }
+              ]
+            }
+          ]
+        },
+        "currentDataScope": [
+          "财务主体: 全量 "
+        ],
+        "id": 674,
+        "feature": "FINANCE.CLOSE_ACCOUNT",
+        "name": "财务系统.关账时间",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:41:59",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "关账时间",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "businessApplyType": null,
+        "specialId": null,
+        "specialOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "specialFlowState": null,
+        "specialBusinessApplyType": null,
+        "errorMsg": "",
+        "targetId": 674,
+        "targetCode": "FINANCE.CLOSE_ACCOUNT",
+        "operateType": "PERMISSION",
+        "shortName": "关账时间",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 674,
+            "feature": "FINANCE.CLOSE_ACCOUNT.QUERY",
+            "name": "财务系统.关账时间.查看",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "查看",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 674,
+            "targetCode": "FINANCE.CLOSE_ACCOUNT.QUERY",
+            "operateType": "PERMISSION",
+            "shortName": "查看",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 675,
+            "feature": "FINANCE.CLOSE_ACCOUNT.ADMIN",
+            "name": "财务系统.关账时间.超管",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "超管",
+            "securityLevel": "L3",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 675,
+            "targetCode": "FINANCE.CLOSE_ACCOUNT.ADMIN",
+            "operateType": "PERMISSION",
+            "shortName": "超管",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 676,
+            "feature": "FINANCE.CLOSE_ACCOUNT.CREATE",
+            "name": "财务系统.关账时间.设置",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "设置",
+            "securityLevel": "L3",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 676,
+            "targetCode": "FINANCE.CLOSE_ACCOUNT.CREATE",
+            "operateType": "PERMISSION",
+            "shortName": "设置",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 677,
+            "feature": "FINANCE.CLOSE_ACCOUNT.UPDATE",
+            "name": "财务系统.关账时间.修改",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "修改",
+            "securityLevel": "L3",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 677,
+            "targetCode": "FINANCE.CLOSE_ACCOUNT.UPDATE",
+            "operateType": "PERMISSION",
+            "shortName": "修改",
+            "children": null
+          }
+        ]
+      },
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": []
+        },
+        "currentDataScope": [],
+        "id": 678,
+        "feature": "FINANCE.OVRESEAS_RELATED_RECONCILIATION",
+        "name": "财务系统.海外关联方对账",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:41:59",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "海外关联方对账",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "businessApplyType": null,
+        "specialId": null,
+        "specialOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "specialFlowState": null,
+        "specialBusinessApplyType": null,
+        "errorMsg": "",
+        "targetId": 678,
+        "targetCode": "FINANCE.OVRESEAS_RELATED_RECONCILIATION",
+        "operateType": "PERMISSION",
+        "shortName": "海外关联方对账",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 678,
+            "feature": "FINANCE.OVRESEAS_RELATED_RECONCILIATION.QUERY",
+            "name": "财务系统.海外关联方对账.查询",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "查询",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 678,
+            "targetCode": "FINANCE.OVRESEAS_RELATED_RECONCILIATION.QUERY",
+            "operateType": "PERMISSION",
+            "shortName": "查询",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 679,
+            "feature": "FINANCE.OVRESEAS_RELATED_RECONCILIATION.EXPORT",
+            "name": "财务系统.海外关联方对账.导出",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "导出",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 679,
+            "targetCode": "FINANCE.OVRESEAS_RELATED_RECONCILIATION.EXPORT",
+            "operateType": "PERMISSION",
+            "shortName": "导出",
+            "children": null
+          }
+        ]
+      },
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": [
+            {
+              "attributeCategory": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributes": [
+                {
+                  "id": 113,
+                  "categoryId": 62,
+                  "attributeCode": "QC",
+                  "attributeName": "QC",
+                  "specialField": false
+                },
+                {
+                  "id": 8,
+                  "categoryId": 62,
+                  "attributeCode": "LY",
+                  "attributeName": "瓴岳",
+                  "specialField": false
+                },
+                {
+                  "id": 9,
+                  "categoryId": 62,
+                  "attributeCode": "YY",
+                  "attributeName": "岩屿",
+                  "specialField": false
+                },
+                {
+                  "id": 11,
+                  "categoryId": 62,
+                  "attributeCode": "MT",
+                  "attributeName": "米投",
+                  "specialField": false
+                }
+              ]
+            }
+          ]
+        },
+        "currentDataScope": [
+          "财务主体: QC 瓴岳 岩屿 米投 "
+        ],
+        "id": 680,
+        "feature": "FINANCE.DOCUMENT",
+        "name": "财务系统.汇总/自动凭证列表",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:41:59",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "汇总/自动凭证列表",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "businessApplyType": null,
+        "specialId": null,
+        "specialOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "specialFlowState": null,
+        "specialBusinessApplyType": null,
+        "errorMsg": "",
+        "targetId": 680,
+        "targetCode": "FINANCE.DOCUMENT",
+        "operateType": "PERMISSION",
+        "shortName": "汇总/自动凭证列表",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": 113,
+                      "categoryId": 62,
+                      "attributeCode": "QC",
+                      "attributeName": "QC",
+                      "specialField": false
+                    },
+                    {
+                      "id": 8,
+                      "categoryId": 62,
+                      "attributeCode": "LY",
+                      "attributeName": "瓴岳",
+                      "specialField": false
+                    },
+                    {
+                      "id": 9,
+                      "categoryId": 62,
+                      "attributeCode": "YY",
+                      "attributeName": "岩屿",
+                      "specialField": false
+                    },
+                    {
+                      "id": 11,
+                      "categoryId": 62,
+                      "attributeCode": "MT",
+                      "attributeName": "米投",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: QC 瓴岳 岩屿 米投 "
+            ],
+            "id": 680,
+            "feature": "FINANCE.DOCUMENT.QUERY",
+            "name": "财务系统.汇总/自动凭证列表.查看",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "查看",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 680,
+            "targetCode": "FINANCE.DOCUMENT.QUERY",
+            "operateType": "PERMISSION",
+            "shortName": "查看",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": 67,
+                      "categoryId": 62,
+                      "attributeCode": "LJ",
+                      "attributeName": "敬酒服",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 敬酒服 "
+            ],
+            "id": 681,
+            "feature": "FINANCE.DOCUMENT.REVERSE",
+            "name": "财务系统.汇总/自动凭证列表.冲销",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "冲销",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 681,
+            "targetCode": "FINANCE.DOCUMENT.REVERSE",
+            "operateType": "PERMISSION",
+            "shortName": "冲销",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": 83,
+                      "categoryId": 62,
+                      "attributeCode": "LH",
+                      "attributeName": "哈哈哈哈哈哈",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 哈哈哈哈哈哈 "
+            ],
+            "id": 682,
+            "feature": "FINANCE.DOCUMENT.BATCH_UPDATE",
+            "name": "财务系统.汇总/自动凭证列表.批量修改凭证",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "批量修改凭证",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 682,
+            "targetCode": "FINANCE.DOCUMENT.BATCH_UPDATE",
+            "operateType": "PERMISSION",
+            "shortName": "批量修改凭证",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 683,
+            "feature": "FINANCE.DOCUMENT.UPDATE",
+            "name": "财务系统.汇总/自动凭证列表.修改推送U8状态",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "修改推送U8状态",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 683,
+            "targetCode": "FINANCE.DOCUMENT.UPDATE",
+            "operateType": "PERMISSION",
+            "shortName": "修改推送U8状态",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 684,
+            "feature": "FINANCE.DOCUMENT.AUDITED_UPDATE",
+            "name": "财务系统.汇总/自动凭证列表.已审核通过修改",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "已审核通过修改",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 684,
+            "targetCode": "FINANCE.DOCUMENT.AUDITED_UPDATE",
+            "operateType": "PERMISSION",
+            "shortName": "已审核通过修改",
+            "children": null
+          }
+        ]
+      },
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": [
+            {
+              "attributeCategory": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              },
+              "attributes": [
+                {
+                  "id": -1,
+                  "categoryId": 62,
+                  "attributeCode": "all_values",
+                  "attributeName": "全量",
+                  "specialField": false
+                }
+              ]
+            }
+          ]
+        },
+        "currentDataScope": [
+          "财务主体: 全量 "
+        ],
+        "id": 685,
+        "feature": "FINANCE.SUBJECT",
+        "name": "财务系统.会计科目",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:41:59",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "会计科目",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "businessApplyType": null,
+        "specialId": null,
+        "specialOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "specialFlowState": null,
+        "specialBusinessApplyType": null,
+        "errorMsg": "",
+        "targetId": 685,
+        "targetCode": "FINANCE.SUBJECT",
+        "operateType": "PERMISSION",
+        "shortName": "会计科目",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 685,
+            "feature": "FINANCE.SUBJECT.EXCEL_EXPORT",
+            "name": "财务系统.会计科目.Excel导出",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "Excel导出",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 685,
+            "targetCode": "FINANCE.SUBJECT.EXCEL_EXPORT",
+            "operateType": "PERMISSION",
+            "shortName": "Excel导出",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 686,
+            "feature": "FINANCE.SUBJECT.EXCEL_IMPORT",
+            "name": "财务系统.会计科目.Excel导入",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "Excel导入",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 686,
+            "targetCode": "FINANCE.SUBJECT.EXCEL_IMPORT",
+            "operateType": "PERMISSION",
+            "shortName": "Excel导入",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 687,
+            "feature": "FINANCE.SUBJECT.UPDATE",
+            "name": "财务系统.会计科目.编辑",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "编辑",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 687,
+            "targetCode": "FINANCE.SUBJECT.UPDATE",
+            "operateType": "PERMISSION",
+            "shortName": "编辑",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 688,
+            "feature": "FINANCE.SUBJECT.QUERY",
+            "name": "财务系统.会计科目.查看",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "查看",
+            "securityLevel": "L1",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 688,
+            "targetCode": "FINANCE.SUBJECT.QUERY",
+            "operateType": "PERMISSION",
+            "shortName": "查看",
+            "children": null
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 689,
+            "feature": "FINANCE.SUBJECT.WITHDRAW_CONFIG",
+            "name": "财务系统.会计科目.提现配置",
+            "desc": "",
+            "status": "ABLE",
+            "type": null,
+            "supportDataRule": null,
+            "operationType": null,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "提现配置",
+            "securityLevel": null,
+            "isVirtualNode": true,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 689,
+            "targetCode": "FINANCE.SUBJECT.WITHDRAW_CONFIG",
+            "operateType": "PERMISSION",
+            "shortName": "提现配置",
+            "children": [
+              {
+                "employeeNumber": "03541",
+                "employeeDataScope": {
+                  "employeeNumber": "03541",
+                  "categoryList": []
+                },
+                "currentDataScope": [],
+                "id": 689,
+                "feature": "FINANCE.SUBJECT.WITHDRAW_CONFIG.EXPORT",
+                "name": "财务系统.会计科目.提现配置.导出",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": false,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [],
+                "attributeCategoryNameList": [],
+                "categoryVOS": null,
+                "operator": "",
+                "systemRoleName": null,
+                "admin": null,
+                "businessName": "财务系统",
+                "businessCode": "FINANCE",
+                "relatedRoles": null,
+                "createTime": "2024-08-05 16:41:59",
+                "updateTime": "2024-11-01T02:33:33Z",
+                "relatedDepartmentIds": [],
+                "relatedDepartments": null,
+                "managers": null,
+                "targetName": "导出",
+                "securityLevel": "L2",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "businessApplyType": null,
+                "specialId": null,
+                "specialOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "specialFlowState": null,
+                "specialBusinessApplyType": null,
+                "errorMsg": "",
+                "targetId": 689,
+                "targetCode": "FINANCE.SUBJECT.WITHDRAW_CONFIG.EXPORT",
+                "operateType": "PERMISSION",
+                "shortName": "导出",
+                "children": null
+              },
+              {
+                "employeeNumber": "03541",
+                "employeeDataScope": {
+                  "employeeNumber": "03541",
+                  "categoryList": []
+                },
+                "currentDataScope": [],
+                "id": 690,
+                "feature": "FINANCE.SUBJECT.WITHDRAW_CONFIG.IMPORT",
+                "name": "财务系统.会计科目.提现配置.导入",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": false,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [],
+                "attributeCategoryNameList": [],
+                "categoryVOS": null,
+                "operator": "",
+                "systemRoleName": null,
+                "admin": null,
+                "businessName": "财务系统",
+                "businessCode": "FINANCE",
+                "relatedRoles": null,
+                "createTime": "2024-08-05 16:41:59",
+                "updateTime": "2024-11-01T02:33:33Z",
+                "relatedDepartmentIds": [],
+                "relatedDepartments": null,
+                "managers": null,
+                "targetName": "导入",
+                "securityLevel": "L2",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "businessApplyType": null,
+                "specialId": null,
+                "specialOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "specialFlowState": null,
+                "specialBusinessApplyType": null,
+                "errorMsg": "",
+                "targetId": 690,
+                "targetCode": "FINANCE.SUBJECT.WITHDRAW_CONFIG.IMPORT",
+                "operateType": "PERMISSION",
+                "shortName": "导入",
+                "children": null
+              }
+            ]
+          },
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null
+                  },
+                  "attributes": [
+                    {
+                      "id": -1,
+                      "categoryId": 62,
+                      "attributeCode": "all_values",
+                      "attributeName": "全量",
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 全量 "
+            ],
+            "id": 691,
+            "feature": "FINANCE.SUBJECT.CREATE",
+            "name": "财务系统.会计科目.新建",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "新建",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 691,
+            "targetCode": "FINANCE.SUBJECT.CREATE",
+            "operateType": "PERMISSION",
+            "shortName": "新建",
+            "children": null
+          }
+        ]
+      },
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": []
+        },
+        "currentDataScope": [],
+        "id": 692,
+        "feature": "FINANCE.INTER_RECONCILIATION",
+        "name": "财务系统.集团往来",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:41:59",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "managers": null,
+        "targetName": "集团往来",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "businessApplyType": null,
+        "specialId": null,
+        "specialOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "specialFlowState": null,
+        "specialBusinessApplyType": null,
+        "errorMsg": "",
+        "targetId": 692,
+        "targetCode": "FINANCE.INTER_RECONCILIATION",
+        "operateType": "PERMISSION",
+        "shortName": "集团往来",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": []
+            },
+            "currentDataScope": [],
+            "id": 692,
+            "feature": "FINANCE.INTER_RECONCILIATION.QUERY",
+            "name": "财务系统.集团往来.查看",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:41:59",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "managers": null,
+            "targetName": "查看",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "businessApplyType": null,
+            "specialId": null,
+            "specialOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "specialFlowState": null,
+            "specialBusinessApplyType": null,
+            "errorMsg": "",
+            "targetId": 692,
+            "targetCode": "FINANCE.INTER_RECONCILIATION.QUERY",
+            "operateType": "PERMISSION",
+            "shortName": "查看",
+            "children": null
+          }
+        ]
+      }
+    ],
+    "total": 22,
+    "pageNo": 1,
+    "pageSize": 10,
+    "pages": 3,
+    "size": 10
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1731056942202,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
