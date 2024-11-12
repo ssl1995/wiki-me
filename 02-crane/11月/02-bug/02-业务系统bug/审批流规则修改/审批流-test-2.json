@@ -274,7 +274,7 @@
                 "I",
                 "C"
               ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipApproval14 && #isSkipApproval25 && #isSkipManager && !#isSkipAdmin && #isSkipManagerOrAdmin",
+              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipApproval14 && #isSkipApproval25 && #isSkipManager && !#isSkipAdmin && #isSkipManagerOrAdmin!=null",
               "status": "S",
               "next": [
                 38
