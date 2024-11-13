@@ -1,0 +1,14 @@
+{
+  "id": 4,
+  "operator": "-1",
+  "createTime": 1730960909.000000000,
+  "updateTime": 1730960909.000000000,
+  "permissionApplyId": 8,
+  "businessType": "ROLE_APPLY",
+  "businessId": "102",
+  "applyNumber": "05211",
+  "status": "CALLBACK_SUCCESS",
+  "retryCount": 0,
+  "approvalTime": 1730960910.000000000,
+  "expireTime": 1731565710.000000000
+},applyResultId=9

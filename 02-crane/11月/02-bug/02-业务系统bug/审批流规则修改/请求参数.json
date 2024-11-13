@@ -1,0 +1,32 @@
+{
+  "businessCode": "CR",
+  "flowCode": "RAY",
+  "ownerWorkNumber": "05184",
+  "businessId": 1,
+  "snapshot": null,
+  "submitterWorkNumber": null,
+  "priority": "P1",
+  "flowStepModules": null,
+  "parameter": {
+    "isSkipLeader": true,
+    "isSkipApproval14": false,
+
+    "isSkipAdmin": false,
+    "adminWorkNumber": "04606,02505,02065,04712,01228,03541,00251,00001,00002,04720,04714,03478,04600,00744,03781,04595,03270,04705,04633,03893,03894,03898,01240,04690,04927,00346,01662",
+
+    "isSkipManagerOrAdmin": true,
+    "leaderWorkNumber": null,
+    "isSkipApproval3": true,
+    "managerWorkNumber": null,
+    "managerOrAdminWorkNumber": null,
+    "totalLevel14": 4,
+    "historyCircleLeaderIds": "4867,4868,4873,4872",
+    "isSkipApproval25": true,
+    "totalLevel25": null,
+    "totalLevel3": null,
+    "isSkipManager": true
+  },
+  "extraNotifyWorkNumbers": null,
+  "html": null,
+  "auditComment": null
+}

@@ -3,3 +3,11 @@
 yqg.sso.mock-authenticate.mock
 
 yqg.sso.mockAuthenticate.mock
+
+权限系统申请，提测完成啦，bug清完了。
+
+系统申请组件，提测完成了。
+
+报表：报表的审批流今天小梅会说，根据用户
+
+roleApply-submitFlow-end,permissionApplyId=927
