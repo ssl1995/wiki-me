@@ -1,0 +1,13 @@
+{
+  "applyWorkNumber": [
+    "03541",
+    "00251"
+  ],
+  "userGroupVoList": [
+    {
+      "groupId": "endCodeStr",
+      "validTime": "SEVEN_DAYS",
+      "applyReason": "申请理由"
+    }
+  ]
+}

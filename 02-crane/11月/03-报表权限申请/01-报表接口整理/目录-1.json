@@ -11,9 +11,11 @@
         "absolutePath": "/测试项目/二级目录-测试二级目录（包含三级目录）/三级目录-测试1",
         "pathLevel": "3",
         "importantLevel": "1",
-        "directoryLevel": "SENIOR",
-        "specialField": true,
-        "path": "/测试项目/二级目录-测试二级目录（包含三级目录）/三级目录-测试1"
+        "director": null,
+        "dataBp": null,
+        "ifSensitive": null,
+        "groupId": null,
+        "groupName": null
       },
       {
         "id": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
@@ -25,9 +27,11 @@
         "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
         "pathLevel": "2",
         "importantLevel": "1",
-        "directoryLevel": "SENIOR",
-        "specialField": true,
-        "path": "/测试项目/二级目录-测试二级目录（不含三级目录）"
+        "director": null,
+        "dataBp": null,
+        "ifSensitive": null,
+        "groupId": null,
+        "groupName": null
       },
       {
         "id": "402e2e65-0cd0-4d4c-a6ad-98e1632f7736",
@@ -39,9 +43,11 @@
         "absolutePath": "/测试项目/二级目录-测试二级目录（包含三级目录）/三级目录-测试3",
         "pathLevel": "3",
         "importantLevel": "1",
-        "directoryLevel": "SENIOR",
-        "specialField": true,
-        "path": "/测试项目/二级目录-测试二级目录（包含三级目录）/三级目录-测试3"
+        "director": null,
+        "dataBp": null,
+        "ifSensitive": null,
+        "groupId": null,
+        "groupName": null
       },
       {
         "id": "0a3853c9-b488-4dc4-b067-1b36d7a45683",
@@ -53,9 +59,11 @@
         "absolutePath": "/测试项目/二级目录-测试二级目录（包含三级目录）/三级目录-测试2",
         "pathLevel": "3",
         "importantLevel": "1",
-        "directoryLevel": "SENIOR",
-        "specialField": true,
-        "path": "/测试项目/二级目录-测试二级目录（包含三级目录）/三级目录-测试2"
+        "director": null,
+        "dataBp": null,
+        "ifSensitive": null,
+        "groupId": null,
+        "groupName": null
       }
     ],
     "totalCount": 4
@@ -64,7 +72,7 @@
     "code": 0,
     "type": "",
     "detail": "",
-    "serverResponseTime": 1731491887278,
+    "serverResponseTime": 1731549630742,
     "displayType": "TOAST",
     "url": null
   }

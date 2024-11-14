@@ -1,0 +1,264 @@
+{
+  "list": [
+    {
+      "id": "encode1",
+      "name": "国内借款业务",
+      "description": null,
+      "contentPermissions": null,
+      "parentId": "encode-parent1",
+      "ownerId": null,
+      "absolutePath": "/测试项目/国内借款业务",
+      "pathLevel": null,
+      "importantLevel": null,
+      "director": null,
+      "directors": [
+        {
+          "name": "宋声林",
+          "workNumber": "03541",
+          "departmentName": "后端",
+          "companyEmail": null
+        },
+        {
+          "name": "刘奕彤",
+          "workNumber": "04705",
+          "departmentName": "前端",
+          "companyEmail": null
+        }
+      ],
+      "dataBp": null,
+      "dataBps": [
+        {
+          "name": "赖小梅",
+          "workNumber": "04697",
+          "departmentName": "产品",
+          "companyEmail": null
+        }
+      ],
+      "ifSensitive": false,
+      "groupId": null,
+      "groupName": null,
+      "relatedWorkbooks": [
+        {
+          "contentUrl": null,
+          "description": null,
+          "projectId": null,
+          "projectName": null,
+          "absolutePath": "/测试项目/国内借款业务",
+          "pathLevel": null,
+          "importantLevel": null,
+          "id": "workbookV1",
+          "name": "报表1"
+        },
+        {
+          "contentUrl": null,
+          "description": null,
+          "projectId": null,
+          "projectName": null,
+          "absolutePath": "/测试项目/国内借款业务",
+          "pathLevel": null,
+          "importantLevel": null,
+          "id": "workbookV2",
+          "name": "报表2"
+        }
+      ],
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "flowState": null,
+      "otherSameDirectory": [
+        {
+          "id": "sda",
+          "name": "asd",
+          "description": null,
+          "contentPermissions": null,
+          "parentId": "encode-sad",
+          "ownerId": null,
+          "absolutePath": "/测试项目/国内借款业务",
+          "pathLevel": null,
+          "importantLevel": null,
+          "director": null,
+          "directors": null,
+          "dataBp": null,
+          "dataBps": null,
+          "ifSensitive": false,
+          "groupId": null,
+          "groupName": null,
+          "relatedWorkbooks": null,
+          "ownStatusVO": {
+            "timeStatus": "NO",
+            "dayDiff": null
+          },
+          "flowState": null,
+          "otherSameDirectory": null
+        }
+      ],
+      "children": [
+        {
+          "id": "encode2",
+          "name": "大盘数据",
+          "description": null,
+          "contentPermissions": null,
+          "parentId": "encode1",
+          "ownerId": null,
+          "absolutePath": "/测试项目/国内借款业务/大盘数据",
+          "pathLevel": null,
+          "importantLevel": null,
+          "director": null,
+          "directors": [
+            {
+              "name": "宋声林2",
+              "workNumber": "03542",
+              "departmentName": "后端2",
+              "companyEmail": null
+            },
+            {
+              "name": "刘奕彤2",
+              "workNumber": "04702",
+              "departmentName": "前端2",
+              "companyEmail": null
+            }
+          ],
+          "dataBp": null,
+          "dataBps": [
+            {
+              "name": "赖小梅2",
+              "workNumber": "04698",
+              "departmentName": "产品2",
+              "companyEmail": null
+            }
+          ],
+          "ifSensitive": true,
+          "groupId": "encodeGroupId2",
+          "groupName": null,
+          "relatedWorkbooks": [
+            {
+              "contentUrl": null,
+              "description": null,
+              "projectId": null,
+              "projectName": null,
+              "absolutePath": "/测试项目/国内借款业务",
+              "pathLevel": null,
+              "importantLevel": null,
+              "id": "workbookV12",
+              "name": "报表11"
+            },
+            {
+              "contentUrl": null,
+              "description": null,
+              "projectId": null,
+              "projectName": null,
+              "absolutePath": "/测试项目/国内借款业务",
+              "pathLevel": null,
+              "importantLevel": null,
+              "id": "workbookV22",
+              "name": "报表22"
+            }
+          ],
+          "ownStatusVO": {
+            "timeStatus": "NO",
+            "dayDiff": null
+          },
+          "flowState": "PENDING",
+          "otherSameDirectory": [
+            {
+              "id": "sda",
+              "name": "asd",
+              "description": null,
+              "contentPermissions": null,
+              "parentId": "encode-sad",
+              "ownerId": null,
+              "absolutePath": "/测试项目/国内借款业务",
+              "pathLevel": null,
+              "importantLevel": null,
+              "director": null,
+              "directors": null,
+              "dataBp": null,
+              "dataBps": null,
+              "ifSensitive": false,
+              "groupId": null,
+              "groupName": null,
+              "relatedWorkbooks": null,
+              "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+              },
+              "flowState": null,
+              "otherSameDirectory": null
+            }
+          ],
+          "children": null
+        },
+        {
+          "id": "encode3",
+          "name": "小盘数据",
+          "description": null,
+          "contentPermissions": null,
+          "parentId": "encode1",
+          "ownerId": null,
+          "absolutePath": "/测试项目/国内借款业务/大盘数据",
+          "pathLevel": null,
+          "importantLevel": null,
+          "director": null,
+          "directors": null,
+          "dataBp": null,
+          "dataBps": null,
+          "ifSensitive": true,
+          "groupId": "encodeGroupId2",
+          "groupName": null,
+          "relatedWorkbooks": [
+            {
+              "contentUrl": null,
+              "description": null,
+              "projectId": null,
+              "projectName": null,
+              "absolutePath": "/测试项目/国内借款业务",
+              "pathLevel": null,
+              "importantLevel": null,
+              "id": "workbookV122",
+              "name": "报表11"
+            }
+          ],
+          "ownStatusVO": {
+            "timeStatus": "NO",
+            "dayDiff": null
+          },
+          "flowState": null,
+          "otherSameDirectory": [
+            {
+              "id": "sda",
+              "name": "asd",
+              "description": null,
+              "contentPermissions": null,
+              "parentId": "encode-sad",
+              "ownerId": null,
+              "absolutePath": "/测试项目/国内借款业务",
+              "pathLevel": null,
+              "importantLevel": null,
+              "director": null,
+              "directors": null,
+              "dataBp": null,
+              "dataBps": null,
+              "ifSensitive": false,
+              "groupId": null,
+              "groupName": null,
+              "relatedWorkbooks": null,
+              "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+              },
+              "flowState": null,
+              "otherSameDirectory": null
+            }
+          ],
+          "children": null
+        }
+      ]
+    }
+  ],
+  "total": 1,
+  "pageNo": 1,
+  "pageSize": 10,
+  "pages": 1,
+  "size": 1
+}

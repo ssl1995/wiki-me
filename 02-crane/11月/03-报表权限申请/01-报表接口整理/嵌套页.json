@@ -1,0 +1,72 @@
+{
+  "body": {
+    "businessType": "Tableau报表申请",
+    "submitEmployee": {
+      "id": 3659,
+      "name": "宋声林",
+      "workNumber": "03541",
+      "oaEmployeeUrl": "https://oa-test.yangqianguan.com/oa/employee/profile?id=3659",
+      "departmentName": "后端",
+      "departmentId": null,
+      "leaderWorkNumber": null,
+      "supervisorNumber": null,
+      "virtualSupervisorNumber": null,
+      "isDomestic": true,
+      "rank": null,
+      "rankGEM3": false
+    },
+    "applyEmployeeList": [
+      {
+        "id": 2621,
+        "name": "刘文文",
+        "workNumber": "02509",
+        "oaEmployeeUrl": "https://oa-test.yangqianguan.com/oa/employee/profile?id=2621",
+        "departmentName": "前端",
+        "departmentId": null,
+        "leaderWorkNumber": null,
+        "supervisorNumber": null,
+        "virtualSupervisorNumber": null,
+        "isDomestic": true,
+        "rank": null,
+        "rankGEM3": false
+      },
+      {
+        "id": 4874,
+        "name": "刘奕彤",
+        "workNumber": "04705",
+        "oaEmployeeUrl": "https://oa-test.yangqianguan.com/oa/employee/profile?id=4874",
+        "departmentName": "前端",
+        "departmentId": null,
+        "leaderWorkNumber": null,
+        "supervisorNumber": null,
+        "virtualSupervisorNumber": null,
+        "isDomestic": true,
+        "rank": null,
+        "rankGEM3": false
+      }
+    ],
+    "applyDirectoryList": [
+      {
+        "id": "encode1",
+        "name": "目录1",
+        "validTime": "SEVEN_DAYS",
+        "ifSensitive": false
+      },
+      {
+        "id": "encode2",
+        "name": "目录2",
+        "validTime": "SEVEN_DAYS",
+        "ifSensitive": true
+      }
+    ],
+    "sensitiveDirectoryCount": 1
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1731568103274,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

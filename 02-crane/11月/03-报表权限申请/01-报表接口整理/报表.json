@@ -1,0 +1,128 @@
+{
+    "body": {
+        "list": [
+            {
+                "id": "f9545c47-03a4-40cb-891c-d9c78d20b2d3",
+                "name": "2. 前筛 - 前筛捞回转化率",
+                "absolutePath": "/国内借款业务/04_产品数据/05_资方及路由",
+
+
+
+                "contentUrl": "4",
+                "description": "",
+                "projectId": "802af509-a562-4276-9702-b507891a48c5",
+                "projectName": "05_资方及路由",
+                "pathLevel": "3",
+                "importantLevel": "1"
+            },
+            {
+                "id": "f8d7aca9-25ef-4377-8805-27da55e53b14",
+                "name": "洋钱罐借款_注册用户属地化(已经下线)",
+                "contentUrl": "_",
+                "description": "",
+                "projectId": "802af509-a562-4276-9702-b507891a48c5",
+                "projectName": "05_资方及路由",
+                "absolutePath": "/国内借款业务/04_产品数据/05_资方及路由",
+                "pathLevel": "3",
+                "importantLevel": "1"
+            },
+            {
+                "id": "d7fe4a6f-d102-471e-a63b-26c5f4ba6ecb",
+                "name": "1. 转化率 - 锡商自营打标后各节点转化",
+                "contentUrl": "277",
+                "description": "",
+                "projectId": "802af509-a562-4276-9702-b507891a48c5",
+                "projectName": "05_资方及路由",
+                "absolutePath": "/国内借款业务/04_产品数据/05_资方及路由",
+                "pathLevel": "3",
+                "importantLevel": "1"
+            },
+            {
+                "id": "d733442b-ff4a-44e4-978d-44857fa21c62",
+                "name": "2. 前筛 - 前筛规则通过率-待修改",
+                "contentUrl": "_16896636248640",
+                "description": "",
+                "projectId": "802af509-a562-4276-9702-b507891a48c5",
+                "projectName": "05_资方及路由",
+                "absolutePath": "/国内借款业务/04_产品数据/05_资方及路由",
+                "pathLevel": "3",
+                "importantLevel": "1"
+            },
+            {
+                "id": "d1a97c4e-69a1-449b-9047-bd70d6a3d96c",
+                "name": "5. 资方通过率-资方实时通过率",
+                "contentUrl": "-_17218991306610",
+                "description": "",
+                "projectId": "802af509-a562-4276-9702-b507891a48c5",
+                "projectName": "05_资方及路由",
+                "absolutePath": "/国内借款业务/04_产品数据/05_资方及路由",
+                "pathLevel": "3",
+                "importantLevel": "1"
+            },
+            {
+                "id": "c8d40bb5-5b08-4e59-a33d-93561e91dc7d",
+                "name": "1. 转化率 - API实验组监控",
+                "contentUrl": "-API",
+                "description": "",
+                "projectId": "802af509-a562-4276-9702-b507891a48c5",
+                "projectName": "05_资方及路由",
+                "absolutePath": "/国内借款业务/04_产品数据/05_资方及路由",
+                "pathLevel": "3",
+                "importantLevel": "1"
+            },
+            {
+                "id": "c7f17918-7b92-443a-9d91-0e1905dd416a",
+                "name": "4. 囤单 - 每日触发屯单看未来转化",
+                "contentUrl": "74",
+                "description": "",
+                "projectId": "802af509-a562-4276-9702-b507891a48c5",
+                "projectName": "05_资方及路由",
+                "absolutePath": "/国内借款业务/04_产品数据/05_资方及路由",
+                "pathLevel": "3",
+                "importantLevel": "1"
+            },
+            {
+                "id": "c0eb8a06-6d3b-4cb4-880c-55506e9c6346",
+                "name": "1. 转化率 - 静默路由监控",
+                "contentUrl": "-_16953783759640",
+                "description": "",
+                "projectId": "802af509-a562-4276-9702-b507891a48c5",
+                "projectName": "05_资方及路由",
+                "absolutePath": "/国内借款业务/04_产品数据/05_资方及路由",
+                "pathLevel": "3",
+                "importantLevel": "1"
+            },
+            {
+                "id": "bf41913d-955d-456a-ac95-c83c584ea634",
+                "name": "1. 转化率 - 资金池转化分析",
+                "contentUrl": "-_16956097139930",
+                "description": "",
+                "projectId": "802af509-a562-4276-9702-b507891a48c5",
+                "projectName": "05_资方及路由",
+                "absolutePath": "/国内借款业务/04_产品数据/05_资方及路由",
+                "pathLevel": "3",
+                "importantLevel": "1"
+            },
+            {
+                "id": "bd816d17-5b7a-4df5-80bc-55cb0a983fb0",
+                "name": "首笔创建订单后的流失",
+                "contentUrl": "183",
+                "description": "",
+                "projectId": "802af509-a562-4276-9702-b507891a48c5",
+                "projectName": "05_资方及路由",
+                "absolutePath": "/国内借款业务/04_产品数据/05_资方及路由",
+                "pathLevel": "3",
+                "importantLevel": "1"
+            }
+        ],
+        "totalCount": 29
+    },
+    "status": {
+        "code": 0,
+        "type": "",
+        "detail": "",
+        "serverResponseTime": 1730963123024,
+        "displayType": "TOAST",
+        "url": null
+    }
+}
