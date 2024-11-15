@@ -1,0 +1,346 @@
+{
+  "parameter": [
+    {
+      "name": "launcherSpecificWorkNumber",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "isSkipTableAuAdmin",
+      "type": "java.lang.Boolean"
+    }
+  ],
+  "status": [
+    {
+      "code": "S",
+      "name": "已提交"
+    },
+    {
+      "code": "I",
+      "name": "初始化"
+    },
+    {
+      "code": "P",
+      "name": "审核中"
+    },
+    {
+      "code": "A",
+      "name": "通过"
+    },
+    {
+      "code": "R",
+      "name": "拒绝"
+    },
+    {
+      "code": "C",
+      "name": "驳回修改"
+    },
+    {
+      "code": "V",
+      "name": "再审"
+    },
+    {
+      "code": "E",
+      "name": "结束"
+    }
+  ],
+  "action": [
+    {
+      "id": 1,
+      "name": "approve",
+      "description": "通过",
+      "manual": true,
+      "comment": [
+        {
+          "field": "comment",
+          "description": "备注",
+          "required": false
+        }
+      ],
+      "attachment": false
+    },
+    {
+      "id": 2,
+      "name": "reject",
+      "description": "拒绝",
+      "manual": true,
+      "comment": [
+        {
+          "field": "reason",
+          "description": "拒绝原因",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "submit",
+      "description": "提交",
+      "manual": true
+    },
+    {
+      "id": 4,
+      "name": "auto",
+      "description": "自动流转",
+      "manual": false
+    }
+  ],
+  "actor": [
+    {
+      "id": 1,
+      "name": "self",
+      "description": "自己",
+      "action": [
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "launcher_specific_user",
+      "description": "launcherSpecificWorkNumber",
+      "action": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "name": "specific_roles",
+      "description": "1543",
+      "alias": "tableau报表管理员",
+      "action": [
+        1,
+        2
+      ]
+    }
+  ],
+  "messageLink": "https://crane-test.yangqianguan.com/flow/tableau?id=",
+  "callbacks": [
+    {
+      "id": 1,
+      "url": "https://crane-test.yangqianguan.com/rpc/table-au/callback"
+    }
+  ],
+  "start": 1,
+  "end": {
+    "id": 999,
+    "status": "E"
+  },
+  "step": [
+    {
+      "index": 1,
+      "name": "发起人提交",
+      "description": "发起人提交节点",
+      "actor": [
+        1
+      ],
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 3,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C"
+              ],
+              "expression": "#launcherSpecificWorkNumber != null",
+              "status": "S",
+              "next": [
+                2
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C"
+              ],
+              "expression": "#launcherSpecificWorkNumber == null && !#isSkipTableAuAdmin",
+              "status": "S",
+              "next": [
+                3
+              ]
+            },
+            {
+              "previous_status": [
+                "I",
+                "C"
+              ],
+              "expression": "#launcherSpecificWorkNumber == null && #isSkipTableAuAdmin",
+              "status": "S",
+              "next": [
+                999
+              ],
+              "callback": true,
+              "callbackId": 1
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "S"
+              ],
+              "status": "C",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "发起人的直属上级",
+      "description": "发起人的直属上级",
+      "actor": [
+        2
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "expression": "!#isSkipTableAuAdmin",
+              "status": "A",
+              "next": [
+                3
+              ],
+              "callback": true,
+              "callbackId": 1
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "expression": "#isSkipTableAuAdmin",
+              "status": "A",
+              "next": [
+                999
+              ],
+              "callback": true,
+              "callbackId": 1
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ],
+              "callback": true,
+              "callbackId": 1
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "tableau报表管理员",
+      "description": "tableau报表管理员",
+      "index_key": "tableau_admin",
+      "actor": [
+        3
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "next": [
+                999
+              ],
+              "callback": true,
+              "callbackId": 1
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ],
+              "callback": true,
+              "callbackId": 1
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 999,
+      "name": "结束",
+      "description": "结束节点",
+      "show": false,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I"
+              ],
+              "status": "E"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
