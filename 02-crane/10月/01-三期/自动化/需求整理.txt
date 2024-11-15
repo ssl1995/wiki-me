@@ -1,3 +1,7 @@
 services.service-chidori.url
 
 services.service-crane.url
+
+H00121
+
+EX01047
