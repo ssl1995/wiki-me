@@ -2,33 +2,35 @@
   "parameter": [
     {
       "name": "isSkipLeader",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "leaderWorkNumber",
       "type": "java.lang.String"
     },
     {
       "name": "isSkipApproval3",
       "type": "java.lang.Boolean"
     },
-
+    {
+      "name": "totalLevel3",
+      "type": "java.lang.Integer"
+    },
     {
       "name": "isSkipDirector",
       "type": "java.lang.Boolean"
     },
     {
-      "name": "isSkipDataBp",
-      "type": "java.lang.Boolean"
-    },
-
-    {
       "name": "directorWorkNumber",
       "type": "java.lang.String"
     },
     {
-      "name": "dataBpWorkNumber",
-      "type": "java.lang.String"
+      "name": "isSkipDataBp",
+      "type": "java.lang.Boolean"
     },
     {
-      "name": "totalLevel3",
-      "type": "java.lang.Integer"
+      "name": "dataBpWorkNumber",
+      "type": "java.lang.String"
     }
   ],
   "status": [
@@ -127,8 +129,8 @@
     {
       "id": 3,
       "name": "launcher_specific_user",
-      "description": "adminWorkNumber",
-      "alias": "业务负责人",
+      "description": "directorWorkNumber",
+      "alias": "业务负责人审批",
       "action": [
         1,
         2
@@ -137,8 +139,8 @@
     {
       "id": 4,
       "name": "launcher_specific_user",
-      "description": "managerWorkNumber",
-      "alias": "数据BP",
+      "description": "dataBpWorkNumber",
+      "alias": "数据BP审批",
       "action": [
         1,
         2
@@ -253,7 +255,6 @@
         }
       ]
     },
-
     {
       "index": 2,
       "name": "直属上级审批",
@@ -338,7 +339,6 @@
         }
       ]
     },
-
     {
       "index": 3,
       "name": "循环值M3",
@@ -437,7 +437,6 @@
         }
       ]
     },
-
     {
       "index": 14,
       "name": "业务负责人审批",
@@ -510,7 +509,6 @@
         }
       ]
     },
-
     {
       "index": 15,
       "name": "数据BP审批",
@@ -570,7 +568,6 @@
         }
       ]
     },
-
     {
       "index": 999,
       "name": "结束",

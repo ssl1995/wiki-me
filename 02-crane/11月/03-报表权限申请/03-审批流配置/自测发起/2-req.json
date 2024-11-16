@@ -1,12 +1,17 @@
 {
   "businessCode": "CR",
   "flowCode": "TAU",
-  "businessId": 200001,
-  "priority": "P1",
   "ownerWorkNumber": "03541",
+  "businessId": 1,
+  "priority": "P1",
   "parameter": {
-    "launcherSpecificWorkNumber": "03715",
-    "isSkipTableAuAdmin": "FALSE"
-  },
-  "auditComment": "1"
+    "isSkipLeader": false,
+    "leaderWorkNumber": "03875",
+    "isSkipApproval3": true,
+    "totalLevel3": null,
+    "isSkipDirector": false,
+    "directorWorkNumber": "04697",
+    "isSkipDataBp": false,
+    "dataBpWorkNumber": "04705"
+  }
 }
