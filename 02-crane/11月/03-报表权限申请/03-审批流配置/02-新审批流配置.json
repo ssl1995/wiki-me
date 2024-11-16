@@ -284,7 +284,7 @@
               "previous_status": [
                 "P"
               ],
-              "expression": "!#isSkipDirector && #isSkipDataBp",
+              "expression": "!#isSkipDirector && #isSkipDataBp!=null",
               "status": "A",
               "next": [
                 14
@@ -296,7 +296,7 @@
               "previous_status": [
                 "P"
               ],
-              "expression": "#isSkipDirector && !#isSkipDataBp",
+              "expression": "#isSkipDirector!=null && !#isSkipDataBp",
               "status": "A",
               "next": [
                 15
@@ -341,8 +341,8 @@
     },
     {
       "index": 3,
-      "name": "循环值M3",
-      "description": "循环值M3",
+      "name": "循环M3",
+      "description": "循环M3",
       "actor": [
         5
       ],
@@ -383,7 +383,7 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel3 == #currentLevel3 && !#isSkipDirector && #isSkipDataBp",
+              "expression": "#totalLevel3 == #currentLevel3 && !#isSkipDirector && #isSkipDataBp!=null",
               "next": [
                 14
               ],
@@ -395,7 +395,7 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel3 == #currentLevel3 && #isSkipDirector && !#isSkipDataBp",
+              "expression": "#totalLevel3 == #currentLevel3 && #isSkipDirector!=null && !#isSkipDataBp",
               "next": [
                 15
               ],
