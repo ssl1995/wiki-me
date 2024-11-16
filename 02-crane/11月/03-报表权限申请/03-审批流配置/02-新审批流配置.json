@@ -200,7 +200,7 @@
                 "I",
                 "C"
               ],
-              "expression": "!#isSkipLeader && #isSkipApproval3 && #isSkipDirector && #isSkipDataBp",
+              "expression": "!#isSkipLeader && #isSkipApproval3 && #isSkipDirector!=null && #isSkipDataBp!=null",
               "status": "S",
               "next": [
                 2
@@ -211,7 +211,7 @@
                 "I",
                 "C"
               ],
-              "expression": "#isSkipLeader && !#isSkipApproval3 && #isSkipDirector && #isSkipDataBp",
+              "expression": "#isSkipLeader && !#isSkipApproval3 && #isSkipDirector!=null && #isSkipDataBp!=null",
               "status": "S",
               "next": [
                 3
@@ -222,7 +222,7 @@
                 "I",
                 "C"
               ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && !#isSkipDirector && #isSkipDataBp",
+              "expression": "#isSkipLeader && #isSkipApproval3 && !#isSkipDirector && #isSkipDataBp!=null",
               "status": "S",
               "next": [
                 14
@@ -296,7 +296,7 @@
               "previous_status": [
                 "P"
               ],
-              "expression": "#isSkipDirector!=null && !#isSkipDataBp",
+              "expression": "#isSkipDirector && !#isSkipDataBp",
               "status": "A",
               "next": [
                 15
@@ -395,7 +395,7 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel3 == #currentLevel3 && #isSkipDirector!=null && !#isSkipDataBp",
+              "expression": "#totalLevel3 == #currentLevel3 && #isSkipDirector && !#isSkipDataBp",
               "next": [
                 15
               ],
