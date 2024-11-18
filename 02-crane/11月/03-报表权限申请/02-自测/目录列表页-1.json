@@ -12,47 +12,17 @@
         "pathLevel": "3",
         "importantLevel": "1",
         "director": "xiaomeilai@fintopia.tech,anfucao@fintopia.tech",
-        "directors": [
-          {
-            "name": "赖小梅",
-            "workNumber": "04697",
-            "departmentName": "技术部",
-            "companyEmail": "xiaomeilai@fintopia.tech"
-          }
-        ],
+        "directors": null,
         "dataBp": "yitongliu@fintopia.tech",
-        "dataBps": [
-          {
-            "name": "刘奕彤",
-            "workNumber": "04705",
-            "departmentName": "自动创建的部门 (不要删",
-            "companyEmail": "yitongliu@fintopia.tech"
-          }
-        ],
+        "dataBps": null,
         "ifSensitive": false,
-        "isSensitive": "NO_SENSITIVE",
+        "isSensitive": null,
         "groupId": "9adfab64-409b-4740-b719-ca4b931b7cfb",
         "groupName": "目录-测试项目-三级目录",
-        "relatedWorkbooks": [
-          {
-            "contentUrl": "1_17310467164480",
-            "description": "",
-            "projectId": "dda1d70f-f5b7-4483-a092-c988dcd1db91",
-            "projectName": "三级目录-测试1",
-            "absolutePath": "/测试项目/二级目录-测试二级目录（包含三级目录）/三级目录-测试1",
-            "pathLevel": "3",
-            "importantLevel": "1",
-            "id": "b2210077-213a-4fa7-8578-26ed46e61430",
-            "name": "三级目录测试1"
-          }
-        ],
-        "ownStatusVO": {
-          "timeStatus": "NO",
-          "dayDiff": null
-        },
+        "relatedWorkbooks": null,
+        "ownStatusVO": null,
         "flowState": null,
-        "otherSameDirectory": [],
-        "children": null
+        "otherSameDirectory": null
       },
       {
         "id": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
@@ -65,47 +35,17 @@
         "pathLevel": "2",
         "importantLevel": "1",
         "director": "xiaomeilai@fintopia.tech,anfucao@fintopia.tech",
-        "directors": [
-          {
-            "name": "赖小梅",
-            "workNumber": "04697",
-            "departmentName": "技术部",
-            "companyEmail": "xiaomeilai@fintopia.tech"
-          }
-        ],
+        "directors": null,
         "dataBp": "guowenzhu@fintopia.tech,jinguo@fintopia.tech",
-        "dataBps": [
-          {
-            "name": "郭进",
-            "workNumber": "03270",
-            "departmentName": "产品部",
-            "companyEmail": "jinguo@fintopia.tech"
-          }
-        ],
+        "dataBps": null,
         "ifSensitive": false,
-        "isSensitive": "NO_SENSITIVE",
+        "isSensitive": null,
         "groupId": "2f604c89-4495-47b0-acba-8d8b08a5cd4c",
         "groupName": "目录-测试项目-二级目录测试",
-        "relatedWorkbooks": [
-          {
-            "contentUrl": "_17310466458010",
-            "description": "",
-            "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
-            "projectName": "二级目录-测试二级目录（不含三级目录）",
-            "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
-            "pathLevel": "2",
-            "importantLevel": "1",
-            "id": "e7537d83-f00d-4b26-89d9-bc69857331de",
-            "name": "二级目录测试-不含三级目录"
-          }
-        ],
-        "ownStatusVO": {
-          "timeStatus": "NO",
-          "dayDiff": null
-        },
+        "relatedWorkbooks": null,
+        "ownStatusVO": null,
         "flowState": null,
-        "otherSameDirectory": [],
-        "children": null
+        "otherSameDirectory": null
       },
       {
         "id": "402e2e65-0cd0-4d4c-a6ad-98e1632f7736",
@@ -118,47 +58,17 @@
         "pathLevel": "3",
         "importantLevel": "1",
         "director": "manwang@fintopia.tech,yupengliu@fintopia.tech",
-        "directors": [
-          {
-            "name": "汪曼",
-            "workNumber": "05035",
-            "departmentName": "自动创建的部门 (不要删",
-            "companyEmail": "manwang@fintopia.tech"
-          }
-        ],
+        "directors": null,
         "dataBp": "yijiaohu@fintopia.tech,wenwenliu@fintopia.tech",
-        "dataBps": [
-          {
-            "name": "liuwenwen",
-            "workNumber": "02509",
-            "departmentName": "自动创建的部门 (不要删",
-            "companyEmail": "wenwenliu@fintopia.tech"
-          }
-        ],
+        "dataBps": null,
         "ifSensitive": false,
-        "isSensitive": "NO_SENSITIVE",
+        "isSensitive": null,
         "groupId": "9adfab64-409b-4740-b719-ca4b931b7cfb",
         "groupName": "目录-测试项目-三级目录",
-        "relatedWorkbooks": [
-          {
-            "contentUrl": "3_17310467709650",
-            "description": "",
-            "projectId": "402e2e65-0cd0-4d4c-a6ad-98e1632f7736",
-            "projectName": "三级目录-测试3",
-            "absolutePath": "/测试项目/二级目录-测试二级目录（包含三级目录）/三级目录-测试3",
-            "pathLevel": "3",
-            "importantLevel": "1",
-            "id": "759924dd-423d-480b-87cf-38cb3ee74a40",
-            "name": "三级目录测试3"
-          }
-        ],
-        "ownStatusVO": {
-          "timeStatus": "NO",
-          "dayDiff": null
-        },
+        "relatedWorkbooks": null,
+        "ownStatusVO": null,
         "flowState": null,
-        "otherSameDirectory": [],
-        "children": null
+        "otherSameDirectory": null
       },
       {
         "id": "0a3853c9-b488-4dc4-b067-1b36d7a45683",
@@ -171,72 +81,26 @@
         "pathLevel": "3",
         "importantLevel": "1",
         "director": "xiaomeilai@fintopia.tech,weishuangcao@fintopia.tech",
-        "directors": [
-          {
-            "name": "赖小梅",
-            "workNumber": "04697",
-            "departmentName": "技术部",
-            "companyEmail": "xiaomeilai@fintopia.tech"
-          },
-          {
-            "name": "曹维双",
-            "workNumber": "04606",
-            "departmentName": "自动创建的部门 (不要删",
-            "companyEmail": "weishuangcao@fintopia.tech"
-          }
-        ],
+        "directors": null,
         "dataBp": "wenwenliu@fintopia.tech,yitongliu@fintopia.tech",
-        "dataBps": [
-          {
-            "name": "liuwenwen",
-            "workNumber": "02509",
-            "departmentName": "自动创建的部门 (不要删",
-            "companyEmail": "wenwenliu@fintopia.tech"
-          },
-          {
-            "name": "刘奕彤",
-            "workNumber": "04705",
-            "departmentName": "自动创建的部门 (不要删",
-            "companyEmail": "yitongliu@fintopia.tech"
-          }
-        ],
+        "dataBps": null,
         "ifSensitive": false,
-        "isSensitive": "NO_SENSITIVE",
+        "isSensitive": null,
         "groupId": "9adfab64-409b-4740-b719-ca4b931b7cfb",
         "groupName": "目录-测试项目-三级目录",
-        "relatedWorkbooks": [
-          {
-            "contentUrl": "2_17310467392030",
-            "description": "",
-            "projectId": "0a3853c9-b488-4dc4-b067-1b36d7a45683",
-            "projectName": "三级目录-测试2",
-            "absolutePath": "/测试项目/二级目录-测试二级目录（包含三级目录）/三级目录-测试2",
-            "pathLevel": "3",
-            "importantLevel": "1",
-            "id": "01160e23-6d26-44fb-86ad-f5a99ab29a1e",
-            "name": "三级目录测试2"
-          }
-        ],
-        "ownStatusVO": {
-          "timeStatus": "NO",
-          "dayDiff": null
-        },
+        "relatedWorkbooks": null,
+        "ownStatusVO": null,
         "flowState": null,
-        "otherSameDirectory": [],
-        "children": null
+        "otherSameDirectory": null
       }
     ],
-    "total": 4,
-    "pageNo": 1,
-    "pageSize": 10,
-    "pages": 1,
-    "size": 4
+    "totalCount": 4
   },
   "status": {
     "code": 0,
     "type": "",
     "detail": "",
-    "serverResponseTime": 1731636123832,
+    "serverResponseTime": 1731913664010,
     "displayType": "TOAST",
     "url": null
   }
