@@ -1,0 +1,41 @@
+{
+  "body": {
+    "id": 1003462,
+    "mail": "yuqiu2@yangqianguan.com",
+    "mobile": "15001259250",
+    "name": "秋秋的客服测试",
+    "workNumber": "EX03399",
+    "departmentId": 129,
+    "departmentName": "客服",
+    "positionId": 48,
+    "positionName": "总裁办ceshi(外包一线岗位)",
+    "departmentChain": null,
+    "accountType": "CHIDORI",
+    "employeeContractType": "BPO_OUTSOURCING",
+    "valid": true,
+    "relatedBusinessIds": [],
+    "relatedBusinessNames": [],
+    "roleIds": null,
+    "cancelRoleIds": null,
+    "countryCode": "CN",
+    "businessCode": "",
+    "businessEmployeeId": "",
+    "colCompanyId": null,
+    "children": [],
+    "originEnterpriseMail": null,
+    "createEnterpriseMail": null,
+    "enterpriseMailPassword": null,
+    "slaves": null,
+    "isOverseasCompany": null,
+    "roleNameList": [],
+    "changedByExternal": false
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1731983451987,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
