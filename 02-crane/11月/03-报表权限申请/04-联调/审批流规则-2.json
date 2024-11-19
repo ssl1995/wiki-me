@@ -187,7 +187,7 @@
                 "I",
                 "C"
               ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipDirector && #isSkipDataBp",
+              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipDataBp && #isSkipDirector",
               "status": "S",
               "next": [
                 999
@@ -200,7 +200,7 @@
                 "I",
                 "C"
               ],
-              "expression": "!#isSkipLeader && #isSkipApproval3 && #isSkipDirector!=null && #isSkipDataBp!=null",
+              "expression": "!#isSkipLeader && #isSkipApproval3 && #isSkipDataBp!=null && #isSkipDirector!=null",
               "status": "S",
               "next": [
                 2
@@ -222,10 +222,10 @@
                 "I",
                 "C"
               ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && !#isSkipDirector && #isSkipDataBp!=null",
+              "expression": "#isSkipLeader && #isSkipApproval3 && !#isSkipDataBp && #isSkipDirector!=null",
               "status": "S",
               "next": [
-                14
+                15
               ]
             },
             {
@@ -233,10 +233,10 @@
                 "I",
                 "C"
               ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipDirector && !#isSkipDataBp",
+              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipDataBp && !#isSkipDirector",
               "status": "S",
               "next": [
-                15
+                14
               ]
             }
           ]
@@ -455,21 +455,8 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#isSkipDataBp",
               "next": [
                 999
-              ],
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "!#isSkipDataBp",
-              "next": [
-                15
               ],
               "callback": true,
               "callbackId": 1
@@ -527,8 +514,21 @@
                 "P"
               ],
               "status": "A",
+              "expression": "#isSkipDirector",
               "next": [
                 999
+              ],
+              "callback": true,
+              "callbackId": 1
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSkipDirector",
+              "next": [
+                14
               ],
               "callback": true,
               "callbackId": 1
