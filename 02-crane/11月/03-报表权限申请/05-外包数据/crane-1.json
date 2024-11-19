@@ -1,0 +1,42 @@
+{
+	"body": {
+		"employeeId": 1003462,
+		"employeeNumber": "EX03399",
+		"name": "秋秋的客服测试",
+		"departmentChain": null,
+		"departmentName": "客服",
+		"departmentId": 129,
+		"positionName": "总裁办ceshi(外包一线岗位)",
+		"gender": null,
+		"state": "启用",
+		"countryCode": null,
+		"supervisorNumber": null,
+		"virtualSupervisorNumber": null,
+		"mobile": "15001259250",
+		"entryTime": null,
+		"rank": null,
+		"pictures": null,
+		"isInternalEmployee": null,
+		"employeeTypeId": null,
+		"employeeTypeVo": null,
+		"subordinateAndVirtualEmployees": null,
+		"sameLevelEmployees": null,
+		"applyEmployees": null,
+		"onPosition": false,
+		"workNumber": "EX03399",
+		"operateType": "EMPLOYEE",
+		"rankGEM3": false,
+		"id": 1003399,
+		"feature": null,
+		"businessCode": null,
+		"companyEmail": "yuqiu2@yangqianguan.com"
+	},
+	"status": {
+		"code": 0,
+		"type": "",
+		"detail": "",
+		"serverResponseTime": 1731983828630,
+		"displayType": "TOAST",
+		"url": null
+	}
+}

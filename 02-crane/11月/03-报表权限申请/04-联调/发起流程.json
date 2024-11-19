@@ -1,0 +1,23 @@
+{
+    "businessCode": "CR",
+    "flowCode": "TAU",
+    "ownerWorkNumber": "00251",
+    "businessId": 1043,
+    "snapshot": null,
+    "submitterWorkNumber": null,
+    "priority": "P1",
+    "flowStepModules": null,
+    "parameter": {
+      "isSkipLeader": true,
+      "leaderWorkNumber": null,
+      "isSkipApproval3": true,
+      "totalLevel3": null,
+      "isSkipDirector": true,
+      "directorWorkNumber": null,
+      "isSkipDataBp": true,
+      "dataBpWorkNumber": null
+    },
+    "extraNotifyWorkNumbers": null,
+    "html": null,
+    "auditComment": null
+  }

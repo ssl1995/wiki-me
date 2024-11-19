@@ -4,3 +4,13 @@
 /测试项目/二级目录-测试二级目录（包含三级目录）/三级目录-测试2
 
 CRANE,Crane-Test,FINANCE-V2,FINANCE,YQG_MOD,RECALL,TREASURY_MANAGEMENT_INDONESIA
+
+tableAu.queryGroupsUrl
+tableAu.groupsForUserOnlineUrl
+tableAu.workbookByNameUrl
+tableAu.groupsByProjectUrl
+tableAu.projectsUrl
+tableAu.queryUserOnSiteOnlineUrl
+tableAu.addUserToSiteOnlineUrl
+tableAu.addUserToGroupOnlineUrl
+tableAu.removeUserFromGroupOnlineUrl
