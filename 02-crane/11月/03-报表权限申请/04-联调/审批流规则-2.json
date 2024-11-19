@@ -272,7 +272,7 @@
               "previous_status": [
                 "P"
               ],
-              "expression": "#isSkipDirector && #isSkipDataBp",
+              "expression": "#isSkipDataBp && #isSkipDirector",
               "status": "A",
               "next": [
                 999
@@ -284,10 +284,10 @@
               "previous_status": [
                 "P"
               ],
-              "expression": "!#isSkipDirector && #isSkipDataBp!=null",
+              "expression": "!#isSkipDataBp && #isSkipDirector!=null",
               "status": "A",
               "next": [
-                14
+                15
               ],
               "callback": true,
               "callbackId": 1
@@ -296,10 +296,10 @@
               "previous_status": [
                 "P"
               ],
-              "expression": "#isSkipDirector && !#isSkipDataBp",
+              "expression": "#isSkipDataBp && !#isSkipDirector",
               "status": "A",
               "next": [
-                15
+                14
               ],
               "callback": true,
               "callbackId": 1
@@ -371,7 +371,7 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel3 == #currentLevel3 && #isSkipDirector && #isSkipDataBp",
+              "expression": "#totalLevel3 == #currentLevel3 && #isSkipDataBp && #isSkipDirector",
               "next": [
                 999
               ],
@@ -383,9 +383,9 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel3 == #currentLevel3 && !#isSkipDirector && #isSkipDataBp!=null",
+              "expression": "#totalLevel3 == #currentLevel3 && !#isSkipDataBp && #isSkipDirector!=null",
               "next": [
-                14
+                15
               ],
               "callback": true,
               "callbackId": 1
@@ -395,9 +395,9 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel3 == #currentLevel3 && #isSkipDirector && !#isSkipDataBp",
+              "expression": "#totalLevel3 == #currentLevel3 && #isSkipDataBp && !#isSkipDirector",
               "next": [
-                15
+                14
               ],
               "callback": true,
               "callbackId": 1
