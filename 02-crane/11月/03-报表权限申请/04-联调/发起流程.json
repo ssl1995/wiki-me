@@ -1,23 +1,12 @@
 {
-    "businessCode": "CR",
-    "flowCode": "TAU",
-    "ownerWorkNumber": "00251",
-    "businessId": 1043,
-    "snapshot": null,
-    "submitterWorkNumber": null,
-    "priority": "P1",
-    "flowStepModules": null,
-    "parameter": {
-      "isSkipLeader": true,
-      "leaderWorkNumber": null,
-      "isSkipApproval3": true,
-      "totalLevel3": null,
-      "isSkipDirector": true,
-      "directorWorkNumber": null,
-      "isSkipDataBp": true,
-      "dataBpWorkNumber": null
-    },
-    "extraNotifyWorkNumbers": null,
-    "html": null,
-    "auditComment": null
-  }
+  "applyWorkNumber": [
+    "04690"
+  ],
+  "userGroupVoList": [
+    {
+      "validTime": "NINETY_DAYS",
+      "applyReason": "\"开头需要申请,申请理由申请理由申请理由,项目需要vvv申请理由申请理由申请理由,项目需要vvvvvv申请理由申请理由申请理由,项目需要申请理由申请理由申请理由\"\"项目需要申请,申请理由申请理由申请理由,项目需要vvv申请理由申请理由申请理由,项目需要vvvvvv申请理由申请理由申请理由,项目需要申请理由申请理由申请理由\"\"项目需要申请,申请理由申请理由申请理由,项目需要vvv申请理由申请理由申请理由,项目需要vvvvvv申请理由申请理由申请理由,项目需要申请理由申请理由申请理由\"\"项目需要申请,申请理由申请理由申请理由,项目需要vvv申请理由申请理由申请理由,项目需要vvvvvv申请理由结尾",
+      "id": "dda1d70f-f5b7-4483-a092-c988dcd1db91"
+    }
+  ]
+}
