@@ -2,30 +2,6 @@
   "parameter": [
     {
       "name": "isSkipLeader",
-      "type": "java.lang.String"
-    },
-    {
-      "name": "isSkipApproval3",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "name": "isSkipApproval14",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "name": "isSkipApproval25",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "name": "isSkipManager",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "name": "isSkipAdmin",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "name": "isSkipManagerOrAdmin",
       "type": "java.lang.Boolean"
     },
     {
@@ -33,28 +9,28 @@
       "type": "java.lang.String"
     },
     {
-      "name": "managerWorkNumber",
-      "type": "java.lang.String"
-    },
-    {
-      "name": "adminWorkNumber",
-      "type": "java.lang.String"
-    },
-    {
-      "name": "managerOrAdminWorkNumber",
-      "type": "java.lang.String"
+      "name": "isSkipApproval3",
+      "type": "java.lang.Boolean"
     },
     {
       "name": "totalLevel3",
       "type": "java.lang.Integer"
     },
     {
-      "name": "totalLevel14",
-      "type": "java.lang.Integer"
+      "name": "isSkipDirector",
+      "type": "java.lang.Boolean"
     },
     {
-      "name": "totalLevel25",
-      "type": "java.lang.Integer"
+      "name": "directorWorkNumber",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "isSkipDataBp",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "dataBpWorkNumber",
+      "type": "java.lang.String"
     }
   ],
   "status": [
@@ -153,8 +129,8 @@
     {
       "id": 3,
       "name": "launcher_specific_user",
-      "description": "adminWorkNumber",
-      "alias": "系统管理员",
+      "description": "directorWorkNumber",
+      "alias": "业务负责人",
       "action": [
         1,
         2
@@ -163,8 +139,8 @@
     {
       "id": 4,
       "name": "launcher_specific_user",
-      "description": "managerWorkNumber",
-      "alias": "菜单模块负责人",
+      "description": "dataBpWorkNumber",
+      "alias": "数据BP",
       "action": [
         1,
         2
@@ -172,34 +148,6 @@
     },
     {
       "id": 5,
-      "name": "launcher_specific_user",
-      "description": "managerOrAdminWorkNumber",
-      "alias": "菜单模块负责人/系统管理员",
-      "action": [
-        1,
-        2
-      ]
-    },
-    {
-      "id": 6,
-      "name": "circle_dept_leader",
-      "description": "循环到I4/M1",
-      "action": [
-        1,
-        2
-      ]
-    },
-    {
-      "id": 7,
-      "name": "circle_dept_leader",
-      "description": "循环到I5/M2",
-      "action": [
-        1,
-        2
-      ]
-    },
-    {
-      "id": 8,
       "name": "circle_dept_leader",
       "description": "M3",
       "action": [
@@ -208,11 +156,11 @@
       ]
     }
   ],
-  "messageLink": "https://crane-test.yangqianguan.com/flow/system?id=",
+  "messageLink": "https://crane-test.yangqianguan.com/flow/tableau?id=",
   "callbacks": [
     {
       "id": 1,
-      "url": "https://crane-test.yangqianguan.com/rpc/role/apply/callback"
+      "url": "https://crane-test.yangqianguan.com/rpc/table-au/callback"
     }
   ],
   "start": 1,
@@ -239,7 +187,7 @@
                 "I",
                 "C"
               ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipApproval14 && #isSkipApproval25 && #isSkipManager && #isSkipAdmin && #isSkipManagerOrAdmin",
+              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipDataBp && #isSkipDirector",
               "status": "S",
               "next": [
                 999
@@ -252,7 +200,7 @@
                 "I",
                 "C"
               ],
-              "expression": "!#isSkipLeader && #isSkipApproval3 && #isSkipApproval14 && #isSkipApproval25 && #isSkipManager!=null && #isSkipAdmin!=null && #isSkipManagerOrAdmin!=null",
+              "expression": "!#isSkipLeader && #isSkipApproval3 && #isSkipDataBp!=null && #isSkipDirector!=null",
               "status": "S",
               "next": [
                 2
@@ -263,40 +211,7 @@
                 "I",
                 "C"
               ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipApproval14 && #isSkipApproval25 && !#isSkipManager && #isSkipAdmin!=null && #isSkipManagerOrAdmin!=null",
-              "status": "S",
-              "next": [
-                36
-              ]
-            },
-            {
-              "previous_status": [
-                "I",
-                "C"
-              ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipApproval14 && #isSkipApproval25 && #isSkipManager && !#isSkipAdmin && #isSkipManagerOrAdmin!=null",
-              "status": "S",
-              "next": [
-                38
-              ]
-            },
-            {
-              "previous_status": [
-                "I",
-                "C"
-              ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipApproval14 && #isSkipApproval25 && #isSkipManager && #isSkipAdmin && !#isSkipManagerOrAdmin",
-              "status": "S",
-              "next": [
-                37
-              ]
-            },
-            {
-              "previous_status": [
-                "I",
-                "C"
-              ],
-              "expression": "#isSkipLeader && !#isSkipApproval3 && #isSkipApproval14 && #isSkipApproval25 && #isSkipManager!=null && #isSkipAdmin!=null && #isSkipManagerOrAdmin!=null",
+              "expression": "#isSkipLeader && !#isSkipApproval3 && #isSkipDirector!=null && #isSkipDataBp!=null",
               "status": "S",
               "next": [
                 3
@@ -307,10 +222,10 @@
                 "I",
                 "C"
               ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && !#isSkipApproval14 && #isSkipApproval25 && #isSkipManager!=null && #isSkipAdmin!=null && #isSkipManagerOrAdmin!=null",
+              "expression": "#isSkipLeader && #isSkipApproval3 && !#isSkipDataBp && #isSkipDirector!=null",
               "status": "S",
               "next": [
-                14
+                15
               ]
             },
             {
@@ -318,10 +233,10 @@
                 "I",
                 "C"
               ],
-              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipApproval14 && !#isSkipApproval25 && #isSkipManager!=null && #isSkipAdmin!=null && #isSkipManagerOrAdmin!=null",
+              "expression": "#isSkipLeader && #isSkipApproval3 && #isSkipDataBp && !#isSkipDirector",
               "status": "S",
               "next": [
-                25
+                14
               ]
             }
           ]
@@ -357,7 +272,7 @@
               "previous_status": [
                 "P"
               ],
-              "expression": "#isSkipManager && #isSkipManagerOrAdmin",
+              "expression": "#isSkipDataBp && #isSkipDirector",
               "status": "A",
               "next": [
                 999
@@ -369,10 +284,10 @@
               "previous_status": [
                 "P"
               ],
-              "expression": "!#isSkipManager && #isSkipManagerOrAdmin",
+              "expression": "!#isSkipDataBp && #isSkipDirector!=null",
               "status": "A",
               "next": [
-                36
+                15
               ],
               "callback": true,
               "callbackId": 1
@@ -381,10 +296,10 @@
               "previous_status": [
                 "P"
               ],
-              "expression": "#isSkipManager && !#isSkipManagerOrAdmin",
+              "expression": "#isSkipDataBp && !#isSkipDirector",
               "status": "A",
               "next": [
-                37
+                14
               ],
               "callback": true,
               "callbackId": 1
@@ -426,10 +341,10 @@
     },
     {
       "index": 3,
-      "name": "循环值I4/M1",
-      "description": "循环值I4/M1",
+      "name": "循环M3",
+      "description": "循环M3",
       "actor": [
-        6
+        5
       ],
       "show": true,
       "init_status": "I",
@@ -456,7 +371,7 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel3 == #currentLevel3 && #isSkipManager && #isSkipAdmin && #isSkipManagerOrAdmin",
+              "expression": "#totalLevel3 == #currentLevel3 && #isSkipDataBp && #isSkipDirector",
               "next": [
                 999
               ],
@@ -468,9 +383,9 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel3 == #currentLevel3 && !#isSkipManager && #isSkipAdmin && #isSkipManagerOrAdmin",
+              "expression": "#totalLevel3 == #currentLevel3 && !#isSkipDataBp && #isSkipDirector!=null",
               "next": [
-                36
+                15
               ],
               "callback": true,
               "callbackId": 1
@@ -480,21 +395,9 @@
                 "P"
               ],
               "status": "A",
-              "expression": "#totalLevel3 == #currentLevel3 && #isSkipManager && !#isSkipAdmin && #isSkipManagerOrAdmin",
+              "expression": "#totalLevel3 == #currentLevel3 && #isSkipDataBp && !#isSkipDirector",
               "next": [
-                38
-              ],
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#totalLevel3 == #currentLevel3 && #isSkipManager && #isSkipAdmin && !#isSkipManagerOrAdmin",
-              "next": [
-                37
+                14
               ],
               "callback": true,
               "callbackId": 1
@@ -536,371 +439,8 @@
     },
     {
       "index": 14,
-      "name": "循环值I5/M2",
-      "description": "循环值I5/M2",
-      "actor": [
-        7
-      ],
-      "show": true,
-      "init_status": "I",
-      "circle": true,
-      "actions": [
-        {
-          "action": 1,
-          "conditions": [
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "P",
-              "expression": "#totalLevel14 > #currentLevel14",
-              "next": [
-                14
-              ],
-              "need_action": true,
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#totalLevel14 == #currentLevel14 && #isSkipManager && #isSkipAdmin && #isSkipManagerOrAdmin",
-              "next": [
-                999
-              ],
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#totalLevel14 == #currentLevel14 && !#isSkipManager && #isSkipAdmin!=null && #isSkipManagerOrAdmin",
-              "next": [
-                36
-              ],
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#totalLevel14 == #currentLevel14 && #isSkipManager && !#isSkipAdmin && #isSkipManagerOrAdmin",
-              "next": [
-                38
-              ],
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#totalLevel14 == #currentLevel14 && #isSkipManager && #isSkipAdmin && !#isSkipManagerOrAdmin",
-              "next": [
-                37
-              ],
-              "callback": true,
-              "callbackId": 1
-            }
-          ]
-        },
-        {
-          "action": 2,
-          "conditions": [
-            {
-              "previous_status": [
-                "P",
-                "C"
-              ],
-              "status": "R",
-              "next": [
-                999
-              ],
-              "callback": true,
-              "callbackId": 1
-            }
-          ]
-        },
-        {
-          "action": 4,
-          "conditions": [
-            {
-              "previous_status": [
-                "I",
-                "C",
-                "A"
-              ],
-              "status": "P",
-              "need_action": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "index": 25,
-      "name": "循环值M3",
-      "description": "循环值M3",
-      "actor": [
-        8
-      ],
-      "show": true,
-      "init_status": "I",
-      "circle": true,
-      "actions": [
-        {
-          "action": 1,
-          "conditions": [
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "P",
-              "expression": "#totalLevel25 > #currentLevel25",
-              "next": [
-                25
-              ],
-              "need_action": true,
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#totalLevel25 == #currentLevel25 && #isSkipManager && #isSkipAdmin && #isSkipManagerOrAdmin",
-              "next": [
-                999
-              ],
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#totalLevel25 == #currentLevel25 && !#isSkipManager && #isSkipAdmin!=null && #isSkipManagerOrAdmin",
-              "next": [
-                36
-              ],
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#totalLevel25 == #currentLevel25 && #isSkipManager && !#isSkipAdmin && #isSkipManagerOrAdmin",
-              "next": [
-                38
-              ],
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#totalLevel25 == #currentLevel25 && #isSkipManager && #isSkipAdmin && !#isSkipManagerOrAdmin",
-              "next": [
-                37
-              ],
-              "callback": true,
-              "callbackId": 1
-            }
-          ]
-        },
-        {
-          "action": 2,
-          "conditions": [
-            {
-              "previous_status": [
-                "P",
-                "C"
-              ],
-              "status": "R",
-              "next": [
-                999
-              ],
-              "callback": true,
-              "callbackId": 1
-            }
-          ]
-        },
-        {
-          "action": 4,
-          "conditions": [
-            {
-              "previous_status": [
-                "I",
-                "C",
-                "A"
-              ],
-              "status": "P",
-              "need_action": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "index": 36,
-      "name": "菜单模块负责人审批",
-      "description": "菜单模块负责人审批",
-      "actor": [
-        4
-      ],
-      "show": true,
-      "init_status": "I",
-      "actions": [
-        {
-          "action": 1,
-          "conditions": [
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#isSkipAdmin && #isSkipManagerOrAdmin",
-              "next": [
-                999
-              ],
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "!#isSkipAdmin && #isSkipManagerOrAdmin",
-              "next": [
-                38
-              ],
-              "callback": true,
-              "callbackId": 1
-            },
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "expression": "#isSkipAdmin && !#isSkipManagerOrAdmin",
-              "next": [
-                37
-              ],
-              "callback": true,
-              "callbackId": 1
-            }
-          ]
-        },
-        {
-          "action": 2,
-          "conditions": [
-            {
-              "previous_status": [
-                "P",
-                "C"
-              ],
-              "status": "R",
-              "next": [
-                999
-              ],
-              "callback": true,
-              "callbackId": 1
-            }
-          ]
-        },
-        {
-          "action": 4,
-          "conditions": [
-            {
-              "previous_status": [
-                "I",
-                "C",
-                "A"
-              ],
-              "status": "P",
-              "need_action": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "index": 37,
-      "name": "菜单模块负责人/系统管理员审批",
-      "description": "菜单模块负责人/系统管理员审批",
-      "actor": [
-        5
-      ],
-      "show": true,
-      "init_status": "I",
-      "actions": [
-        {
-          "action": 1,
-          "conditions": [
-            {
-              "previous_status": [
-                "P"
-              ],
-              "status": "A",
-              "next": [
-                999
-              ],
-              "callback": true,
-              "callbackId": 1
-            }
-          ]
-        },
-        {
-          "action": 2,
-          "conditions": [
-            {
-              "previous_status": [
-                "P",
-                "C"
-              ],
-              "status": "R",
-              "next": [
-                999
-              ],
-              "callback": true,
-              "callbackId": 1
-            }
-          ]
-        },
-        {
-          "action": 4,
-          "conditions": [
-            {
-              "previous_status": [
-                "I",
-                "C",
-                "A"
-              ],
-              "status": "P",
-              "need_action": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "index": 38,
-      "name": "系统管理员审批",
-      "description": "系统管理员审批",
+      "name": "业务负责人审批",
+      "description": "业务负责人审批",
       "actor": [
         3
       ],
@@ -917,6 +457,78 @@
               "status": "A",
               "next": [
                 999
+              ],
+              "callback": true,
+              "callbackId": 1
+            }
+          ]
+        },
+        {
+          "action": 2,
+          "conditions": [
+            {
+              "previous_status": [
+                "P",
+                "C"
+              ],
+              "status": "R",
+              "next": [
+                999
+              ],
+              "callback": true,
+              "callbackId": 1
+            }
+          ]
+        },
+        {
+          "action": 4,
+          "conditions": [
+            {
+              "previous_status": [
+                "I",
+                "C",
+                "A"
+              ],
+              "status": "P",
+              "need_action": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "name": "数据BP审批",
+      "description": "数据BP审批",
+      "actor": [
+        4
+      ],
+      "show": true,
+      "init_status": "I",
+      "actions": [
+        {
+          "action": 1,
+          "conditions": [
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "#isSkipDirector",
+              "next": [
+                999
+              ],
+              "callback": true,
+              "callbackId": 1
+            },
+            {
+              "previous_status": [
+                "P"
+              ],
+              "status": "A",
+              "expression": "!#isSkipDirector",
+              "next": [
+                14
               ],
               "callback": true,
               "callbackId": 1
