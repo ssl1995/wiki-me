@@ -1,13 +1,3 @@
-CRANE.APPLY.TABLEAU
-CRANE.APPLY.REQUEST.ROLE
-CRANE.APPLY.REQUEST.PERMISSION
+角色管理-角色详情-人员列表-查询
 
-172.16.36.6
-
-http://172.18.36.6:7050
-http://172.16.36.6:7050
-
-
-https://oa.fintopia.tech/
-
-https://oa.fintopia.tech/oa/flow/detail?flowId=Ww1xmCw
+员工管理-查询员工-获取全部员工
