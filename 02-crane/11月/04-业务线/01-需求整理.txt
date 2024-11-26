@@ -1,7 +1,15 @@
-角色管理-角色详情-人员列表-查询
+F-CR2411260007
 
-员工管理-查询员工-获
-取全部员工
+* and trace_id: 0d5d8914ed81fe1a96293f1966ddc159 and content:"tableAuRpcServiceImpl-addUserToGroupOnline, resp=
+
 
 curl --request GET \
   --url 'http://172.16.36.6:7050/dw/lighthouse/tableau/api/prod/addUserToGroupOnline?name=weiye@fintopia.tech&groupIds=61cede84-2a55-42d7-97dc-497876e0c047'
+
+/dw/lighthouse/tableau/api/test/getProjects
+
+/dw/lighthouse/tableau/api/prod/getProjects
+
+
+http://172.18.36.6:7050
+http://172.16.36.6:7050

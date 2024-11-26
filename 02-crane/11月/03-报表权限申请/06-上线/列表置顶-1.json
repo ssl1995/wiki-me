@@ -70,6 +70,7 @@
                 "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
                 "pathLevel": "2",
                 "importantLevel": "1",
+                "isWorkBookQuery": true,
                 "id": "746abca1-faf7-4bd4-8329-9f2ea676ca59",
                 "name": "测试4-4"
               },
@@ -81,6 +82,7 @@
                 "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
                 "pathLevel": "2",
                 "importantLevel": "1",
+                "isWorkBookQuery": null,
                 "id": "f646f7e6-e602-4b08-8e3a-82a53af33e4e",
                 "name": "测试9"
               },
@@ -92,6 +94,7 @@
                 "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
                 "pathLevel": "2",
                 "importantLevel": "1",
+                "isWorkBookQuery": null,
                 "id": "e7537d83-f00d-4b26-89d9-bc69857331de",
                 "name": "二级目录测试-不含三级目录"
               },
@@ -103,6 +106,7 @@
                 "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
                 "pathLevel": "2",
                 "importantLevel": "1",
+                "isWorkBookQuery": null,
                 "id": "c6487888-8699-4db3-bb40-4f8fe40b9af3",
                 "name": "测试6"
               },
@@ -114,6 +118,7 @@
                 "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
                 "pathLevel": "2",
                 "importantLevel": "1",
+                "isWorkBookQuery": null,
                 "id": "a540bc73-3970-42f5-adab-95d3486eb07a",
                 "name": "测试3"
               },
@@ -125,6 +130,7 @@
                 "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
                 "pathLevel": "2",
                 "importantLevel": "1",
+                "isWorkBookQuery": null,
                 "id": "84398adb-4f6c-41ae-b9d4-ba100881df7d",
                 "name": "测试5-5"
               },
@@ -136,6 +142,7 @@
                 "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
                 "pathLevel": "2",
                 "importantLevel": "1",
+                "isWorkBookQuery": null,
                 "id": "5779ca38-b5a0-4488-8714-121fa4b7d4f6",
                 "name": "测试2-2"
               },
@@ -147,6 +154,7 @@
                 "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
                 "pathLevel": "2",
                 "importantLevel": "1",
+                "isWorkBookQuery": null,
                 "id": "3c268d1d-f4ed-4018-a2c8-8df9149ee40a",
                 "name": "测试8"
               },
@@ -158,6 +166,7 @@
                 "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
                 "pathLevel": "2",
                 "importantLevel": "1",
+                "isWorkBookQuery": null,
                 "id": "219fcad1-d532-4593-a4c1-531b4bd67b3e",
                 "name": "测试7"
               },
@@ -169,6 +178,7 @@
                 "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
                 "pathLevel": "2",
                 "importantLevel": "1",
+                "isWorkBookQuery": null,
                 "id": "1f7c11bf-2d2e-44b1-9c12-8132d52ff528",
                 "name": "测试10"
               }
@@ -194,7 +204,7 @@
     "code": 0,
     "type": "",
     "detail": "",
-    "serverResponseTime": 1732611039540,
+    "serverResponseTime": 1732613029037,
     "displayType": "TOAST",
     "url": null
   }
