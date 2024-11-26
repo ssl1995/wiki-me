@@ -1,0 +1,12 @@
+curl --request GET \
+  --url 'https://crane-test.yangqianguan.com/admin/table-au/queryGroups?absolutePath=/测试项目/二级目录-测试二级目录（不含三级目录）&id=746abca1-faf7-4bd4-8329-9f2ea676ca59&type=WORK_BOOK&pageNo=1&pageSize=10&isFilterNoApplyDir=FALSE' \
+  --header 'Accept: */*' \
+  --header 'Accept-Encoding: gzip, deflate, br' \
+  --header 'Connection: keep-alive' \
+  --header 'Cookie: YQG_UNITE_TOKEN_TEST=B2E12FADB3EF7C3834B36AD77BB2A6B9126E601CEDFCBA380CEE9F1AF0CEF7399CF3A57D3D3D2713-03541-01' \
+  --header 'User-Agent: PostmanRuntime-ApipostRuntime/1.1.0' \
+  --header 'fintopia-swim-lane-id: oassl'
+
+
+
+

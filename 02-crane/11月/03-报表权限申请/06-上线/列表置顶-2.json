@@ -1,0 +1,201 @@
+{
+  "body": {
+    "list": [
+      {
+        "id": "41147613-bed2-423a-9398-3dce2e70163f",
+        "name": "测试项目",
+        "description": "",
+        "contentPermissions": "ManagedByOwner",
+        "parentId": "",
+        "ownerId": "0c95279c-a975-409f-8fe2-c5c007f3034d",
+        "absolutePath": "/测试项目",
+        "pathLevel": "1",
+        "importantLevel": "1",
+        "director": "",
+        "directors": [],
+        "dataBp": "",
+        "dataBps": [],
+        "ifSensitive": false,
+        "isSensitive": "NO_SENSITIVE",
+        "groupId": "",
+        "groupName": "",
+        "relatedWorkbooks": [],
+        "ownStatusVO": null,
+        "flowState": null,
+        "otherSameDirectory": [
+          {
+            "id": "1df9ceaa-cd6a-4704-970f-59f562a8cf10",
+            "name": "二级目录-测试二级目录（包含三级目录）"
+          }
+        ],
+        "children": [
+          {
+            "id": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+            "name": "二级目录-测试二级目录（不含三级目录）",
+            "description": "",
+            "contentPermissions": "LockedToProject",
+            "parentId": "41147613-bed2-423a-9398-3dce2e70163f",
+            "ownerId": "0c95279c-a975-409f-8fe2-c5c007f3034d",
+            "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+            "pathLevel": "2",
+            "importantLevel": "1",
+            "director": "xiaomeilai@fintopia.tech,anfucao@fintopia.tech",
+            "directors": [
+              {
+                "name": "赖小梅",
+                "workNumber": "04697",
+                "departmentName": "技术部",
+                "companyEmail": "xiaomeilai@fintopia.tech"
+              }
+            ],
+            "dataBp": "guowenzhu@fintopia.tech,jinguo@fintopia.tech",
+            "dataBps": [
+              {
+                "name": "郭进",
+                "workNumber": "03270",
+                "departmentName": "产品部",
+                "companyEmail": "jinguo@fintopia.tech"
+              }
+            ],
+            "ifSensitive": false,
+            "isSensitive": "NO_SENSITIVE",
+            "groupId": "2f604c89-4495-47b0-acba-8d8b08a5cd4c",
+            "groupName": "目录-测试项目-二级目录测试",
+            "relatedWorkbooks": [
+              {
+                "contentUrl": "9_17319239819390",
+                "description": "",
+                "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+                "projectName": "二级目录-测试二级目录（不含三级目录）",
+                "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+                "pathLevel": "2",
+                "importantLevel": "1",
+                "id": "f646f7e6-e602-4b08-8e3a-82a53af33e4e",
+                "name": "测试9"
+              },
+              {
+                "contentUrl": "_17310466458010",
+                "description": "",
+                "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+                "projectName": "二级目录-测试二级目录（不含三级目录）",
+                "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+                "pathLevel": "2",
+                "importantLevel": "1",
+                "id": "e7537d83-f00d-4b26-89d9-bc69857331de",
+                "name": "二级目录测试-不含三级目录"
+              },
+              {
+                "contentUrl": "6_17319236241970",
+                "description": "",
+                "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+                "projectName": "二级目录-测试二级目录（不含三级目录）",
+                "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+                "pathLevel": "2",
+                "importantLevel": "1",
+                "id": "c6487888-8699-4db3-bb40-4f8fe40b9af3",
+                "name": "测试6"
+              },
+              {
+                "contentUrl": "3_17319224589370",
+                "description": "",
+                "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+                "projectName": "二级目录-测试二级目录（不含三级目录）",
+                "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+                "pathLevel": "2",
+                "importantLevel": "1",
+                "id": "a540bc73-3970-42f5-adab-95d3486eb07a",
+                "name": "测试3"
+              },
+              {
+                "contentUrl": "6-6",
+                "description": "",
+                "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+                "projectName": "二级目录-测试二级目录（不含三级目录）",
+                "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+                "pathLevel": "2",
+                "importantLevel": "1",
+                "id": "84398adb-4f6c-41ae-b9d4-ba100881df7d",
+                "name": "测试5-5"
+              },
+              {
+                "contentUrl": "4-4",
+                "description": "",
+                "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+                "projectName": "二级目录-测试二级目录（不含三级目录）",
+                "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+                "pathLevel": "2",
+                "importantLevel": "1",
+                "id": "746abca1-faf7-4bd4-8329-9f2ea676ca59",
+                "name": "测试4-4"
+              },
+              {
+                "contentUrl": "2-2",
+                "description": "",
+                "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+                "projectName": "二级目录-测试二级目录（不含三级目录）",
+                "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+                "pathLevel": "2",
+                "importantLevel": "1",
+                "id": "5779ca38-b5a0-4488-8714-121fa4b7d4f6",
+                "name": "测试2-2"
+              },
+              {
+                "contentUrl": "8_17319239405710",
+                "description": "",
+                "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+                "projectName": "二级目录-测试二级目录（不含三级目录）",
+                "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+                "pathLevel": "2",
+                "importantLevel": "1",
+                "id": "3c268d1d-f4ed-4018-a2c8-8df9149ee40a",
+                "name": "测试8"
+              },
+              {
+                "contentUrl": "7_17319239246940",
+                "description": "",
+                "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+                "projectName": "二级目录-测试二级目录（不含三级目录）",
+                "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+                "pathLevel": "2",
+                "importantLevel": "1",
+                "id": "219fcad1-d532-4593-a4c1-531b4bd67b3e",
+                "name": "测试7"
+              },
+              {
+                "contentUrl": "10_17319240071370",
+                "description": "",
+                "projectId": "cb2e8bf9-2a26-4306-bdf9-3789f3ffee82",
+                "projectName": "二级目录-测试二级目录（不含三级目录）",
+                "absolutePath": "/测试项目/二级目录-测试二级目录（不含三级目录）",
+                "pathLevel": "2",
+                "importantLevel": "1",
+                "id": "1f7c11bf-2d2e-44b1-9c12-8132d52ff528",
+                "name": "测试10"
+              }
+            ],
+            "ownStatusVO": {
+              "timeStatus": "TEMP",
+              "dayDiff": 22
+            },
+            "flowState": "WITHDRAW",
+            "otherSameDirectory": [],
+            "children": null
+          }
+        ]
+      }
+    ],
+    "total": 1,
+    "pageNo": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "size": 1
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1732611179034,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

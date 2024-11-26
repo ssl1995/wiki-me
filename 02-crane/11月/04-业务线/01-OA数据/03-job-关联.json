@@ -1,0 +1,13 @@
+{
+  "internalBusinessLineRelationVOList": [
+    {
+      "id": 2,
+      "internalBusinessLineId": 1,
+      "relationId": 223,
+      "relationType": "DEPARTMENT",
+      "timeCreated": 1732248965543,
+      "timeUpdated": 1732248965543
+    }
+  ],
+  "updateData": true
+}
