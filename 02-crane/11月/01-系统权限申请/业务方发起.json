@@ -1,12 +1,348 @@
 {
-  "submitWorkNumber": "02124",
-  "applyBusinessCode": "PPDL",
-  "roleVoList": [
+  "body": [
     {
-      "roleId": 6374,
-      "validTime": "THIRTY_DAYS",
-      "applyReason": "啊啊啊"
+      "id": 1534,
+      "feature": "ADMIN@CASH_LOAN.FUNDING",
+      "name": "现金借款ADMIN.机构资金",
+      "desc": "",
+      "status": "ABLE",
+      "type": null,
+      "supportDataRule": null,
+      "operationType": null,
+      "attributeCategoryIds": [],
+      "attributeCategoryNameList": [],
+      "categoryVOS": null,
+      "operator": "",
+      "systemRoleName": "现金借款ADMIN - 系统管理员",
+      "admin": [
+        {
+          "name": "吴双杰",
+          "workNumber": "02079",
+          "departmentName": "自动创建的部门 (不要删",
+          "companyEmail": null
+        },
+        {
+          "name": "曹维双",
+          "workNumber": "04606",
+          "departmentName": "自动创建的部门 (不要删",
+          "companyEmail": null
+        }
+      ],
+      "businessName": "现金借款ADMIN",
+      "businessCode": "ADMIN@CASH_LOAN",
+      "relatedRoles": null,
+      "createTime": null,
+      "updateTime": "2024-11-13T06:50:17Z",
+      "relatedDepartmentIds": [],
+      "relatedDepartments": null,
+      "managers": null,
+      "targetName": "机构资金",
+      "securityLevel": null,
+      "isVirtualNode": true,
+      "relatedRoleIds": [],
+      "roleId": 7803,
+      "ownStatusVO": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "businessApplyType": null,
+      "flowState": null,
+      "lastFlowState": null,
+      "oaFlowUrl": null,
+      "curDepartmentId": 428,
+      "virtualId": 7803,
+      "virtualOwnState": {
+        "timeStatus": "NO",
+        "dayDiff": null
+      },
+      "virtualFlowState": null,
+      "virtualBusinessApplyType": null,
+      "errorMsg": "",
+      "targetId": 1534,
+      "targetCode": "ADMIN@CASH_LOAN.FUNDING",
+      "operateType": "PERMISSION",
+      "virtualCurrentDataScope": null,
+      "shortName": "机构资金",
+      "children": [
+        {
+          "id": 1534,
+          "feature": "ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG",
+          "name": "现金借款ADMIN.机构资金.资金方配置",
+          "desc": "",
+          "status": "ABLE",
+          "type": null,
+          "supportDataRule": null,
+          "operationType": null,
+          "attributeCategoryIds": [],
+          "attributeCategoryNameList": [],
+          "categoryVOS": null,
+          "operator": "",
+          "systemRoleName": "现金借款ADMIN - 系统管理员",
+          "admin": [
+            {
+              "name": "吴双杰",
+              "workNumber": "02079",
+              "departmentName": "自动创建的部门 (不要删",
+              "companyEmail": null
+            },
+            {
+              "name": "曹维双",
+              "workNumber": "04606",
+              "departmentName": "自动创建的部门 (不要删",
+              "companyEmail": null
+            }
+          ],
+          "businessName": "现金借款ADMIN",
+          "businessCode": "ADMIN@CASH_LOAN",
+          "relatedRoles": null,
+          "createTime": null,
+          "updateTime": "2024-11-13T06:50:17Z",
+          "relatedDepartmentIds": [],
+          "relatedDepartments": null,
+          "managers": null,
+          "targetName": "资金方配置",
+          "securityLevel": null,
+          "isVirtualNode": true,
+          "relatedRoleIds": [],
+          "roleId": 7803,
+          "ownStatusVO": {
+            "timeStatus": "NO",
+            "dayDiff": null
+          },
+          "businessApplyType": null,
+          "flowState": null,
+          "lastFlowState": null,
+          "oaFlowUrl": null,
+          "curDepartmentId": 428,
+          "virtualId": 7803,
+          "virtualOwnState": {
+            "timeStatus": "NO",
+            "dayDiff": null
+          },
+          "virtualFlowState": null,
+          "virtualBusinessApplyType": null,
+          "errorMsg": "",
+          "targetId": 1534,
+          "targetCode": "ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG",
+          "operateType": "PERMISSION",
+          "virtualCurrentDataScope": null,
+          "shortName": "资金方配置",
+          "children": [
+            {
+              "id": 1534,
+              "feature": "ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG.QUERY",
+              "name": "现金借款ADMIN.机构资金.资金方配置.查询",
+              "desc": "",
+              "status": "ABLE",
+              "type": "INTERNAL",
+              "supportDataRule": false,
+              "operationType": "QUERY",
+              "attributeCategoryIds": [],
+              "attributeCategoryNameList": [],
+              "categoryVOS": null,
+              "operator": "",
+              "systemRoleName": "现金借款ADMIN - 系统管理员",
+              "admin": [
+                {
+                  "name": "吴双杰",
+                  "workNumber": "02079",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "曹维双",
+                  "workNumber": "04606",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                }
+              ],
+              "businessName": "现金借款ADMIN",
+              "businessCode": "ADMIN@CASH_LOAN",
+              "relatedRoles": null,
+              "createTime": null,
+              "updateTime": "2024-11-13T06:50:17Z",
+              "relatedDepartmentIds": [],
+              "relatedDepartments": null,
+              "managers": [
+                {
+                  "employeeId": 2190,
+                  "employeeNumber": "02079",
+                  "name": "吴双杰",
+                  "departmentChain": "自动创建的部门 (不要删",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "departmentId": 102,
+                  "positionName": "自动创建的岗位 (不要删",
+                  "gender": "男",
+                  "state": "正式",
+                  "countryCode": "CN",
+                  "supervisorNumber": "03782",
+                  "virtualSupervisorNumber": null,
+                  "mobile": "15230592817",
+                  "entryTime": 1618475711543,
+                  "rank": "I2",
+                  "pictures": {},
+                  "isInternalEmployee": true,
+                  "employeeType": "INTERNAL",
+                  "employeeTypeVo": {
+                    "id": null,
+                    "description": "内部员工",
+                    "employeeType": "INTERNAL"
+                  },
+                  "subordinateAndVirtualEmployees": null,
+                  "sameLevelEmployees": null,
+                  "applyEmployees": null,
+                  "onPosition": true,
+                  "workNumber": "02079",
+                  "rankGEM3": false,
+                  "operateType": "EMPLOYEE",
+                  "id": 2079,
+                  "feature": null,
+                  "businessCode": null,
+                  "companyEmail": "shuangjiewu@yangqianguan.com"
+                }
+              ],
+              "targetName": "查询",
+              "securityLevel": "L2",
+              "isVirtualNode": false,
+              "relatedRoleIds": [],
+              "roleId": 7803,
+              "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+              },
+              "businessApplyType": null,
+              "flowState": null,
+              "lastFlowState": null,
+              "oaFlowUrl": null,
+              "curDepartmentId": 428,
+              "virtualId": 7803,
+              "virtualOwnState": {
+                "timeStatus": "NO",
+                "dayDiff": null
+              },
+              "virtualFlowState": null,
+              "virtualBusinessApplyType": null,
+              "errorMsg": "",
+              "targetId": 1534,
+              "targetCode": "ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG.QUERY",
+              "operateType": "PERMISSION",
+              "virtualCurrentDataScope": null,
+              "shortName": "查询",
+              "children": null
+            },
+            {
+              "id": 1536,
+              "feature": "ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG.UPDATE",
+              "name": "现金借款ADMIN.机构资金.资金方配置.项目配置",
+              "desc": "",
+              "status": "ABLE",
+              "type": "INTERNAL",
+              "supportDataRule": false,
+              "operationType": "MANAGE",
+              "attributeCategoryIds": [],
+              "attributeCategoryNameList": [],
+              "categoryVOS": null,
+              "operator": "",
+              "systemRoleName": "现金借款ADMIN - 系统管理员",
+              "admin": [
+                {
+                  "name": "吴双杰",
+                  "workNumber": "02079",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "曹维双",
+                  "workNumber": "04606",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                }
+              ],
+              "businessName": "现金借款ADMIN",
+              "businessCode": "ADMIN@CASH_LOAN",
+              "relatedRoles": null,
+              "createTime": null,
+              "updateTime": "2024-11-13T06:50:17Z",
+              "relatedDepartmentIds": [],
+              "relatedDepartments": null,
+              "managers": [
+                {
+                  "employeeId": 2190,
+                  "employeeNumber": "02079",
+                  "name": "吴双杰",
+                  "departmentChain": "自动创建的部门 (不要删",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "departmentId": 102,
+                  "positionName": "自动创建的岗位 (不要删",
+                  "gender": "男",
+                  "state": "正式",
+                  "countryCode": "CN",
+                  "supervisorNumber": "03782",
+                  "virtualSupervisorNumber": null,
+                  "mobile": "15230592817",
+                  "entryTime": 1618475711543,
+                  "rank": "I2",
+                  "pictures": {},
+                  "isInternalEmployee": true,
+                  "employeeType": "INTERNAL",
+                  "employeeTypeVo": {
+                    "id": null,
+                    "description": "内部员工",
+                    "employeeType": "INTERNAL"
+                  },
+                  "subordinateAndVirtualEmployees": null,
+                  "sameLevelEmployees": null,
+                  "applyEmployees": null,
+                  "onPosition": true,
+                  "workNumber": "02079",
+                  "rankGEM3": false,
+                  "operateType": "EMPLOYEE",
+                  "id": 2079,
+                  "feature": null,
+                  "businessCode": null,
+                  "companyEmail": "shuangjiewu@yangqianguan.com"
+                }
+              ],
+              "targetName": "项目配置",
+              "securityLevel": "L3",
+              "isVirtualNode": false,
+              "relatedRoleIds": [],
+              "roleId": 7805,
+              "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+              },
+              "businessApplyType": null,
+              "flowState": null,
+              "lastFlowState": null,
+              "oaFlowUrl": null,
+              "curDepartmentId": 428,
+              "virtualId": 7805,
+              "virtualOwnState": {
+                "timeStatus": "NO",
+                "dayDiff": null
+              },
+              "virtualFlowState": null,
+              "virtualBusinessApplyType": null,
+              "errorMsg": "",
+              "targetId": 1536,
+              "targetCode": "ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG.UPDATE",
+              "operateType": "PERMISSION",
+              "virtualCurrentDataScope": null,
+              "shortName": "项目配置",
+              "children": null
+            }
+          ]
+        }
+      ]
     }
   ],
-  "applyReason": "啊啊啊"
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1732682009221,
+    "displayType": "TOAST",
+    "url": null
+  }
 }
