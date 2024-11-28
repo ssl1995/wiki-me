@@ -1,0 +1,47 @@
+{
+  "body": {
+    "importResult": true,
+    "successResult": [
+      {
+        "name": "系统角色表mock数据",
+        "fileName": "系统角色表mock数据",
+        "key": "crane/b28c0245b5d85315ba9f6282e1520bed",
+        "previewUrl": "https://public-test.yangqianguan.com/crane/b28c0245b5d85315ba9f6282e1520bed",
+        "url": "https://public-test.yangqianguan.com/crane/b28c0245b5d85315ba9f6282e1520bed"
+      },
+      {
+        "name": "权限&角色关联关系表",
+        "fileName": "权限&角色关联关系表",
+        "key": "crane/b28c0245b5d85315ba9f6282e1520bed",
+        "previewUrl": "https://public-test.yangqianguan.com/crane/b28c0245b5d85315ba9f6282e1520bed",
+        "url": "https://public-test.yangqianguan.com/crane/b28c0245b5d85315ba9f6282e1520bed"
+      },
+      {
+        "name": "角色&员工关联关系表",
+        "fileName": "角色&员工关联关系表",
+        "key": "crane/b28c0245b5d85315ba9f6282e1520bed",
+        "previewUrl": "https://public-test.yangqianguan.com/crane/b28c0245b5d85315ba9f6282e1520bed",
+        "url": "https://public-test.yangqianguan.com/crane/b28c0245b5d85315ba9f6282e1520bed"
+      }
+    ],
+    "failResultVO": {
+      "failAttachment": [
+        {
+          "name": "失败mock名字",
+          "fileName": "失败mock名字",
+          "key": "crane/b28c0245b5d85315ba9f6282e1520bed",
+          "previewUrl": "https://public-test.yangqianguan.com/crane/b28c0245b5d85315ba9f6282e1520bed",
+          "url": "https://public-test.yangqianguan.com/crane/b28c0245b5d85315ba9f6282e1520bed"
+        }
+      ]
+    }
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1732701174596,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

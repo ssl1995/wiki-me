@@ -1,22 +1,10 @@
-F-CR2411260007
+1732636800000
+2024-11-27 00:00:00
 
-* and trace_id: 0d5d8914ed81fe1a96293f1966ddc159 and content:"tableAuRpcServiceImpl-addUserToGroupOnline, resp=
+1732636800000
 
-
-curl --request GET \
-  --url 'http://172.16.36.6:7050/dw/lighthouse/tableau/api/prod/addUserToGroupOnline?name=weiye@fintopia.tech&groupIds=61cede84-2a55-42d7-97dc-497876e0c047'
-
-/dw/lighthouse/tableau/api/test/getProjects
-
-/dw/lighthouse/tableau/api/prod/getProjects
+EX03415
+H00488
 
 
-http://172.18.36.6:7050
-http://172.16.36.6:7050
-
-ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG.UPDATE,ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG.QUERY
-
-ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG.UPDATE
-ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG.QUERY
-ADMIN@CASH_LOAN.FUNDING.FUNDING_PROVIDER_CONFIG.UPDATE_ROUTE_WHITE_LIST
-
+https://public-test.yangqianguan.com/crane/1328a0244ea64df47dadb934e81c419e?attname=%E6%98%A0%E5%B0%84%E8%A1%A8%E6%A8%A1%E7%89%88.xlsx
