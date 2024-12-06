@@ -1,0 +1,50 @@
+[
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "和解协议自动化",
+    "type": "内部",
+    "desc": null,
+    "id": 1256
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "权限点管理员 - 内部客服系统",
+    "type": "内部",
+    "desc": null,
+    "id": 448
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "权限点管理员 - 内部客服系统",
+    "name": "催收专员",
+    "type": "内部",
+    "desc": null,
+    "id": 1353
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "和解协议自动化11",
+    "type": "内部",
+    "desc": null,
+    "id": 1256
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "和解协议自动化22",
+    "type": "内部",
+    "desc": null,
+    "id": 1256
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "催收专员",
+    "name": "催收专员孩子",
+    "type": "内部",
+    "desc": null,
+    "id": 687
+  }
+]

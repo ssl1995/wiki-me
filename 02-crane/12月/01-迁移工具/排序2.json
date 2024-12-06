@@ -1,0 +1,322 @@
+[
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "和解协议自动化",
+    "type": "内部",
+    "desc": null,
+    "id": 1256
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "权限点管理员 - 内部客服系统",
+    "type": "内部",
+    "desc": null,
+    "id": 448
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "权限点管理员 - 内部客服系统",
+    "name": "催收专员",
+    "type": "内部",
+    "desc": null,
+    "id": 1353
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "权限点管理员 - 内部客服系统",
+    "name": "内部质检测试",
+    "type": "内部",
+    "desc": null,
+    "id": 687
+  },
+  {
+    "businessName": "客服admin",
+    "parentName": "权限点管理员 - 内部客服系统",
+    "name": "满意度修改",
+    "type": "内部",
+    "desc": null,
+    "id": 454
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "权限点管理员 - 内部客服系统",
+    "name": "内部客服系统BPO测试角色",
+    "type": "通用",
+    "desc": null,
+    "id": 805
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "权限点管理员 - 内部客服系统",
+    "name": "和解协议-LJQ-催收专员-工单",
+    "type": "通用",
+    "desc": null,
+    "id": 1349
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "权限点管理员 - 内部客服系统",
+    "name": "和解协议-LJQ-河北BPO主管",
+    "type": "通用",
+    "desc": null,
+    "id": 1348
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "权限点管理员 - 内部客服系统",
+    "name": "LJQ-测试角色",
+    "type": "通用",
+    "desc": null,
+    "id": 1270
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "国内客服角色_yx",
+    "type": "内部",
+    "desc": null,
+    "id": 1334
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "国内客服角色_yx",
+    "name": "Jennifer",
+    "type": "内部",
+    "desc": null,
+    "id": 732
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "国内客服角色_yx",
+    "name": "客诉",
+    "type": "内部",
+    "desc": null,
+    "id": 1335
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "国内客服角色_yx",
+    "name": "监管",
+    "type": "内部",
+    "desc": null,
+    "id": 1337
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "国内客服角色_yx",
+    "name": "信贷运营",
+    "type": "内部",
+    "desc": null,
+    "id": 1361
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "国内客服角色_yx",
+    "name": "业务支持",
+    "type": "内部",
+    "desc": null,
+    "id": 1336
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "国内客服角色_yx",
+    "name": "其他角色",
+    "type": "内部",
+    "desc": null,
+    "id": 1338
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "国内客服角色_yx",
+    "name": "催收",
+    "type": "内部",
+    "desc": null,
+    "id": 1355
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "YX_测试专用",
+    "name": "王芳",
+    "type": "内部",
+    "desc": null,
+    "id": 1369
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "YX_测试专用",
+    "name": "杨熙",
+    "type": "内部",
+    "desc": null,
+    "id": 919
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "YX_测试专用",
+    "name": "赵雅梅",
+    "type": "内部",
+    "desc": null,
+    "id": 1634
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "短信通道审批",
+    "type": "内部",
+    "desc": null,
+    "id": 1632
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "liujinting",
+    "type": "内部",
+    "desc": null,
+    "id": 440
+  },
+  {
+    "businessName": "客服admin",
+    "parentName": "无",
+    "name": "jinting-专用勿动",
+    "type": "内部",
+    "desc": null,
+    "id": 903
+  },
+  {
+    "businessName": "客服admin",
+    "parentName": "无",
+    "name": "KMG普通权限",
+    "type": "内部",
+    "desc": null,
+    "id": 1636
+  },
+  {
+    "businessName": "客服admin",
+    "parentName": "无",
+    "name": "刘雨红",
+    "type": "内部",
+    "desc": null,
+    "id": 165
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "智能质检-催收-YX",
+    "type": "内部",
+    "desc": null,
+    "id": 1138
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "YX_测试专用",
+    "type": "内部",
+    "desc": null,
+    "id": 729
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "YX_测试专用",
+    "name": "刘志伟",
+    "type": "内部",
+    "desc": null,
+    "id": 1513
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "YX_测试专用",
+    "name": "萧喆",
+    "type": "内部",
+    "desc": null,
+    "id": 1578
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "CHIMERA系统管理员",
+    "type": "内部",
+    "desc": null,
+    "id": 1115
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "刘瑾婷专属勿动",
+    "type": "内部",
+    "desc": null,
+    "id": 1139
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "没有下载权限的用户",
+    "type": "内部",
+    "desc": null,
+    "id": 1356
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "sc-客服系统",
+    "type": "内部",
+    "desc": null,
+    "id": 1360
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "lzy测试1030",
+    "type": "内部",
+    "desc": null,
+    "id": 1259
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "lzy普通权限",
+    "type": "内部",
+    "desc": null,
+    "id": 1493
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "lzy查看全部员工权限",
+    "type": "内部",
+    "desc": null,
+    "id": 1542
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "CHIDORI权限点管理员",
+    "type": "内部",
+    "desc": null,
+    "id": 11
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "客服外部角色1",
+    "type": "通用",
+    "desc": null,
+    "id": 1648
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "CFO",
+    "type": "内部",
+    "desc": null,
+    "id": 36
+  },
+  {
+    "businessName": "内部客服系统ychat",
+    "parentName": "无",
+    "name": "外部bpo",
+    "type": "通用",
+    "desc": null,
+    "id": 812
+  }
+]

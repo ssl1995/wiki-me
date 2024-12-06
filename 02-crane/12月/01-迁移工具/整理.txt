@@ -1,0 +1,5 @@
+business_type:1=报表，2=角色申请
+
+apply_type: 1=角色申请（business_type=2）,2=权限申请（business_type=2）,3=报表(business_type=1)
+
+/rpc/employee/EX02953

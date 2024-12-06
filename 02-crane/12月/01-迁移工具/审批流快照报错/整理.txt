@@ -1,0 +1,1 @@
+/rpc/employee/ex_employee

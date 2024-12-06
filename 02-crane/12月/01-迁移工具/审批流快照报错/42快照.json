@@ -1,0 +1,110 @@
+{
+  "businessType": "系统权限申请",
+  "applyBusinessVo": {
+    "id": 28,
+    "name": "贷款超市",
+    "code": "BRAAVOS",
+    "status": "ABLE",
+    "host": "https://braavos-admin.yangqianguan.com/,https://braavos-admin.fintopia.tech/,https://braavos-admin-new.fintopia.tech/",
+    "wechatAppId": "",
+    "wechatSecret": "",
+    "cookieSecret": "",
+    "cookieMaxAge": 0,
+    "crossDomain": true,
+    "cookieAccessCodes": null,
+    "adminRoleName": "贷款超市 - 系统管理员",
+    "superAdminRoleName": "贷款超市 - 超级系统管理员",
+    "adminWorkNumber": null,
+    "systemRoleName": "贷款超市 - 系统管理员",
+    "admin": [
+      {
+        "name": "田凯",
+        "workNumber": "00407",
+        "departmentName": "后端",
+        "companyEmail": null
+      },
+      {
+        "name": "梁少潭",
+        "workNumber": "01969",
+        "departmentName": "Web",
+        "companyEmail": null
+      },
+      {
+        "name": "邱禹",
+        "workNumber": "00456",
+        "departmentName": "测试",
+        "companyEmail": null
+      },
+      {
+        "name": "陈耀",
+        "workNumber": "04824",
+        "departmentName": "市场运营",
+        "companyEmail": null
+      },
+      {
+        "name": "宋声林",
+        "workNumber": "03183",
+        "departmentName": "后端",
+        "companyEmail": null
+      },
+      {
+        "name": "曹维双",
+        "workNumber": "00064",
+        "departmentName": "后端",
+        "companyEmail": null
+      }
+    ],
+    "superAdmin": null,
+    "superSystemRoleName": null
+  },
+  "submitEmployee": {
+    "id": 2004297,
+    "name": "惠聪聪",
+    "workNumber": "H03484",
+    "oaEmployeeUrl": "https://oa.fintopia.tech/oa/employee/profile?id=5WWo6iz",
+    "departmentName": "客诉部",
+    "departmentId": 197,
+    "leaderWorkNumber": "03333",
+    "supervisorNumber": "03333",
+    "virtualSupervisorNumber": null,
+    "isDomestic": true,
+    "rank": null,
+    "rankGEM3": false
+  },
+  "applyEmployeeList": [
+    {
+      "id": 2004297,
+      "name": "惠聪聪",
+      "workNumber": "H03484",
+      "oaEmployeeUrl": "https://oa.fintopia.tech/oa/employee/profile?id=5WWo6iz",
+      "departmentName": "客诉部",
+      "departmentId": 197,
+      "leaderWorkNumber": "03333",
+      "supervisorNumber": "03333",
+      "virtualSupervisorNumber": null,
+      "isDomestic": true,
+      "rank": null,
+      "rankGEM3": false
+    }
+  ],
+  "applyRoleGroupList": [
+    {
+      "roleId": 590,
+      "roleName": "贷款超市.用户&订单.用户管理.BPO查询",
+      "seniorPermissionCount": 0,
+      "validTime": "FOREVER",
+      "applyReason": "新入职员工申请"
+    },
+    {
+      "roleId": 523,
+      "roleName": "贷款超市.用户&订单.用户管理.查询",
+      "seniorPermissionCount": 0,
+      "validTime": "FOREVER",
+      "applyReason": "新入职员工申请"
+    }
+  ],
+  "seniorPermissionCount": 0,
+  "applyType": "PERMISSION_APPLY",
+  "applyReason": "新入职员工申请",
+  "containsSeniorPermission": false
+}
