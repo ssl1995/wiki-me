@@ -1,7 +1,21 @@
-FINANCE,RECALL,YQG_MOD,TREASURY_MANAGEMENT_INDONESIA,OVERSEA_RTA,OVERSEAS_FLOW,BRAAVOS,workcenter,WORKCENTER,ADMIN@CASH_LOAN,EC_ADMIN@INSTITU_FUND
+1、员工服务
+    1.1、员工类VO增加业务线ID列表字段，包括缓存，待排查各类员工VO
+    1.2、员工列表查询，支持按照业务线查询（取部门和业务线的交集）。待排查：RoleEmployeeQueryRequest、EmployeeQueryRequest
+2、构建带业务线的部门树(--还差角色的填充，依赖3)
+    2.1、构建正确的数据结构，树节点中区分部门和业务线
+    2.2、加入chain字段
+    2.3、业务线信息中加上最近的部门ID，parentDepartmentId
+    2.4、前端选中部门时，查询条件还是部门Id；选中业务线，则需要传业务线Id + parentDepartmentId（或者在业务线VO里提供一个复合的ID，分开的话查询逻辑会好处理一些-例如员工查询）
+3、部门默认角色：增加业务线的初始化逻辑
+    3.1、DepartmentRoleInitJob增加业务线的初始化逻辑
+    3.2、DepartmentRoleRequest
+4、权限点适用部门：适配业务线(--还差1个更新时的提醒要做、消费AuthorityMessageProcessor（已解决）)
+    4.1、表：permission_department_relation、PermissionApplyRecordVo（部门VO和id列表）、PermissionVO（部门vo和id列表）、RotatedDepartmentInfo（部门VO和id列表）
+6、给员工初始化对应部门角色：刷入业务线角色
+    6.1、RelateEmployeeDepartmentRoleJob、PermissionBusinessVo
 
-
-EC_ADMIN@INSTITU_FUND
-
-
-
+7、待排查
+    - 返回部门Vo的地方加chain字段，加业务线VO字段；
+    - 历史记录要不要改
+    - 人员更改部门-业务线要如何处理
+    - 脑暴：跟部门有关系的更改还有哪些？权限更改部门？
