@@ -1,0 +1,460 @@
+{
+  "body": [
+    {
+      "id": 1,
+      "name": "国内借贷-信贷",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732243950350,
+      "timeUpdated": 1732243950350
+    },
+    {
+      "id": 2,
+      "name": "海外借贷",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732245215937,
+      "timeUpdated": 1732245215937
+    },
+    {
+      "id": 3,
+      "name": "基础架构&基础后台",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732246933132,
+      "timeUpdated": 1732254574350
+    },
+    {
+      "id": 4,
+      "name": "内部系统",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 5,
+      "name": "Web外包",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 6,
+      "name": "Android",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 7,
+      "name": "iOS",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 8,
+      "name": "国内数仓",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 9,
+      "name": "海外数仓",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 10,
+      "name": "平台开发",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 11,
+      "name": "数据架构",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 12,
+      "name": "数据产品",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 13,
+      "name": "技术支持",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 14,
+      "name": "国内测试",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 15,
+      "name": "海外测试",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 16,
+      "name": "内部系统测试",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 17,
+      "name": "风控测试",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 18,
+      "name": "测试开发团队",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 19,
+      "name": "测试外包",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 20,
+      "name": "SRE",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 21,
+      "name": "DBA",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 22,
+      "name": "Devops",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 23,
+      "name": "IT",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 24,
+      "name": "国内借贷-信贷业务系统",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 25,
+      "name": "国内借贷-用户增长",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 26,
+      "name": "海外借贷后端",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732246933132,
+      "timeUpdated": 1732256293333
+    },
+    {
+      "id": 27,
+      "name": "内部系统后端",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732246933132,
+      "timeUpdated": 1732256293333
+    },
+    {
+      "id": 28,
+      "name": "风控研发",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 29,
+      "name": "架构部",
+      "parentId": 0,
+      "level": 1,
+      "timeCreated": 1732255002223,
+      "timeUpdated": 1732255002223
+    },
+    {
+      "id": 31,
+      "name": "OA系统",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732246933132,
+      "timeUpdated": 1732246933132
+    },
+    {
+      "id": 32,
+      "name": "业务中台",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732246933132,
+      "timeUpdated": 1732246933132
+    },
+    {
+      "id": 33,
+      "name": "客服系统",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732246933132,
+      "timeUpdated": 1732246933132
+    },
+    {
+      "id": 34,
+      "name": "国内C端",
+      "parentId": 1,
+      "level": 2,
+      "timeCreated": 1732273511872,
+      "timeUpdated": 1732273511872
+    },
+    {
+      "id": 35,
+      "name": "国内B端",
+      "parentId": 1,
+      "level": 2,
+      "timeCreated": 1732273511872,
+      "timeUpdated": 1732273511872
+    },
+    {
+      "id": 36,
+      "name": "机构资金",
+      "parentId": 1,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 37,
+      "name": "催收",
+      "parentId": 1,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 38,
+      "name": "贷超",
+      "parentId": 1,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 39,
+      "name": "API",
+      "parentId": 1,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 40,
+      "name": "业务风控",
+      "parentId": 1,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 41,
+      "name": "技术支持",
+      "parentId": 1,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 42,
+      "name": "海外C端",
+      "parentId": 2,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 43,
+      "name": "海外B端",
+      "parentId": 2,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 44,
+      "name": "印尼",
+      "parentId": 2,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 45,
+      "name": "菲波泰",
+      "parentId": 2,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 46,
+      "name": "风控",
+      "parentId": 3,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 47,
+      "name": "数仓",
+      "parentId": 3,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 48,
+      "name": "基础后台",
+      "parentId": 3,
+      "level": 2,
+      "timeCreated": 1732273511873,
+      "timeUpdated": 1732273511873
+    },
+    {
+      "id": 49,
+      "name": "内部系统",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732273511875,
+      "timeUpdated": 1732273511875
+    },
+    {
+      "id": 50,
+      "name": "客服",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732273511875,
+      "timeUpdated": 1732273511875
+    },
+    {
+      "id": 51,
+      "name": "WP",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732273511875,
+      "timeUpdated": 1732273511875
+    },
+    {
+      "id": 52,
+      "name": "架构测试",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732273511875,
+      "timeUpdated": 1732273511875
+    },
+    {
+      "id": 53,
+      "name": "数据平台测试",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732273511875,
+      "timeUpdated": 1732273511875
+    },
+    {
+      "id": 54,
+      "name": "呼叫平台",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732273511875,
+      "timeUpdated": 1732273511875
+    },
+    {
+      "id": 55,
+      "name": "资金清结算",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732273511875,
+      "timeUpdated": 1732273511875
+    },
+    {
+      "id": 56,
+      "name": "数据安全",
+      "parentId": 4,
+      "level": 2,
+      "timeCreated": 1732273511875,
+      "timeUpdated": 1732273511875
+    },
+    {
+      "id": 57,
+      "name": "C端开发",
+      "parentId": 34,
+      "level": 3,
+      "timeCreated": 1732848372000,
+      "timeUpdated": 1732848372000
+    }
+  ],
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1733660042992,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

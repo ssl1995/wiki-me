@@ -1,0 +1,3738 @@
+{
+  "body": {
+    "forest": [
+      {
+        "id": "223-1",
+        "name": "国内借贷-信贷",
+        "chain": "国内借贷-信贷",
+        "parentId": null,
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 1,
+          "name": "国内借贷-信贷",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 2,
+          "internalBusinessLineId": 1,
+          "relationId": 223,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "223-1",
+        "parentTreeId": null,
+        "businessLineId": 1,
+        "specialField": false,
+        "children": [
+          {
+            "id": "223-34",
+            "name": "国内C端",
+            "chain": "国内借贷-信贷-国内C端",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 34,
+              "name": "国内C端",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-34",
+            "parentTreeId": "223-1",
+            "businessLineId": 34,
+            "specialField": false,
+            "children": [
+              {
+                "id": "223-57",
+                "name": "C端开发",
+                "chain": "国内借贷-信贷-国内C端-C端开发",
+                "parentId": "223-34",
+                "relatedDepartmentId": 223,
+                "businessLine": {
+                  "id": 57,
+                  "name": "C端开发",
+                  "parentId": 34,
+                  "level": 3,
+                  "specialField": false
+                },
+                "businessLineRelation": null,
+                "treeId": "223-57",
+                "parentTreeId": "223-34",
+                "businessLineId": 57,
+                "specialField": false,
+                "children": null
+              }
+            ]
+          },
+          {
+            "id": "223-35",
+            "name": "国内B端",
+            "chain": "国内借贷-信贷-国内B端",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 35,
+              "name": "国内B端",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-35",
+            "parentTreeId": "223-1",
+            "businessLineId": 35,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-36",
+            "name": "机构资金",
+            "chain": "国内借贷-信贷-机构资金",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 36,
+              "name": "机构资金",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-36",
+            "parentTreeId": "223-1",
+            "businessLineId": 36,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-37",
+            "name": "催收",
+            "chain": "国内借贷-信贷-催收",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 37,
+              "name": "催收",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-37",
+            "parentTreeId": "223-1",
+            "businessLineId": 37,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-38",
+            "name": "贷超",
+            "chain": "国内借贷-信贷-贷超",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 38,
+              "name": "贷超",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-38",
+            "parentTreeId": "223-1",
+            "businessLineId": 38,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-39",
+            "name": "API",
+            "chain": "国内借贷-信贷-API",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 39,
+              "name": "API",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-39",
+            "parentTreeId": "223-1",
+            "businessLineId": 39,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-40",
+            "name": "业务风控",
+            "chain": "国内借贷-信贷-业务风控",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 40,
+              "name": "业务风控",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-40",
+            "parentTreeId": "223-1",
+            "businessLineId": 40,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-41",
+            "name": "技术支持",
+            "chain": "国内借贷-信贷-技术支持",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 41,
+              "name": "技术支持",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-41",
+            "parentTreeId": "223-1",
+            "businessLineId": 41,
+            "specialField": false,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "65-4",
+        "name": "内部系统",
+        "chain": "内部系统",
+        "parentId": null,
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 4,
+          "name": "内部系统",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 3,
+          "internalBusinessLineId": 4,
+          "relationId": 65,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "65-4",
+        "parentTreeId": null,
+        "businessLineId": 4,
+        "specialField": false,
+        "children": [
+          {
+            "id": "65-31",
+            "name": "OA系统",
+            "chain": "内部系统-OA系统",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 31,
+              "name": "OA系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-31",
+            "parentTreeId": "65-4",
+            "businessLineId": 31,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-32",
+            "name": "业务中台",
+            "chain": "内部系统-业务中台",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 32,
+              "name": "业务中台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-32",
+            "parentTreeId": "65-4",
+            "businessLineId": 32,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-33",
+            "name": "客服系统",
+            "chain": "内部系统-客服系统",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 33,
+              "name": "客服系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-33",
+            "parentTreeId": "65-4",
+            "businessLineId": 33,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-49",
+            "name": "内部系统",
+            "chain": "内部系统-内部系统",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 49,
+              "name": "内部系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-49",
+            "parentTreeId": "65-4",
+            "businessLineId": 49,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-50",
+            "name": "客服",
+            "chain": "内部系统-客服",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 50,
+              "name": "客服",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-50",
+            "parentTreeId": "65-4",
+            "businessLineId": 50,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-51",
+            "name": "WP",
+            "chain": "内部系统-WP",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 51,
+              "name": "WP",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-51",
+            "parentTreeId": "65-4",
+            "businessLineId": 51,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-52",
+            "name": "架构测试",
+            "chain": "内部系统-架构测试",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 52,
+              "name": "架构测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-52",
+            "parentTreeId": "65-4",
+            "businessLineId": 52,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-53",
+            "name": "数据平台测试",
+            "chain": "内部系统-数据平台测试",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 53,
+              "name": "数据平台测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-53",
+            "parentTreeId": "65-4",
+            "businessLineId": 53,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-54",
+            "name": "呼叫平台",
+            "chain": "内部系统-呼叫平台",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 54,
+              "name": "呼叫平台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-54",
+            "parentTreeId": "65-4",
+            "businessLineId": 54,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-55",
+            "name": "资金清结算",
+            "chain": "内部系统-资金清结算",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 55,
+              "name": "资金清结算",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-55",
+            "parentTreeId": "65-4",
+            "businessLineId": 55,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-56",
+            "name": "数据安全",
+            "chain": "内部系统-数据安全",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 56,
+              "name": "数据安全",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-56",
+            "parentTreeId": "65-4",
+            "businessLineId": 56,
+            "specialField": false,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "223-27",
+        "name": "内部系统后端",
+        "chain": "内部系统后端",
+        "parentId": null,
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 27,
+          "name": "内部系统后端",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 6,
+          "internalBusinessLineId": 27,
+          "relationId": 223,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "223-27",
+        "parentTreeId": null,
+        "businessLineId": 27,
+        "specialField": false,
+        "children": null
+      },
+      {
+        "id": "102-4",
+        "name": "内部系统",
+        "chain": "内部系统",
+        "parentId": null,
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 4,
+          "name": "内部系统",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 9,
+          "internalBusinessLineId": 4,
+          "relationId": 102,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "102-4",
+        "parentTreeId": null,
+        "businessLineId": 4,
+        "specialField": false,
+        "children": [
+          {
+            "id": "102-31",
+            "name": "OA系统",
+            "chain": "内部系统-OA系统",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 31,
+              "name": "OA系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-31",
+            "parentTreeId": "102-4",
+            "businessLineId": 31,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-32",
+            "name": "业务中台",
+            "chain": "内部系统-业务中台",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 32,
+              "name": "业务中台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-32",
+            "parentTreeId": "102-4",
+            "businessLineId": 32,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-33",
+            "name": "客服系统",
+            "chain": "内部系统-客服系统",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 33,
+              "name": "客服系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-33",
+            "parentTreeId": "102-4",
+            "businessLineId": 33,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-49",
+            "name": "内部系统",
+            "chain": "内部系统-内部系统",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 49,
+              "name": "内部系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-49",
+            "parentTreeId": "102-4",
+            "businessLineId": 49,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-50",
+            "name": "客服",
+            "chain": "内部系统-客服",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 50,
+              "name": "客服",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-50",
+            "parentTreeId": "102-4",
+            "businessLineId": 50,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-51",
+            "name": "WP",
+            "chain": "内部系统-WP",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 51,
+              "name": "WP",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-51",
+            "parentTreeId": "102-4",
+            "businessLineId": 51,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-52",
+            "name": "架构测试",
+            "chain": "内部系统-架构测试",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 52,
+              "name": "架构测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-52",
+            "parentTreeId": "102-4",
+            "businessLineId": 52,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-53",
+            "name": "数据平台测试",
+            "chain": "内部系统-数据平台测试",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 53,
+              "name": "数据平台测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-53",
+            "parentTreeId": "102-4",
+            "businessLineId": 53,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-54",
+            "name": "呼叫平台",
+            "chain": "内部系统-呼叫平台",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 54,
+              "name": "呼叫平台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-54",
+            "parentTreeId": "102-4",
+            "businessLineId": 54,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-55",
+            "name": "资金清结算",
+            "chain": "内部系统-资金清结算",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 55,
+              "name": "资金清结算",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-55",
+            "parentTreeId": "102-4",
+            "businessLineId": 55,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-56",
+            "name": "数据安全",
+            "chain": "内部系统-数据安全",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 56,
+              "name": "数据安全",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-56",
+            "parentTreeId": "102-4",
+            "businessLineId": 56,
+            "specialField": false,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "208-4",
+        "name": "内部系统",
+        "chain": "内部系统",
+        "parentId": null,
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 4,
+          "name": "内部系统",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 11,
+          "internalBusinessLineId": 4,
+          "relationId": 208,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "208-4",
+        "parentTreeId": null,
+        "businessLineId": 4,
+        "specialField": false,
+        "children": [
+          {
+            "id": "208-31",
+            "name": "OA系统",
+            "chain": "内部系统-OA系统",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 31,
+              "name": "OA系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-31",
+            "parentTreeId": "208-4",
+            "businessLineId": 31,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-32",
+            "name": "业务中台",
+            "chain": "内部系统-业务中台",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 32,
+              "name": "业务中台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-32",
+            "parentTreeId": "208-4",
+            "businessLineId": 32,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-33",
+            "name": "客服系统",
+            "chain": "内部系统-客服系统",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 33,
+              "name": "客服系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-33",
+            "parentTreeId": "208-4",
+            "businessLineId": 33,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-49",
+            "name": "内部系统",
+            "chain": "内部系统-内部系统",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 49,
+              "name": "内部系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-49",
+            "parentTreeId": "208-4",
+            "businessLineId": 49,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-50",
+            "name": "客服",
+            "chain": "内部系统-客服",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 50,
+              "name": "客服",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-50",
+            "parentTreeId": "208-4",
+            "businessLineId": 50,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-51",
+            "name": "WP",
+            "chain": "内部系统-WP",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 51,
+              "name": "WP",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-51",
+            "parentTreeId": "208-4",
+            "businessLineId": 51,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-52",
+            "name": "架构测试",
+            "chain": "内部系统-架构测试",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 52,
+              "name": "架构测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-52",
+            "parentTreeId": "208-4",
+            "businessLineId": 52,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-53",
+            "name": "数据平台测试",
+            "chain": "内部系统-数据平台测试",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 53,
+              "name": "数据平台测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-53",
+            "parentTreeId": "208-4",
+            "businessLineId": 53,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-54",
+            "name": "呼叫平台",
+            "chain": "内部系统-呼叫平台",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 54,
+              "name": "呼叫平台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-54",
+            "parentTreeId": "208-4",
+            "businessLineId": 54,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-55",
+            "name": "资金清结算",
+            "chain": "内部系统-资金清结算",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 55,
+              "name": "资金清结算",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-55",
+            "parentTreeId": "208-4",
+            "businessLineId": 55,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-56",
+            "name": "数据安全",
+            "chain": "内部系统-数据安全",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 56,
+              "name": "数据安全",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-56",
+            "parentTreeId": "208-4",
+            "businessLineId": 56,
+            "specialField": false,
+            "children": null
+          }
+        ]
+      }
+    ],
+    "treeNodeMap": {
+      "208-52": {
+        "id": "208-52",
+        "name": "架构测试",
+        "chain": "内部系统-架构测试",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 52,
+          "name": "架构测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-52",
+        "parentTreeId": "208-4",
+        "businessLineId": 52,
+        "specialField": false,
+        "children": null
+      },
+      "208-53": {
+        "id": "208-53",
+        "name": "数据平台测试",
+        "chain": "内部系统-数据平台测试",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 53,
+          "name": "数据平台测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-53",
+        "parentTreeId": "208-4",
+        "businessLineId": 53,
+        "specialField": false,
+        "children": null
+      },
+      "208-31": {
+        "id": "208-31",
+        "name": "OA系统",
+        "chain": "内部系统-OA系统",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 31,
+          "name": "OA系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-31",
+        "parentTreeId": "208-4",
+        "businessLineId": 31,
+        "specialField": false,
+        "children": null
+      },
+      "208-54": {
+        "id": "208-54",
+        "name": "呼叫平台",
+        "chain": "内部系统-呼叫平台",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 54,
+          "name": "呼叫平台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-54",
+        "parentTreeId": "208-4",
+        "businessLineId": 54,
+        "specialField": false,
+        "children": null
+      },
+      "208-32": {
+        "id": "208-32",
+        "name": "业务中台",
+        "chain": "内部系统-业务中台",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 32,
+          "name": "业务中台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-32",
+        "parentTreeId": "208-4",
+        "businessLineId": 32,
+        "specialField": false,
+        "children": null
+      },
+      "65-49": {
+        "id": "65-49",
+        "name": "内部系统",
+        "chain": "内部系统-内部系统",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 49,
+          "name": "内部系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-49",
+        "parentTreeId": "65-4",
+        "businessLineId": 49,
+        "specialField": false,
+        "children": null
+      },
+      "208-55": {
+        "id": "208-55",
+        "name": "资金清结算",
+        "chain": "内部系统-资金清结算",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 55,
+          "name": "资金清结算",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-55",
+        "parentTreeId": "208-4",
+        "businessLineId": 55,
+        "specialField": false,
+        "children": null
+      },
+      "208-33": {
+        "id": "208-33",
+        "name": "客服系统",
+        "chain": "内部系统-客服系统",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 33,
+          "name": "客服系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-33",
+        "parentTreeId": "208-4",
+        "businessLineId": 33,
+        "specialField": false,
+        "children": null
+      },
+      "208-56": {
+        "id": "208-56",
+        "name": "数据安全",
+        "chain": "内部系统-数据安全",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 56,
+          "name": "数据安全",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-56",
+        "parentTreeId": "208-4",
+        "businessLineId": 56,
+        "specialField": false,
+        "children": null
+      },
+      "102-49": {
+        "id": "102-49",
+        "name": "内部系统",
+        "chain": "内部系统-内部系统",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 49,
+          "name": "内部系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-49",
+        "parentTreeId": "102-4",
+        "businessLineId": 49,
+        "specialField": false,
+        "children": null
+      },
+      "223-1": {
+        "id": "223-1",
+        "name": "国内借贷-信贷",
+        "chain": "国内借贷-信贷",
+        "parentId": null,
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 1,
+          "name": "国内借贷-信贷",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 2,
+          "internalBusinessLineId": 1,
+          "relationId": 223,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "223-1",
+        "parentTreeId": null,
+        "businessLineId": 1,
+        "specialField": false,
+        "children": [
+          {
+            "id": "223-34",
+            "name": "国内C端",
+            "chain": "国内借贷-信贷-国内C端",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 34,
+              "name": "国内C端",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-34",
+            "parentTreeId": "223-1",
+            "businessLineId": 34,
+            "specialField": false,
+            "children": [
+              {
+                "id": "223-57",
+                "name": "C端开发",
+                "chain": "国内借贷-信贷-国内C端-C端开发",
+                "parentId": "223-34",
+                "relatedDepartmentId": 223,
+                "businessLine": {
+                  "id": 57,
+                  "name": "C端开发",
+                  "parentId": 34,
+                  "level": 3,
+                  "specialField": false
+                },
+                "businessLineRelation": null,
+                "treeId": "223-57",
+                "parentTreeId": "223-34",
+                "businessLineId": 57,
+                "specialField": false,
+                "children": null
+              }
+            ]
+          },
+          {
+            "id": "223-35",
+            "name": "国内B端",
+            "chain": "国内借贷-信贷-国内B端",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 35,
+              "name": "国内B端",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-35",
+            "parentTreeId": "223-1",
+            "businessLineId": 35,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-36",
+            "name": "机构资金",
+            "chain": "国内借贷-信贷-机构资金",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 36,
+              "name": "机构资金",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-36",
+            "parentTreeId": "223-1",
+            "businessLineId": 36,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-37",
+            "name": "催收",
+            "chain": "国内借贷-信贷-催收",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 37,
+              "name": "催收",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-37",
+            "parentTreeId": "223-1",
+            "businessLineId": 37,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-38",
+            "name": "贷超",
+            "chain": "国内借贷-信贷-贷超",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 38,
+              "name": "贷超",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-38",
+            "parentTreeId": "223-1",
+            "businessLineId": 38,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-39",
+            "name": "API",
+            "chain": "国内借贷-信贷-API",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 39,
+              "name": "API",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-39",
+            "parentTreeId": "223-1",
+            "businessLineId": 39,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-40",
+            "name": "业务风控",
+            "chain": "国内借贷-信贷-业务风控",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 40,
+              "name": "业务风控",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-40",
+            "parentTreeId": "223-1",
+            "businessLineId": 40,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "223-41",
+            "name": "技术支持",
+            "chain": "国内借贷-信贷-技术支持",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 41,
+              "name": "技术支持",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-41",
+            "parentTreeId": "223-1",
+            "businessLineId": 41,
+            "specialField": false,
+            "children": null
+          }
+        ]
+      },
+      "223-34": {
+        "id": "223-34",
+        "name": "国内C端",
+        "chain": "国内借贷-信贷-国内C端",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 34,
+          "name": "国内C端",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-34",
+        "parentTreeId": "223-1",
+        "businessLineId": 34,
+        "specialField": false,
+        "children": [
+          {
+            "id": "223-57",
+            "name": "C端开发",
+            "chain": "国内借贷-信贷-国内C端-C端开发",
+            "parentId": "223-34",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 57,
+              "name": "C端开发",
+              "parentId": 34,
+              "level": 3,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "223-57",
+            "parentTreeId": "223-34",
+            "businessLineId": 57,
+            "specialField": false,
+            "children": null
+          }
+        ]
+      },
+      "102-4": {
+        "id": "102-4",
+        "name": "内部系统",
+        "chain": "内部系统",
+        "parentId": null,
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 4,
+          "name": "内部系统",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 9,
+          "internalBusinessLineId": 4,
+          "relationId": 102,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "102-4",
+        "parentTreeId": null,
+        "businessLineId": 4,
+        "specialField": false,
+        "children": [
+          {
+            "id": "102-31",
+            "name": "OA系统",
+            "chain": "内部系统-OA系统",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 31,
+              "name": "OA系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-31",
+            "parentTreeId": "102-4",
+            "businessLineId": 31,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-32",
+            "name": "业务中台",
+            "chain": "内部系统-业务中台",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 32,
+              "name": "业务中台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-32",
+            "parentTreeId": "102-4",
+            "businessLineId": 32,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-33",
+            "name": "客服系统",
+            "chain": "内部系统-客服系统",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 33,
+              "name": "客服系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-33",
+            "parentTreeId": "102-4",
+            "businessLineId": 33,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-49",
+            "name": "内部系统",
+            "chain": "内部系统-内部系统",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 49,
+              "name": "内部系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-49",
+            "parentTreeId": "102-4",
+            "businessLineId": 49,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-50",
+            "name": "客服",
+            "chain": "内部系统-客服",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 50,
+              "name": "客服",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-50",
+            "parentTreeId": "102-4",
+            "businessLineId": 50,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-51",
+            "name": "WP",
+            "chain": "内部系统-WP",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 51,
+              "name": "WP",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-51",
+            "parentTreeId": "102-4",
+            "businessLineId": 51,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-52",
+            "name": "架构测试",
+            "chain": "内部系统-架构测试",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 52,
+              "name": "架构测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-52",
+            "parentTreeId": "102-4",
+            "businessLineId": 52,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-53",
+            "name": "数据平台测试",
+            "chain": "内部系统-数据平台测试",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 53,
+              "name": "数据平台测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-53",
+            "parentTreeId": "102-4",
+            "businessLineId": 53,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-54",
+            "name": "呼叫平台",
+            "chain": "内部系统-呼叫平台",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 54,
+              "name": "呼叫平台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-54",
+            "parentTreeId": "102-4",
+            "businessLineId": 54,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-55",
+            "name": "资金清结算",
+            "chain": "内部系统-资金清结算",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 55,
+              "name": "资金清结算",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-55",
+            "parentTreeId": "102-4",
+            "businessLineId": 55,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "102-56",
+            "name": "数据安全",
+            "chain": "内部系统-数据安全",
+            "parentId": "102-4",
+            "relatedDepartmentId": 102,
+            "businessLine": {
+              "id": 56,
+              "name": "数据安全",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "102-56",
+            "parentTreeId": "102-4",
+            "businessLineId": 56,
+            "specialField": false,
+            "children": null
+          }
+        ]
+      },
+      "223-37": {
+        "id": "223-37",
+        "name": "催收",
+        "chain": "国内借贷-信贷-催收",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 37,
+          "name": "催收",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-37",
+        "parentTreeId": "223-1",
+        "businessLineId": 37,
+        "specialField": false,
+        "children": null
+      },
+      "223-38": {
+        "id": "223-38",
+        "name": "贷超",
+        "chain": "国内借贷-信贷-贷超",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 38,
+          "name": "贷超",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-38",
+        "parentTreeId": "223-1",
+        "businessLineId": 38,
+        "specialField": false,
+        "children": null
+      },
+      "223-35": {
+        "id": "223-35",
+        "name": "国内B端",
+        "chain": "国内借贷-信贷-国内B端",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 35,
+          "name": "国内B端",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-35",
+        "parentTreeId": "223-1",
+        "businessLineId": 35,
+        "specialField": false,
+        "children": null
+      },
+      "223-57": {
+        "id": "223-57",
+        "name": "C端开发",
+        "chain": "国内借贷-信贷-国内C端-C端开发",
+        "parentId": "223-34",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 57,
+          "name": "C端开发",
+          "parentId": 34,
+          "level": 3,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-57",
+        "parentTreeId": "223-34",
+        "businessLineId": 57,
+        "specialField": false,
+        "children": null
+      },
+      "223-36": {
+        "id": "223-36",
+        "name": "机构资金",
+        "chain": "国内借贷-信贷-机构资金",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 36,
+          "name": "机构资金",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-36",
+        "parentTreeId": "223-1",
+        "businessLineId": 36,
+        "specialField": false,
+        "children": null
+      },
+      "208-50": {
+        "id": "208-50",
+        "name": "客服",
+        "chain": "内部系统-客服",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 50,
+          "name": "客服",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-50",
+        "parentTreeId": "208-4",
+        "businessLineId": 50,
+        "specialField": false,
+        "children": null
+      },
+      "208-51": {
+        "id": "208-51",
+        "name": "WP",
+        "chain": "内部系统-WP",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 51,
+          "name": "WP",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-51",
+        "parentTreeId": "208-4",
+        "businessLineId": 51,
+        "specialField": false,
+        "children": null
+      },
+      "102-54": {
+        "id": "102-54",
+        "name": "呼叫平台",
+        "chain": "内部系统-呼叫平台",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 54,
+          "name": "呼叫平台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-54",
+        "parentTreeId": "102-4",
+        "businessLineId": 54,
+        "specialField": false,
+        "children": null
+      },
+      "102-32": {
+        "id": "102-32",
+        "name": "业务中台",
+        "chain": "内部系统-业务中台",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 32,
+          "name": "业务中台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-32",
+        "parentTreeId": "102-4",
+        "businessLineId": 32,
+        "specialField": false,
+        "children": null
+      },
+      "102-53": {
+        "id": "102-53",
+        "name": "数据平台测试",
+        "chain": "内部系统-数据平台测试",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 53,
+          "name": "数据平台测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-53",
+        "parentTreeId": "102-4",
+        "businessLineId": 53,
+        "specialField": false,
+        "children": null
+      },
+      "102-31": {
+        "id": "102-31",
+        "name": "OA系统",
+        "chain": "内部系统-OA系统",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 31,
+          "name": "OA系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-31",
+        "parentTreeId": "102-4",
+        "businessLineId": 31,
+        "specialField": false,
+        "children": null
+      },
+      "102-56": {
+        "id": "102-56",
+        "name": "数据安全",
+        "chain": "内部系统-数据安全",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 56,
+          "name": "数据安全",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-56",
+        "parentTreeId": "102-4",
+        "businessLineId": 56,
+        "specialField": false,
+        "children": null
+      },
+      "102-55": {
+        "id": "102-55",
+        "name": "资金清结算",
+        "chain": "内部系统-资金清结算",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 55,
+          "name": "资金清结算",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-55",
+        "parentTreeId": "102-4",
+        "businessLineId": 55,
+        "specialField": false,
+        "children": null
+      },
+      "102-33": {
+        "id": "102-33",
+        "name": "客服系统",
+        "chain": "内部系统-客服系统",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 33,
+          "name": "客服系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-33",
+        "parentTreeId": "102-4",
+        "businessLineId": 33,
+        "specialField": false,
+        "children": null
+      },
+      "208-49": {
+        "id": "208-49",
+        "name": "内部系统",
+        "chain": "内部系统-内部系统",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 49,
+          "name": "内部系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-49",
+        "parentTreeId": "208-4",
+        "businessLineId": 49,
+        "specialField": false,
+        "children": null
+      },
+      "223-39": {
+        "id": "223-39",
+        "name": "API",
+        "chain": "国内借贷-信贷-API",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 39,
+          "name": "API",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-39",
+        "parentTreeId": "223-1",
+        "businessLineId": 39,
+        "specialField": false,
+        "children": null
+      },
+      "102-50": {
+        "id": "102-50",
+        "name": "客服",
+        "chain": "内部系统-客服",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 50,
+          "name": "客服",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-50",
+        "parentTreeId": "102-4",
+        "businessLineId": 50,
+        "specialField": false,
+        "children": null
+      },
+      "102-52": {
+        "id": "102-52",
+        "name": "架构测试",
+        "chain": "内部系统-架构测试",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 52,
+          "name": "架构测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-52",
+        "parentTreeId": "102-4",
+        "businessLineId": 52,
+        "specialField": false,
+        "children": null
+      },
+      "102-51": {
+        "id": "102-51",
+        "name": "WP",
+        "chain": "内部系统-WP",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 51,
+          "name": "WP",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-51",
+        "parentTreeId": "102-4",
+        "businessLineId": 51,
+        "specialField": false,
+        "children": null
+      },
+      "223-27": {
+        "id": "223-27",
+        "name": "内部系统后端",
+        "chain": "内部系统后端",
+        "parentId": null,
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 27,
+          "name": "内部系统后端",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 6,
+          "internalBusinessLineId": 27,
+          "relationId": 223,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "223-27",
+        "parentTreeId": null,
+        "businessLineId": 27,
+        "specialField": false,
+        "children": null
+      },
+      "208-4": {
+        "id": "208-4",
+        "name": "内部系统",
+        "chain": "内部系统",
+        "parentId": null,
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 4,
+          "name": "内部系统",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 11,
+          "internalBusinessLineId": 4,
+          "relationId": 208,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "208-4",
+        "parentTreeId": null,
+        "businessLineId": 4,
+        "specialField": false,
+        "children": [
+          {
+            "id": "208-31",
+            "name": "OA系统",
+            "chain": "内部系统-OA系统",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 31,
+              "name": "OA系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-31",
+            "parentTreeId": "208-4",
+            "businessLineId": 31,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-32",
+            "name": "业务中台",
+            "chain": "内部系统-业务中台",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 32,
+              "name": "业务中台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-32",
+            "parentTreeId": "208-4",
+            "businessLineId": 32,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-33",
+            "name": "客服系统",
+            "chain": "内部系统-客服系统",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 33,
+              "name": "客服系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-33",
+            "parentTreeId": "208-4",
+            "businessLineId": 33,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-49",
+            "name": "内部系统",
+            "chain": "内部系统-内部系统",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 49,
+              "name": "内部系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-49",
+            "parentTreeId": "208-4",
+            "businessLineId": 49,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-50",
+            "name": "客服",
+            "chain": "内部系统-客服",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 50,
+              "name": "客服",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-50",
+            "parentTreeId": "208-4",
+            "businessLineId": 50,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-51",
+            "name": "WP",
+            "chain": "内部系统-WP",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 51,
+              "name": "WP",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-51",
+            "parentTreeId": "208-4",
+            "businessLineId": 51,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-52",
+            "name": "架构测试",
+            "chain": "内部系统-架构测试",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 52,
+              "name": "架构测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-52",
+            "parentTreeId": "208-4",
+            "businessLineId": 52,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-53",
+            "name": "数据平台测试",
+            "chain": "内部系统-数据平台测试",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 53,
+              "name": "数据平台测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-53",
+            "parentTreeId": "208-4",
+            "businessLineId": 53,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-54",
+            "name": "呼叫平台",
+            "chain": "内部系统-呼叫平台",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 54,
+              "name": "呼叫平台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-54",
+            "parentTreeId": "208-4",
+            "businessLineId": 54,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-55",
+            "name": "资金清结算",
+            "chain": "内部系统-资金清结算",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 55,
+              "name": "资金清结算",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-55",
+            "parentTreeId": "208-4",
+            "businessLineId": 55,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "208-56",
+            "name": "数据安全",
+            "chain": "内部系统-数据安全",
+            "parentId": "208-4",
+            "relatedDepartmentId": 208,
+            "businessLine": {
+              "id": 56,
+              "name": "数据安全",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "208-56",
+            "parentTreeId": "208-4",
+            "businessLineId": 56,
+            "specialField": false,
+            "children": null
+          }
+        ]
+      },
+      "65-50": {
+        "id": "65-50",
+        "name": "客服",
+        "chain": "内部系统-客服",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 50,
+          "name": "客服",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-50",
+        "parentTreeId": "65-4",
+        "businessLineId": 50,
+        "specialField": false,
+        "children": null
+      },
+      "65-52": {
+        "id": "65-52",
+        "name": "架构测试",
+        "chain": "内部系统-架构测试",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 52,
+          "name": "架构测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-52",
+        "parentTreeId": "65-4",
+        "businessLineId": 52,
+        "specialField": false,
+        "children": null
+      },
+      "65-51": {
+        "id": "65-51",
+        "name": "WP",
+        "chain": "内部系统-WP",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 51,
+          "name": "WP",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-51",
+        "parentTreeId": "65-4",
+        "businessLineId": 51,
+        "specialField": false,
+        "children": null
+      },
+      "65-54": {
+        "id": "65-54",
+        "name": "呼叫平台",
+        "chain": "内部系统-呼叫平台",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 54,
+          "name": "呼叫平台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-54",
+        "parentTreeId": "65-4",
+        "businessLineId": 54,
+        "specialField": false,
+        "children": null
+      },
+      "65-32": {
+        "id": "65-32",
+        "name": "业务中台",
+        "chain": "内部系统-业务中台",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 32,
+          "name": "业务中台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-32",
+        "parentTreeId": "65-4",
+        "businessLineId": 32,
+        "specialField": false,
+        "children": null
+      },
+      "223-40": {
+        "id": "223-40",
+        "name": "业务风控",
+        "chain": "国内借贷-信贷-业务风控",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 40,
+          "name": "业务风控",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-40",
+        "parentTreeId": "223-1",
+        "businessLineId": 40,
+        "specialField": false,
+        "children": null
+      },
+      "65-53": {
+        "id": "65-53",
+        "name": "数据平台测试",
+        "chain": "内部系统-数据平台测试",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 53,
+          "name": "数据平台测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-53",
+        "parentTreeId": "65-4",
+        "businessLineId": 53,
+        "specialField": false,
+        "children": null
+      },
+      "65-31": {
+        "id": "65-31",
+        "name": "OA系统",
+        "chain": "内部系统-OA系统",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 31,
+          "name": "OA系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-31",
+        "parentTreeId": "65-4",
+        "businessLineId": 31,
+        "specialField": false,
+        "children": null
+      },
+      "223-41": {
+        "id": "223-41",
+        "name": "技术支持",
+        "chain": "国内借贷-信贷-技术支持",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 41,
+          "name": "技术支持",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-41",
+        "parentTreeId": "223-1",
+        "businessLineId": 41,
+        "specialField": false,
+        "children": null
+      },
+      "65-56": {
+        "id": "65-56",
+        "name": "数据安全",
+        "chain": "内部系统-数据安全",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 56,
+          "name": "数据安全",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-56",
+        "parentTreeId": "65-4",
+        "businessLineId": 56,
+        "specialField": false,
+        "children": null
+      },
+      "65-55": {
+        "id": "65-55",
+        "name": "资金清结算",
+        "chain": "内部系统-资金清结算",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 55,
+          "name": "资金清结算",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-55",
+        "parentTreeId": "65-4",
+        "businessLineId": 55,
+        "specialField": false,
+        "children": null
+      },
+      "65-33": {
+        "id": "65-33",
+        "name": "客服系统",
+        "chain": "内部系统-客服系统",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 33,
+          "name": "客服系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-33",
+        "parentTreeId": "65-4",
+        "businessLineId": 33,
+        "specialField": false,
+        "children": null
+      },
+      "65-4": {
+        "id": "65-4",
+        "name": "内部系统",
+        "chain": "内部系统",
+        "parentId": null,
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 4,
+          "name": "内部系统",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 3,
+          "internalBusinessLineId": 4,
+          "relationId": 65,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "65-4",
+        "parentTreeId": null,
+        "businessLineId": 4,
+        "specialField": false,
+        "children": [
+          {
+            "id": "65-31",
+            "name": "OA系统",
+            "chain": "内部系统-OA系统",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 31,
+              "name": "OA系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-31",
+            "parentTreeId": "65-4",
+            "businessLineId": 31,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-32",
+            "name": "业务中台",
+            "chain": "内部系统-业务中台",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 32,
+              "name": "业务中台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-32",
+            "parentTreeId": "65-4",
+            "businessLineId": 32,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-33",
+            "name": "客服系统",
+            "chain": "内部系统-客服系统",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 33,
+              "name": "客服系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-33",
+            "parentTreeId": "65-4",
+            "businessLineId": 33,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-49",
+            "name": "内部系统",
+            "chain": "内部系统-内部系统",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 49,
+              "name": "内部系统",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-49",
+            "parentTreeId": "65-4",
+            "businessLineId": 49,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-50",
+            "name": "客服",
+            "chain": "内部系统-客服",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 50,
+              "name": "客服",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-50",
+            "parentTreeId": "65-4",
+            "businessLineId": 50,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-51",
+            "name": "WP",
+            "chain": "内部系统-WP",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 51,
+              "name": "WP",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-51",
+            "parentTreeId": "65-4",
+            "businessLineId": 51,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-52",
+            "name": "架构测试",
+            "chain": "内部系统-架构测试",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 52,
+              "name": "架构测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-52",
+            "parentTreeId": "65-4",
+            "businessLineId": 52,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-53",
+            "name": "数据平台测试",
+            "chain": "内部系统-数据平台测试",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 53,
+              "name": "数据平台测试",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-53",
+            "parentTreeId": "65-4",
+            "businessLineId": 53,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-54",
+            "name": "呼叫平台",
+            "chain": "内部系统-呼叫平台",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 54,
+              "name": "呼叫平台",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-54",
+            "parentTreeId": "65-4",
+            "businessLineId": 54,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-55",
+            "name": "资金清结算",
+            "chain": "内部系统-资金清结算",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 55,
+              "name": "资金清结算",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-55",
+            "parentTreeId": "65-4",
+            "businessLineId": 55,
+            "specialField": false,
+            "children": null
+          },
+          {
+            "id": "65-56",
+            "name": "数据安全",
+            "chain": "内部系统-数据安全",
+            "parentId": "65-4",
+            "relatedDepartmentId": 65,
+            "businessLine": {
+              "id": 56,
+              "name": "数据安全",
+              "parentId": 4,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "treeId": "65-56",
+            "parentTreeId": "65-4",
+            "businessLineId": 56,
+            "specialField": false,
+            "children": null
+          }
+        ]
+      }
+    },
+    "empty": false,
+    "allData": [
+      {
+        "id": "208-52",
+        "name": "架构测试",
+        "chain": "内部系统-架构测试",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 52,
+          "name": "架构测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-52",
+        "parentTreeId": "208-4",
+        "businessLineId": 52,
+        "specialField": false
+      },
+      {
+        "id": "208-53",
+        "name": "数据平台测试",
+        "chain": "内部系统-数据平台测试",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 53,
+          "name": "数据平台测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-53",
+        "parentTreeId": "208-4",
+        "businessLineId": 53,
+        "specialField": false
+      },
+      {
+        "id": "208-31",
+        "name": "OA系统",
+        "chain": "内部系统-OA系统",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 31,
+          "name": "OA系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-31",
+        "parentTreeId": "208-4",
+        "businessLineId": 31,
+        "specialField": false
+      },
+      {
+        "id": "208-54",
+        "name": "呼叫平台",
+        "chain": "内部系统-呼叫平台",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 54,
+          "name": "呼叫平台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-54",
+        "parentTreeId": "208-4",
+        "businessLineId": 54,
+        "specialField": false
+      },
+      {
+        "id": "208-32",
+        "name": "业务中台",
+        "chain": "内部系统-业务中台",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 32,
+          "name": "业务中台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-32",
+        "parentTreeId": "208-4",
+        "businessLineId": 32,
+        "specialField": false
+      },
+      {
+        "id": "65-49",
+        "name": "内部系统",
+        "chain": "内部系统-内部系统",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 49,
+          "name": "内部系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-49",
+        "parentTreeId": "65-4",
+        "businessLineId": 49,
+        "specialField": false
+      },
+      {
+        "id": "208-55",
+        "name": "资金清结算",
+        "chain": "内部系统-资金清结算",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 55,
+          "name": "资金清结算",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-55",
+        "parentTreeId": "208-4",
+        "businessLineId": 55,
+        "specialField": false
+      },
+      {
+        "id": "208-33",
+        "name": "客服系统",
+        "chain": "内部系统-客服系统",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 33,
+          "name": "客服系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-33",
+        "parentTreeId": "208-4",
+        "businessLineId": 33,
+        "specialField": false
+      },
+      {
+        "id": "208-56",
+        "name": "数据安全",
+        "chain": "内部系统-数据安全",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 56,
+          "name": "数据安全",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-56",
+        "parentTreeId": "208-4",
+        "businessLineId": 56,
+        "specialField": false
+      },
+      {
+        "id": "102-49",
+        "name": "内部系统",
+        "chain": "内部系统-内部系统",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 49,
+          "name": "内部系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-49",
+        "parentTreeId": "102-4",
+        "businessLineId": 49,
+        "specialField": false
+      },
+      {
+        "id": "223-1",
+        "name": "国内借贷-信贷",
+        "chain": "国内借贷-信贷",
+        "parentId": null,
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 1,
+          "name": "国内借贷-信贷",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 2,
+          "internalBusinessLineId": 1,
+          "relationId": 223,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "223-1",
+        "parentTreeId": null,
+        "businessLineId": 1,
+        "specialField": false
+      },
+      {
+        "id": "223-34",
+        "name": "国内C端",
+        "chain": "国内借贷-信贷-国内C端",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 34,
+          "name": "国内C端",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-34",
+        "parentTreeId": "223-1",
+        "businessLineId": 34,
+        "specialField": false
+      },
+      {
+        "id": "102-4",
+        "name": "内部系统",
+        "chain": "内部系统",
+        "parentId": null,
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 4,
+          "name": "内部系统",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 9,
+          "internalBusinessLineId": 4,
+          "relationId": 102,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "102-4",
+        "parentTreeId": null,
+        "businessLineId": 4,
+        "specialField": false
+      },
+      {
+        "id": "223-37",
+        "name": "催收",
+        "chain": "国内借贷-信贷-催收",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 37,
+          "name": "催收",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-37",
+        "parentTreeId": "223-1",
+        "businessLineId": 37,
+        "specialField": false
+      },
+      {
+        "id": "223-38",
+        "name": "贷超",
+        "chain": "国内借贷-信贷-贷超",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 38,
+          "name": "贷超",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-38",
+        "parentTreeId": "223-1",
+        "businessLineId": 38,
+        "specialField": false
+      },
+      {
+        "id": "223-35",
+        "name": "国内B端",
+        "chain": "国内借贷-信贷-国内B端",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 35,
+          "name": "国内B端",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-35",
+        "parentTreeId": "223-1",
+        "businessLineId": 35,
+        "specialField": false
+      },
+      {
+        "id": "223-57",
+        "name": "C端开发",
+        "chain": "国内借贷-信贷-国内C端-C端开发",
+        "parentId": "223-34",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 57,
+          "name": "C端开发",
+          "parentId": 34,
+          "level": 3,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-57",
+        "parentTreeId": "223-34",
+        "businessLineId": 57,
+        "specialField": false
+      },
+      {
+        "id": "223-36",
+        "name": "机构资金",
+        "chain": "国内借贷-信贷-机构资金",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 36,
+          "name": "机构资金",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-36",
+        "parentTreeId": "223-1",
+        "businessLineId": 36,
+        "specialField": false
+      },
+      {
+        "id": "208-50",
+        "name": "客服",
+        "chain": "内部系统-客服",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 50,
+          "name": "客服",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-50",
+        "parentTreeId": "208-4",
+        "businessLineId": 50,
+        "specialField": false
+      },
+      {
+        "id": "208-51",
+        "name": "WP",
+        "chain": "内部系统-WP",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 51,
+          "name": "WP",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-51",
+        "parentTreeId": "208-4",
+        "businessLineId": 51,
+        "specialField": false
+      },
+      {
+        "id": "102-54",
+        "name": "呼叫平台",
+        "chain": "内部系统-呼叫平台",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 54,
+          "name": "呼叫平台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-54",
+        "parentTreeId": "102-4",
+        "businessLineId": 54,
+        "specialField": false
+      },
+      {
+        "id": "102-32",
+        "name": "业务中台",
+        "chain": "内部系统-业务中台",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 32,
+          "name": "业务中台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-32",
+        "parentTreeId": "102-4",
+        "businessLineId": 32,
+        "specialField": false
+      },
+      {
+        "id": "102-53",
+        "name": "数据平台测试",
+        "chain": "内部系统-数据平台测试",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 53,
+          "name": "数据平台测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-53",
+        "parentTreeId": "102-4",
+        "businessLineId": 53,
+        "specialField": false
+      },
+      {
+        "id": "102-31",
+        "name": "OA系统",
+        "chain": "内部系统-OA系统",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 31,
+          "name": "OA系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-31",
+        "parentTreeId": "102-4",
+        "businessLineId": 31,
+        "specialField": false
+      },
+      {
+        "id": "102-56",
+        "name": "数据安全",
+        "chain": "内部系统-数据安全",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 56,
+          "name": "数据安全",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-56",
+        "parentTreeId": "102-4",
+        "businessLineId": 56,
+        "specialField": false
+      },
+      {
+        "id": "102-55",
+        "name": "资金清结算",
+        "chain": "内部系统-资金清结算",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 55,
+          "name": "资金清结算",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-55",
+        "parentTreeId": "102-4",
+        "businessLineId": 55,
+        "specialField": false
+      },
+      {
+        "id": "102-33",
+        "name": "客服系统",
+        "chain": "内部系统-客服系统",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 33,
+          "name": "客服系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-33",
+        "parentTreeId": "102-4",
+        "businessLineId": 33,
+        "specialField": false
+      },
+      {
+        "id": "208-49",
+        "name": "内部系统",
+        "chain": "内部系统-内部系统",
+        "parentId": "208-4",
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 49,
+          "name": "内部系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "208-49",
+        "parentTreeId": "208-4",
+        "businessLineId": 49,
+        "specialField": false
+      },
+      {
+        "id": "223-39",
+        "name": "API",
+        "chain": "国内借贷-信贷-API",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 39,
+          "name": "API",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-39",
+        "parentTreeId": "223-1",
+        "businessLineId": 39,
+        "specialField": false
+      },
+      {
+        "id": "102-50",
+        "name": "客服",
+        "chain": "内部系统-客服",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 50,
+          "name": "客服",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-50",
+        "parentTreeId": "102-4",
+        "businessLineId": 50,
+        "specialField": false
+      },
+      {
+        "id": "102-52",
+        "name": "架构测试",
+        "chain": "内部系统-架构测试",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 52,
+          "name": "架构测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-52",
+        "parentTreeId": "102-4",
+        "businessLineId": 52,
+        "specialField": false
+      },
+      {
+        "id": "102-51",
+        "name": "WP",
+        "chain": "内部系统-WP",
+        "parentId": "102-4",
+        "relatedDepartmentId": 102,
+        "businessLine": {
+          "id": 51,
+          "name": "WP",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "102-51",
+        "parentTreeId": "102-4",
+        "businessLineId": 51,
+        "specialField": false
+      },
+      {
+        "id": "223-27",
+        "name": "内部系统后端",
+        "chain": "内部系统后端",
+        "parentId": null,
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 27,
+          "name": "内部系统后端",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 6,
+          "internalBusinessLineId": 27,
+          "relationId": 223,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "223-27",
+        "parentTreeId": null,
+        "businessLineId": 27,
+        "specialField": false
+      },
+      {
+        "id": "208-4",
+        "name": "内部系统",
+        "chain": "内部系统",
+        "parentId": null,
+        "relatedDepartmentId": 208,
+        "businessLine": {
+          "id": 4,
+          "name": "内部系统",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 11,
+          "internalBusinessLineId": 4,
+          "relationId": 208,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "208-4",
+        "parentTreeId": null,
+        "businessLineId": 4,
+        "specialField": false
+      },
+      {
+        "id": "65-50",
+        "name": "客服",
+        "chain": "内部系统-客服",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 50,
+          "name": "客服",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-50",
+        "parentTreeId": "65-4",
+        "businessLineId": 50,
+        "specialField": false
+      },
+      {
+        "id": "65-52",
+        "name": "架构测试",
+        "chain": "内部系统-架构测试",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 52,
+          "name": "架构测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-52",
+        "parentTreeId": "65-4",
+        "businessLineId": 52,
+        "specialField": false
+      },
+      {
+        "id": "65-51",
+        "name": "WP",
+        "chain": "内部系统-WP",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 51,
+          "name": "WP",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-51",
+        "parentTreeId": "65-4",
+        "businessLineId": 51,
+        "specialField": false
+      },
+      {
+        "id": "65-54",
+        "name": "呼叫平台",
+        "chain": "内部系统-呼叫平台",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 54,
+          "name": "呼叫平台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-54",
+        "parentTreeId": "65-4",
+        "businessLineId": 54,
+        "specialField": false
+      },
+      {
+        "id": "65-32",
+        "name": "业务中台",
+        "chain": "内部系统-业务中台",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 32,
+          "name": "业务中台",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-32",
+        "parentTreeId": "65-4",
+        "businessLineId": 32,
+        "specialField": false
+      },
+      {
+        "id": "223-40",
+        "name": "业务风控",
+        "chain": "国内借贷-信贷-业务风控",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 40,
+          "name": "业务风控",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-40",
+        "parentTreeId": "223-1",
+        "businessLineId": 40,
+        "specialField": false
+      },
+      {
+        "id": "65-53",
+        "name": "数据平台测试",
+        "chain": "内部系统-数据平台测试",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 53,
+          "name": "数据平台测试",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-53",
+        "parentTreeId": "65-4",
+        "businessLineId": 53,
+        "specialField": false
+      },
+      {
+        "id": "65-31",
+        "name": "OA系统",
+        "chain": "内部系统-OA系统",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 31,
+          "name": "OA系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-31",
+        "parentTreeId": "65-4",
+        "businessLineId": 31,
+        "specialField": false
+      },
+      {
+        "id": "223-41",
+        "name": "技术支持",
+        "chain": "国内借贷-信贷-技术支持",
+        "parentId": "223-1",
+        "relatedDepartmentId": 223,
+        "businessLine": {
+          "id": 41,
+          "name": "技术支持",
+          "parentId": 1,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "223-41",
+        "parentTreeId": "223-1",
+        "businessLineId": 41,
+        "specialField": false
+      },
+      {
+        "id": "65-56",
+        "name": "数据安全",
+        "chain": "内部系统-数据安全",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 56,
+          "name": "数据安全",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-56",
+        "parentTreeId": "65-4",
+        "businessLineId": 56,
+        "specialField": false
+      },
+      {
+        "id": "65-55",
+        "name": "资金清结算",
+        "chain": "内部系统-资金清结算",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 55,
+          "name": "资金清结算",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-55",
+        "parentTreeId": "65-4",
+        "businessLineId": 55,
+        "specialField": false
+      },
+      {
+        "id": "65-33",
+        "name": "客服系统",
+        "chain": "内部系统-客服系统",
+        "parentId": "65-4",
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 33,
+          "name": "客服系统",
+          "parentId": 4,
+          "level": 2,
+          "specialField": false
+        },
+        "businessLineRelation": null,
+        "treeId": "65-33",
+        "parentTreeId": "65-4",
+        "businessLineId": 33,
+        "specialField": false
+      },
+      {
+        "id": "65-4",
+        "name": "内部系统",
+        "chain": "内部系统",
+        "parentId": null,
+        "relatedDepartmentId": 65,
+        "businessLine": {
+          "id": 4,
+          "name": "内部系统",
+          "parentId": 0,
+          "level": 1,
+          "specialField": false
+        },
+        "businessLineRelation": {
+          "id": 3,
+          "internalBusinessLineId": 4,
+          "relationId": 65,
+          "relationType": "DEPARTMENT"
+        },
+        "treeId": "65-4",
+        "parentTreeId": null,
+        "businessLineId": 4,
+        "specialField": false
+      }
+    ]
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1733659521118,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
