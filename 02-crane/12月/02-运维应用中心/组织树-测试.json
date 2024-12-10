@@ -1,0 +1,1062 @@
+{
+  "code": 1,
+  "error": "",
+  "data": {
+    "id": 0,
+    "name": "瓴岳",
+    "level": 1,
+    "children": [
+            {
+        "id": 6,
+        "name": "eu",
+        "level": 2,
+        "children": [
+          {
+            "id": 50,
+            "name": "web",
+            "level": 3,
+            "children": [
+              {
+                "id": 197,
+                "name": "fintopia-web",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 494,
+                    "name": "eu-web-easycash-h5",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#494#494"
+                  },
+                  {
+                    "id": 496,
+                    "name": "eu-web-easycash-h5-preview",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#496#496"
+                  },
+                  {
+                    "id": 502,
+                    "name": "eu-web-ocs-client",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#502#502"
+                  },
+                  {
+                    "id": 511,
+                    "name": "eu-web-overseas-admin",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#511#511"
+                  },
+                  {
+                    "id": 513,
+                    "name": "eu-web-overseas-audit",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#513#513"
+                  },
+                  {
+                    "id": 522,
+                    "name": "eu-web-overseas-collection",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#522#522"
+                  },
+                  {
+                    "id": 528,
+                    "name": "eu-web-overseas-rule-engine",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#528#528"
+                  },
+                  {
+                    "id": 532,
+                    "name": "eu-web-overseas-wa",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#532#532"
+                  },
+                  {
+                    "id": 542,
+                    "name": "eu-web-yqg-ec-call",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#542#542"
+                  },
+                  {
+                    "id": 545,
+                    "name": "eu-web-yqg-mayuri",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#545#545"
+                  },
+                  {
+                    "id": 551,
+                    "name": "eu-web-yqg-mayuri-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#551#551"
+                  },
+                  {
+                    "id": 558,
+                    "name": "eu-web-yqg-talk",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#558#558"
+                  },
+                  {
+                    "id": 562,
+                    "name": "eu-web-yqg-tech",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#562#562"
+                  },
+                  {
+                    "id": 572,
+                    "name": "eu-web-sofom-examine",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#572#572"
+                  },
+                  {
+                    "id": 574,
+                    "name": "eu-web-sofom",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#574#574"
+                  },
+                  {
+                    "id": 1201,
+                    "name": "eu-web-fintopia-easypln",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1201#1201"
+                  },
+                  {
+                    "id": 1213,
+                    "name": "eu-web-easypln",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1213#1213"
+                  },
+                  {
+                    "id": 1499,
+                    "name": "eu-web-rule-engine-admin-web",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1499#1499"
+                  }
+                ],
+                "node_id": "4#197#197"
+              },
+              {
+                "id": 198,
+                "name": "vue-ssr",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 580,
+                    "name": "eu-web-cypress",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#580#580"
+                  },
+                  {
+                    "id": 584,
+                    "name": "eu-web-easycash",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#584#584"
+                  },
+                  {
+                    "id": 591,
+                    "name": "eu-web-easycash-new",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#591#591"
+                  },
+                  {
+                    "id": 596,
+                    "name": "eu-web-fintopia",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#596#596"
+                  },
+                  {
+                    "id": 605,
+                    "name": "eu-web-overseas-oa",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#605#605"
+                  },
+                  {
+                    "id": 610,
+                    "name": "eu-web-rupiahmart",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#610#610"
+                  },
+                  {
+                    "id": 614,
+                    "name": "eu-web-peso-agad",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#614#614"
+                  },
+                  {
+                    "id": 633,
+                    "name": "eu-web-mayacash",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#633#633"
+                  },
+                  {
+                    "id": 635,
+                    "name": "eu-web-olacred",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#635#635"
+                  },
+                  {
+                    "id": 647,
+                    "name": "eu-web-th-fincash",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#647#647"
+                  },
+                  {
+                    "id": 652,
+                    "name": "eu-web-th-money-mall",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#652#652"
+                  }
+                ],
+                "node_id": "4#198#198"
+              },
+              {
+                "id": 246,
+                "name": "eu-fintopia-web",
+                "level": 4,
+                "children": [],
+                "node_id": "4#246#246"
+              }
+            ],
+            "node_id": "3#50#50"
+          },
+          {
+            "id": 51,
+            "name": "cashloan",
+            "level": 3,
+            "children": [
+              {
+                "id": 173,
+                "name": "ec",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 246,
+                    "name": "eu-cashloan-ec-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#246#246"
+                  },
+                  {
+                    "id": 249,
+                    "name": "eu-cashloan-ec-admin",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#249#249"
+                  },
+                  {
+                    "id": 258,
+                    "name": "eu-cashloan-ec-kafka-consumer",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#258#258"
+                  },
+                  {
+                    "id": 263,
+                    "name": "eu-cashloan-ec-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#263#263"
+                  },
+                  {
+                    "id": 266,
+                    "name": "eu-cashloan-ec-internal-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#266#266"
+                  },
+                  {
+                    "id": 270,
+                    "name": "eu-cashloan-ec-stat-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#270#270"
+                  }
+                ],
+                "node_id": "4#173#173"
+              },
+              {
+                "id": 174,
+                "name": "whatopia",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 275,
+                    "name": "eu-cashloan-whatopia-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#275#275"
+                  }
+                ],
+                "node_id": "4#174#174"
+              },
+              {
+                "id": 175,
+                "name": "ec-call",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 282,
+                    "name": "eu-cashloan-call-admin",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#282#282"
+                  },
+                  {
+                    "id": 287,
+                    "name": "eu-cashloan-call-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#287#287"
+                  },
+                  {
+                    "id": 293,
+                    "name": "eu-cashloan-call-kafka-consumer",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#293#293"
+                  },
+                  {
+                    "id": 298,
+                    "name": "eu-cashloan-call-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#298#298"
+                  }
+                ],
+                "node_id": "4#175#175"
+              },
+              {
+                "id": 176,
+                "name": "yqg_-",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 301,
+                    "name": "eu-cashloan-collection-admin",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#301#301"
+                  },
+                  {
+                    "id": 308,
+                    "name": "eu-cashloan-collection-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#308#308"
+                  },
+                  {
+                    "id": 312,
+                    "name": "eu-cashloan-collection-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#312#312"
+                  }
+                ],
+                "node_id": "4#176#176"
+              },
+              {
+                "id": 177,
+                "name": "overseas-payment",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 320,
+                    "name": "eu-cashloan-overseas-payment-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#320#320"
+                  },
+                  {
+                    "id": 852,
+                    "name": "eu-cashloan-overseas-payment-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#852#852"
+                  }
+                ],
+                "node_id": "4#177#177"
+              },
+              {
+                "id": 178,
+                "name": "overseas-quality",
+                "level": 4,
+                "children": [],
+                "node_id": "4#178#178"
+              },
+              {
+                "id": 179,
+                "name": "overseas-storage",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 358,
+                    "name": "eu-cashloan-overseas-storage-service",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#358#358"
+                  }
+                ],
+                "node_id": "4#179#179"
+              },
+              {
+                "id": 186,
+                "name": "overseas-notification",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 370,
+                    "name": "eu-infra-notification-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#370#370"
+                  },
+                  {
+                    "id": 373,
+                    "name": "eu-infra-notification-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#373#373"
+                  },
+                  {
+                    "id": 1332,
+                    "name": "eu-cashloan-notification-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1332#1332"
+                  },
+                  {
+                    "id": 1333,
+                    "name": "eu-cashloan-notification-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1333#1333"
+                  },
+                  {
+                    "id": 1415,
+                    "name": "eu-cashloan-notification-admin",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1415#1415"
+                  }
+                ],
+                "node_id": "4#186#186"
+              },
+              {
+                "id": 353,
+                "name": "sea-ec",
+                "level": 4,
+                "children": [],
+                "node_id": "4#353#353"
+              },
+              {
+                "id": 523,
+                "name": "yqg-collection",
+                "level": 4,
+                "children": [],
+                "node_id": "4#523#523"
+              },
+              {
+                "id": 532,
+                "name": "overseas-marketing-center",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 1294,
+                    "name": "eu-cashloan-mc-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1294#1294"
+                  },
+                  {
+                    "id": 1368,
+                    "name": "eu-cashloan-mc-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1368#1368"
+                  },
+                  {
+                    "id": 1393,
+                    "name": "eu-cashloan-mc-admin",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1393#1393"
+                  },
+                  {
+                    "id": 1394,
+                    "name": "eu-cashloan-mc-kafka-consumer",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1394#1394"
+                  }
+                ],
+                "node_id": "4#532#532"
+              }
+            ],
+            "node_id": "3#51#51"
+          },
+          {
+            "id": 52,
+            "name": "infra",
+            "level": 3,
+            "children": [
+              {
+                "id": 184,
+                "name": "yqg-config",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 1203,
+                    "name": "eu-infra-config-admin-service",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1203#1203"
+                  },
+                  {
+                    "id": 1204,
+                    "name": "eu-infra-config-service",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1204#1204"
+                  }
+                ],
+                "node_id": "4#184#184"
+              },
+              {
+                "id": 185,
+                "name": "yqg-alert",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 363,
+                    "name": "eu-infra-alert-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#363#363"
+                  },
+                  {
+                    "id": 365,
+                    "name": "eu-infra-alert-executor",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#365#365"
+                  }
+                ],
+                "node_id": "4#185#185"
+              },
+              {
+                "id": 187,
+                "name": "sqltools",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 377,
+                    "name": "eu-infra-sql-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#377#377"
+                  },
+                  {
+                    "id": 382,
+                    "name": "eu-infra-sql-consumer",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#382#382"
+                  }
+                ],
+                "node_id": "4#187#187"
+              },
+              {
+                "id": 188,
+                "name": "infra-toolkit",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 388,
+                    "name": "eu-infra-toolkit-service",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#388#388"
+                  }
+                ],
+                "node_id": "4#188#188"
+              },
+              {
+                "id": 189,
+                "name": "ylog",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 393,
+                    "name": "eu-infra-ylog-admin",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#393#393"
+                  },
+                  {
+                    "id": 395,
+                    "name": "eu-infra-ylog-processor-influx",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#395#395"
+                  }
+                ],
+                "node_id": "4#189#189"
+              },
+              {
+                "id": 190,
+                "name": "scheduler",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 403,
+                    "name": "eu-infra-scheduler-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#403#403"
+                  }
+                ],
+                "node_id": "4#190#190"
+              },
+              {
+                "id": 191,
+                "name": "yqg-event-tracking",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 465,
+                    "name": "eu-infra-event-tracking-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#465#465"
+                  },
+                  {
+                    "id": 466,
+                    "name": "eu-infra-event-tracking-internal-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#466#466"
+                  },
+                  {
+                    "id": 467,
+                    "name": "eu-infra-event-tracking-kafka-consumer",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#467#467"
+                  }
+                ],
+                "node_id": "4#191#191"
+              },
+              {
+                "id": 552,
+                "name": "infrastructure-registry",
+                "level": 4,
+                "children": [],
+                "node_id": "4#552#552"
+              }
+            ],
+            "node_id": "3#52#52"
+          },
+          {
+            "id": 53,
+            "name": "internal",
+            "level": 3,
+            "children": [
+              {
+                "id": 180,
+                "name": "overseas-bubble",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 353,
+                    "name": "eu-cashloan-bubble-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#353#353"
+                  }
+                ],
+                "node_id": "4#180#180"
+              },
+              {
+                "id": 181,
+                "name": "overseas-call-center",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 322,
+                    "name": "eu-internal-callcenter-service",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#322#322"
+                  },
+                  {
+                    "id": 327,
+                    "name": "eu-internal-callcenter-kafka-consumer",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#327#327"
+                  },
+                  {
+                    "id": 330,
+                    "name": "eu-internal-callcenter-kafka-producer",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#330#330"
+                  },
+                  {
+                    "id": 336,
+                    "name": "eu-internal-callcenter-log-consumer",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#336#336"
+                  },
+                  {
+                    "id": 340,
+                    "name": "eu-internal-callcenter-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#340#340"
+                  },
+                  {
+                    "id": 342,
+                    "name": "eu-internal-callcenter-freeswitch",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#342#342"
+                  },
+                  {
+                    "id": 347,
+                    "name": "eu-internal-callcenter-opensips",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#347#347"
+                  },
+                  {
+                    "id": 349,
+                    "name": "eu-internal-callcenter-rtpengine",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#349#349"
+                  }
+                ],
+                "node_id": "4#181#181"
+              },
+              {
+                "id": 182,
+                "name": "online-customer-service",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 1364,
+                    "name": "eu-internal-online-customer-service",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1364#1364"
+                  },
+                  {
+                    "id": 1366,
+                    "name": "eu-internal-online-customer-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1366#1366"
+                  }
+                ],
+                "node_id": "4#182#182"
+              },
+              {
+                "id": 183,
+                "name": "customer-service",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 1214,
+                    "name": "eu-internal-customer-service-admin",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1214#1214"
+                  },
+                  {
+                    "id": 1365,
+                    "name": "eu-internal-customer-service-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1365#1365"
+                  }
+                ],
+                "node_id": "4#183#183"
+              },
+              {
+                "id": 247,
+                "name": "poland-smart-chat",
+                "level": 4,
+                "children": [],
+                "node_id": "4#247#247"
+              },
+              {
+                "id": 359,
+                "name": "smart-ap",
+                "level": 4,
+                "children": [],
+                "node_id": "4#359#359"
+              }
+            ],
+            "node_id": "3#53#53"
+          },
+          {
+            "id": 54,
+            "name": "risk",
+            "level": 3,
+            "children": [
+              {
+                "id": 192,
+                "name": "overseas-risk",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 408,
+                    "name": "eu-risk-overseas-risk-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#408#408"
+                  },
+                  {
+                    "id": 413,
+                    "name": "eu-risk-overseas-risk-kafka-consumer",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#413#413"
+                  },
+                  {
+                    "id": 416,
+                    "name": "eu-risk-overseas-risk-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#416#416"
+                  },
+                  {
+                    "id": 422,
+                    "name": "eu-risk-overseas-risk-stat-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#422#422"
+                  },
+                  {
+                    "id": 1338,
+                    "name": "eu-risk-overseas-risk-admin",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1338#1338"
+                  }
+                ],
+                "node_id": "4#192#192"
+              },
+              {
+                "id": 193,
+                "name": "ruleengine-reborn-overseas",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 430,
+                    "name": "eu-risk-ruleengine-admin",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#430#430"
+                  },
+                  {
+                    "id": 433,
+                    "name": "eu-risk-ruleengine-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#433#433"
+                  },
+                  {
+                    "id": 440,
+                    "name": "eu-risk-ruleengine-calc-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#440#440"
+                  },
+                  {
+                    "id": 443,
+                    "name": "eu-risk-ruleengine-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#443#443"
+                  },
+                  {
+                    "id": 818,
+                    "name": "eu-risk-ruleengine-kafka-consumer",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#818#818"
+                  }
+                ],
+                "node_id": "4#193#193"
+              },
+              {
+                "id": 194,
+                "name": "tensorflow",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 447,
+                    "name": "eu-risk-tensorflow",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#447#447"
+                  }
+                ],
+                "node_id": "4#194#194"
+              },
+              {
+                "id": 195,
+                "name": "spider",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 454,
+                    "name": "eu-risk-spider-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#454#454"
+                  },
+                  {
+                    "id": 458,
+                    "name": "eu-risk-spider-scheduler",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#458#458"
+                  }
+                ],
+                "node_id": "4#195#195"
+              },
+              {
+                "id": 196,
+                "name": "spider-worker",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 461,
+                    "name": "eu-risk-python-spider-worker",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#461#461"
+                  }
+                ],
+                "node_id": "4#196#196"
+              },
+              {
+                "id": 517,
+                "name": "overseas-risk-model",
+                "level": 4,
+                "children": [],
+                "node_id": "4#517#517"
+              },
+              {
+                "id": 542,
+                "name": "overseas-risk-model-api",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 1222,
+                    "name": "eu-risk-overseas-risk-model-api",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1222#1222"
+                  },
+                  {
+                    "id": 1348,
+                    "name": "eu-risk-overseas-risk-model-api-offline",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1348#1348"
+                  }
+                ],
+                "node_id": "4#542#542"
+              },
+              {
+                "id": 601,
+                "name": "overseas-risk-sea",
+                "level": 4,
+                "children": [],
+                "node_id": "4#601#601"
+              }
+            ],
+            "node_id": "3#54#54"
+          },
+          {
+            "id": 55,
+            "name": "bigdata",
+            "level": 3,
+            "children": [],
+            "node_id": "3#55#55"
+          },
+          {
+            "id": 56,
+            "name": "devops",
+            "level": 3,
+            "children": [
+              {
+                "id": 540,
+                "name": "xiaoyuwu-test",
+                "level": 4,
+                "children": [],
+                "node_id": "4#540#540"
+              },
+              {
+                "id": 579,
+                "name": "sls-consumer",
+                "level": 4,
+                "children": [
+                  {
+                    "id": 1504,
+                    "name": "eu-devops-sls-consumer-apm",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1504#1504"
+                  },
+                  {
+                    "id": 1526,
+                    "name": "eu-devops-sls-consumer-errorlog",
+                    "level": 5,
+                    "children": [],
+                    "node_id": "5#1526#1526"
+                  }
+                ],
+                "node_id": "4#579#579"
+              }
+            ],
+            "node_id": "3#56#56"
+          }
+        ],
+        "node_id": "2#6#6"
+      }
+    ],
+    "node_id": "1#0#瓴岳"
+  }
+}
