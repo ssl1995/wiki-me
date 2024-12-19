@@ -1,0 +1,13 @@
+{
+  "flowNumber": "F-CR2412160002",
+  "flowId": 701126,
+  "flowCode": "TAU",
+  "preFlowId": null,
+  "businessId": 157,
+  "flowState": "ACCEPT",
+  "auditorWorkNumber": "00014",
+  "actionType": "APPROVE",
+  "reason": null,
+  "businessSnapshot": "{}",
+  "flowModulesValue": {}
+}

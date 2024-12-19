@@ -1,20 +1,9 @@
 {
-  "roleId": 10004832,
-  "categoryList": [
+  "headers": [
     {
-      "attributeCategoryId": 113,
-      "attributeValueIds": [
-        38
-      ]
-    },
-    {
-      "attributeCategoryId": 44,
-      "attributeValueIds": [
-        392,
-        192
-      ],
-      "categoryName": "权限控制系统维度",
-      "attributeNames": "test1、新版权限管理crane"
+      "name": "chidori_gray",
+      "match": "exact",
+      "value": "chidori"
     }
   ]
 }
