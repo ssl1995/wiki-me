@@ -1,0 +1,6 @@
+/admin/user/login/sendSmsCode
+
+com.yqg.chidori.controller.admin.EmployeeController#sendSmsCode
+
+563376078@qq.com
+123456a?
