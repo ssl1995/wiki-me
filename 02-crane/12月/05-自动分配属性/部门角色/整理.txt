@@ -1,0 +1,5 @@
+/admin/employee/attribute
+
+# 属性配置-查询员工属性
+/admin/employee/attribute/03541
+

@@ -1,0 +1,12 @@
+{
+  "employeeNumber": "03541",
+  "categoryList": [
+    {
+      "attributeCategoryId": 6,
+      "attributeValueIds": [
+        8,
+        9
+      ]
+    }
+  ]
+}

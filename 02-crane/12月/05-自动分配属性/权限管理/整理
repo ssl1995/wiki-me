@@ -1,5 +1,8 @@
-权限管理-新建/修改
+/admin/employee/attribute/03541
 
-数据维度-数据权限=有，前端请求接口：GET /admin/attribute/category/all
-GET请求没有任何参数，现在需要加上参数?permissionId = “权限管理列表页的每一行数据的Id”
-后端用这个值查询权限所属系统，再查关联的属性维度
+/admin/attribute/category/all?status=ABLE&configWay=MANUAL
+
+/admin/attribute/6
+
+EMPLOYEE.DEPARTMENT_ROLE.ATTRIBUTE_ROLE_CREATE
+新版权限管理crane.人员管理.部门初始角色.配置角色属性
