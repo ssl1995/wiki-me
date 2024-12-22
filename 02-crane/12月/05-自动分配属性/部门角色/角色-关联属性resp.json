@@ -1,0 +1,113 @@
+{
+	"body": {
+		"roleId": 10004885,
+		"categoryList": [
+			{
+				"attributeCategory": {
+					"id": 6,
+					"categoryCode": "Financia_entities",
+					"categoryName": "财务主体",
+					"source": "System",
+					"sourceType": "FINANCIAL_ENTITY",
+					"showWay": "FLAT",
+					"configWay": "MANUAL",
+					"status": "ABLE",
+					"operator": "",
+					"functionList": null,
+					"relatedBusinessCodes": [
+						"testcode-wf7"
+					],
+					"relatedBusinessVos": [{
+							"id": 468,
+							"name": "叶测试1106",
+							"code": "yewei-test1106",
+							"status": "ABLE",
+							"host": "yewei-test1106",
+							"wechatAppId": "",
+							"wechatSecret": "",
+							"cookieSecret": "",
+							"cookieMaxAge": 0,
+							"crossDomain": false,
+							"cookieAccessCodes": null,
+							"adminRoleName": "叶测试1106 - 系统管理员",
+							"superAdminRoleName": null,
+							"adminWorkNumber": null,
+							"systemRoleName": "叶测试1106 - 系统管理员",
+							"admin": [
+								{
+									"name": "叶玮",
+									"workNumber": "04690",
+									"departmentName": "后端123",
+									"companyEmail": null
+								},
+								{
+									"name": "宋测试-唐凤娇-03465",
+									"workNumber": "03465",
+									"departmentName": "客服",
+									"companyEmail": null
+								},
+								{
+									"name": "叶测试M4-04695",
+									"workNumber": "04695",
+									"departmentName": "自动创建的部门 (不要删",
+									"companyEmail": null
+								},
+								{
+									"name": "王曙光",
+									"workNumber": "05295",
+									"departmentName": "会计",
+									"companyEmail": null
+								}
+							],
+							"superAdmin": null,
+							"systemType": "INTERNAL_SYSTEM",
+							"superSystemRoleName": null
+						}
+                    ]
+				},
+				"attributes": [
+					{
+						"id": 9,
+						"categoryId": 6,
+						"attributeCode": "YY",
+						"attributeName": "岩屿",
+						"attributeSourceType": "EMPLOYEE_RELATION",
+						"specialField": false
+					},
+					{
+						"id": 13,
+						"categoryId": 6,
+						"attributeCode": "TE",
+						"attributeName": "TECL",
+						"attributeSourceType": "AUTO_ROLE_RELATION",
+						"specialField": false
+					},
+					{
+						"id": 11,
+						"categoryId": 6,
+						"attributeCode": "MT",
+						"attributeName": "米投",
+						"attributeSourceType": "EMPLOYEE_RELATION",
+						"specialField": false
+					},
+					{
+						"id": 8,
+						"categoryId": 6,
+						"attributeCode": "LY",
+						"attributeName": "瓴岳",
+						"attributeSourceType": "EMPLOYEE_RELATION",
+						"specialField": false
+					}
+				]
+			}
+		]
+	},
+	"status": {
+		"code": 0,
+		"type": "",
+		"detail": "",
+		"serverResponseTime": 1734862468755,
+		"displayType": "TOAST",
+		"url": null
+	}
+}

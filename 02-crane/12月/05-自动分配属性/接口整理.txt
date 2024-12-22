@@ -1,0 +1,29 @@
+1、属性管理
+新增/修改：https://mock-next.fintopia.tech/M12837
+
+列表页：https://mock-next.fintopia.tech/M12840
+
+2、权限管理
+2.1新建/修改
+数据维度-数据权限=有时，前端请求接口：GET /admin/attribute/category/all
+修改：
+1.新增参数?relatedBusinessCodes = 当前权限所在的系统Code，必填,支持多参数?relatedBusinessCodes=OA,CRANE，比如，如果未填，返回为空
+2.只返回当前登录人是管理员的系统，关联的属性维度；如果登录人不是任何系统管理员，返回空
+3.备注：该接口的/all这个含义变了，如果前端不方便，后端将历史/all修改回去；那就新增另一个接口，比如GET /admin/attribute/category/relate-business来代替该场景的接口
+
+
+3、人员管理
+3.1 部门成员-属性配置
+GET /admin/employee/attribute/:{workNumber}
+修改：
+1、系统名称字段，新增返回字段relatedBusinessVos集合,其relatedBusinessVos[x].name表示系统名称，用于展示系统名称
+2、系统Code字段，新增返回字段relatedBusinessCodes集合，用于下面的接口
+
+GET /admin/attribute/category/all?status=ABLE&configWay=MANUAL
+修改：
+1、因为2.新增参数?relatedBusinessCodes = 当前权限所在的系统Code，必填,支持多参数?relatedBusinessCodes=OA,CRANE，比如，如果未填，返回为空
+2、所以前端得传参必须把relatedBusinessCodes带上；取值从relatedBusinessCodes取出传参，比如?relatedBusinessCodes=OA,CRANE
+
+3.2 部门初始化角色，各角色新增属性配置
+角色-查询该角色关联的属性：https://mock-next.fintopia.tech/C429?api=14993
+角色-关联属性（新增Or修改Or删除）：https://mock-next.fintopia.tech/C429?api=14971
