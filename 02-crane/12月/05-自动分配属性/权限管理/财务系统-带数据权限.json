@@ -1,0 +1,535 @@
+{
+  "body": {
+    "list": [
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": [
+            {
+              "attributeCategory": {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null,
+                "relatedBusinessCodes": [
+                  "yewei-0802-01",
+                  "FINANCE",
+                  "0-8-0-6-t-e-s-t"
+                ],
+                "relatedBusinessVos": [
+                  {
+                    "id": 393,
+                    "name": "0806测试叶",
+                    "code": "0-8-0-6-t-e-s-t",
+                    "status": "ABLE",
+                    "host": "0-8-0-6-t-e-s-t",
+                    "wechatAppId": "",
+                    "wechatSecret": "",
+                    "cookieSecret": "",
+                    "cookieMaxAge": 0,
+                    "crossDomain": true,
+                    "cookieAccessCodes": null,
+                    "adminRoleName": "0806测试叶 - 系统管理员",
+                    "superAdminRoleName": null,
+                    "adminWorkNumber": null,
+                    "systemRoleName": "0806测试叶 - 系统管理员",
+                    "admin": [
+                      {
+                        "name": "叶玮",
+                        "workNumber": "04690",
+                        "departmentName": "后端123",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "宋声林",
+                        "workNumber": "03541",
+                        "departmentName": "后端123",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "王昕-01240",
+                        "workNumber": "01240",
+                        "departmentName": "omg",
+                        "companyEmail": null
+                      }
+                    ],
+                    "superAdmin": null,
+                    "systemType": "INTERNAL_SYSTEM",
+                    "superSystemRoleName": null
+                  },
+                  {
+                    "id": 383,
+                    "name": "超管逻辑测试",
+                    "code": "yewei-0802-01",
+                    "status": "ABLE",
+                    "host": "yewei-0802-01",
+                    "wechatAppId": "",
+                    "wechatSecret": "",
+                    "cookieSecret": "",
+                    "cookieMaxAge": 0,
+                    "crossDomain": true,
+                    "cookieAccessCodes": null,
+                    "adminRoleName": "超管逻辑测试 - 系统管理员",
+                    "superAdminRoleName": null,
+                    "adminWorkNumber": null,
+                    "systemRoleName": "超管逻辑测试 - 系统管理员",
+                    "admin": [
+                      {
+                        "name": "张红艳-02505",
+                        "workNumber": "02505",
+                        "departmentName": "人力",
+                        "companyEmail": null
+                      }
+                    ],
+                    "superAdmin": null,
+                    "systemType": "INTERNAL_SYSTEM",
+                    "superSystemRoleName": null
+                  },
+                  {
+                    "id": 53,
+                    "name": "财务系统",
+                    "code": "FINANCE",
+                    "status": "ABLE",
+                    "host": "https://finance-test.yangqianguan.com/",
+                    "wechatAppId": "",
+                    "wechatSecret": "",
+                    "cookieSecret": "gqk826rf",
+                    "cookieMaxAge": 0,
+                    "crossDomain": true,
+                    "cookieAccessCodes": [
+                      "40"
+                    ],
+                    "adminRoleName": "财务系统 - 系统管理员",
+                    "superAdminRoleName": null,
+                    "adminWorkNumber": null,
+                    "systemRoleName": "财务系统 - 系统管理员",
+                    "admin": [
+                      {
+                        "name": "宋佩瑶",
+                        "workNumber": "02124",
+                        "departmentName": "机构合作部",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "lilixian",
+                        "workNumber": "00251",
+                        "departmentName": "e we",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "王昕",
+                        "workNumber": "02616",
+                        "departmentName": "自动创建的部门 (不要删",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "王昕-01240",
+                        "workNumber": "01240",
+                        "departmentName": "omg",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "叶玮",
+                        "workNumber": "04690",
+                        "departmentName": "后端123",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "赖小梅",
+                        "workNumber": "04697",
+                        "departmentName": "技术部",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "路乘风",
+                        "workNumber": "04878",
+                        "departmentName": "数字居",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "孙家大小姐",
+                        "workNumber": "00264",
+                        "departmentName": "自动创建的部门 (不要删",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "孟鹏",
+                        "workNumber": "01115",
+                        "departmentName": "客服",
+                        "companyEmail": null
+                      }
+                    ],
+                    "superAdmin": null,
+                    "systemType": "INTERNAL_SYSTEM",
+                    "superSystemRoleName": null
+                  }
+                ]
+              },
+              "attributes": [
+                {
+                  "id": 8,
+                  "categoryId": 62,
+                  "attributeCode": "LY",
+                  "attributeName": "瓴岳",
+                  "attributeSourceType": null,
+                  "specialField": false
+                },
+                {
+                  "id": 13,
+                  "categoryId": 62,
+                  "attributeCode": "TE",
+                  "attributeName": "TECL",
+                  "attributeSourceType": null,
+                  "specialField": false
+                }
+              ]
+            }
+          ]
+        },
+        "currentDataScope": null,
+        "id": 706,
+        "feature": "FINANCE.CHRONOLOGICAL_BOOK",
+        "name": "财务系统.序时账",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "财务系统",
+        "businessCode": "FINANCE",
+        "relatedRoles": null,
+        "createTime": "2024-08-05 16:42:00",
+        "updateTime": "2024-11-01T02:33:33Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "relatedBusinessLineIds": [],
+        "relatedBusinessLines": null,
+        "managers": null,
+        "targetName": "序时账",
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "businessApplyType": null,
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "interfaceConfigList": null,
+        "systemType": null,
+        "virtualCurrentDataScope": null,
+        "virtualOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "virtualId": null,
+        "virtualBusinessApplyType": null,
+        "virtualFlowState": null,
+        "targetCode": "FINANCE.CHRONOLOGICAL_BOOK",
+        "targetId": 706,
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "序时账",
+        "children": [
+          {
+            "employeeNumber": "03541",
+            "employeeDataScope": {
+              "employeeNumber": "03541",
+              "categoryList": [
+                {
+                  "attributeCategory": {
+                    "id": 62,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null,
+                    "relatedBusinessCodes": [
+                      "yewei-0802-01",
+                      "FINANCE",
+                      "0-8-0-6-t-e-s-t"
+                    ],
+                    "relatedBusinessVos": [
+                      {
+                        "id": 393,
+                        "name": "0806测试叶",
+                        "code": "0-8-0-6-t-e-s-t",
+                        "status": "ABLE",
+                        "host": "0-8-0-6-t-e-s-t",
+                        "wechatAppId": "",
+                        "wechatSecret": "",
+                        "cookieSecret": "",
+                        "cookieMaxAge": 0,
+                        "crossDomain": true,
+                        "cookieAccessCodes": null,
+                        "adminRoleName": "0806测试叶 - 系统管理员",
+                        "superAdminRoleName": null,
+                        "adminWorkNumber": null,
+                        "systemRoleName": "0806测试叶 - 系统管理员",
+                        "admin": [
+                          {
+                            "name": "叶玮",
+                            "workNumber": "04690",
+                            "departmentName": "后端123",
+                            "companyEmail": null
+                          },
+                          {
+                            "name": "宋声林",
+                            "workNumber": "03541",
+                            "departmentName": "后端123",
+                            "companyEmail": null
+                          },
+                          {
+                            "name": "王昕-01240",
+                            "workNumber": "01240",
+                            "departmentName": "omg",
+                            "companyEmail": null
+                          }
+                        ],
+                        "superAdmin": null,
+                        "systemType": "INTERNAL_SYSTEM",
+                        "superSystemRoleName": null
+                      },
+                      {
+                        "id": 383,
+                        "name": "超管逻辑测试",
+                        "code": "yewei-0802-01",
+                        "status": "ABLE",
+                        "host": "yewei-0802-01",
+                        "wechatAppId": "",
+                        "wechatSecret": "",
+                        "cookieSecret": "",
+                        "cookieMaxAge": 0,
+                        "crossDomain": true,
+                        "cookieAccessCodes": null,
+                        "adminRoleName": "超管逻辑测试 - 系统管理员",
+                        "superAdminRoleName": null,
+                        "adminWorkNumber": null,
+                        "systemRoleName": "超管逻辑测试 - 系统管理员",
+                        "admin": [
+                          {
+                            "name": "张红艳-02505",
+                            "workNumber": "02505",
+                            "departmentName": "人力",
+                            "companyEmail": null
+                          }
+                        ],
+                        "superAdmin": null,
+                        "systemType": "INTERNAL_SYSTEM",
+                        "superSystemRoleName": null
+                      },
+                      {
+                        "id": 53,
+                        "name": "财务系统",
+                        "code": "FINANCE",
+                        "status": "ABLE",
+                        "host": "https://finance-test.yangqianguan.com/",
+                        "wechatAppId": "",
+                        "wechatSecret": "",
+                        "cookieSecret": "gqk826rf",
+                        "cookieMaxAge": 0,
+                        "crossDomain": true,
+                        "cookieAccessCodes": [
+                          "40"
+                        ],
+                        "adminRoleName": "财务系统 - 系统管理员",
+                        "superAdminRoleName": null,
+                        "adminWorkNumber": null,
+                        "systemRoleName": "财务系统 - 系统管理员",
+                        "admin": [
+                          {
+                            "name": "宋佩瑶",
+                            "workNumber": "02124",
+                            "departmentName": "机构合作部",
+                            "companyEmail": null
+                          },
+                          {
+                            "name": "lilixian",
+                            "workNumber": "00251",
+                            "departmentName": "e we",
+                            "companyEmail": null
+                          },
+                          {
+                            "name": "王昕",
+                            "workNumber": "02616",
+                            "departmentName": "自动创建的部门 (不要删",
+                            "companyEmail": null
+                          },
+                          {
+                            "name": "王昕-01240",
+                            "workNumber": "01240",
+                            "departmentName": "omg",
+                            "companyEmail": null
+                          },
+                          {
+                            "name": "叶玮",
+                            "workNumber": "04690",
+                            "departmentName": "后端123",
+                            "companyEmail": null
+                          },
+                          {
+                            "name": "赖小梅",
+                            "workNumber": "04697",
+                            "departmentName": "技术部",
+                            "companyEmail": null
+                          },
+                          {
+                            "name": "路乘风",
+                            "workNumber": "04878",
+                            "departmentName": "数字居",
+                            "companyEmail": null
+                          },
+                          {
+                            "name": "孙家大小姐",
+                            "workNumber": "00264",
+                            "departmentName": "自动创建的部门 (不要删",
+                            "companyEmail": null
+                          },
+                          {
+                            "name": "孟鹏",
+                            "workNumber": "01115",
+                            "departmentName": "客服",
+                            "companyEmail": null
+                          }
+                        ],
+                        "superAdmin": null,
+                        "systemType": "INTERNAL_SYSTEM",
+                        "superSystemRoleName": null
+                      }
+                    ]
+                  },
+                  "attributes": [
+                    {
+                      "id": 8,
+                      "categoryId": 62,
+                      "attributeCode": "LY",
+                      "attributeName": "瓴岳",
+                      "attributeSourceType": null,
+                      "specialField": false
+                    },
+                    {
+                      "id": 13,
+                      "categoryId": 62,
+                      "attributeCode": "TE",
+                      "attributeName": "TECL",
+                      "attributeSourceType": null,
+                      "specialField": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "currentDataScope": [
+              "财务主体: 瓴岳 TECL "
+            ],
+            "id": 706,
+            "feature": "FINANCE.CHRONOLOGICAL_BOOK.EXCEL_EXPORT",
+            "name": "财务系统.序时账.导出",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+              62
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+              {
+                "id": 62,
+                "categoryCode": "finance_company_code",
+                "categoryName": "财务主体",
+                "source": "System",
+                "sourceType": "FINANCIAL_ENTITY",
+                "showWay": "FLAT",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null,
+                "relatedBusinessCodes": null,
+                "relatedBusinessVos": null
+              }
+            ],
+            "operator": "",
+            "systemRoleName": null,
+            "admin": null,
+            "businessName": "财务系统",
+            "businessCode": "FINANCE",
+            "relatedRoles": null,
+            "createTime": "2024-08-05 16:42:00",
+            "updateTime": "2024-11-01T02:33:33Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "relatedBusinessLineIds": [],
+            "relatedBusinessLines": null,
+            "managers": null,
+            "targetName": "导出",
+            "securityLevel": "L2",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "businessApplyType": null,
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "interfaceConfigList": null,
+            "systemType": null,
+            "virtualCurrentDataScope": [
+              "财务主体: 瓴岳 TECL "
+            ],
+            "virtualOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "virtualId": null,
+            "virtualBusinessApplyType": null,
+            "virtualFlowState": null,
+            "targetCode": "FINANCE.CHRONOLOGICAL_BOOK.EXCEL_EXPORT",
+            "targetId": 706,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "shortName": "导出",
+            "children": null
+          }
+        ]
+      }
+    ],
+    "total": 1,
+    "pageNo": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "size": 1
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1735046378187,
+    "displayType": "TOAST",
+    "url": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+	"body": {
+		"list": [
+			{
+				"employeeNumber": "03541",
+				"employeeDataScope": null,
+				"currentDataScope": null,
+				"id": 3382,
+				"feature": "songSys.renTestRole",
+				"name": "宋第三次系统.任洁测试数据权限",
+				"desc": "",
+				"status": "ABLE",
+				"type": "INTERNAL",
+				"supportDataRule": true,
+				"operationType": "QUERY",
+				"attributeCategoryIds": [
+					112
+				],
+				"attributeCategoryNameList": [],
+				"categoryVOS": [
+					{
+						"id": 112,
+						"categoryCode": "songRelated",
+						"categoryName": "宋测试系统",
+						"source": "System",
+						"sourceType": "DEPARTMENT",
+						"showWay": "FLAT",
+						"configWay": "MANUAL",
+						"status": "ABLE",
+						"operator": "",
+						"functionList": null,
+						"relatedBusinessCodes": null,
+						"relatedBusinessVos": null
+					}
+				],
+				"operator": "",
+				"systemRoleName": null,
+				"admin": null,
+				"businessName": "宋第三次系统",
+				"businessCode": "songSys",
+				"relatedRoles": null,
+				"createTime": "2024-12-24 21:09:51",
+				"updateTime": "2024-12-24T13:09:51Z",
+				"relatedDepartmentIds": [],
+				"relatedDepartments": null,
+				"relatedBusinessLineIds": [],
+				"relatedBusinessLines": null,
+				"managers": null,
+				"targetName": "任洁测试数据权限",
+				"securityLevel": "L1",
+				"isVirtualNode": false,
+				"relatedRoleIds": [],
+				"roleId": null,
+				"ownStatusVO": {
+					"timeStatus": "NO",
+					"dayDiff": null
+				},
+				"businessApplyType": null,
+				"flowState": null,
+				"lastFlowState": null,
+				"oaFlowUrl": null,
+				"interfaceConfigList": null,
+				"systemType": null,
+				"virtualCurrentDataScope": null,
+				"virtualOwnState": {
+					"timeStatus": "NO",
+					"dayDiff": null
+				},
+				"virtualId": null,
+				"virtualBusinessApplyType": null,
+				"virtualFlowState": null,
+				"targetCode": "songSys.renTestRole",
+				"targetId": 3382,
+				"errorMsg": "",
+				"operateType": "PERMISSION",
+				"shortName": "任洁测试数据权限",
+				"children": null
+			}
+		],
+		"total": 1,
+		"pageNo": 1,
+		"pageSize": 10,
+		"pages": 1,
+		"size": 1
+	},
+	"status": {
+		"code": 0,
+		"type": "",
+		"detail": "",
+		"serverResponseTime": 1735046623500,
+		"displayType": "TOAST",
+		"url": null
+	}
+}
