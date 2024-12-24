@@ -1,0 +1,38 @@
+{
+  "id": 3187,
+  "oaId": 3187,
+  "departmentChain": "技术部 后端",
+  "departmentId": 30,
+  "departmentName": "技术部",
+  "finalDepartmentName": "后端",
+  "workNumber": "03183",
+  "name": "宋声林",
+  "companyEmail": "shenglinsong@fintopia.tech",
+  "companySymbol": "FT",
+  "positionName": "初级开发工程师",
+  "gender": "男",
+  "state": "正式",
+  "supervisorNumber": "00064",
+  "mobile": "13639120050",
+  "countryCode": "CN",
+  "entryTime": 1679364404272,
+  "hrbpEmployeeId": null,
+  "rank": "I2",
+  "virtualSupervisorNumber": null,
+  "virtualSupervisorId": null,
+  "positionId": 493,
+  "pictures": {
+    "WORK_CARD_PHOTO": "https://oa-static.yangqianguan.com/oa/8daf7759785844b3d119597cf70d8e2a?e=1734929025&token=IAM-lNl4ImtIbsUc4fmAdUN5tQ2eHWDlJnLa4bMWCUST:-ufPq6BVdY9cJRrw-G9I69iI9Q0="
+  },
+  "employeeTypeId": 1,
+  "personalEmail": "13639120050@163.com",
+  "internalBusinessLineIdList": [
+    51
+  ],
+  "hroExternalSuppliersId": null,
+  "workplaceId": null,
+  "businessLineId": null,
+  "usedEmail": "shenglinsong@fintopia.tech",
+  "onPosition": true,
+  "idEncode": "noBqS6"
+}
