@@ -1,0 +1,1377 @@
+{
+  "body": {
+    "employeeNumber": "03541",
+    "categoryList": [
+      {
+        "attributeCategory": {
+          "id": 6,
+          "categoryCode": "Financia_entities",
+          "categoryName": "财务主体",
+          "source": "System",
+          "sourceType": "FINANCIAL_ENTITY",
+          "showWay": "FLAT",
+          "configWay": "MANUAL",
+          "status": "ABLE",
+          "operator": "",
+          "functionList": null
+        },
+        "attributes": [
+          {
+            "id": 9,
+            "categoryId": 6,
+            "attributeCode": "YY",
+            "attributeName": "岩屿",
+            "attributeSourceType": "AUTO_ROLE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 11,
+            "categoryId": 6,
+            "attributeCode": "MT",
+            "attributeName": "米投",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 8,
+            "categoryId": 6,
+            "attributeCode": "LY",
+            "attributeName": "瓴岳",
+            "attributeSourceType": "AUTO_ROLE_RELATION",
+            "specialField": false
+          }
+        ]
+      },
+      {
+        "attributeCategory": {
+          "id": 56,
+          "categoryCode": "Depar",
+          "categoryName": "部门",
+          "source": "System",
+          "sourceType": "DEPARTMENT",
+          "showWay": "TREE",
+          "configWay": "MANUAL",
+          "status": "ABLE",
+          "operator": "",
+          "functionList": null,
+          "relatedBusinessCodes": [
+            "CRANE",
+            "ghagfja",
+            "yewei0730101",
+            "role300",
+            "0-8-0-6-t-e-s-t",
+            "08-08-3",
+            "test0819",
+            "Employeetype-test"
+          ],
+          "relatedBusinessVos": [
+            {
+              "id": 475,
+              "name": "员工类型回归测试",
+              "code": "Employeetype-test",
+              "status": "ABLE",
+              "host": "https://test.com/test",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": false,
+              "cookieAccessCodes": null,
+              "adminRoleName": "员工类型回归测试 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "员工类型回归测试 - 系统管理员",
+              "admin": [
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "叶玮I1-05004",
+                  "workNumber": "05004",
+                  "departmentName": "律师123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "叶测试-05327",
+                  "workNumber": "05327",
+                  "departmentName": "法务部",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 422,
+              "name": "测试系统0819",
+              "code": "test0819",
+              "status": "ABLE",
+              "host": "http0819",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": false,
+              "cookieAccessCodes": null,
+              "adminRoleName": "测试系统0819 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "测试系统0819 - 系统管理员",
+              "admin": [
+                {
+                  "name": "lilixian",
+                  "workNumber": "00251",
+                  "departmentName": "e we",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 408,
+              "name": "0808测试系统",
+              "code": "08-08-3",
+              "status": "ABLE",
+              "host": "08-08-3",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": false,
+              "cookieAccessCodes": null,
+              "adminRoleName": "0808测试系统 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "0808测试系统 - 系统管理员",
+              "admin": [
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "张三四",
+                  "workNumber": "H00058",
+                  "departmentName": "产品商业部子部门",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 393,
+              "name": "0806测试叶",
+              "code": "0-8-0-6-t-e-s-t",
+              "status": "ABLE",
+              "host": "0-8-0-6-t-e-s-t",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": true,
+              "cookieAccessCodes": null,
+              "adminRoleName": "0806测试叶 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "0806测试叶 - 系统管理员",
+              "admin": [
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "宋声林",
+                  "workNumber": "03541",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王昕-01240",
+                  "workNumber": "01240",
+                  "departmentName": "omg",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 373,
+              "name": "角色批量300条",
+              "code": "role300",
+              "status": "ABLE",
+              "host": "sdbsjgfksjgw",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": false,
+              "cookieAccessCodes": null,
+              "adminRoleName": "角色批量300条 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "角色批量300条 - 系统管理员",
+              "admin": [
+                {
+                  "name": "王芳",
+                  "workNumber": "02065",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 365,
+              "name": "权限批量导入修改名称",
+              "code": "yewei0730101",
+              "status": "ABLE",
+              "host": "yewei0730101",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": true,
+              "cookieAccessCodes": null,
+              "adminRoleName": "权限批量导入修改名称 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "权限批量导入修改名称 - 系统管理员",
+              "admin": [
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王芳",
+                  "workNumber": "02065",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 312,
+              "name": "角色层级测试_wf",
+              "code": "ghagfja",
+              "status": "ABLE",
+              "host": "afksahf",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": true,
+              "cookieAccessCodes": null,
+              "adminRoleName": "角色层级测试_wf - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "角色层级测试_wf - 系统管理员",
+              "admin": [
+                {
+                  "name": "王芳",
+                  "workNumber": "02065",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "邓霖霖00003",
+                  "workNumber": "00003",
+                  "departmentName": "czy二级部门（非空）",
+                  "companyEmail": null
+                },
+                {
+                  "name": "lyl供应商7102",
+                  "workNumber": "04782",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "lyl供应商7101",
+                  "workNumber": "04781",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "sc内部员工-01",
+                  "workNumber": "04780",
+                  "departmentName": "测试组",
+                  "companyEmail": null
+                },
+                {
+                  "name": "scHRO-5",
+                  "workNumber": "04779",
+                  "departmentName": "总裁办",
+                  "companyEmail": null
+                },
+                {
+                  "name": "蔡庆",
+                  "workNumber": "04778",
+                  "departmentName": "财务部下",
+                  "companyEmail": null
+                },
+                {
+                  "name": "HRO-03",
+                  "workNumber": "04775",
+                  "departmentName": "内审内控部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "lylhro1",
+                  "workNumber": "04772",
+                  "departmentName": "产品商业部子部门",
+                  "companyEmail": null
+                },
+                {
+                  "name": "lyl外包供应商",
+                  "workNumber": "04771",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "HRO-01",
+                  "workNumber": "04770",
+                  "departmentName": "测试不113213",
+                  "companyEmail": null
+                },
+                {
+                  "name": "外包供应商02-04769",
+                  "workNumber": "04769",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "wbgys",
+                  "workNumber": "04768",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "hro1",
+                  "workNumber": "04767",
+                  "departmentName": "总裁办",
+                  "companyEmail": null
+                },
+                {
+                  "name": "HRO-007",
+                  "workNumber": "04766",
+                  "departmentName": "内审内控部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "HRO",
+                  "workNumber": "04765",
+                  "departmentName": "财务部下",
+                  "companyEmail": null
+                },
+                {
+                  "name": "11外包供应商-04764",
+                  "workNumber": "04764",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "HRO-大白",
+                  "workNumber": "04763",
+                  "departmentName": "律师123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "供应商-大白",
+                  "workNumber": "04762",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "孟鹏1",
+                  "workNumber": "04758",
+                  "departmentName": "WEB",
+                  "companyEmail": null
+                },
+                {
+                  "name": "康强",
+                  "workNumber": "04757",
+                  "departmentName": "数字居",
+                  "companyEmail": null
+                },
+                {
+                  "name": "陈风",
+                  "workNumber": "04756",
+                  "departmentName": "末级部门（自动化专用-勿增加子级）",
+                  "companyEmail": null
+                },
+                {
+                  "name": "林飘",
+                  "workNumber": "04755",
+                  "departmentName": "末级部门（自动化专用-勿增加子级）",
+                  "companyEmail": null
+                },
+                {
+                  "name": "常娟",
+                  "workNumber": "04754",
+                  "departmentName": "数字居",
+                  "companyEmail": null
+                },
+                {
+                  "name": "康平",
+                  "workNumber": "04753",
+                  "departmentName": "数字居",
+                  "companyEmail": null
+                },
+                {
+                  "name": "吴耀鹏",
+                  "workNumber": "04752",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "support",
+                  "workNumber": "04751",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "测试转正",
+                  "workNumber": "04750",
+                  "departmentName": "总裁办",
+                  "companyEmail": null
+                },
+                {
+                  "name": "魏同同",
+                  "workNumber": "04749",
+                  "departmentName": "末级部门（自动化专用-勿增加子级）",
+                  "companyEmail": null
+                },
+                {
+                  "name": "测试桩正问题",
+                  "workNumber": "04748",
+                  "departmentName": "人力资源",
+                  "companyEmail": null
+                },
+                {
+                  "name": "李明",
+                  "workNumber": "04747",
+                  "departmentName": "数字居",
+                  "companyEmail": null
+                },
+                {
+                  "name": "邵强",
+                  "workNumber": "04746",
+                  "departmentName": "数字居",
+                  "companyEmail": null
+                },
+                {
+                  "name": "张hy-33",
+                  "workNumber": "03478",
+                  "departmentName": "资产保全new",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 192,
+              "name": "新版权限管理crane",
+              "code": "CRANE",
+              "status": "ABLE",
+              "host": "https://crane-test.yangqianguan.com",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "kd28n2en",
+              "cookieMaxAge": 0,
+              "crossDomain": true,
+              "cookieAccessCodes": null,
+              "adminRoleName": "新版权限管理crane - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "新版权限管理crane - 系统管理员",
+              "admin": [
+                {
+                  "name": "曹维双",
+                  "workNumber": "04606",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "张红艳-02505",
+                  "workNumber": "02505",
+                  "departmentName": "人力",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王芳",
+                  "workNumber": "02065",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "宋声林",
+                  "workNumber": "03541",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "lilixian",
+                  "workNumber": "00251",
+                  "departmentName": "e we",
+                  "companyEmail": null
+                },
+                {
+                  "name": "刘老板-00001",
+                  "workNumber": "00001",
+                  "departmentName": "总裁办",
+                  "companyEmail": null
+                },
+                {
+                  "name": "祁伟",
+                  "workNumber": "04600",
+                  "departmentName": "末级部门（自动化专用-勿增加子级）",
+                  "companyEmail": null
+                },
+                {
+                  "name": "帅婧",
+                  "workNumber": "04595",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "郭进",
+                  "workNumber": "03270",
+                  "departmentName": "产品部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "刘奕彤",
+                  "workNumber": "04705",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "宋声林2",
+                  "workNumber": "03893",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王昕-01240",
+                  "workNumber": "01240",
+                  "departmentName": "omg",
+                  "companyEmail": null
+                },
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王凤武-00346",
+                  "workNumber": "00346",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "徐海锟",
+                  "workNumber": "01662",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "lixingchen",
+                  "workNumber": "02548",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "东征",
+                  "workNumber": "01228",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "叶玮I1-05004",
+                  "workNumber": "05004",
+                  "departmentName": "律师123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "刘凡",
+                  "workNumber": "01157",
+                  "departmentName": "财务部(费用计提)",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            }
+          ]
+        },
+        "attributes": [
+          {
+            "id": 37,
+            "categoryId": 56,
+            "attributeCode": "Depar",
+            "attributeName": "财务部1",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          }
+        ]
+      },
+      {
+        "attributeCategory": {
+          "id": 44,
+          "categoryCode": "data_authority_business",
+          "categoryName": "权限控制系统维度",
+          "source": "System",
+          "sourceType": "BUSINESS",
+          "showWay": "TREE",
+          "configWay": "AUTO",
+          "status": "ABLE",
+          "operator": "",
+          "functionList": null,
+          "relatedBusinessCodes": [
+            "CRANE",
+            "436376",
+            "yewei0731",
+            "yewei0726-02",
+            "PPDL",
+            "yewei-1_2",
+            "0-8-0-6-t-e-s-t",
+            "t-0-8-e-s",
+            "08407te4st4",
+            "test0819",
+            "shuxing-0822",
+            "test0823"
+          ],
+          "relatedBusinessVos": [
+            {
+              "id": 428,
+              "name": "测试系统0823",
+              "code": "test0823",
+              "status": "ABLE",
+              "host": "http0823",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": true,
+              "cookieAccessCodes": null,
+              "adminRoleName": "测试系统0823 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "测试系统0823 - 系统管理员",
+              "admin": [
+                {
+                  "name": "王昕-01240",
+                  "workNumber": "01240",
+                  "departmentName": "omg",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 426,
+              "name": "测试属性0822",
+              "code": "shuxing-0822",
+              "status": "ABLE",
+              "host": "shuxing-0822",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": true,
+              "cookieAccessCodes": null,
+              "adminRoleName": "测试属性0822 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "测试属性0822 - 系统管理员",
+              "admin": [
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 422,
+              "name": "测试系统0819",
+              "code": "test0819",
+              "status": "ABLE",
+              "host": "http0819",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": false,
+              "cookieAccessCodes": null,
+              "adminRoleName": "测试系统0819 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "测试系统0819 - 系统管理员",
+              "admin": [
+                {
+                  "name": "lilixian",
+                  "workNumber": "00251",
+                  "departmentName": "e we",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 402,
+              "name": "0807新增系统test4",
+              "code": "08407te4st4",
+              "status": "ABLE",
+              "host": "08407te4st441",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "qrr71xcy",
+              "cookieMaxAge": 323232,
+              "crossDomain": true,
+              "cookieAccessCodes": [
+                "422"
+              ],
+              "adminRoleName": "0807新增系统test4 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "0807新增系统test4 - 系统管理员",
+              "admin": [
+                {
+                  "name": "weiye6-04722",
+                  "workNumber": "04722",
+                  "departmentName": "e we",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王昕-01240",
+                  "workNumber": "01240",
+                  "departmentName": "omg",
+                  "companyEmail": null
+                },
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 399,
+              "name": "0806新增系统test3",
+              "code": "t-0-8-e-s",
+              "status": "ABLE",
+              "host": "04690-yewei121212",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": false,
+              "cookieAccessCodes": null,
+              "adminRoleName": "0806新增系统test3 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "0806新增系统test3 - 系统管理员",
+              "admin": [
+                {
+                  "name": "weiye5-04721",
+                  "workNumber": "04721",
+                  "departmentName": "e we",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王昕-01240",
+                  "workNumber": "01240",
+                  "departmentName": "omg",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 393,
+              "name": "0806测试叶",
+              "code": "0-8-0-6-t-e-s-t",
+              "status": "ABLE",
+              "host": "0-8-0-6-t-e-s-t",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": true,
+              "cookieAccessCodes": null,
+              "adminRoleName": "0806测试叶 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "0806测试叶 - 系统管理员",
+              "admin": [
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "宋声林",
+                  "workNumber": "03541",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王昕-01240",
+                  "workNumber": "01240",
+                  "departmentName": "omg",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 380,
+              "name": "产品验收",
+              "code": "PPDL",
+              "status": "ABLE",
+              "host": "lxm.com",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": false,
+              "cookieAccessCodes": null,
+              "adminRoleName": "产品验收 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "产品验收 - 系统管理员",
+              "admin": [
+                {
+                  "name": "赖小梅",
+                  "workNumber": "04697",
+                  "departmentName": "技术部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "叶玮4",
+                  "workNumber": "04714",
+                  "departmentName": "测试催收",
+                  "companyEmail": null
+                },
+                {
+                  "name": "宋声林",
+                  "workNumber": "03541",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 375,
+              "name": "回归测试1",
+              "code": "yewei-1_2",
+              "status": "ABLE",
+              "host": "yewei-1_2",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": false,
+              "cookieAccessCodes": null,
+              "adminRoleName": "回归测试1 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "回归测试1 - 系统管理员",
+              "admin": [
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "lilixian",
+                  "workNumber": "00251",
+                  "departmentName": "e we",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 369,
+              "name": "权限批量测试0731",
+              "code": "yewei0731",
+              "status": "ABLE",
+              "host": "yewei0731",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": true,
+              "cookieAccessCodes": null,
+              "adminRoleName": "权限批量测试0731 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "权限批量测试0731 - 系统管理员",
+              "admin": [
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "测试账号5",
+                  "workNumber": "EX01162",
+                  "departmentName": "产品部",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 353,
+              "name": "yewei0726-02",
+              "code": "yewei0726-02",
+              "status": "ABLE",
+              "host": "yewei0726-02",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": true,
+              "cookieAccessCodes": null,
+              "adminRoleName": "yewei0726-02 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "yewei0726-02 - 系统管理员",
+              "admin": [
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 324,
+              "name": "afgjgf-2",
+              "code": "436376",
+              "status": "ABLE",
+              "host": "wuywri",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "",
+              "cookieMaxAge": 0,
+              "crossDomain": false,
+              "cookieAccessCodes": null,
+              "adminRoleName": "afgjgf-2 - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "afgjgf-2 - 系统管理员",
+              "admin": [
+                {
+                  "name": "test28",
+                  "workNumber": "00031",
+                  "departmentName": "技术部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "test29",
+                  "workNumber": "00032",
+                  "departmentName": "技术部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "test30",
+                  "workNumber": "00033",
+                  "departmentName": "技术部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "test31",
+                  "workNumber": "00034",
+                  "departmentName": "技术部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "test32",
+                  "workNumber": "00035",
+                  "departmentName": "技术部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "test33",
+                  "workNumber": "00036",
+                  "departmentName": "sc专用二级部门",
+                  "companyEmail": null
+                },
+                {
+                  "name": "test35",
+                  "workNumber": "00038",
+                  "departmentName": "技术部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "孙仲谋",
+                  "workNumber": "00039",
+                  "departmentName": "Indonesia",
+                  "companyEmail": null
+                },
+                {
+                  "name": "孙伯符",
+                  "workNumber": "00040",
+                  "departmentName": "工作居住证特殊部门",
+                  "companyEmail": null
+                },
+                {
+                  "name": "曹维双",
+                  "workNumber": "04606",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "张红艳-02505",
+                  "workNumber": "02505",
+                  "departmentName": "人力",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王芳",
+                  "workNumber": "02065",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "lilixian",
+                  "workNumber": "00251",
+                  "departmentName": "e we",
+                  "companyEmail": null
+                },
+                {
+                  "name": "叶玮3",
+                  "workNumber": "04713",
+                  "departmentName": "科员",
+                  "companyEmail": null
+                },
+                {
+                  "name": "刘老板-00001",
+                  "workNumber": "00001",
+                  "departmentName": "总裁办",
+                  "companyEmail": null
+                },
+                {
+                  "name": "张hy-33",
+                  "workNumber": "03478",
+                  "departmentName": "资产保全new",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            },
+            {
+              "id": 192,
+              "name": "新版权限管理crane",
+              "code": "CRANE",
+              "status": "ABLE",
+              "host": "https://crane-test.yangqianguan.com",
+              "wechatAppId": "",
+              "wechatSecret": "",
+              "cookieSecret": "kd28n2en",
+              "cookieMaxAge": 0,
+              "crossDomain": true,
+              "cookieAccessCodes": null,
+              "adminRoleName": "新版权限管理crane - 系统管理员",
+              "superAdminRoleName": null,
+              "adminWorkNumber": null,
+              "systemRoleName": "新版权限管理crane - 系统管理员",
+              "admin": [
+                {
+                  "name": "曹维双",
+                  "workNumber": "04606",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "张红艳-02505",
+                  "workNumber": "02505",
+                  "departmentName": "人力",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王芳",
+                  "workNumber": "02065",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "宋声林",
+                  "workNumber": "03541",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "lilixian",
+                  "workNumber": "00251",
+                  "departmentName": "e we",
+                  "companyEmail": null
+                },
+                {
+                  "name": "刘老板-00001",
+                  "workNumber": "00001",
+                  "departmentName": "总裁办",
+                  "companyEmail": null
+                },
+                {
+                  "name": "祁伟",
+                  "workNumber": "04600",
+                  "departmentName": "末级部门（自动化专用-勿增加子级）",
+                  "companyEmail": null
+                },
+                {
+                  "name": "帅婧",
+                  "workNumber": "04595",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "郭进",
+                  "workNumber": "03270",
+                  "departmentName": "产品部",
+                  "companyEmail": null
+                },
+                {
+                  "name": "刘奕彤",
+                  "workNumber": "04705",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "宋声林2",
+                  "workNumber": "03893",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王昕-01240",
+                  "workNumber": "01240",
+                  "departmentName": "omg",
+                  "companyEmail": null
+                },
+                {
+                  "name": "叶玮",
+                  "workNumber": "04690",
+                  "departmentName": "后端123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "王凤武-00346",
+                  "workNumber": "00346",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "徐海锟",
+                  "workNumber": "01662",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "lixingchen",
+                  "workNumber": "02548",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "东征",
+                  "workNumber": "01228",
+                  "departmentName": "自动创建的部门 (不要删",
+                  "companyEmail": null
+                },
+                {
+                  "name": "叶玮I1-05004",
+                  "workNumber": "05004",
+                  "departmentName": "律师123",
+                  "companyEmail": null
+                },
+                {
+                  "name": "刘凡",
+                  "workNumber": "01157",
+                  "departmentName": "财务部(费用计提)",
+                  "companyEmail": null
+                }
+              ],
+              "superAdmin": null,
+              "systemType": "INTERNAL_SYSTEM",
+              "superSystemRoleName": null
+            }
+          ]
+        },
+        "attributes": [
+          {
+            "id": -1,
+            "categoryId": 44,
+            "attributeCode": "all_values",
+            "attributeName": "全量",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 355,
+            "categoryId": 44,
+            "attributeCode": "songSys",
+            "attributeName": "宋第三次系统",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 384,
+            "categoryId": 44,
+            "attributeCode": "yewei08020202",
+            "attributeName": "逻辑测试2",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 392,
+            "categoryId": 44,
+            "attributeCode": "test2222",
+            "attributeName": "test1",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 192,
+            "categoryId": 44,
+            "attributeCode": "CRANE",
+            "attributeName": "新版权限管理crane",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 393,
+            "categoryId": 44,
+            "attributeCode": "0-8-0-6-t-e-s-t",
+            "attributeName": "0806测试叶",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 66,
+            "categoryId": 44,
+            "attributeCode": "RECALL",
+            "attributeName": "召回系统",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 440,
+            "categoryId": 44,
+            "attributeCode": "newsystem2",
+            "attributeName": "2期新建测试系统",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 69,
+            "categoryId": 44,
+            "attributeCode": "EC_ADMIN",
+            "attributeName": "海外现金贷后台",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 479,
+            "categoryId": 44,
+            "attributeCode": "EC_ADMIN@INSTITU_FUND",
+            "attributeName": "印尼机构资金",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 380,
+            "categoryId": 44,
+            "attributeCode": "PPDL",
+            "attributeName": "产品验收",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 57,
+            "categoryId": 44,
+            "attributeCode": "TECH",
+            "attributeName": "TECH",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          },
+          {
+            "id": 143,
+            "categoryId": 44,
+            "attributeCode": "APP_CENTER",
+            "attributeName": "运维应用中心",
+            "attributeSourceType": "EMPLOYEE_RELATION",
+            "specialField": false
+          }
+        ]
+      }
+    ]
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1735011623506,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
