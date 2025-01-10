@@ -1,0 +1,14 @@
+一、修改属性
+
+1、basic角色/人员关联了属性后，修改属性的来源或者同步字段，需要自动清空basic角色/人员已经配置的相关属性值
+2、basic角色/人员关联了属性后，修改属性配置方式，需要自动清空basic角色/人员已经配置的相关属性值
+3、若人员本身就有该属性，则还是正常展示固有属性的样子
+
+二、人员管理-编辑人员
+
+三、后端过滤
+查看这个接口过滤逻辑-是否错误：/admin/attribute/category/all?status=ABLE&configWay=MANUAL
+这个接口过滤管理员：/admin/employee/attribute/EX03383
+
+
+
