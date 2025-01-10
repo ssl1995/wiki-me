@@ -1,0 +1,277 @@
+{
+  "body": {
+    "list": [
+      {
+        "securityLevel": null,
+        "isVirtualNode": true,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "businessApplyType": null,
+        "createTime": "2024-12-27 10:40:23",
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "interfaceConfigList": null,
+        "systemType": "INTERNAL_SYSTEM",
+        "id": 3416,
+        "feature": "songSys.multuiDep",
+        "name": "宋第三次系统.宋层级多",
+        "desc": "",
+        "status": "ABLE",
+        "type": null,
+        "supportDataRule": null,
+        "operationType": null,
+        "attributeCategoryIds": [],
+        "attributeCategoryNameList": [],
+        "categoryVOS": null,
+        "operator": "",
+        "systemRoleName": "宋第三次系统 - 系统管理员",
+        "businessName": "宋第三次系统",
+        "businessCode": "songSys",
+        "relatedRoles": null,
+        "updateTime": "2024-12-27T02:40:23Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "relatedBusinessLineIds": [
+          {
+            "businessLineId": 41,
+            "departmentId": 223
+          }
+        ],
+        "relatedBusinessLines": [
+          {
+            "id": "223-41",
+            "name": "技术支持",
+            "chain": "技术部-前端-前端1-WEB-国内借贷-信贷-技术支持",
+            "originChain": "国内借贷-信贷-技术支持",
+            "parentId": "223-1",
+            "relatedDepartmentId": 223,
+            "businessLine": {
+              "id": 41,
+              "name": "技术支持",
+              "parentId": 1,
+              "level": 2,
+              "specialField": false
+            },
+            "businessLineRelation": null,
+            "parentTreeId": "223-1",
+            "treeId": "223-41",
+            "businessLineId": 41,
+            "specialField": false
+          }
+        ],
+        "managers": null,
+        "targetName": "宋层级多",
+        "virtualBusinessApplyType": null,
+        "virtualOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "virtualId": null,
+        "virtualFlowState": null,
+        "targetId": 3416,
+        "targetCode": "songSys.multuiDep",
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "virtualCurrentDataScope": null,
+        "shortName": "宋层级多",
+        "children": [
+          {
+            "securityLevel": null,
+            "isVirtualNode": true,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "businessApplyType": null,
+            "createTime": "2024-12-27 10:40:23",
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "interfaceConfigList": null,
+            "systemType": "INTERNAL_SYSTEM",
+            "id": 3416,
+            "feature": "songSys.multuiDep.dep1",
+            "name": "宋第三次系统.宋层级多.测试2",
+            "desc": "",
+            "status": "ABLE",
+            "type": null,
+            "supportDataRule": null,
+            "operationType": null,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "宋第三次系统 - 系统管理员",
+            "businessName": "宋第三次系统",
+            "businessCode": "songSys",
+            "relatedRoles": null,
+            "updateTime": "2024-12-27T02:40:23Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "relatedBusinessLineIds": [
+              {
+                "businessLineId": 41,
+                "departmentId": 223
+              }
+            ],
+            "relatedBusinessLines": [
+              {
+                "id": "223-41",
+                "name": "技术支持",
+                "chain": "技术部-前端-前端1-WEB-国内借贷-信贷-技术支持",
+                "originChain": "国内借贷-信贷-技术支持",
+                "parentId": "223-1",
+                "relatedDepartmentId": 223,
+                "businessLine": {
+                  "id": 41,
+                  "name": "技术支持",
+                  "parentId": 1,
+                  "level": 2,
+                  "specialField": false
+                },
+                "businessLineRelation": null,
+                "parentTreeId": "223-1",
+                "treeId": "223-41",
+                "businessLineId": 41,
+                "specialField": false
+              }
+            ],
+            "managers": null,
+            "targetName": "测试2",
+            "virtualBusinessApplyType": null,
+            "virtualOwnState": {
+              "timeStatus": "NO",
+              "dayDiff": null
+            },
+            "virtualId": null,
+            "virtualFlowState": null,
+            "targetId": 3416,
+            "targetCode": "songSys.multuiDep.dep1",
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "virtualCurrentDataScope": null,
+            "shortName": "测试2",
+            "children": [
+              {
+                "securityLevel": "L1",
+                "isVirtualNode": false,
+                "relatedRoleIds": [],
+                "roleId": null,
+                "ownStatusVO": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "businessApplyType": null,
+                "createTime": "2024-12-27 10:40:23",
+                "flowState": null,
+                "lastFlowState": null,
+                "oaFlowUrl": null,
+                "interfaceConfigList": null,
+                "systemType": "INTERNAL_SYSTEM",
+                "id": 3416,
+                "feature": "songSys.multuiDep.dep1.dep2",
+                "name": "宋第三次系统.宋层级多.测试2.测试3",
+                "desc": "",
+                "status": "ABLE",
+                "type": "INTERNAL",
+                "supportDataRule": false,
+                "operationType": "QUERY",
+                "attributeCategoryIds": [],
+                "attributeCategoryNameList": [],
+                "categoryVOS": null,
+                "operator": "",
+                "systemRoleName": "宋第三次系统 - 系统管理员",
+                "businessName": "宋第三次系统",
+                "businessCode": "songSys",
+                "relatedRoles": null,
+                "updateTime": "2024-12-27T02:40:23Z",
+                "relatedDepartmentIds": [
+                  55
+                ],
+                "relatedDepartments": [
+                  {
+                    "id": 55,
+                    "parentId": 38,
+                    "name": "产品",
+                    "chain": "产品部-产品",
+                    "level": 3,
+                    "leaderId": 312,
+                    "leaderName": "铁观音",
+                    "leaderWorkNumber": "00094",
+                    "parentName": "产品部",
+                    "relatedRoles": null,
+                    "isAvailable": "TRUE",
+                    "parentTreeId": "38",
+                    "treeId": "55",
+                    "virtualData": false,
+                    "specialField": false
+                  }
+                ],
+                "relatedBusinessLineIds": [
+                  {
+                    "businessLineId": 41,
+                    "departmentId": 223
+                  }
+                ],
+                "relatedBusinessLines": [
+                  {
+                    "id": "223-41",
+                    "name": "技术支持",
+                    "chain": "技术部-前端-前端1-WEB-国内借贷-信贷-技术支持",
+                    "originChain": "国内借贷-信贷-技术支持",
+                    "parentId": "223-1",
+                    "relatedDepartmentId": 223,
+                    "businessLine": {
+                      "id": 41,
+                      "name": "技术支持",
+                      "parentId": 1,
+                      "level": 2,
+                      "specialField": false
+                    },
+                    "businessLineRelation": null,
+                    "parentTreeId": "223-1",
+                    "treeId": "223-41",
+                    "businessLineId": 41,
+                    "specialField": false
+                  }
+                ],
+                "managers": null,
+                "targetName": "测试3",
+                "virtualBusinessApplyType": null,
+                "virtualOwnState": {
+                  "timeStatus": "NO",
+                  "dayDiff": null
+                },
+                "virtualId": null,
+                "virtualFlowState": null,
+                "targetId": 3416,
+                "targetCode": "songSys.multuiDep.dep1.dep2",
+                "errorMsg": "",
+                "operateType": "PERMISSION",
+                "virtualCurrentDataScope": null,
+                "shortName": "测试3",
+                "children": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "total": 1,
+    "pageNo": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "size": 1
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1735267649419,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
