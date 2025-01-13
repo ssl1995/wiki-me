@@ -9,7 +9,15 @@
 3、若人员本身就有该属性，则还是正常展示固有属性的样子
 
 二、人员管理-编辑人员
+1、04701配置总部-basic角色属性，配置为2个属性
+2、超管04690配置总部-basic角色属性，此时已有04701配置的2个属性，新增2个，为4个
+3、04701配置总部-basic角色属性，此时已配置为2个属性，再新增为3个
 
+预期：
+超管04690可以看到5个属性，但实际目前只有3个（为步骤3-04701提交的3个）
+
+宋测试：03465
+密码：1qaz@WSX1
 
 三、后端过滤
 
@@ -26,5 +34,17 @@
 /admin/employee/attribute/EX03383
 只有这1个地方用。可以改的
 人员关联属性的接口：返回当前登录人+管理员可管理的 + 超管可以管理全部
+
+permission.audit.employeePermissionAuditMock TRUE 权限审计-员工维度分析-mock
+permission.audit.employeePermissionAuditDetailMock TRUE 权限审计-员工维度分析-详情-mock
+permission.audit.permissionAuditMock TRUE 权限审计-权限维度分析-mock
+permission.audit.permissionAuditDetailMock TRUE 权限审计-权限维度分析-详情-mock
+
+权限管理-点击权限点-人员列表
+/admin/permission/employee?current=1&pageSize=10&pageNo=1&permissionId=3422
+部门：businessLineId、depId
+
+
+
 
 
