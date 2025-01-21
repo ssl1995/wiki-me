@@ -1,8 +1,128 @@
 # Java查看
-jmap -histo 1 | head -n 50
+jmap -histo 1 | head -n 50 | grep DataPrincipalVO
+jmap -histo 1 | head -n 2000 | grep DataPrincipalVO
 jstat -gc 1
-1、查下为啥那个对象为啥这么多（DataPrincipalValueVO）
+
+cat /proc/1/cmdline
+
+1、session消了
+2、chidori重启
+
+fetchPermissions employeeNumber = 00251
+fetchPermissions employeeNumber = 05334
+
+后端
+
+1、查下为啥那个对象为啥这么多（DataPrincipalValueVO)
 2、Crane循环查的改掉
+
 3、chidori和crane重新搭一下？得重新看一下
 新加的这一套，我们自己用
 4、总结下本次排查的问题，写个文档
+
+grep 'convertToEmployeeAuthVOCount' application.log | awk -F 'dataPrincipalCount = ' '{print $2,$0}' | sort -nr | cut -d' ' -f2-
+
+grep 'convertToEmployeeAuthVOCount' application.log | awk -F 'dataPrincipalCount = ' '{print $2,$0}' | sort -nr | head -n 10 | cut -d' ' -f2-
+
+tail -f application.log | grep convertToEmployeeAuthVOCount  | awk -F 'dataPrincipalCount = ' '$2 > 10 {print}'
+
+grep convertToEmployeeAuthVOCount logs/application.log  | awk -F 'attributeValueCount = ' '$2 > 10 {print}'
+grep convertToEmployeeAuthVOCount | awk -F 'attributeValueCount = ' '$2 > 10 {print}'
+
+grep  application.log | awk -F '/auth/verification?businessCode = ' '{print $2,$0}' | sort -nr | head -n 10 | cut -d' ' -f2-
+
+cat application.log | grep 'convertToEmployeeAuthVOCount' | awk -F 'dataPrincipalCount = ' '{print $2,$0}' | sort -nr | head -n 10 | cut -d' ' -f2-
+
+tableAu.graphNodeNames=业务负责人,数据BP/报表负责人
+
+ava-server-Deureka.client.register-with-eureka=false-javaagent:/opt/share/opentelemetry-javaagent.ja
+-XX:+UseContainerSupport-XX:MaxRAMPercentage=70.0-XX:InitialRAMPercentage=70.0
+-XX:NewRatio=2
+-XX:MaxDirectMemorySize=512m-XX:MaxMetaspaceSize=512m
+-XX:+UseParNewGC-XX:+UseConcMarkSweepGC
+-XX:+CMSClassUnloadingEnabled
+-Xloggc:/service/log/office/cn-internal-crane-admin-7d59c84fbc-lx5sn/gc-%t.log
+-XX:+PrintGCDetails-XX:+PrintGCDateStamps-XX:+PrintGCApplicationConcurrentTime
+-XX:+PrintGCApplicationStoppedTime
+-XX:+UseGCLogFileRotation-XX:GCLogFileSize=32M-XX:NumberOfGCLogFiles=5
+-XX:+HeapDumpOnOutOfMemoryError-XX:HeapDumpPath=/service/log/office/cn-internal-crane-admin-7d59c84fbc-lx5sn/HeapDump.hprof-Dserver.port=80-DLOG_DIR=/service/log/office/cn-internal-crane-admin-7d59c84fbc-lx5sn-Djava.awt.headless=true-Dspring.profiles.active=test-javaagent:/opt/share/jmx_javaagent.jar=8080:/opt/share/jmx_exporter.yml-Dfile.encoding=UTF8-jarcrane-admin.jar
+
+
+
+java-server-XX:MaxRAMPercentage=70.0-XX:InitialRAMPercentage=70.0-Xmn6g-javaagent:/opt/share/opentelemetry-javaagent.jar-XX:+UseContainerSupport-XX:+UseParNewGC-XX:+UseConcMarkSweepGC-XX:+CMSClassUnloadingEnabled-XX:+PrintGCDetails-XX:+PrintGCDateStamps-XX:+UseGCLogFileRotation-XX:GCLogFileSize=32M-XX:NumberOfGCLogFiles=5-Xloggc:/service/log/default/java-chidori-service-7bb7cc9df7-lzlsj/gc.log-XX:+HeapDumpOnOutOfMemoryError-XX:HeapDumpPath=/service/log/default/java-chidori-service-7bb7cc9df7-lzlsj/HeapDump.hprof-Dserver.port=80-DLOG_DIR=/service/log/default/java-chidori-service-7bb7cc9df7-lzlsj-Djava.awt.headless=true-Dspring.profiles.active=test-javaagent:/opt/share/jmx_javaagent.jar=8080:/opt/share/jmx_exporter.yml-jarchidori-service.jar
+
+
+
+java-server \
+-XX:MaxRAMPercentage=60.0 \
+-XX:InitialRAMPercentage=60.0 \
+-Xmn8g \
+-javaagent:/opt/share/opentelemetry-javaagent.jar \
+-XX:UseContainerSupport \
+-XX:+UseG1GC \
+-XX:G1ReservePercent=10 \
+-XX:MaxGCPauseMillis=200 \
+-XX:GCLogFileSize=64M \
+-XX:NumberOfGCLogFiles=10 \
+-XX:+PrintGCDetails \
+-XX:+PrintGCDateStamps \
+-XX:+UseGCLogFileRotation \
+-XX:GCLogFileSize=64M \
+-XX:NumberOfGCLogFiles=10 \
+-XX:+HeapDumpOnOutOfMemoryError \
+-XX:HeapDumpPath=/service/log/default/java-chidori-service-7bb7cc9df7-lzlsj/HeapDump.hprof \
+-Dserver.port=80 \
+-DLOG_DIR=/service/log/default/java-chidori-service-7bb7cc9df7-lzlsj \
+-Djava.awt.headless=true \
+-Dspring.profiles.active=test \
+-javaagent:/opt/share/jmxjavaagent.jar=8080:/opt/share/jmxexporter.yml \
+-jar chidori-service.jar
+
+
+@Autowired
+private ChidoriCraneSwitchProperties switchProperties;
+
+/auth/verification?businessCode=TEST_EU_EC_ADMIN&authToken=8E21BB989026B360E7CD4016CA862480D1E53F2919B549BD854769D557A202CDF77DAF2790270E88-05515-01&
+/auth/verification?businessCode=xx&authToken=xx-05515的数据
+
+tail -f  application.log | grep '/auth/verification'
+
+
+grep '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]' application.log
+
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' application.log
+
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' application.log  | awk -F'-' '{print $(NF-1) "-"$NF}'
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' application.log  | awk -F'-' '{print $NF}'
+
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' application.log  | awk -F'-' '{print $(NF-1)}'
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' application.log | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' log.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' content.csv  | awk -F'-' '{print $(NF-1)}'
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' content.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' verifycation-10-12.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' 111.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' 111.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+
+
+grep -o '/admin/user/login  {"username":' application.log | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+
+/admin/user/login {"username":"03541","password"}
+
+
+grep -o '""username"":""[^""]*"",' 22.csv | awk -F'"' '{print $4}' | sort | uniq -c
+grep -o '"username":"[^"]*",' 22.csv
+grep -o '"username":"[^"]*",' application.log | awk -F'"' '{print $4}' | sort | uniq -c
+grep -o '/admin/user/login {"username":"[^"]*",' application.log | awk -F'"' '{print $4}' | sort | uniq -c
+
+grep -o '/admin/user/login {""username"":' 22.csv | awk -F'"' '{print $4}' | sort | uniq -c
+
+grep -o '/admin/user/login {""username"":"[^"]*",' 22.csv | awk -F'"' '{print $4}' | sort | uniq -c
+
+grep -o '/admin/user/login {“username”:“[^”]*",' 22.csv | awk -F'"' '{print $4}' | sort | uniq -c
+
+grep -o '/admin/user/login {""username"":""[^""]*""' 22.csv | sed 's/.*""username"":""\([^""]*\).*/\1/' | sort | uniq -c
+
+
+
