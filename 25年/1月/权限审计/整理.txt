@@ -1,4 +1,8 @@
 # Java查看
 jmap -histo 1 | head -n 50
-
 jstat -gc 1
+1、查下为啥那个对象为啥这么多（DataPrincipalValueVO）
+2、Crane循环查的改掉
+3、chidori和crane重新搭一下？得重新看一下
+新加的这一套，我们自己用
+4、总结下本次排查的问题，写个文档
