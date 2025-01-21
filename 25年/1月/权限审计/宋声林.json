@@ -1,0 +1,438 @@
+{
+	"body": {
+		"employeeVO": {
+			"employeeId": 3187,
+			"employeeNumber": "03183",
+			"name": "宋声林",
+			"departmentChain": "技术部-后端",
+			"departmentName": "后端",
+			"departmentId": 30,
+			"internalBusinessLineIdList": [
+				51
+			],
+			"internalBusinessLineChainList": null,
+			"positionName": "初级开发工程师",
+			"gender": "男",
+			"state": "正式",
+			"countryCode": "CN",
+			"supervisorNumber": "00064",
+			"virtualSupervisorNumber": null,
+			"mobile": "13639120050",
+			"entryTime": 1679364404272,
+			"rank": "I2",
+			"pictures": {
+				"WORK_CARD_PHOTO": "https://oa-static.yangqianguan.com/oa/8daf7759785844b3d119597cf70d8e2a?e=1737092575&token=IAM-lNl4ImtIbsUc4fmAdUN5tQ2eHWDlJnLa4bMWCUST:ApkpGWUN2BLka_FYwk8ATFda8FA="
+			},
+			"isInternalEmployee": true,
+			"employeeType": "INTERNAL",
+			"employeeTypeVo": {
+				"id": null,
+				"description": "内部员工",
+				"employeeType": "INTERNAL"
+			},
+			"subordinateAndVirtualEmployees": null,
+			"sameLevelEmployees": null,
+			"applyEmployees": null,
+			"allDepartmentChainList": [
+				"技术部-后端"
+			],
+			"onPosition": true,
+			"rankGEM3": false,
+			"workNumber": "03183",
+			"operateType": "EMPLOYEE",
+			"id": 3183,
+			"feature": null,
+			"businessCode": null,
+			"companyEmail": "shenglinsong@fintopia.tech"
+		},
+		"businessAuthorityVOList": [
+			{
+				"businessVO": {
+					"id": 96,
+					"name": "Crane线上测试专用系统",
+					"code": "Crane-Test",
+					"status": "ABLE",
+					"host": "https://crane-test.yangqianguan.com/",
+					"wechatAppId": "",
+					"wechatSecret": "",
+					"cookieSecret": "",
+					"cookieMaxAge": 0,
+					"crossDomain": false,
+					"cookieAccessCodes": null,
+					"adminRoleName": null,
+					"superAdminRoleName": null,
+					"adminWorkNumber": null,
+					"systemRoleName": null,
+					"admin": null,
+					"superAdmin": null,
+					"systemType": "INTERNAL_SYSTEM",
+					"superSystemRoleName": null
+				},
+				"permissionVOList": [],
+				"roleVOList": [
+					{
+						"id": 10000490,
+						"roleId": 10000490,
+						"parentId": null,
+						"parentName": null,
+						"name": "测试角色2",
+						"path": "",
+						"businessCode": "Crane-Test",
+						"businessName": null,
+						"desc": "线上测试数据",
+						"level": 1,
+						"type": "GENERAL",
+						"status": "ABLE",
+						"sourceType": "CREATE",
+						"reason": "",
+						"systemRoleName": null,
+						"superSystemRoleName": null,
+						"admin": null,
+						"superAdmin": null,
+						"userCount": 0,
+						"isSystemAdmin": false,
+						"isSuperSystemAdmin": false,
+						"permissionId": null,
+						"ownStatusVO": {
+							"timeStatus": "NO",
+							"dayDiff": null
+						},
+						"flowState": null,
+						"businessApplyType": null,
+						"targetCode": "Crane-Test",
+						"targetId": 10000490,
+						"targetName": "测试角色2",
+						"errorMsg": "",
+						"operateType": "ROLE",
+						"virtualData": false
+					},
+					{
+						"id": 10010001,
+						"roleId": 10010001,
+						"parentId": 10000490,
+						"parentName": null,
+						"name": "测试子角色2",
+						"path": "10000490",
+						"businessCode": "Crane-Test",
+						"businessName": null,
+						"desc": "",
+						"level": 2,
+						"type": "INTERNAL",
+						"status": "ABLE",
+						"sourceType": "CREATE",
+						"reason": "",
+						"systemRoleName": null,
+						"superSystemRoleName": null,
+						"admin": null,
+						"superAdmin": null,
+						"userCount": 0,
+						"isSystemAdmin": false,
+						"isSuperSystemAdmin": false,
+						"permissionId": null,
+						"ownStatusVO": {
+							"timeStatus": "NO",
+							"dayDiff": null
+						},
+						"flowState": null,
+						"businessApplyType": null,
+						"targetCode": "Crane-Test",
+						"targetId": 10010001,
+						"targetName": "测试子角色2",
+						"errorMsg": "",
+						"operateType": "ROLE",
+						"virtualData": false
+					},
+					{
+						"id": 10010455,
+						"roleId": 10010455,
+						"parentId": 10010001,
+						"parentName": null,
+						"name": "子角色2.2",
+						"path": "10000490.10010001",
+						"businessCode": "Crane-Test",
+						"businessName": null,
+						"desc": "",
+						"level": 3,
+						"type": "INTERNAL",
+						"status": "ABLE",
+						"sourceType": "CREATE",
+						"reason": "",
+						"systemRoleName": null,
+						"superSystemRoleName": null,
+						"admin": null,
+						"superAdmin": null,
+						"userCount": 0,
+						"isSystemAdmin": false,
+						"isSuperSystemAdmin": false,
+						"permissionId": null,
+						"ownStatusVO": {
+							"timeStatus": "NO",
+							"dayDiff": null
+						},
+						"flowState": null,
+						"businessApplyType": null,
+						"targetCode": "Crane-Test",
+						"targetId": 10010455,
+						"targetName": "子角色2.2",
+						"errorMsg": "",
+						"operateType": "ROLE",
+						"virtualData": false
+					}
+				]
+			}
+		],
+		"adminBusinessVOList": [
+			{
+				"id": 44,
+				"name": "客服系统配置中心",
+				"code": "ONLINE_CUSTOMER_SERVICE",
+				"status": "ABLE",
+				"host": "https://ocs-admin.yangqianguan.com/,https://ocs-admin.fintopia.tech/",
+				"wechatAppId": "",
+				"wechatSecret": "",
+				"cookieSecret": "",
+				"cookieMaxAge": 0,
+				"crossDomain": true,
+				"cookieAccessCodes": [
+					"41",
+					"18",
+					"16",
+					"47",
+					"46",
+					"8"
+				],
+				"adminRoleName": "客服系统配置中心 - 系统管理员",
+				"superAdminRoleName": null,
+				"adminWorkNumber": null,
+				"systemRoleName": "客服系统配置中心 - 系统管理员",
+				"admin": [
+					{
+						"name": "赵雅梅",
+						"workNumber": "05156",
+						"departmentName": "产品",
+						"companyEmail": null
+					},
+					{
+						"name": "张桂远",
+						"workNumber": "00183",
+						"departmentName": "后端",
+						"companyEmail": null
+					},
+					{
+						"name": "宜琪",
+						"workNumber": "01244",
+						"departmentName": "产品",
+						"companyEmail": null
+					},
+					{
+						"name": "吴明国",
+						"workNumber": "04472",
+						"departmentName": "后端",
+						"companyEmail": null
+					},
+					{
+						"name": "刘洋",
+						"workNumber": "00098",
+						"departmentName": "内部系统",
+						"companyEmail": null
+					},
+					{
+						"name": "孙红",
+						"workNumber": "00113",
+						"departmentName": "产品",
+						"companyEmail": null
+					},
+					{
+						"name": "李宇龙",
+						"workNumber": "04094",
+						"departmentName": "后端",
+						"companyEmail": null
+					},
+					{
+						"name": "宋声林",
+						"workNumber": "03183",
+						"departmentName": "后端",
+						"companyEmail": null
+					},
+					{
+						"name": "王倩",
+						"workNumber": "02435",
+						"departmentName": "客服部",
+						"companyEmail": null
+					}
+				],
+				"superAdmin": null,
+				"systemType": "INTERNAL_SYSTEM",
+				"superSystemRoleName": null
+			},
+			{
+				"id": 104,
+				"name": "印尼机构资金",
+				"code": "EC_ADMIN_IND@INSTITU_FUND",
+				"status": "ABLE",
+				"host": "EC_ADMIN_IND@INSTITU_FUND",
+				"wechatAppId": "",
+				"wechatSecret": "",
+				"cookieSecret": "",
+				"cookieMaxAge": 0,
+				"crossDomain": false,
+				"cookieAccessCodes": [
+					"24"
+				],
+				"adminRoleName": "印尼机构资金 - 系统管理员",
+				"superAdminRoleName": null,
+				"adminWorkNumber": null,
+				"systemRoleName": "印尼机构资金 - 系统管理员",
+				"admin": [
+					{
+						"name": "贾广民",
+						"workNumber": "02360",
+						"departmentName": "后端",
+						"companyEmail": null
+					},
+					{
+						"name": "宋声林",
+						"workNumber": "03183",
+						"departmentName": "后端",
+						"companyEmail": null
+					},
+					{
+						"name": "王少尧",
+						"workNumber": "04352",
+						"departmentName": "后端",
+						"companyEmail": null
+					},
+					{
+						"name": "孟聪",
+						"workNumber": "02809",
+						"departmentName": "Products",
+						"companyEmail": null
+					},
+					{
+						"name": "屈世浩",
+						"workNumber": "00160",
+						"departmentName": "后端",
+						"companyEmail": null
+					}
+				],
+				"superAdmin": null,
+				"systemType": "INTERNAL_SYSTEM",
+				"superSystemRoleName": null
+			},
+			{
+				"id": 96,
+				"name": "Crane线上测试专用系统",
+				"code": "Crane-Test",
+				"status": "ABLE",
+				"host": "https://crane-test.yangqianguan.com/",
+				"wechatAppId": "",
+				"wechatSecret": "",
+				"cookieSecret": "",
+				"cookieMaxAge": 0,
+				"crossDomain": false,
+				"cookieAccessCodes": null,
+				"adminRoleName": "Crane线上测试专用系统 - 系统管理员",
+				"superAdminRoleName": null,
+				"adminWorkNumber": null,
+				"systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+				"admin": [
+					{
+						"name": "刘奕彤",
+						"workNumber": "05220",
+						"departmentName": "Web",
+						"companyEmail": null
+					},
+					{
+						"name": "宋声林",
+						"workNumber": "03183",
+						"departmentName": "后端",
+						"companyEmail": null
+					},
+					{
+						"name": "刘文文",
+						"workNumber": "03913",
+						"departmentName": "Web",
+						"companyEmail": null
+					},
+					{
+						"name": "刘祯昆",
+						"workNumber": "00152",
+						"departmentName": "Web",
+						"companyEmail": null
+					},
+					{
+						"name": "李玉鹏",
+						"workNumber": "05978",
+						"departmentName": "后端",
+						"companyEmail": null
+					},
+					{
+						"name": "叶玮",
+						"workNumber": "05211",
+						"departmentName": "测试",
+						"companyEmail": null
+					}
+				],
+				"superAdmin": null,
+				"systemType": "INTERNAL_SYSTEM",
+				"superSystemRoleName": null
+			},
+			{
+				"id": 68,
+				"name": "运维应用中心",
+				"code": "APP_CENTER",
+				"status": "ABLE",
+				"host": "https://appcenter.fintopia.tech/",
+				"wechatAppId": "",
+				"wechatSecret": "",
+				"cookieSecret": "",
+				"cookieMaxAge": 0,
+				"crossDomain": true,
+				"cookieAccessCodes": [
+					"94"
+				],
+				"adminRoleName": "运维应用中心 - 系统管理员",
+				"superAdminRoleName": null,
+				"adminWorkNumber": null,
+				"systemRoleName": "运维应用中心 - 系统管理员",
+				"admin": [
+					{
+						"name": "王永博",
+						"workNumber": "03371",
+						"departmentName": "运维",
+						"companyEmail": null
+					},
+					{
+						"name": "杨龙",
+						"workNumber": "03170",
+						"departmentName": "运维",
+						"companyEmail": null
+					},
+					{
+						"name": "曹维双",
+						"workNumber": "00064",
+						"departmentName": "后端",
+						"companyEmail": null
+					},
+					{
+						"name": "宋声林",
+						"workNumber": "03183",
+						"departmentName": "后端",
+						"companyEmail": null
+					}
+				],
+				"superAdmin": null,
+				"systemType": "INTERNAL_SYSTEM",
+				"superSystemRoleName": null
+			}
+		]
+	},
+	"status": {
+		"code": 0,
+		"type": "",
+		"detail": "",
+		"serverResponseTime": 1737088975348,
+		"displayType": "TOAST",
+		"url": null
+	}
+}
