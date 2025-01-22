@@ -1,24 +1,69 @@
-# Java查看
-jmap -histo 1 | head -n 50 | grep DataPrincipalVO
-jmap -histo 1 | head -n 2000 | grep DataPrincipalVO
-jstat -gc 1
+## 问题一：1月22日上午反馈，chidori和Crane的一登录就特别慢/无法登录
 
-cat /proc/1/cmdline
+问题排查:
+1、查看rancher日志，发现2套服务资源存在被耗尽情况
 
-1、session消了
-2、chidori重启
+2、命令行查看
+2.1 查存活对象个数：jmap -histo 1 | head -n 2000 | grep DataPrincipalVO
+发现DataPrincipalVO对象实例特别多，最高大约占685546560bytes
 
-fetchPermissions employeeNumber = 00251
-fetchPermissions employeeNumber = 05334
+2.2 查看gc情况：jstat -gc 1
+登录大账号发现存在FullGC
 
-后端
+方案一：chidori调Crane的查权限，加开关，crane.switch.openCrane
 
+方案二：让运维临时提升，chidori服务机器内存为32G,暂时修复
+
+方案三：提升年轻代大小
+cat /proc/1/cmdline，查看测试机器Java配置，并新增配置-XX:NewSize=12884901888-XX:MaxNewSize=12884901888
+
+## 问题二：1月22日下午3点后，开始反馈chidori又出现无法登录的情况
+
+问题排查：
+查看日志，发现存在自动化账号00344多次登录的情况，导致资源耗尽等待
+
+方案一：手动调取消session接口把该账号session取消掉，再把chidori重启，暂时解决
+
+后端待完成：
 1、查下为啥那个对象为啥这么多（DataPrincipalValueVO)
-2、Crane循环查的改掉
-
-3、chidori和crane重新搭一下？得重新看一下
-新加的这一套，我们自己用
+2、Crane循环查chidori的改掉
+3、chidori和crane的环境得重新搭一个新环境供自己团队使用，现在的测试环境当feat供各个业务方测试环境使用
 4、总结下本次排查的问题，写个文档
+
+方案二：
+1、chidori的登录接口,NewEmployeeServiceImpl创建DataPrincipalValueVO时，走缓存Map，减少创建可能
+2、chidori的登录接口，EmployeeConverter新增统计日志：convertToEmployeeAuthVOCount employeeNumber
+3、统计下列接口（下载Rancher日志，命令行统计），登录人测试占比高的
+auth/verification
+auth/verificationWithPermission
+admin/user/login
+
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' test.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/admin/user/login {""username"":""[^""]*""' 22.csv | sed 's/.*""username"":""\([^""]*\).*/\1/' | sort | uniq -c
+
+结果：
+账号05515 访问次数11829
+账号04683 访问次数23828
+账号00251 访问次数5671
+账号00344 访问次数1971
+
+方案三：模拟00251登录不同账号
+jmap -histo 1 | head -n 2000 | grep DataPrincipalVO，还是存在DataPrincipalVO对象实例特别多情况
+
+方案四：紧急实现一版员工存储数据权限优化，验证发现依然存在DataPrincipalVO对象实例特别多情况
+
+代码：在YqgLdapUserDetailsContextMapper，存redis时对于DataPrincipalValueVO不存对象实例，存CacheKey；取出来的时候再转出来
+
+方案五：DataPrincipalVO构造器加上日志，模拟00251登录，发现其实只实例了一次
+
+## 问题三：chidori登录，调Crane的接口，返回对象实例只有几百，但是到chidori转换时，反而有上万的实例，拖累了资源
+
+这个问题待排查，暂未定位到问题
+
+
+
+
+
 
 grep 'convertToEmployeeAuthVOCount' application.log | awk -F 'dataPrincipalCount = ' '{print $2,$0}' | sort -nr | cut -d' ' -f2-
 
@@ -103,7 +148,7 @@ grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' content.cs
 grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' content.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
 grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' verifycation-10-12.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
 grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' 111.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
-grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' 111.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' test.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
 
 
 grep -o '/admin/user/login  {"username":' application.log | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
