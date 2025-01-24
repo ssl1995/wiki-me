@@ -1,5 +1,1112 @@
 {
-  "workNumberList": [
-    "03183"
-  ]
+  "body": {
+    "3422": [
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "02382",
+        "createTime": "2024-10-29T07:51:04Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "02709",
+        "createTime": "2024-10-29T07:51:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04046",
+        "createTime": "2024-10-29T07:51:11Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04052",
+        "createTime": "2024-10-29T07:51:11Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04061",
+        "createTime": "2024-10-29T07:51:11Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04238",
+        "createTime": "2024-10-29T07:51:12Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04239",
+        "createTime": "2024-10-29T07:51:12Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04248",
+        "createTime": "2024-10-29T07:51:12Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04249",
+        "createTime": "2024-10-29T07:51:12Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04363",
+        "createTime": "2024-10-29T07:51:12Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04873",
+        "createTime": "2024-10-29T07:51:14Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04137",
+        "createTime": "2024-10-31T03:56:51Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05325",
+        "createTime": "2024-11-29T10:39:53Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05330",
+        "createTime": "2024-12-03T02:26:51Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05334",
+        "createTime": "2024-12-03T02:28:09Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05339",
+        "createTime": "2024-12-03T03:27:03Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05347",
+        "createTime": "2024-12-03T07:30:04Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05351",
+        "createTime": "2024-12-04T08:40:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05403",
+        "createTime": "2024-12-18T07:26:56Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05337",
+        "createTime": "2024-12-23T16:00:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05348",
+        "createTime": "2024-12-26T02:28:08Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "04237",
+        "createTime": "2025-01-10T03:11:33Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05331",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05394",
+        "createTime": "2025-01-10T03:11:42Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005105,
+        "roleName": "WEB-BASIC",
+        "employeeNumber": "05502",
+        "createTime": "2025-01-15T02:36:58Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005106,
+        "roleName": "WEB-管理者-BASIC",
+        "employeeNumber": "02416",
+        "createTime": "2024-10-29T07:51:04Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005106,
+        "roleName": "WEB-管理者-BASIC",
+        "employeeNumber": "05343",
+        "createTime": "2024-12-03T03:41:46Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005106,
+        "roleName": "WEB-管理者-BASIC",
+        "employeeNumber": "05344",
+        "createTime": "2024-12-03T04:44:18Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005106,
+        "roleName": "WEB-管理者-BASIC",
+        "employeeNumber": "05350",
+        "createTime": "2024-12-04T06:15:33Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005106,
+        "roleName": "WEB-管理者-BASIC",
+        "employeeNumber": "05336",
+        "createTime": "2024-12-30T16:00:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005106,
+        "roleName": "WEB-管理者-BASIC",
+        "employeeNumber": "04758",
+        "createTime": "2024-12-31T06:33:49Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011676,
+        "roleName": "国内借贷-信贷-BASIC",
+        "employeeNumber": "05403",
+        "createTime": "2024-12-18T07:26:56Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011676,
+        "roleName": "国内借贷-信贷-BASIC",
+        "employeeNumber": "05337",
+        "createTime": "2024-12-23T16:00:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011676,
+        "roleName": "国内借贷-信贷-BASIC",
+        "employeeNumber": "05348",
+        "createTime": "2024-12-26T02:28:08Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011676,
+        "roleName": "国内借贷-信贷-BASIC",
+        "employeeNumber": "05325",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011676,
+        "roleName": "国内借贷-信贷-BASIC",
+        "employeeNumber": "05331",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011676,
+        "roleName": "国内借贷-信贷-BASIC",
+        "employeeNumber": "05334",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011676,
+        "roleName": "国内借贷-信贷-BASIC",
+        "employeeNumber": "05347",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011676,
+        "roleName": "国内借贷-信贷-BASIC",
+        "employeeNumber": "05351",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011676,
+        "roleName": "国内借贷-信贷-BASIC",
+        "employeeNumber": "05394",
+        "createTime": "2025-01-10T03:11:42Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011677,
+        "roleName": "国内借贷-信贷-管理者-BASIC",
+        "employeeNumber": "05350",
+        "createTime": "2024-12-10T07:28:46Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011677,
+        "roleName": "国内借贷-信贷-管理者-BASIC",
+        "employeeNumber": "05336",
+        "createTime": "2024-12-30T16:00:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011678,
+        "roleName": "国内C端-BASIC",
+        "employeeNumber": "05403",
+        "createTime": "2024-12-18T07:26:56Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011678,
+        "roleName": "国内C端-BASIC",
+        "employeeNumber": "05348",
+        "createTime": "2024-12-26T02:28:08Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011678,
+        "roleName": "国内C端-BASIC",
+        "employeeNumber": "05331",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011678,
+        "roleName": "国内C端-BASIC",
+        "employeeNumber": "05347",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011678,
+        "roleName": "国内C端-BASIC",
+        "employeeNumber": "05351",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011678,
+        "roleName": "国内C端-BASIC",
+        "employeeNumber": "05394",
+        "createTime": "2025-01-10T03:11:42Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011679,
+        "roleName": "国内C端-管理者-BASIC",
+        "employeeNumber": "05350",
+        "createTime": "2024-12-10T07:28:46Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011679,
+        "roleName": "国内C端-管理者-BASIC",
+        "employeeNumber": "05336",
+        "createTime": "2024-12-30T16:00:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011683,
+        "roleName": "催收-管理者-BASIC",
+        "employeeNumber": "05336",
+        "createTime": "2024-12-30T16:00:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011684,
+        "roleName": "贷超-BASIC",
+        "employeeNumber": "05348",
+        "createTime": "2024-12-26T02:28:08Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011684,
+        "roleName": "贷超-BASIC",
+        "employeeNumber": "05331",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011686,
+        "roleName": "国内B端-BASIC",
+        "employeeNumber": "05403",
+        "createTime": "2024-12-18T07:26:56Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011687,
+        "roleName": "国内B端-管理者-BASIC",
+        "employeeNumber": "05336",
+        "createTime": "2024-12-30T16:00:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011688,
+        "roleName": "C端开发-BASIC",
+        "employeeNumber": "05403",
+        "createTime": "2024-12-18T07:26:56Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011688,
+        "roleName": "C端开发-BASIC",
+        "employeeNumber": "05331",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011688,
+        "roleName": "C端开发-BASIC",
+        "employeeNumber": "05347",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011688,
+        "roleName": "C端开发-BASIC",
+        "employeeNumber": "05394",
+        "createTime": "2025-01-10T03:11:42Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011689,
+        "roleName": "C端开发-管理者-BASIC",
+        "employeeNumber": "05350",
+        "createTime": "2024-12-10T07:28:46Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011690,
+        "roleName": "机构资金-BASIC",
+        "employeeNumber": "05337",
+        "createTime": "2024-12-23T16:00:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011690,
+        "roleName": "机构资金-BASIC",
+        "employeeNumber": "05348",
+        "createTime": "2024-12-26T02:28:08Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011690,
+        "roleName": "机构资金-BASIC",
+        "employeeNumber": "05331",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011690,
+        "roleName": "机构资金-BASIC",
+        "employeeNumber": "05334",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011690,
+        "roleName": "机构资金-BASIC",
+        "employeeNumber": "05347",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011691,
+        "roleName": "机构资金-管理者-BASIC",
+        "employeeNumber": "05336",
+        "createTime": "2024-12-30T16:00:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011713,
+        "roleName": "API-管理者-BASIC",
+        "employeeNumber": "05350",
+        "createTime": "2024-12-10T07:28:46Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011720,
+        "roleName": "内部系统后端-BASIC",
+        "employeeNumber": "03541",
+        "createTime": "2024-12-12T07:54:35Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011720,
+        "roleName": "内部系统后端-BASIC",
+        "employeeNumber": "05331",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011720,
+        "roleName": "内部系统后端-BASIC",
+        "employeeNumber": "05502",
+        "createTime": "2025-01-15T02:36:58Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011721,
+        "roleName": "内部系统后端-管理者-BASIC",
+        "employeeNumber": "05350",
+        "createTime": "2024-12-10T07:28:46Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011740,
+        "roleName": "技术支持-BASIC",
+        "employeeNumber": "05325",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00012",
+        "createTime": "2025-01-10T03:11:36Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00066",
+        "createTime": "2025-01-10T03:11:37Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00068",
+        "createTime": "2025-01-10T03:11:37Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00078",
+        "createTime": "2025-01-10T03:11:37Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00089",
+        "createTime": "2025-01-10T03:11:37Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00111",
+        "createTime": "2025-01-10T03:11:37Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00118",
+        "createTime": "2025-01-10T03:11:37Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00135",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00142",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00144",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00157",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00169",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "EX03345",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "EX03358",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "EX03359",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "EX03360",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00195",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00196",
+        "createTime": "2025-01-10T03:11:38Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00354",
+        "createTime": "2025-01-10T03:11:39Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00379",
+        "createTime": "2025-01-10T03:11:39Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "EX03381",
+        "createTime": "2025-01-10T03:11:39Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "EX03382",
+        "createTime": "2025-01-10T03:11:39Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00413",
+        "createTime": "2025-01-10T03:11:39Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00414",
+        "createTime": "2025-01-10T03:11:39Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00415",
+        "createTime": "2025-01-10T03:11:39Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00417",
+        "createTime": "2025-01-10T03:11:39Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00479",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "EX03437",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "EX03441",
+        "createTime": "2025-01-10T03:11:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00587",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00588",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00589",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00590",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00591",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00592",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "H00598",
+        "createTime": "2025-01-10T03:11:41Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "EX03570",
+        "createTime": "2025-01-10T03:11:42Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "EX03571",
+        "createTime": "2025-01-10T03:11:42Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013355,
+        "roleName": "WEB-外包员工-BASIC",
+        "employeeNumber": "04791",
+        "createTime": "2025-01-12T02:28:07Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005579,
+        "roleName": "测试权限下级部门-BASIC",
+        "employeeNumber": "05173",
+        "createTime": "2024-10-31T09:29:40Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005579,
+        "roleName": "测试权限下级部门-BASIC",
+        "employeeNumber": "05209",
+        "createTime": "2024-11-12T11:12:25Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005579,
+        "roleName": "测试权限下级部门-BASIC",
+        "employeeNumber": "03465",
+        "createTime": "2025-01-12T02:28:05Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005579,
+        "roleName": "测试权限下级部门-BASIC",
+        "employeeNumber": "05496",
+        "createTime": "2025-01-14T02:28:07Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005580,
+        "roleName": "测试权限下级部门-管理者-BASIC",
+        "employeeNumber": "05172",
+        "createTime": "2024-10-31T09:10:57Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005580,
+        "roleName": "测试权限下级部门-管理者-BASIC",
+        "employeeNumber": "05174",
+        "createTime": "2024-10-31T09:29:22Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005580,
+        "roleName": "测试权限下级部门-管理者-BASIC",
+        "employeeNumber": "04973",
+        "createTime": "2024-12-01T02:28:14Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10005580,
+        "roleName": "测试权限下级部门-管理者-BASIC",
+        "employeeNumber": "03541",
+        "createTime": "2025-01-21T10:49:54Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10013611,
+        "roleName": "测试权限下级部门-外包员工-BASIC",
+        "employeeNumber": "H00487",
+        "createTime": "2025-01-13T06:48:57Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011686,
+        "roleName": "国内B端-BASIC",
+        "employeeNumber": "05403",
+        "createTime": "2024-12-18T07:26:56Z"
+      },
+      {
+        "permissionId": 3422,
+        "permissionName": "宋第三次系统.宋测试",
+        "permissionType": 0,
+        "roleId": 10011687,
+        "roleName": "国内B端-管理者-BASIC",
+        "employeeNumber": "05336",
+        "createTime": "2024-12-30T16:00:05Z"
+      }
+    ]
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1737629537157,
+    "displayType": "TOAST",
+    "url": null
+  }
 }
