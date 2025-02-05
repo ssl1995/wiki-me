@@ -1,12 +1,21 @@
 [
   {
-    "permissionId": 3778,
-    "permissionName": "权限审计测试.权限1.测试权限3",
+    "permissionId": 3776,
+    "permissionName": "权限审计测试.权限1.测试权限1",
     "permissionType": 0,
     "roleId": 10005524,
     "roleName": "测试新增1028-BASIC",
-    "employeeNumber": "05161",
-    "createTime": 1730283932.000000000
+    "employeeNumber": "05186",
+    "createTime": 1738549688.000000000
+  },
+  {
+    "permissionId": 3777,
+    "permissionName": "权限审计测试.权限1.测试权限2",
+    "permissionType": 0,
+    "roleId": 10005524,
+    "roleName": "测试新增1028-BASIC",
+    "employeeNumber": "05186",
+    "createTime": 1738549688.000000000
   },
   {
     "permissionId": 3778,
@@ -15,42 +24,42 @@
     "roleId": 10005524,
     "roleName": "测试新增1028-BASIC",
     "employeeNumber": "05186",
-    "createTime": 1732271207.000000000
+    "createTime": 1738549688.000000000
   },
   {
-    "permissionId": 3778,
-    "permissionName": "权限审计测试.权限1.测试权限3",
+    "permissionId": 3779,
+    "permissionName": "权限审计测试.权限2.测试权限11",
     "permissionType": 0,
     "roleId": 10005524,
     "roleName": "测试新增1028-BASIC",
-    "employeeNumber": "05162",
-    "createTime": 1732935868.000000000
+    "employeeNumber": "05186",
+    "createTime": 1738549688.000000000
   },
   {
-    "permissionId": 3778,
-    "permissionName": "权限审计测试.权限1.测试权限3",
+    "permissionId": 3780,
+    "permissionName": "权限审计测试.权限2.测试权限22",
     "permissionType": 0,
     "roleId": 10005524,
     "roleName": "测试新增1028-BASIC",
-    "employeeNumber": "05169",
-    "createTime": 1732935946.000000000
+    "employeeNumber": "05186",
+    "createTime": 1738549688.000000000
   },
   {
-    "permissionId": 3778,
-    "permissionName": "权限审计测试.权限1.测试权限3",
+    "permissionId": 3781,
+    "permissionName": "权限审计测试.权限2.测试权限33",
     "permissionType": 0,
     "roleId": 10005524,
     "roleName": "测试新增1028-BASIC",
-    "employeeNumber": "04978",
-    "createTime": 1733106485.000000000
+    "employeeNumber": "05186",
+    "createTime": 1738549688.000000000
   },
   {
-    "permissionId": 3778,
-    "permissionName": "权限审计测试.权限1.测试权限3",
-    "permissionType": 0,
-    "roleId": 10005525,
-    "roleName": "测试新增1028-管理者-BASIC",
-    "employeeNumber": "05174",
-    "createTime": 1730377230.000000000
+    "permissionId": 3782,
+    "permissionName": "权限审计测试.权限3.测试权限111",
+    "permissionType": 1,
+    "roleId": 10005524,
+    "roleName": "测试新增1028-BASIC",
+    "employeeNumber": "05186",
+    "createTime": 1738549688.000000000
   }
 ]
