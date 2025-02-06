@@ -16,5 +16,14 @@ service-chidori#IEmployeeClientService#verifyAndObtainEmployee
 
 trace_id=c2859fb3d712e1c4e01e130d763b162e
 
-历史：https://chidori-api-admin.geteasycash.asia
+老的：https://chidori-api-admin.geteasycash.asia
 新的：http://indo-internal-chidori-service.default.svc
+
+没有请求的流量：
+content: "auth/verification" and "RISK_CONTROL" and "request" not "response"
+content: "auth/verification" and "RISK_CONTROL" and "request" not "response"
+content: "auth/verification" and "request" not "response"
+
+tech配置-注意事项：
+1. 生产配置不能随意修改
+2. 服务还没起来更不能改配置
