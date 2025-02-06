@@ -1,0 +1,20 @@
+您在prod-indo集群申请的服务chidori-service已创建成功，
+
+内网SVC域名为: http://indo-internal-chidori-service.default.svc，
+
+请及时将服务域名录入配置中心service配置组（配置Key：services.SERVICE_NAME.url，SERVICE_NAME由业务侧定义为client包获取配置时唯一标识）否则依赖服务启动时将因缺配置而启动失败。
+
+
+service-chidori.url:http://indo-internal-chidori-service.default.svc
+
+
+
+https://call-center.easycash.id/
+
+
+service-chidori#IEmployeeClientService#verifyAndObtainEmployee
+
+trace_id=c2859fb3d712e1c4e01e130d763b162e
+
+历史：https://chidori-api-admin.geteasycash.asia
+新的：http://indo-internal-chidori-service.default.svc

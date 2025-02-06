@@ -1,0 +1,9 @@
+{
+  "cookies": [
+    {
+      "name": "chidori_gray",
+      "match": "exact",
+      "value": "chidori"
+    }
+  ]
+}
