@@ -27,3 +27,28 @@ content: "auth/verification" and "request" not "response"
 tech配置-注意事项：
 1. 生产配置不能随意修改
 2. 服务还没起来更不能改配置
+
+role_permission_relation:角色关联的权限点，1、手动新建的角色 2、权限关联适用部门
+permission_role_relation:权限关联的自动生成的角色：1、权限平迁 2、权限申请(权限自动生成的角色)
+
+CRANE.PERMISSION_AUDIT.QUERY
+CRANE.PERMISSION_AUDIT.OPERATION
+
+# 运维上线
+app.center.appCenterTreeUrl    /api/v1/openApi/tree/get /api/v1/openApi/tree/get
+
+app.center.host    https://appcenter-dev.fintopia.tech  https://appcenter.fintopia.tech
+
+测试环境:  http://appcenter-dev.fintopia.tech/api/v1/openApi/tree/get
+生产环境：https://appcenter.fintopia.tech/api/v1/openApi/tree/get
+
+
+【Crane后端上线通知】
+
+Crane上线分支：releases/Yqg_20250207_daily
+
+上线内容：
+1、权限审计
+2、运维-应用中心-结构树
+
+准出单：https://wiki.fintopia.tech/pages/viewpage.action?pageId=128221554
