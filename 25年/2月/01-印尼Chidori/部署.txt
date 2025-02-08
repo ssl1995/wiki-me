@@ -52,3 +52,16 @@ Crane上线分支：releases/Yqg_20250207_daily
 2、运维-应用中心-结构树
 
 准出单：https://wiki.fintopia.tech/pages/viewpage.action?pageId=128221554
+
+人员管理：2411
+总部关联：2381
+
+6795：列表页  -->   6848没过滤离职
+6767：点进去
+
+
+6778：人员管理 --> noCache
+
+
+13639120050
+Ssl@oa09876
