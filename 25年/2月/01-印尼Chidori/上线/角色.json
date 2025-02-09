@@ -1,0 +1,122 @@
+{
+  "body": [
+    {
+      "id": 1,
+      "domesticId": 1,
+      "name": "SUPER-ADMIN",
+      "namePath": null,
+      "isDefault": false,
+      "type": "INTERNAL",
+      "relatedEmployeeName": "-",
+      "relatedEmployeeWorkNumber": "-",
+      "relatedEmployeePositionName": "-",
+      "treeParentId": -1,
+      "treeParentName": "-",
+      "employeeTempList": "-",
+      "businessCode": null,
+      "operateType": "ROLE",
+      "feature": "",
+      "children": [
+        {
+          "id": 276,
+          "domesticId": 276,
+          "name": "IndonesiaCapital",
+          "namePath": null,
+          "isDefault": false,
+          "type": "INTERNAL",
+          "relatedEmployeeName": "-",
+          "relatedEmployeeWorkNumber": "-",
+          "relatedEmployeePositionName": "-",
+          "treeParentId": -1,
+          "treeParentName": "-",
+          "employeeTempList": "-",
+          "businessCode": null,
+          "operateType": "ROLE",
+          "feature": "",
+          "children": []
+        },
+        {
+          "id": 20,
+          "domesticId": 20,
+          "name": "InternalAudit&ControlDirector",
+          "namePath": null,
+          "isDefault": false,
+          "type": "INTERNAL",
+          "relatedEmployeeName": "-",
+          "relatedEmployeeWorkNumber": "-",
+          "relatedEmployeePositionName": "-",
+          "treeParentId": -1,
+          "treeParentName": "-",
+          "employeeTempList": "-",
+          "businessCode": null,
+          "operateType": "ROLE",
+          "feature": "",
+          "children": [
+            {
+              "id": 706,
+              "domesticId": 706,
+              "name": "IndoOAtest",
+              "namePath": null,
+              "isDefault": false,
+              "type": "INTERNAL",
+              "relatedEmployeeName": "-",
+              "relatedEmployeeWorkNumber": "-",
+              "relatedEmployeePositionName": "-",
+              "treeParentId": -1,
+              "treeParentName": "-",
+              "employeeTempList": "-",
+              "businessCode": null,
+              "operateType": "ROLE",
+              "feature": "",
+              "children": []
+            },
+            {
+              "id": 703,
+              "domesticId": 703,
+              "name": "InternalAudit-IndonesiaFintopia",
+              "namePath": null,
+              "isDefault": false,
+              "type": "INTERNAL",
+              "relatedEmployeeName": "-",
+              "relatedEmployeeWorkNumber": "-",
+              "relatedEmployeePositionName": "-",
+              "treeParentId": -1,
+              "treeParentName": "-",
+              "employeeTempList": "-",
+              "businessCode": null,
+              "operateType": "ROLE",
+              "feature": "",
+              "children": []
+            },
+            {
+              "id": 715,
+              "domesticId": 715,
+              "name": "Projectoperation-IndonesiaFintopia",
+              "namePath": null,
+              "isDefault": false,
+              "type": "INTERNAL",
+              "relatedEmployeeName": "-",
+              "relatedEmployeeWorkNumber": "-",
+              "relatedEmployeePositionName": "-",
+              "treeParentId": -1,
+              "treeParentName": "-",
+              "employeeTempList": "-",
+              "businessCode": null,
+              "operateType": "ROLE",
+              "feature": "",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1739000910912,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
