@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "id": "55239",
+      "role_id": "781",
+      "employee_number": "03183",
+      "operator": "00064",
+      "create_time": "2025-02-13 22:04:47",
+      "update_time": "2025-02-13 22:04:47"
+    }
+  ],
+  "database": "ec_chidori_prod",
+  "es": 1739459235000,
+  "gtid": null,
+  "id": 1739459235000177680,
+  "isDdl": false,
+  "mysqlType": {
+    "id": "bigint",
+    "role_id": "bigint",
+    "employee_number": "varchar",
+    "operator": "varchar",
+    "create_time": "timestamp",
+    "update_time": "timestamp"
+  },
+  "old": null,
+  "pkNames": [
+    "id"
+  ],
+  "serverId": "100344578",
+  "sql": "",
+  "sqlType": {
+    "id": 8,
+    "role_id": 8,
+    "employee_number": 253,
+    "operator": 253,
+    "create_time": 7,
+    "update_time": 7
+  },
+  "table": "employee_role_relation",
+  "ts": 1739459236688,
+  "type": "DELETE"
+}
