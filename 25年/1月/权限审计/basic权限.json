@@ -1,0 +1,38 @@
+[
+  {
+    "permissionId": 693,
+    "permissionName": "财务系统.明细账.excel导出",
+    "permissionType": 0,
+    "roleId": 10004831,
+    "roleName": "总部-BASIC",
+    "employeeNumber": "04697",
+    "createTime": 1732099604.000000000
+  },
+  {
+    "permissionId": 693,
+    "permissionName": "财务系统.明细账.excel导出",
+    "permissionType": 0,
+    "roleId": 10004845,
+    "roleName": "技术部-BASIC",
+    "employeeNumber": "04697",
+    "createTime": 1732099604.000000000
+  },
+  {
+    "permissionId": 694,
+    "permissionName": "财务系统.明细账.查看",
+    "permissionType": 0,
+    "roleId": 10004831,
+    "roleName": "总部-BASIC",
+    "employeeNumber": "04697",
+    "createTime": 1732099604.000000000
+  },
+  {
+    "permissionId": 716,
+    "permissionName": "财务系统.账龄. 查看",
+    "permissionType": 0,
+    "roleId": 10004831,
+    "roleName": "总部-BASIC",
+    "employeeNumber": "04697",
+    "createTime": 1732099604.000000000
+  }
+]

@@ -1,0 +1,16 @@
+1、redis配置得重新改回去
+2、问维双登录配置
+
+
+资源管理.业务系统.印尼OA权限点管理员:  RESOURCE.BUSINESS.OVERSEAS-OA
+
+r-2zeepscqwv8xroilx1.redis.rds.aliyuncs.com:6379
+r-d9j6fixpb32roseh45.redis.ap-southeast-5.rds.aliyuncs.com:6379
+
+
+redis-cli -h r-2zeepscqwv8xroilx1.redis.rds.aliyuncs.com -p 6379 PING
+
+
+content:"fintopia-request-path:/admin/role/"
+
+CHIDORI	CHIDORI	https://chidori-admin.yangqianguan.com/,https://chidori-admin.geteasycash.asia/,https://chidori-admin.fintopia.tech/,https://chidori-admin.easycash.id/,https://chidori-oms.ftop.cc/,https://chidori-oms.easycash.id/				0	1	1	2018-03-29 13:14:43.0	2025-02-06 17:17:50.0		1

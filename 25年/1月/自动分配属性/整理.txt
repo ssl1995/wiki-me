@@ -1,50 +1,15 @@
-一、修改属性 - 完成
+80   00251
+2214 04683
 
-1、basic角色/人员关联了属性后，修改属性的来源或者同步字段，需要自动清空basic角色/人员已经配置的相关属性值
+grep -o '/admin/user/login {""username"":""[^""]*""' 22.csv | sed 's/.*""username"":""\([^""]*\).*/\1/' | sort | uniq -c
 
-角色的还没有删除：/admin/role/department/attribute/10005579
-人的已经删除啦：/admin/employee/attribute/03541 搞定
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' 111.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
 
-2、basic角色/人员关联了属性后，修改属性配置方式，手动-自动后，解除basic和属性关联
-3、若人员本身就有该属性，则还是正常展示固有属性的样子
+grep convertToEmployeeAuthVOCount logs/application.log  | awk -F 'attributeValueCount = ' '$2 >=0 {print}' | grep '00251'
 
-二、人员管理-编辑人员
-1、04701配置总部-basic角色属性，配置为2个属性
-2、超管04690配置总部-basic角色属性，此时已有04701配置的2个属性，新增2个，为4个
-3、04701配置总部-basic角色属性，此时已配置为2个属性，再新增为3个
+grep convertToEmployeeAuthVOCount logs/application.log  | awk -F 'attributeValueCount = ' '$2 >=0 {print}' | grep '00251'
 
-预期：
-超管04690可以看到5个属性，但实际目前只有3个（为步骤3-04701提交的3个）
+grep convertToEmployeeAuthVOCount logs/application.log  | awk -F 'attributeValueCount = ' '$2 >=0 {print}' | grep '00344'
 
-宋测试：03465
-密码：1qaz@WSX1
-
-三、后端过滤
-
-1、获取当前登陆人可管理的手动属性：
-/admin/attribute/category/all   管理员+超管
-目前只有这1个地方用。可以改的
-
-2、获取角色属性接口，角色应该没固有属性，所有属性需要过滤掉当前登陆人不可管理的属性
-/admin/role/department/attribute/10004831 管理员+超管
-只有这1个地方用。可以改的
-人员关联属性的接口：返回当前登录人+管理员可管理的 + 超管可以管理全部
-
-3、获取人员属性接口，所有属性需要过滤掉当前登陆人不可管理的属性  管理员+超管
-/admin/employee/attribute/EX03383
-只有这1个地方用。可以改的
-人员关联属性的接口：返回当前登录人+管理员可管理的 + 超管可以管理全部
-
-permission.audit.employeePermissionAuditMock TRUE 权限审计-员工维度分析-mock
-permission.audit.employeePermissionAuditDetailMock TRUE 权限审计-员工维度分析-详情-mock
-permission.audit.permissionAuditMock TRUE 权限审计-权限维度分析-mock
-permission.audit.permissionAuditDetailMock TRUE 权限审计-权限维度分析-详情-mock
-
-权限管理-点击权限点-人员列表
-/admin/permission/employee?current=1&pageSize=10&pageNo=1&permissionId=3422
-部门：businessLineId、depId
-
-
-
-
-
+jmap -histo 1 | head -n 2000 | grep DataPrincipalVO
+jstat -gc 1

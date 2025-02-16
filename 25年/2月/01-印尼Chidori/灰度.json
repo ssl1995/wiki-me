@@ -1,0 +1,696 @@
+{
+  "rootRoleId": 1,
+  "RoleWhiteList": [
+    {
+      "id": 860,
+      "name": "ID Sandalwood",
+      "originName": "ID Sandalwood"
+    },
+    {
+      "id": 860,
+      "name": "ID IT Support Manager",
+      "originName": "ID IT Support Manager"
+    },
+    {
+      "id": 861,
+      "name": "ID IT Support",
+      "originName": "ID IT Support"
+    },
+    {
+      "id": 276,
+      "name": "ID Fund Manager",
+      "originName": "印尼资金"
+    },
+    {
+      "id": 673,
+      "name": "ID Engineer",
+      "originName": "印尼技术"
+    },
+    {
+      "id": 775,
+      "name": "ID Risk Analyst",
+      "originName": "Risk -Indonesia Fintopia"
+    },
+    {
+      "id": 672,
+      "name": "ID Engineer Leader",
+      "originName": "印尼技术负责人"
+    },
+    {
+      "id": 1,
+      "name": "SUPER-ADMIN",
+      "originName": "SUPER-ADMIN"
+    },
+    {
+      "id": 29,
+      "name": "CEO",
+      "originName": "CEO"
+    },
+    {
+      "id": 86,
+      "name": "Fintopia Indonesia",
+      "originName": "印尼区域经理"
+    },
+    {
+      "id": 223,
+      "name": "ID Product Manager",
+      "originName": "印尼产品经理"
+    },
+    {
+      "id": 592,
+      "name": "ID Audit Manager",
+      "originName": "印尼稽核主管"
+    },
+    {
+      "id": 591,
+      "name": "ID Quality Control Staff",
+      "originName": "印尼电核质检员"
+    },
+    {
+      "id": 272,
+      "name": "ID Customer Service Manager",
+      "originName": "印尼客服主管"
+    },
+    {
+      "id": 273,
+      "name": "ID Customer Service Staff",
+      "originName": "印尼客服"
+    },
+    {
+      "id": 614,
+      "name": "VIP Relationship Manager",
+      "originName": "VIP RM"
+    },
+    {
+      "id": 608,
+      "name": "Change Bank Account",
+      "originName": "修改银行卡"
+    },
+    {
+      "id": 301,
+      "name": "ID Manual Review Staff",
+      "originName": "印尼人工电核"
+    },
+    {
+      "id": 544,
+      "name": "ID Operational Manager",
+      "originName": "印尼市场运营"
+    },
+    {
+      "id": 616,
+      "name": "ID Project Manager",
+      "originName": "印尼项目运营经理"
+    },
+    {
+      "id": 617,
+      "name": "ID Project Supervisor",
+      "originName": "印尼项目运营主管"
+    },
+    {
+      "id": 618,
+      "name": "ID Project Staff",
+      "originName": "印尼项目运营"
+    },
+    {
+      "id": 274,
+      "name": "ID Sales Manager",
+      "originName": "印尼销售主管"
+    },
+    {
+      "id": 275,
+      "name": "ID Sales Staff",
+      "originName": "印尼销售"
+    },
+    {
+      "id": 410,
+      "name": "Indonesia Executive",
+      "originName": "印尼行政主管"
+    },
+    {
+      "id": 463,
+      "name": "Indonesia Administration",
+      "originName": "印尼行政"
+    },
+    {
+      "id": 952,
+      "name": "ID Risk Management",
+      "originName": "印尼风控管理"
+    },
+    {
+      "id": 41,
+      "name": "后端开发 - OA",
+      "originName": "Developer-OA"
+    },
+    {
+      "id": 586,
+      "name": "印尼basic",
+      "originName": "Indonesia Basic"
+    },
+    {
+      "id": 668,
+      "name": "权限点管理员 - 印尼OA",
+      "originName": "Administrator-OA"
+    },
+    {
+      "id": 672,
+      "name": "印尼技术负责人",
+      "originName": "Tech Leader"
+    },
+    {
+      "id": 694,
+      "name": "法务专员-Indonesia Fintopia",
+      "originName": "Legal Specialist-Indonesia Fintopia"
+    },
+    {
+      "id": 703,
+      "name": "Internal Audit-Indonesia Fintopia",
+      "originName": "Internal Audit-Indonesia Fintopia"
+    },
+    {
+      "id": 706,
+      "name": "Indo OA test",
+      "originName": "Indo OA test"
+    },
+    {
+      "id": 707,
+      "name": "Indo OA Finance Test",
+      "originName": "Indo OA Finance Test"
+    },
+    {
+      "id": 708,
+      "name": "Indo OA HR Test",
+      "originName": "Indo OA HR Test"
+    },
+    {
+      "id": 713,
+      "name": "Accounting - Indonesia Fintopia",
+      "originName": "Accounting - Indonesia Fintopia"
+    },
+    {
+      "id": 714,
+      "name": "Cashier - Indonesia Fintopia",
+      "originName": "Cashier - Indonesia Fintopia"
+    },
+    {
+      "id": 715,
+      "name": "Project operation-Indonesia Fintopia",
+      "originName": "Project operation-Indonesia Fintopia"
+    },
+    {
+      "id": 719,
+      "name": "Legal specialist-Indonesia Fintopia",
+      "originName": "Legal specialist-Indonesia Fintopia"
+    },
+    {
+      "id": 720,
+      "name": "Seal management-Indonesia Fintopia",
+      "originName": "Seal management-Indonesia Fintopia"
+    },
+    {
+      "id": 728,
+      "name": "Employee loan-Indonesia Fintopia",
+      "originName": "Employee loan-Indonesia Fintopia"
+    },
+    {
+      "id": 762,
+      "name": "ID User Account Management",
+      "originName": "ID User Account Management"
+    },
+    {
+      "id": 769,
+      "name": "Employee Relations Specialist-Indonesia Fintopia",
+      "originName": "Employee Relations Specialist-Indonesia Fintopia"
+    },
+    {
+      "id": 770,
+      "name": "Fee Application - Indonesian Finance",
+      "originName": "Fee Application - Indonesian Finance"
+    },
+    {
+      "id": 771,
+      "name": "Credit Operation BD-Indonesia Fintopia",
+      "originName": "Credit Operation BD-Indonesia Fintopia"
+    },
+    {
+      "id": 772,
+      "name": "Credit Operations Supervisor-Indonesia Fintopia",
+      "originName": "Credit Operations Supervisor-Indonesia Fintopia"
+    },
+    {
+      "id": 773,
+      "name": "HR-Indonesia Fintopia",
+      "originName": "HR-Indonesia Fintopia"
+    },
+    {
+      "id": 775,
+      "name": "Risk -Indonesia Fintopia",
+      "originName": "Risk -Indonesia Fintopia"
+    },
+    {
+      "id": 776,
+      "name": "Product Manager-Indonesia Fintopia",
+      "originName": "Product Manager-Indonesia Fintopia"
+    },
+    {
+      "id": 777,
+      "name": "Contract & Fee Application-Indonesia Fintopia",
+      "originName": "Contract & Fee Application-Indonesia Fintopia"
+    },
+    {
+      "id": 778,
+      "name": "Marketing Operation-Indonesia Fintopia",
+      "originName": "Marketing Operation-Indonesia Fintopia"
+    },
+    {
+      "id": 779,
+      "name": "Project Operations Supervisor-Indonesia Fintopia",
+      "originName": "Project Operations Supervisor-Indonesia Fintopia"
+    },
+    {
+      "id": 780,
+      "name": "GA &Admin Supervisor-Indonesia Fintopia",
+      "originName": "GA &Admin Supervisor-Indonesia Fintopia"
+    },
+    {
+      "id": 782,
+      "name": "Basic-Indonesia Fintopia",
+      "originName": "Basic-Indonesia Fintopia"
+    },
+    {
+      "id": 783,
+      "name": "Basic Finance-Indonesia Fintopia",
+      "originName": "Basic Finance-Indonesia Fintopia"
+    },
+    {
+      "id": 792,
+      "name": "HRM-Indonesia Fintopia",
+      "originName": "HRM-Indonesia Fintopia"
+    },
+    {
+      "id": 849,
+      "name": "Indo OA HR Test - Indonesia Fintopia",
+      "originName": "Indo OA HR Test - Indonesia Fintopia"
+    },
+    {
+      "id": 857,
+      "name": "HR Manager",
+      "originName": "HR Manager"
+    },
+    {
+      "id": 871,
+      "name": "Workflow handover-Indonesia Fintopia",
+      "originName": "Workflow handover-Indonesia Fintopia"
+    },
+    {
+      "id": 891,
+      "name": "HR Indonesia Approval",
+      "originName": "HR Indonesia Approval"
+    },
+    {
+      "id": 901,
+      "name": "Fee Application - Indonesian PM",
+      "originName": "Fee Application - Indonesian PM"
+    },
+    {
+      "id": 915,
+      "name": "HRBP - Indonesia",
+      "originName": "HRBP - Indonesia"
+    },
+    {
+      "id": 927,
+      "name": "Permission Review Director",
+      "originName": "Permission Review Director"
+    },
+    {
+      "id": 928,
+      "name": "OM Permission Review",
+      "originName": "OM Permission Review"
+    },
+    {
+      "id": 950,
+      "name": "Head of risk(rule_engine)",
+      "originName": "权限点管理员 - 印尼风控决策Local"
+    },
+    {
+      "id": 480,
+      "name": "Head of risk(ec_admin)",
+      "originName": "印尼高级风控"
+    },
+    {
+      "id": 1118,
+      "name": "ID Compliance",
+      "originName": "ID Compliance"
+    },
+    {
+      "id": 125,
+      "name": "Chief Financial Officer",
+      "originName": "财务总监"
+    },
+    {
+      "id": 18,
+      "name": "Head of Capital Operation and Internal Audit and Internal Control",
+      "originName": "资金运营和内审内控负责人"
+    },
+    {
+      "id": 20,
+      "name": "Head of Internal Audit and Internal Control",
+      "originName": "内审内控总监"
+    },
+    {
+      "id": 11,
+      "name": "Head of Human Resources",
+      "originName": "人力资源总监"
+    },
+    {
+      "id": 37,
+      "name": "Risk Control Director",
+      "originName": "风控总监"
+    },
+    {
+      "id": 315,
+      "name": "Head of risk-Lead",
+      "originName": "东南亚风控 - Lead"
+    },
+    {
+      "id": 690,
+      "name": "Local-risk team",
+      "originName": "Local-risk team"
+    },
+    {
+      "id": 1046,
+      "name": "risk-super admin",
+      "originName": "risk-super admin"
+    },
+    {
+      "id": 781,
+      "name": "Admin Management-Indonesia Fintopia",
+      "originName": "Admin Management-Indonesia Fintopia"
+    }
+  ],
+  "HideRoleList": [
+    "CEO",
+    "Credit Operations Supervisor-Indonesia Fintopia",
+    "ID Senior Product Manger",
+    "ID Risk Management",
+    "ID Audit Manager",
+    "ID Project Manager",
+    "Indonesia Executive",
+    "CFO",
+    "Chief Financial Officer",
+    "CRO",
+    "Risk Control Director",
+    "Head of risk-Lead",
+    "Head of Capital Operation and Internal Audit and Internal Control",
+    "Head of Internal Audit and Internal Control",
+    "Head of Human Resources",
+    "印度区域经理"
+  ],
+  "PermissionWhiteList": [
+    7554,
+    7555,
+    7556,
+    7167,
+    7163,
+    7162,
+    7165,
+    7168,
+    7164,
+    7397,
+    7396,
+    6191,
+    8506,
+    8505,
+    7174,
+    7175,
+    6287,
+    6291,
+    4811,
+    2556,
+    2555,
+    6429,
+    6430,
+    8433,
+    8434,
+    6663,
+    6434,
+    6435,
+    2362,
+    2363,
+    5452,
+    5663,
+    5451,
+    5652,
+    5653,
+    5405,
+    5406,
+    2360,
+    2361,
+    5741,
+    4995,
+    6172,
+    5736,
+    5241,
+    5242,
+    5700,
+    2357,
+    5699,
+    2359,
+    2836,
+    6629,
+    6630,
+    4459,
+    4458,
+    4457,
+    2351,
+    5552,
+    5553,
+    5295,
+    5296,
+    5176,
+    5177,
+    2352,
+    6431,
+    6432,
+    2538,
+    2539,
+    2541,
+    2860,
+    2861,
+    5547,
+    2550,
+    2551,
+    5166,
+    2557,
+    2558,
+    5555,
+    5556,
+    2537,
+    5236,
+    5235,
+    2535,
+    2533,
+    2532,
+    6631,
+    6632,
+    3847,
+    3844,
+    3843,
+    6396,
+    6395,
+    2340,
+    2341,
+    2342,
+    2552,
+    7077,
+    2327,
+    2326,
+    7226,
+    7225,
+    7228,
+    7227,
+    2536,
+    2345,
+    6228,
+    6271,
+    7188,
+    6280,
+    6239,
+    6245,
+    6249,
+    6247,
+    6263,
+    6265,
+    6267,
+    6290,
+    6224,
+    6293,
+    6226,
+    6258,
+    6319,
+    6261,
+    6251,
+    6254,
+    6250,
+    6242,
+    7191,
+    7182,
+    7185,
+    6241,
+    6277,
+    2339,
+    6960,
+    8519,
+    8183,
+    7166,
+    7887,
+    7174,
+    7175,
+    8506,
+    8505,
+    5158,
+    5157,
+    6429,
+    8433,
+    6430,
+    8434,
+    9831,
+    8651,
+    7156,
+    7158,
+    7159,
+    7154,
+    7155,
+    7157,
+    9794,
+    9793,
+    8649,
+    6970,
+    6971,
+    6972,
+    6973,
+    6969,
+    6979,
+    6967,
+    8648,
+    6968,
+    8255,
+    8254,
+    8252,
+    8253,
+    6825,
+    6822,
+    6824,
+    6823,
+    6818,
+    6819,
+    6821,
+    6820,
+    6815,
+    6816,
+    6817,
+    8177,
+    6826,
+    6827,
+    6828,
+    6829,
+    6830,
+    6831,
+    8178,
+    6832,
+    7454,
+    7246,
+    7247,
+    7248,
+    8282,
+    8283,
+    7108,
+    8652,
+    7115,
+    7116,
+    7107,
+    7114,
+    7111,
+    7110,
+    7117,
+    7118,
+    8284,
+    7109,
+    7113,
+    8653,
+    7112,
+    7135,
+    7128,
+    7134,
+    7129,
+    7130,
+    7131,
+    7132,
+    7133,
+    7126,
+    7119,
+    7125,
+    7120,
+    7121,
+    7122,
+    7123,
+    7124,
+    7127,
+    9350,
+    9349,
+    7242,
+    7241,
+    7136,
+    7138,
+    7139,
+    7140,
+    7137,
+    7838,
+    8179,
+    7839,
+    7840,
+    7141,
+    7143,
+    7147,
+    7142,
+    7144,
+    7145,
+    7146,
+    7148,
+    8441,
+    8442,
+    7149,
+    8285,
+    8286,
+    8287,
+    6977,
+    6978,
+    6976,
+    6975,
+    6974,
+    8440,
+    8437,
+    8439,
+    8438,
+    8573,
+    7153,
+    7243,
+    7244,
+    7245,
+    6836,
+    6837,
+    8650,
+    6838,
+    7150,
+    7151,
+    9425,
+    7152
+  ],
+  "businessCode": [
+    "EC_ADMIN_IND",
+    "OVERSEAS_OA"
+  ],
+  "member": {
+    "rootEmployeeNumber": "06254",
+    "countryCode": "ID"
+  }
+}

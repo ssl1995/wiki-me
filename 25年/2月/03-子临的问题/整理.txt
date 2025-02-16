@@ -1,0 +1,11 @@
+https://chidori-admin-test.yangqianguan.com/admin/user/login/isNeedSmsCode?username=03541
+
+https://chidori-admin-test.yangqianguan.com/admin/user/login
+
+https://oa-test.yangqianguan.com/admin/user/fetch
+
+
+整理：
+1、fetch
+
+HttpServletRequest request

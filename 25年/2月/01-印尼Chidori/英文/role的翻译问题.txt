@@ -1,0 +1,133 @@
+1	SUPER-ADMIN
+2	权限点管理员 - OA
+4	CPO
+5	CMO
+6	CFO
+9	CTO
+11	Human Resources Director
+16	权限点管理员 - CHIDORI
+29	CEO
+31	Web开发 - OA
+36	测试 - OA
+40	后端Lead - 内部工具
+41	Backend Development - OA
+56	Web开发 - Chidori
+61	产品经理 - OA - Lead
+62	产品经理 - Chidori - Lead
+69	产品经理 - 财务系统 - Lead
+71	后端开发 - Chidori
+86	Indonesia Regional Manager
+117	权限点管理员 - ADMIN 洋钱罐
+119	权限点管理员 - ADMIN 六六钱庄
+120	权限点管理员 - ADMIN 资金资产
+121	权限点管理员 - ADMIN 存管系统
+122	权限点管理员 - ADMIN 通用工具
+125	Finance Director
+156	权限点管理员 - ADMIN 风控
+157	权限点管理员 - ADMIN 洋钱罐借款
+174	权限点管理员 - ADMIN 外呼管理
+176	权限点管理员 - MAYURI
+199	运维 Lead
+206	权限点管理员 - ADMIN 报表系统
+223	Indonesia Product Manager
+233	数仓开发 - Lead
+246	IT审计
+249	后端开发 - 企业系统 - Lead
+252	Web - Lead - 国内
+253	Web - Lead - 海外&内部工具
+256	产品经理 - OA
+272	Indonesia Customer Service Supervisor
+273	Indonesia Customer Service
+274	Indonesia Sales Supervisor
+275	Indonesia Sales
+276	Indonesia Capital
+285	权限点管理员 - VOTE
+289	权限点管理员 - YTalk呼叫平台
+301	Indonesia Manual Verification
+315	Southeast Asia Risk Control - Lead
+328	产品经理 - 保险 - Lead
+354	权限点管理员 - TECH
+410	Indonesia Administrative Supervisor
+443	权限点管理员 - 海外 tech 系统
+463	Indonesia Administration
+472	权限点管理员 - DW
+480	Indonesia Senior Risk Control (Strategy)
+484	权限点管理员 - YChat客服系统
+544	Indonesia Market Operations
+564	权限点管理员 - 中收ADMIN
+586	Indonesia Basic
+589	权限点管理员 - SPIDER系统
+591	Indonesia Verification Quality Inspector
+592	Indonesia Audit Supervisor
+608	Modify Bank Card
+614	VIP RM
+616	Indonesia Project Operations Manager
+617	Indonesia Project Operations Supervisor
+618	Indonesia Project Operations
+668	权限点管理员 - 印尼OA
+672	Indonesia Technical Manager
+673	Indonesia Technology
+690	Local-risk team
+694	Legal Specialist-Indonesia Fintopia
+701	ID Senior Product Manger
+703	Internal Audit-Indonesia Fintopia
+706	Indo OA test
+707	Indo OA Finance Test
+708	Indo OA HR Test
+713	Accounting - Indonesia Fintopia
+714	Cashier - Indonesia Fintopia
+715	Project operation-Indonesia Fintopia
+719	Legal specialist1-Indonesia Fintopia
+720	Seal management-Indonesia Fintopia
+728	Employee loan-Indonesia Fintopia
+738	权限点管理员 - sea风控决策引擎
+762	ID User Account Management
+769	Employee Relations Specialist-Indonesia Fintopia
+770	Fee Application - Indonesian Finance
+771	Credit Operation BD-Indonesia Fintopia
+772	Credit Operations Supervisor-Indonesia Fintopia
+773	HR-Indonesia Fintopia
+775	Risk -Indonesia Fintopia
+776	Product Manager-Indonesia Fintopia
+777	Contract & Fee Application-Indonesia Fintopia
+778	Marketing Operation-Indonesia Fintopia
+779	Project Operations Supervisor-Indonesia Fintopia
+780	GA &Admin Supervisor-Indonesia Fintopia
+781	Admin Management-Indonesia Fintopia
+782	Basic-Indonesia Fintopia
+783	Basic Finance-Indonesia Fintopia
+792	HRM-Indonesia Fintopia
+799	内控流程BP
+800	权限点管理员 - 大鱼平台(RTA)
+824	初级产品经理 - OA
+849	Indo OA HR Test - Indonesia Fintopia
+857	HR Manager
+860	ID IT Support Manager
+861	ID IT Support
+871	Workflow handover-Indonesia Fintopia
+891	HR Indonesia Approval
+894	权限点管理员 - 菲律宾SmartAP
+901	Fee Application - Indonesian PM
+913	OA产品 - 财务合同人力
+915	HRBP - Indonesia
+927	Permission Review Director
+928	OM Permission Review
+931	权限点管理员 - 新海鱼平台(RTA)
+932	权限点管理员 - 印尼海鱼平台(RTA)
+950	权限点管理员 - 印尼风控决策Local
+952	Indonesia Risk control management
+966	权限点管理员 - Ad-Hoc平台
+968	权限点管理员 - yqg-chat
+970	反欺诈leader
+973	后端开发 - 数据安全 - Lead
+977	后端开发 - 基础服务中台 - Lead
+1007	权限点管理员 - 新版权限管理crane
+1029	洋钱罐借款AB实验产研测
+1046	risk-super admin
+1054	权限点管理员 - yqg-mod搭投平台
+1068	测试-临时预算币种统一使用（有效期9.29）
+1084	权限点管理员 - 人行征信ADMIN
+1117	权限点管理员 - 通知admin
+1118	ID Compliance
+1142	权限点管理员 - 数据平台-EMR环境
+1170	person-query Indonesia

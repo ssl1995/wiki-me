@@ -1,0 +1,173 @@
+## 问题一：1月22日上午反馈，chidori和Crane的一登录就特别慢/无法登录
+
+问题排查:
+1、查看rancher日志，发现2套服务资源存在被耗尽情况
+
+2、命令行查看
+2.1 查存活对象个数：jmap -histo 1 | head -n 2000 | grep DataPrincipalVO
+发现DataPrincipalVO对象实例特别多，最高大约占685546560bytes
+
+2.2 查看gc情况：jstat -gc 1
+登录大账号发现存在FullGC
+
+方案一：chidori调Crane的查权限，加开关，crane.switch.openCrane
+
+方案二：让运维临时提升，chidori服务机器内存为32G,暂时修复
+
+方案三：提升年轻代大小
+cat /proc/1/cmdline，查看测试机器Java配置，并新增配置-XX:NewSize=12884901888-XX:MaxNewSize=12884901888
+
+## 问题二：1月22日下午3点后，开始反馈chidori又出现无法登录的情况
+
+问题排查：
+查看日志，发现存在自动化账号00344多次登录的情况，导致资源耗尽等待
+
+方案一：手动调取消session接口把该账号session取消掉，再把chidori重启，暂时解决
+
+后端待完成：
+1、查下为啥那个对象为啥这么多（DataPrincipalValueVO)
+2、Crane循环查chidori的改掉
+3、chidori和crane的环境得重新搭一个新环境供自己团队使用，现在的测试环境当feat供各个业务方测试环境使用
+4、总结下本次排查的问题，写个文档
+
+方案二：
+1、chidori的登录接口,NewEmployeeServiceImpl创建DataPrincipalValueVO时，走缓存Map，减少创建可能
+2、chidori的登录接口，EmployeeConverter新增统计日志：convertToEmployeeAuthVOCount employeeNumber
+3、统计下列接口（下载Rancher日志，命令行统计），登录人测试占比高的
+auth/verification
+auth/verificationWithPermission
+admin/user/login
+
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' test.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/admin/user/login {""username"":""[^""]*""' 22.csv | sed 's/.*""username"":""\([^""]*\).*/\1/' | sort | uniq -c
+
+结果：
+账号05515 访问次数11829
+账号04683 访问次数23828
+账号00251 访问次数5671
+账号00344 访问次数1971
+
+方案三：模拟00251登录不同账号
+jmap -histo 1 | head -n 2000 | grep DataPrincipalVO，还是存在DataPrincipalVO对象实例特别多情况
+
+方案四：紧急实现一版员工存储数据权限优化，验证发现依然存在DataPrincipalVO对象实例特别多情况
+
+代码：在YqgLdapUserDetailsContextMapper，存redis时对于DataPrincipalValueVO不存对象实例，存CacheKey；取出来的时候再转出来
+
+方案五：DataPrincipalVO构造器加上日志，模拟00251登录，发现其实只实例了一次
+
+## 问题三：chidori登录，调Crane的接口，返回对象实例只有几百，但是到chidori转换时，反而有上万的实例，拖累了资源
+
+这个问题待排查，暂未定位到问题
+
+
+
+
+
+
+grep 'convertToEmployeeAuthVOCount' application.log | awk -F 'dataPrincipalCount = ' '{print $2,$0}' | sort -nr | cut -d' ' -f2-
+
+grep 'convertToEmployeeAuthVOCount' application.log | awk -F 'dataPrincipalCount = ' '{print $2,$0}' | sort -nr | head -n 10 | cut -d' ' -f2-
+
+tail -f application.log | grep convertToEmployeeAuthVOCount  | awk -F 'dataPrincipalCount = ' '$2 > 10 {print}'
+
+grep convertToEmployeeAuthVOCount logs/application.log  | awk -F 'attributeValueCount = ' '$2 > 10 {print}'
+grep convertToEmployeeAuthVOCount | awk -F 'attributeValueCount = ' '$2 > 10 {print}'
+
+grep  application.log | awk -F '/auth/verification?businessCode = ' '{print $2,$0}' | sort -nr | head -n 10 | cut -d' ' -f2-
+
+cat application.log | grep 'convertToEmployeeAuthVOCount' | awk -F 'dataPrincipalCount = ' '{print $2,$0}' | sort -nr | head -n 10 | cut -d' ' -f2-
+
+tableAu.graphNodeNames=业务负责人,数据BP/报表负责人
+
+ava-server-Deureka.client.register-with-eureka=false-javaagent:/opt/share/opentelemetry-javaagent.ja
+-XX:+UseContainerSupport-XX:MaxRAMPercentage=70.0-XX:InitialRAMPercentage=70.0
+-XX:NewRatio=2
+-XX:MaxDirectMemorySize=512m-XX:MaxMetaspaceSize=512m
+-XX:+UseParNewGC-XX:+UseConcMarkSweepGC
+-XX:+CMSClassUnloadingEnabled
+-Xloggc:/service/log/office/cn-internal-crane-admin-7d59c84fbc-lx5sn/gc-%t.log
+-XX:+PrintGCDetails-XX:+PrintGCDateStamps-XX:+PrintGCApplicationConcurrentTime
+-XX:+PrintGCApplicationStoppedTime
+-XX:+UseGCLogFileRotation-XX:GCLogFileSize=32M-XX:NumberOfGCLogFiles=5
+-XX:+HeapDumpOnOutOfMemoryError-XX:HeapDumpPath=/service/log/office/cn-internal-crane-admin-7d59c84fbc-lx5sn/HeapDump.hprof-Dserver.port=80-DLOG_DIR=/service/log/office/cn-internal-crane-admin-7d59c84fbc-lx5sn-Djava.awt.headless=true-Dspring.profiles.active=test-javaagent:/opt/share/jmx_javaagent.jar=8080:/opt/share/jmx_exporter.yml-Dfile.encoding=UTF8-jarcrane-admin.jar
+
+
+
+java-server-XX:MaxRAMPercentage=70.0-XX:InitialRAMPercentage=70.0-Xmn6g-javaagent:/opt/share/opentelemetry-javaagent.jar-XX:+UseContainerSupport-XX:+UseParNewGC-XX:+UseConcMarkSweepGC-XX:+CMSClassUnloadingEnabled-XX:+PrintGCDetails-XX:+PrintGCDateStamps-XX:+UseGCLogFileRotation-XX:GCLogFileSize=32M-XX:NumberOfGCLogFiles=5-Xloggc:/service/log/default/java-chidori-service-7bb7cc9df7-lzlsj/gc.log-XX:+HeapDumpOnOutOfMemoryError-XX:HeapDumpPath=/service/log/default/java-chidori-service-7bb7cc9df7-lzlsj/HeapDump.hprof-Dserver.port=80-DLOG_DIR=/service/log/default/java-chidori-service-7bb7cc9df7-lzlsj-Djava.awt.headless=true-Dspring.profiles.active=test-javaagent:/opt/share/jmx_javaagent.jar=8080:/opt/share/jmx_exporter.yml-jarchidori-service.jar
+
+
+
+java-server \
+-XX:MaxRAMPercentage=60.0 \
+-XX:InitialRAMPercentage=60.0 \
+-Xmn8g \
+-javaagent:/opt/share/opentelemetry-javaagent.jar \
+-XX:UseContainerSupport \
+-XX:+UseG1GC \
+-XX:G1ReservePercent=10 \
+-XX:MaxGCPauseMillis=200 \
+-XX:GCLogFileSize=64M \
+-XX:NumberOfGCLogFiles=10 \
+-XX:+PrintGCDetails \
+-XX:+PrintGCDateStamps \
+-XX:+UseGCLogFileRotation \
+-XX:GCLogFileSize=64M \
+-XX:NumberOfGCLogFiles=10 \
+-XX:+HeapDumpOnOutOfMemoryError \
+-XX:HeapDumpPath=/service/log/default/java-chidori-service-7bb7cc9df7-lzlsj/HeapDump.hprof \
+-Dserver.port=80 \
+-DLOG_DIR=/service/log/default/java-chidori-service-7bb7cc9df7-lzlsj \
+-Djava.awt.headless=true \
+-Dspring.profiles.active=test \
+-javaagent:/opt/share/jmxjavaagent.jar=8080:/opt/share/jmxexporter.yml \
+-jar chidori-service.jar
+
+
+@Autowired
+private ChidoriCraneSwitchProperties switchProperties;
+
+/auth/verification?businessCode=TEST_EU_EC_ADMIN&authToken=8E21BB989026B360E7CD4016CA862480D1E53F2919B549BD854769D557A202CDF77DAF2790270E88-05515-01&
+/auth/verification?businessCode=xx&authToken=xx-05515的数据
+
+tail -f  application.log | grep '/auth/verification'
+
+
+grep '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]' application.log
+
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' application.log
+
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' application.log  | awk -F'-' '{print $(NF-1) "-"$NF}'
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' application.log  | awk -F'-' '{print $NF}'
+
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' application.log  | awk -F'-' '{print $(NF-1)}'
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' application.log | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' log.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' content.csv  | awk -F'-' '{print $(NF-1)}'
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' content.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' verifycation-10-12.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' 111.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+grep -o '/auth/verification?businessCode=[^&]*&authToken=[^-]*-[^&]*' test.csv | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+
+
+grep -o '/admin/user/login  {"username":' application.log | awk -F'-' '{print $(NF-1)}' | sort | uniq -c
+
+/admin/user/login {"username":"03541","password"}
+
+
+grep -o '""username"":""[^""]*"",' 22.csv | awk -F'"' '{print $4}' | sort | uniq -c
+grep -o '"username":"[^"]*",' 22.csv
+grep -o '"username":"[^"]*",' application.log | awk -F'"' '{print $4}' | sort | uniq -c
+grep -o '/admin/user/login {"username":"[^"]*",' application.log | awk -F'"' '{print $4}' | sort | uniq -c
+
+grep -o '/admin/user/login {""username"":' 22.csv | awk -F'"' '{print $4}' | sort | uniq -c
+
+grep -o '/admin/user/login {""username"":"[^"]*",' 22.csv | awk -F'"' '{print $4}' | sort | uniq -c
+
+grep -o '/admin/user/login {“username”:“[^”]*",' 22.csv | awk -F'"' '{print $4}' | sort | uniq -c
+
+grep -o '/admin/user/login {""username"":""[^""]*""' 22.csv | sed 's/.*""username"":""\([^""]*\).*/\1/' | sort | uniq -c
+
+
+
