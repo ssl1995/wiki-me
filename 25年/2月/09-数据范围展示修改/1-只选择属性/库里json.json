@@ -1,0 +1,22 @@
+{
+  "ruleItems": [
+    {
+      "attributeCategoryId": 112,
+      "attributeCategoryName": null,
+      "attributeCategoryCode": null,
+      "attributeCategoryVO": null,
+      "attributeFunctionId": null,
+      "attributeFunctionCode": null,
+      "attributeFunctionName": null,
+      "functionValues": null,
+      "attributeValues": [],
+      "allAttributeValues": [],
+      "attributeValueIds": [
+        12
+      ],
+      "attributeValueNames": null,
+      "operator": null
+    }
+  ],
+  "logicalOperators": null
+}
