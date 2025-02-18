@@ -1,0 +1,37 @@
+{
+  "permissionIds": [
+    3422
+  ],
+  "addRoleIds": [],
+  "deleteRoleIds": [],
+  "permissionDataRule": [
+    {
+      "permissionId": 3422,
+      "roleId": "10004531",
+      "dataRule": {
+        "ruleItems": [
+          {
+            "attributeCategoryId": "112",
+            "attributeFunctionId": 550
+          },
+          {
+            "attributeCategoryId": "112",
+            "attributeValueIds": [
+              2
+            ]
+          },
+          {
+            "attributeCategoryId": "113",
+            "attributeFunctionId": 552
+          },
+          {
+            "attributeCategoryId": "113",
+            "attributeValueIds": [
+              516
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

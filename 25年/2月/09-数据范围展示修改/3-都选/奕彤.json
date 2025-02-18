@@ -1,0 +1,63 @@
+{
+  "permissionIds": [
+    4017
+  ],
+  "addRoleIds": [],
+  "deleteRoleIds": [],
+  "permissionDataRule": [
+    {
+      "permissionId": 4017,
+      "roleId": "10014032",
+      "dataRule": {
+        "ruleItems": [
+          [
+            {
+              "attributeCategoryId": "101",
+              "attributeFunctionId": 492
+            },
+            {
+              "attributeCategoryId": "101",
+              "attributeValueIds": [
+                -1
+              ]
+            }
+          ],
+          [
+            {
+              "attributeCategoryId": "102",
+              "attributeValueIds": [
+                7,
+                8,
+                32
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "permissionId": 4017,
+      "roleId": "10014033",
+      "dataRule": {
+        "ruleItems": [
+          [
+            {
+              "attributeCategoryId": 101,
+              "attributeValueIds": [
+                -1
+              ]
+            }
+          ],
+          [
+            {
+              "attributeCategoryId": 102,
+              "attributeValueIds": [
+                -1
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "body": {
+    "list": [
+      {
+        "employeeNumber": "03541",
+        "employeeDataScope": {
+          "employeeNumber": "03541",
+          "categoryList": [
+            {
+              "attributeCategory": {
+                "id": 112,
+                "categoryCode": "songRelated",
+                "categoryName": "宋测试系统",
+                "source": "System",
+                "sourceType": "OMS_BUSINESS_LINE",
+                "showWay": "TREE",
+                "configWay": "MANUAL",
+                "status": "ABLE",
+                "operator": "",
+                "functionList": null,
+                "relatedBusinessCodes": [
+                  "songSys"
+                ],
+                "relatedBusinessVos": [
+                  {
+                    "id": 355,
+                    "name": "宋第三次系统",
+                    "code": "songSys",
+                    "status": "ABLE",
+                    "host": "songSys",
+                    "wechatAppId": "",
+                    "wechatSecret": "",
+                    "cookieSecret": "",
+                    "cookieMaxAge": 0,
+                    "crossDomain": true,
+                    "cookieAccessCodes": null,
+                    "adminRoleName": "宋第三次系统 - 系统管理员",
+                    "superAdminRoleName": null,
+                    "adminWorkNumber": null,
+                    "systemRoleName": "宋第三次系统 - 系统管理员",
+                    "admin": [
+                      {
+                        "name": "宋声林",
+                        "workNumber": "03541",
+                        "departmentName": "测试权限下级部门",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "叶玮04690",
+                        "workNumber": "04690",
+                        "departmentName": "后端123",
+                        "companyEmail": null
+                      },
+                      {
+                        "name": "王皓",
+                        "workNumber": "03782",
+                        "departmentName": "自动创建的部门 (不要删",
+                        "companyEmail": null
+                      }
+                    ],
+                    "superAdmin": null,
+                    "systemType": "INTERNAL_SYSTEM",
+                    "superSystemRoleName": null
+                  }
+                ]
+              },
+              "attributes": [
+                {
+                  "id": -1,
+                  "categoryId": 112,
+                  "attributeCode": "all_values",
+                  "attributeName": "全量",
+                  "attributeSourceType": null,
+                  "originId": null,
+                  "isLeaf": false,
+                  "specialField": false
+                }
+              ]
+            }
+          ]
+        },
+        "currentDataScope": [
+          "宋测试系统: 全量 "
+        ],
+        "id": 3422,
+        "feature": "songSys.testDepaaa",
+        "name": "宋第三次系统.宋测试",
+        "desc": "",
+        "status": "ABLE",
+        "type": "INTERNAL",
+        "supportDataRule": true,
+        "operationType": "QUERY",
+        "attributeCategoryIds": [
+          112
+        ],
+        "attributeCategoryNameList": [],
+        "categoryVOS": [
+          {
+            "id": 112,
+            "categoryCode": "songRelated",
+            "categoryName": "宋测试系统",
+            "source": "System",
+            "sourceType": "OMS_BUSINESS_LINE",
+            "showWay": "TREE",
+            "configWay": "MANUAL",
+            "status": "ABLE",
+            "operator": "",
+            "functionList": null,
+            "relatedBusinessCodes": null,
+            "relatedBusinessVos": null
+          }
+        ],
+        "operator": "",
+        "systemRoleName": null,
+        "admin": null,
+        "businessName": "宋第三次系统",
+        "businessCode": "songSys",
+        "relatedRoles": null,
+        "createTime": "2024-12-27 17:32:26",
+        "updateTime": "2025-02-10T06:41:04Z",
+        "relatedDepartmentIds": [],
+        "relatedDepartments": null,
+        "relatedBusinessLineIds": [],
+        "relatedBusinessLines": null,
+        "managers": null,
+        "targetName": "宋测试",
+        "securityLevel": "L1",
+        "isVirtualNode": false,
+        "relatedRoleIds": [],
+        "roleId": null,
+        "ownStatusVO": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "businessApplyType": null,
+        "flowState": null,
+        "lastFlowState": null,
+        "oaFlowUrl": null,
+        "interfaceConfigList": null,
+        "systemType": null,
+        "virtualCurrentDataScope": [
+          "宋测试系统: 全量 "
+        ],
+        "virtualId": null,
+        "virtualOwnState": {
+          "timeStatus": "NO",
+          "dayDiff": null
+        },
+        "virtualFlowState": null,
+        "virtualBusinessApplyType": null,
+        "targetId": 3422,
+        "targetCode": "songSys.testDepaaa",
+        "errorMsg": "",
+        "operateType": "PERMISSION",
+        "shortName": "宋测试",
+        "children": null
+      }
+    ],
+    "total": 1,
+    "pageNo": 1,
+    "pageSize": 10,
+    "pages": 1,
+    "size": 1
+  },
+  "status": {
+    "code": 0,
+    "type": "",
+    "detail": "",
+    "serverResponseTime": 1739783771967,
+    "displayType": "TOAST",
+    "url": null
+  }
+}
