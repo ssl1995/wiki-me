@@ -1,0 +1,6 @@
+1、functionList为啥还没有返回
+/admin/permission/business?businessCode=Crane-Test
+
+
+2、没有去除孩子
+/admin/role/permission/10012567

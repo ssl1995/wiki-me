@@ -1,0 +1,1595 @@
+{
+    "body": [
+        {
+            "securityLevel": null,
+            "isVirtualNode": true,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "businessApplyType": null,
+            "createTime": "2024-11-14 11:56:50",
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "interfaceConfigList": null,
+            "systemType": "INTERNAL_SYSTEM",
+            "id": 271,
+            "feature": "Crane-Test.test1",
+            "name": "Crane线上测试专用系统.菜单1",
+            "desc": "",
+            "status": "ABLE",
+            "type": null,
+            "supportDataRule": null,
+            "operationType": null,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+            "admin": [
+                {
+                    "name": "刘奕彤",
+                    "workNumber": "05220",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋声林",
+                    "workNumber": "03183",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘文文",
+                    "workNumber": "03913",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘祯昆",
+                    "workNumber": "00152",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "李玉鹏",
+                    "workNumber": "05978",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "叶玮",
+                    "workNumber": "05211",
+                    "departmentName": "测试",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋玖志",
+                    "workNumber": "04870",
+                    "departmentName": "创意",
+                    "companyEmail": null
+                }
+            ],
+            "businessName": "Crane线上测试专用系统",
+            "businessCode": "Crane-Test",
+            "relatedRoles": null,
+            "updateTime": "2024-12-16T12:19:59Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "relatedBusinessLineIds": [],
+            "relatedBusinessLines": null,
+            "managers": [
+                {
+                    "employeeId": 3187,
+                    "employeeNumber": "03183",
+                    "name": "宋声林",
+                    "departmentChain": "技术部-后端",
+                    "departmentName": "后端",
+                    "finalDepartmentName": "后端",
+                    "departmentId": 30,
+                    "internalBusinessLineIdList": [
+                        51
+                    ],
+                    "internalBusinessLineChainList": [
+                        "技术部-后端-内部系统-业务中台"
+                    ],
+                    "positionName": "初级开发工程师",
+                    "gender": "男",
+                    "state": "正式",
+                    "countryCode": "CN",
+                    "supervisorNumber": "00064",
+                    "virtualSupervisorNumber": null,
+                    "mobile": "13639120050",
+                    "entryTime": 1679364404272,
+                    "rank": "I2",
+                    "pictures": {
+                        "WORK_CARD_PHOTO": "https://oa-static.yangqianguan.com/oa/8daf7759785844b3d119597cf70d8e2a?e=1739890434&token=IAM-lNl4ImtIbsUc4fmAdUN5tQ2eHWDlJnLa4bMWCUST:Ure2GplcJPJNOPthHh-inHwF2lc="
+                    },
+                    "isInternalEmployee": true,
+                    "employeeType": "INTERNAL",
+                    "employeeTypeVo": {
+                        "id": null,
+                        "description": "内部员工",
+                        "employeeType": "INTERNAL"
+                    },
+                    "subordinateAndVirtualEmployees": null,
+                    "sameLevelEmployees": null,
+                    "applyEmployees": null,
+                    "allDepartmentChainList": [
+                        "技术部-后端",
+                        "技术部-后端-内部系统-业务中台"
+                    ],
+                    "onPosition": true,
+                    "rankGEM3": false,
+                    "operateType": "EMPLOYEE",
+                    "rankGEM4": false,
+                    "workNumber": "03183",
+                    "id": 3183,
+                    "feature": null,
+                    "businessCode": null,
+                    "companyEmail": "shenglinsong@fintopia.tech"
+                }
+            ],
+            "targetName": "菜单1",
+            "virtualOwnState": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "virtualId": null,
+            "virtualFlowState": null,
+            "virtualBusinessApplyType": null,
+            "targetCode": "Crane-Test.test1",
+            "targetId": 271,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "virtualCurrentDataScope": null,
+            "shortName": "菜单1",
+            "children": [
+                {
+                    "securityLevel": null,
+                    "isVirtualNode": true,
+                    "relatedRoleIds": [],
+                    "roleId": null,
+                    "ownStatusVO": {
+                        "timeStatus": "NO",
+                        "dayDiff": null
+                    },
+                    "businessApplyType": null,
+                    "createTime": "2024-11-14 11:56:50",
+                    "flowState": null,
+                    "lastFlowState": null,
+                    "oaFlowUrl": null,
+                    "interfaceConfigList": null,
+                    "systemType": "INTERNAL_SYSTEM",
+                    "id": 271,
+                    "feature": "Crane-Test.test1.test1-1",
+                    "name": "Crane线上测试专用系统.菜单1.菜单1-1",
+                    "desc": "",
+                    "status": "ABLE",
+                    "type": null,
+                    "supportDataRule": null,
+                    "operationType": null,
+                    "attributeCategoryIds": [],
+                    "attributeCategoryNameList": [],
+                    "categoryVOS": null,
+                    "operator": "",
+                    "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+                    "admin": [
+                        {
+                            "name": "刘奕彤",
+                            "workNumber": "05220",
+                            "departmentName": "Web",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "宋声林",
+                            "workNumber": "03183",
+                            "departmentName": "后端",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "刘文文",
+                            "workNumber": "03913",
+                            "departmentName": "Web",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "刘祯昆",
+                            "workNumber": "00152",
+                            "departmentName": "Web",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "李玉鹏",
+                            "workNumber": "05978",
+                            "departmentName": "后端",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "叶玮",
+                            "workNumber": "05211",
+                            "departmentName": "测试",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "宋玖志",
+                            "workNumber": "04870",
+                            "departmentName": "创意",
+                            "companyEmail": null
+                        }
+                    ],
+                    "businessName": "Crane线上测试专用系统",
+                    "businessCode": "Crane-Test",
+                    "relatedRoles": null,
+                    "updateTime": "2024-12-16T12:19:59Z",
+                    "relatedDepartmentIds": [],
+                    "relatedDepartments": null,
+                    "relatedBusinessLineIds": [],
+                    "relatedBusinessLines": null,
+                    "managers": null,
+                    "targetName": "菜单1-1",
+                    "virtualOwnState": {
+                        "timeStatus": "NO",
+                        "dayDiff": null
+                    },
+                    "virtualId": null,
+                    "virtualFlowState": null,
+                    "virtualBusinessApplyType": null,
+                    "targetCode": "Crane-Test.test1.test1-1",
+                    "targetId": 271,
+                    "errorMsg": "",
+                    "operateType": "PERMISSION",
+                    "virtualCurrentDataScope": null,
+                    "shortName": "菜单1-1",
+                    "children": [
+                        {
+                            "securityLevel": "L1",
+                            "isVirtualNode": false,
+                            "relatedRoleIds": [],
+                            "roleId": null,
+                            "ownStatusVO": {
+                                "timeStatus": "NO",
+                                "dayDiff": null
+                            },
+                            "businessApplyType": null,
+                            "createTime": "2024-10-24 20:14:01",
+                            "flowState": null,
+                            "lastFlowState": null,
+                            "oaFlowUrl": null,
+                            "interfaceConfigList": null,
+                            "systemType": "INTERNAL_SYSTEM",
+                            "id": 269,
+                            "feature": "Crane-Test.test1.test1-1.test2-2",
+                            "name": "Crane线上测试专用系统.菜单1.菜单1-1.操作L1",
+                            "desc": "",
+                            "status": "ABLE",
+                            "type": "INTERNAL",
+                            "supportDataRule": false,
+                            "operationType": "QUERY",
+                            "attributeCategoryIds": [],
+                            "attributeCategoryNameList": [],
+                            "categoryVOS": null,
+                            "operator": "",
+                            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+                            "admin": [
+                                {
+                                    "name": "刘奕彤",
+                                    "workNumber": "05220",
+                                    "departmentName": "Web",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "宋声林",
+                                    "workNumber": "03183",
+                                    "departmentName": "后端",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "刘文文",
+                                    "workNumber": "03913",
+                                    "departmentName": "Web",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "刘祯昆",
+                                    "workNumber": "00152",
+                                    "departmentName": "Web",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "李玉鹏",
+                                    "workNumber": "05978",
+                                    "departmentName": "后端",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "叶玮",
+                                    "workNumber": "05211",
+                                    "departmentName": "测试",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "宋玖志",
+                                    "workNumber": "04870",
+                                    "departmentName": "创意",
+                                    "companyEmail": null
+                                }
+                            ],
+                            "businessName": "Crane线上测试专用系统",
+                            "businessCode": "Crane-Test",
+                            "relatedRoles": null,
+                            "updateTime": "2025-01-06T06:36:53Z",
+                            "relatedDepartmentIds": [],
+                            "relatedDepartments": null,
+                            "relatedBusinessLineIds": [],
+                            "relatedBusinessLines": null,
+                            "managers": null,
+                            "targetName": "操作L1",
+                            "virtualOwnState": {
+                                "timeStatus": "NO",
+                                "dayDiff": null
+                            },
+                            "virtualId": null,
+                            "virtualFlowState": null,
+                            "virtualBusinessApplyType": null,
+                            "targetCode": "Crane-Test.test1.test1-1.test2-2",
+                            "targetId": 269,
+                            "errorMsg": "",
+                            "operateType": "PERMISSION",
+                            "virtualCurrentDataScope": null,
+                            "shortName": "操作L1",
+                            "children": null
+                        },
+                        {
+                            "securityLevel": "L1",
+                            "isVirtualNode": false,
+                            "relatedRoleIds": [],
+                            "roleId": null,
+                            "ownStatusVO": {
+                                "timeStatus": "NO",
+                                "dayDiff": null
+                            },
+                            "businessApplyType": null,
+                            "createTime": "2024-10-24 20:10:46",
+                            "flowState": null,
+                            "lastFlowState": null,
+                            "oaFlowUrl": null,
+                            "interfaceConfigList": null,
+                            "systemType": "INTERNAL_SYSTEM",
+                            "id": 268,
+                            "feature": "Crane-Test.test1.test1-1.query",
+                            "name": "Crane线上测试专用系统.菜单1.菜单1-1.查看L1",
+                            "desc": "",
+                            "status": "ABLE",
+                            "type": "INTERNAL",
+                            "supportDataRule": true,
+                            "operationType": "QUERY",
+                            "attributeCategoryIds": [
+                                2
+                            ],
+                            "attributeCategoryNameList": [],
+                            "categoryVOS": [
+                                {
+                                    "id": 2,
+                                    "categoryCode": "finance_company_code",
+                                    "categoryName": "财务主体",
+                                    "source": "System",
+                                    "sourceType": "FINANCIAL_ENTITY",
+                                    "showWay": "FLAT",
+                                    "configWay": "MANUAL",
+                                    "status": "ABLE",
+                                    "operator": "",
+                                    "functionList": null,
+                                    "relatedBusinessCodes": null,
+                                    "relatedBusinessVos": null
+                                }
+                            ],
+                            "operator": "",
+                            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+                            "admin": [
+                                {
+                                    "name": "刘奕彤",
+                                    "workNumber": "05220",
+                                    "departmentName": "Web",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "宋声林",
+                                    "workNumber": "03183",
+                                    "departmentName": "后端",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "刘文文",
+                                    "workNumber": "03913",
+                                    "departmentName": "Web",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "刘祯昆",
+                                    "workNumber": "00152",
+                                    "departmentName": "Web",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "李玉鹏",
+                                    "workNumber": "05978",
+                                    "departmentName": "后端",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "叶玮",
+                                    "workNumber": "05211",
+                                    "departmentName": "测试",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "宋玖志",
+                                    "workNumber": "04870",
+                                    "departmentName": "创意",
+                                    "companyEmail": null
+                                }
+                            ],
+                            "businessName": "Crane线上测试专用系统",
+                            "businessCode": "Crane-Test",
+                            "relatedRoles": null,
+                            "updateTime": "2025-01-06T06:40:04Z",
+                            "relatedDepartmentIds": [],
+                            "relatedDepartments": null,
+                            "relatedBusinessLineIds": [],
+                            "relatedBusinessLines": null,
+                            "managers": null,
+                            "targetName": "查看L1",
+                            "virtualOwnState": {
+                                "timeStatus": "NO",
+                                "dayDiff": null
+                            },
+                            "virtualId": null,
+                            "virtualFlowState": null,
+                            "virtualBusinessApplyType": null,
+                            "targetCode": "Crane-Test.test1.test1-1.query",
+                            "targetId": 268,
+                            "errorMsg": "",
+                            "operateType": "PERMISSION",
+                            "virtualCurrentDataScope": null,
+                            "shortName": "查看L1",
+                            "children": null
+                        },
+                        {
+                            "securityLevel": "L2",
+                            "isVirtualNode": false,
+                            "relatedRoleIds": [],
+                            "roleId": null,
+                            "ownStatusVO": {
+                                "timeStatus": "NO",
+                                "dayDiff": null
+                            },
+                            "businessApplyType": null,
+                            "createTime": "2024-11-14 11:56:50",
+                            "flowState": null,
+                            "lastFlowState": null,
+                            "oaFlowUrl": null,
+                            "interfaceConfigList": null,
+                            "systemType": "INTERNAL_SYSTEM",
+                            "id": 271,
+                            "feature": "Crane-Test.test1.test1-1.creat_role",
+                            "name": "Crane线上测试专用系统.菜单1.菜单1-1.自动新增角色",
+                            "desc": "",
+                            "status": "ABLE",
+                            "type": "INTERNAL",
+                            "supportDataRule": false,
+                            "operationType": "MANAGE",
+                            "attributeCategoryIds": [],
+                            "attributeCategoryNameList": [],
+                            "categoryVOS": null,
+                            "operator": "",
+                            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+                            "admin": [
+                                {
+                                    "name": "刘奕彤",
+                                    "workNumber": "05220",
+                                    "departmentName": "Web",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "宋声林",
+                                    "workNumber": "03183",
+                                    "departmentName": "后端",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "刘文文",
+                                    "workNumber": "03913",
+                                    "departmentName": "Web",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "刘祯昆",
+                                    "workNumber": "00152",
+                                    "departmentName": "Web",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "李玉鹏",
+                                    "workNumber": "05978",
+                                    "departmentName": "后端",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "叶玮",
+                                    "workNumber": "05211",
+                                    "departmentName": "测试",
+                                    "companyEmail": null
+                                },
+                                {
+                                    "name": "宋玖志",
+                                    "workNumber": "04870",
+                                    "departmentName": "创意",
+                                    "companyEmail": null
+                                }
+                            ],
+                            "businessName": "Crane线上测试专用系统",
+                            "businessCode": "Crane-Test",
+                            "relatedRoles": null,
+                            "updateTime": "2024-12-16T12:19:59Z",
+                            "relatedDepartmentIds": [],
+                            "relatedDepartments": null,
+                            "relatedBusinessLineIds": [],
+                            "relatedBusinessLines": null,
+                            "managers": null,
+                            "targetName": "自动新增角色",
+                            "virtualOwnState": {
+                                "timeStatus": "NO",
+                                "dayDiff": null
+                            },
+                            "virtualId": null,
+                            "virtualFlowState": null,
+                            "virtualBusinessApplyType": null,
+                            "targetCode": "Crane-Test.test1.test1-1.creat_role",
+                            "targetId": 271,
+                            "errorMsg": "",
+                            "operateType": "PERMISSION",
+                            "virtualCurrentDataScope": null,
+                            "shortName": "自动新增角色",
+                            "children": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "securityLevel": null,
+            "isVirtualNode": true,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "businessApplyType": null,
+            "createTime": "2024-11-14 10:35:50",
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "interfaceConfigList": null,
+            "systemType": "INTERNAL_SYSTEM",
+            "id": 270,
+            "feature": "Crane-Test.test2",
+            "name": "Crane线上测试专用系统.菜单2",
+            "desc": "",
+            "status": "ABLE",
+            "type": null,
+            "supportDataRule": null,
+            "operationType": null,
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+            "admin": [
+                {
+                    "name": "刘奕彤",
+                    "workNumber": "05220",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋声林",
+                    "workNumber": "03183",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘文文",
+                    "workNumber": "03913",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘祯昆",
+                    "workNumber": "00152",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "李玉鹏",
+                    "workNumber": "05978",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "叶玮",
+                    "workNumber": "05211",
+                    "departmentName": "测试",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋玖志",
+                    "workNumber": "04870",
+                    "departmentName": "创意",
+                    "companyEmail": null
+                }
+            ],
+            "businessName": "Crane线上测试专用系统",
+            "businessCode": "Crane-Test",
+            "relatedRoles": null,
+            "updateTime": "2024-12-26T07:10:05Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "relatedBusinessLineIds": [],
+            "relatedBusinessLines": null,
+            "managers": [
+                {
+                    "employeeId": 3187,
+                    "employeeNumber": "03183",
+                    "name": "宋声林",
+                    "departmentChain": "技术部-后端",
+                    "departmentName": "后端",
+                    "finalDepartmentName": "后端",
+                    "departmentId": 30,
+                    "internalBusinessLineIdList": [
+                        51
+                    ],
+                    "internalBusinessLineChainList": [
+                        "技术部-后端-内部系统-业务中台"
+                    ],
+                    "positionName": "初级开发工程师",
+                    "gender": "男",
+                    "state": "正式",
+                    "countryCode": "CN",
+                    "supervisorNumber": "00064",
+                    "virtualSupervisorNumber": null,
+                    "mobile": "13639120050",
+                    "entryTime": 1679364404272,
+                    "rank": "I2",
+                    "pictures": {
+                        "WORK_CARD_PHOTO": "https://oa-static.yangqianguan.com/oa/8daf7759785844b3d119597cf70d8e2a?e=1739890434&token=IAM-lNl4ImtIbsUc4fmAdUN5tQ2eHWDlJnLa4bMWCUST:Ure2GplcJPJNOPthHh-inHwF2lc="
+                    },
+                    "isInternalEmployee": true,
+                    "employeeType": "INTERNAL",
+                    "employeeTypeVo": {
+                        "id": null,
+                        "description": "内部员工",
+                        "employeeType": "INTERNAL"
+                    },
+                    "subordinateAndVirtualEmployees": null,
+                    "sameLevelEmployees": null,
+                    "applyEmployees": null,
+                    "allDepartmentChainList": [
+                        "技术部-后端",
+                        "技术部-后端-内部系统-业务中台"
+                    ],
+                    "onPosition": true,
+                    "rankGEM3": false,
+                    "operateType": "EMPLOYEE",
+                    "rankGEM4": false,
+                    "workNumber": "03183",
+                    "id": 3183,
+                    "feature": null,
+                    "businessCode": null,
+                    "companyEmail": "shenglinsong@fintopia.tech"
+                }
+            ],
+            "targetName": "菜单2",
+            "virtualOwnState": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "virtualId": null,
+            "virtualFlowState": null,
+            "virtualBusinessApplyType": null,
+            "targetCode": "Crane-Test.test2",
+            "targetId": 270,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "virtualCurrentDataScope": null,
+            "shortName": "菜单2",
+            "children": [
+                {
+                    "securityLevel": "L1",
+                    "isVirtualNode": false,
+                    "relatedRoleIds": [],
+                    "roleId": null,
+                    "ownStatusVO": {
+                        "timeStatus": "NO",
+                        "dayDiff": null
+                    },
+                    "businessApplyType": null,
+                    "createTime": "2024-11-14 10:35:50",
+                    "flowState": null,
+                    "lastFlowState": null,
+                    "oaFlowUrl": null,
+                    "interfaceConfigList": null,
+                    "systemType": "INTERNAL_SYSTEM",
+                    "id": 270,
+                    "feature": "Crane-Test.test2.query2",
+                    "name": "Crane线上测试专用系统.菜单2.查询2",
+                    "desc": "",
+                    "status": "ABLE",
+                    "type": "GENERAL",
+                    "supportDataRule": true,
+                    "operationType": "QUERY",
+                    "attributeCategoryIds": [
+                        2,
+                        4,
+                        5
+                    ],
+                    "attributeCategoryNameList": [],
+                    "categoryVOS": [
+                        {
+                            "id": 2,
+                            "categoryCode": "finance_company_code",
+                            "categoryName": "财务主体",
+                            "source": "System",
+                            "sourceType": "FINANCIAL_ENTITY",
+                            "showWay": "FLAT",
+                            "configWay": "MANUAL",
+                            "status": "ABLE",
+                            "operator": "",
+                            "functionList": null,
+                            "relatedBusinessCodes": null,
+                            "relatedBusinessVos": null
+                        },
+                        {
+                            "id": 4,
+                            "categoryCode": "workplace",
+                            "categoryName": "OMS职场",
+                            "source": "System",
+                            "sourceType": "WORKPLACE",
+                            "showWay": "FLAT",
+                            "configWay": "MANUAL",
+                            "status": "ABLE",
+                            "operator": "",
+                            "functionList": null,
+                            "relatedBusinessCodes": null,
+                            "relatedBusinessVos": null
+                        },
+                        {
+                            "id": 5,
+                            "categoryCode": "business_line",
+                            "categoryName": "OMS业务线",
+                            "source": "System",
+                            "sourceType": "OMS_BUSINESS_LINE",
+                            "showWay": "TREE",
+                            "configWay": "MANUAL",
+                            "status": "ABLE",
+                            "operator": "",
+                            "functionList": null,
+                            "relatedBusinessCodes": null,
+                            "relatedBusinessVos": null
+                        }
+                    ],
+                    "operator": "",
+                    "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+                    "admin": [
+                        {
+                            "name": "刘奕彤",
+                            "workNumber": "05220",
+                            "departmentName": "Web",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "宋声林",
+                            "workNumber": "03183",
+                            "departmentName": "后端",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "刘文文",
+                            "workNumber": "03913",
+                            "departmentName": "Web",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "刘祯昆",
+                            "workNumber": "00152",
+                            "departmentName": "Web",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "李玉鹏",
+                            "workNumber": "05978",
+                            "departmentName": "后端",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "叶玮",
+                            "workNumber": "05211",
+                            "departmentName": "测试",
+                            "companyEmail": null
+                        },
+                        {
+                            "name": "宋玖志",
+                            "workNumber": "04870",
+                            "departmentName": "创意",
+                            "companyEmail": null
+                        }
+                    ],
+                    "businessName": "Crane线上测试专用系统",
+                    "businessCode": "Crane-Test",
+                    "relatedRoles": null,
+                    "updateTime": "2024-12-26T07:10:05Z",
+                    "relatedDepartmentIds": [],
+                    "relatedDepartments": null,
+                    "relatedBusinessLineIds": [],
+                    "relatedBusinessLines": null,
+                    "managers": null,
+                    "targetName": "查询2",
+                    "virtualOwnState": {
+                        "timeStatus": "NO",
+                        "dayDiff": null
+                    },
+                    "virtualId": null,
+                    "virtualFlowState": null,
+                    "virtualBusinessApplyType": null,
+                    "targetCode": "Crane-Test.test2.query2",
+                    "targetId": 270,
+                    "errorMsg": "",
+                    "operateType": "PERMISSION",
+                    "virtualCurrentDataScope": null,
+                    "shortName": "查询2",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "securityLevel": "L1",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "businessApplyType": null,
+            "createTime": "2024-12-05 16:03:06",
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "interfaceConfigList": null,
+            "systemType": "INTERNAL_SYSTEM",
+            "id": 409,
+            "feature": "Crane-Test.query0111",
+            "name": "Crane线上测试专用系统.测试权限1",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [
+                1,
+                2
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+                {
+                    "id": 1,
+                    "categoryCode": "data_authority_business",
+                    "categoryName": "可管理的系统",
+                    "source": "System",
+                    "sourceType": "BUSINESS",
+                    "showWay": "FLAT",
+                    "configWay": "AUTO",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null,
+                    "relatedBusinessCodes": null,
+                    "relatedBusinessVos": null
+                },
+                {
+                    "id": 2,
+                    "categoryCode": "finance_company_code",
+                    "categoryName": "财务主体",
+                    "source": "System",
+                    "sourceType": "FINANCIAL_ENTITY",
+                    "showWay": "FLAT",
+                    "configWay": "MANUAL",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null,
+                    "relatedBusinessCodes": null,
+                    "relatedBusinessVos": null
+                }
+            ],
+            "operator": "",
+            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+            "admin": [
+                {
+                    "name": "刘奕彤",
+                    "workNumber": "05220",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋声林",
+                    "workNumber": "03183",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘文文",
+                    "workNumber": "03913",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘祯昆",
+                    "workNumber": "00152",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "李玉鹏",
+                    "workNumber": "05978",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "叶玮",
+                    "workNumber": "05211",
+                    "departmentName": "测试",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋玖志",
+                    "workNumber": "04870",
+                    "departmentName": "创意",
+                    "companyEmail": null
+                }
+            ],
+            "businessName": "Crane线上测试专用系统",
+            "businessCode": "Crane-Test",
+            "relatedRoles": null,
+            "updateTime": "2025-02-07T09:08:21Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "relatedBusinessLineIds": [],
+            "relatedBusinessLines": null,
+            "managers": null,
+            "targetName": "测试权限1",
+            "virtualOwnState": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "virtualId": null,
+            "virtualFlowState": null,
+            "virtualBusinessApplyType": null,
+            "targetCode": "Crane-Test.query0111",
+            "targetId": 409,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "virtualCurrentDataScope": null,
+            "shortName": "测试权限1",
+            "children": null
+        },
+        {
+            "securityLevel": "L1",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "businessApplyType": null,
+            "createTime": "2025-01-06 14:45:46",
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "interfaceConfigList": null,
+            "systemType": "INTERNAL_SYSTEM",
+            "id": 1291,
+            "feature": "Crane-Test.delect444",
+            "name": "Crane线上测试专用系统.测试权限4",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": true,
+            "operationType": "MANAGE",
+            "attributeCategoryIds": [
+                1
+            ],
+            "attributeCategoryNameList": [],
+            "categoryVOS": [
+                {
+                    "id": 1,
+                    "categoryCode": "data_authority_business",
+                    "categoryName": "可管理的系统",
+                    "source": "System",
+                    "sourceType": "BUSINESS",
+                    "showWay": "FLAT",
+                    "configWay": "AUTO",
+                    "status": "ABLE",
+                    "operator": "",
+                    "functionList": null,
+                    "relatedBusinessCodes": null,
+                    "relatedBusinessVos": null
+                }
+            ],
+            "operator": "",
+            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+            "admin": [
+                {
+                    "name": "刘奕彤",
+                    "workNumber": "05220",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋声林",
+                    "workNumber": "03183",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘文文",
+                    "workNumber": "03913",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘祯昆",
+                    "workNumber": "00152",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "李玉鹏",
+                    "workNumber": "05978",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "叶玮",
+                    "workNumber": "05211",
+                    "departmentName": "测试",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋玖志",
+                    "workNumber": "04870",
+                    "departmentName": "创意",
+                    "companyEmail": null
+                }
+            ],
+            "businessName": "Crane线上测试专用系统",
+            "businessCode": "Crane-Test",
+            "relatedRoles": null,
+            "updateTime": "2025-02-17T08:50:41Z",
+            "relatedDepartmentIds": [],
+            "relatedDepartments": null,
+            "relatedBusinessLineIds": [],
+            "relatedBusinessLines": null,
+            "managers": null,
+            "targetName": "测试权限4",
+            "virtualOwnState": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "virtualId": null,
+            "virtualFlowState": null,
+            "virtualBusinessApplyType": null,
+            "targetCode": "Crane-Test.delect444",
+            "targetId": 1291,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "virtualCurrentDataScope": null,
+            "shortName": "测试权限4",
+            "children": null
+        },
+        {
+            "securityLevel": "L1",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "businessApplyType": null,
+            "createTime": "2024-12-26 19:54:19",
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "interfaceConfigList": null,
+            "systemType": "INTERNAL_SYSTEM",
+            "id": 1276,
+            "feature": "Crane-Test.Code12345",
+            "name": "Crane线上测试专用系统.测试自动分配",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+            "admin": [
+                {
+                    "name": "刘奕彤",
+                    "workNumber": "05220",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋声林",
+                    "workNumber": "03183",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘文文",
+                    "workNumber": "03913",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘祯昆",
+                    "workNumber": "00152",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "李玉鹏",
+                    "workNumber": "05978",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "叶玮",
+                    "workNumber": "05211",
+                    "departmentName": "测试",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋玖志",
+                    "workNumber": "04870",
+                    "departmentName": "创意",
+                    "companyEmail": null
+                }
+            ],
+            "businessName": "Crane线上测试专用系统",
+            "businessCode": "Crane-Test",
+            "relatedRoles": null,
+            "updateTime": "2024-12-26T11:55:33Z",
+            "relatedDepartmentIds": [
+                2
+            ],
+            "relatedDepartments": [
+                {
+                    "id": 2,
+                    "parentId": 1,
+                    "name": "财务部",
+                    "chain": "财务部",
+                    "level": 2,
+                    "leaderId": 282,
+                    "leaderName": "徐烨",
+                    "leaderWorkNumber": "00281",
+                    "parentName": "总部",
+                    "relatedRoles": null,
+                    "isAvailable": "TRUE",
+                    "treeId": "2",
+                    "parentTreeId": "1",
+                    "virtualData": false,
+                    "specialField": false
+                }
+            ],
+            "relatedBusinessLineIds": null,
+            "relatedBusinessLines": null,
+            "managers": null,
+            "targetName": "测试自动分配",
+            "virtualOwnState": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "virtualId": null,
+            "virtualFlowState": null,
+            "virtualBusinessApplyType": null,
+            "targetCode": "Crane-Test.Code12345",
+            "targetId": 1276,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "virtualCurrentDataScope": null,
+            "shortName": "测试自动分配",
+            "children": null
+        },
+        {
+            "securityLevel": "L1",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "businessApplyType": null,
+            "createTime": "2024-12-26 19:28:48",
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "interfaceConfigList": null,
+            "systemType": "INTERNAL_SYSTEM",
+            "id": 1273,
+            "feature": "Crane-Test.songtestcreate",
+            "name": "Crane线上测试专用系统.宋测试新建啊啊1",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+            "admin": [
+                {
+                    "name": "刘奕彤",
+                    "workNumber": "05220",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋声林",
+                    "workNumber": "03183",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘文文",
+                    "workNumber": "03913",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘祯昆",
+                    "workNumber": "00152",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "李玉鹏",
+                    "workNumber": "05978",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "叶玮",
+                    "workNumber": "05211",
+                    "departmentName": "测试",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋玖志",
+                    "workNumber": "04870",
+                    "departmentName": "创意",
+                    "companyEmail": null
+                }
+            ],
+            "businessName": "Crane线上测试专用系统",
+            "businessCode": "Crane-Test",
+            "relatedRoles": null,
+            "updateTime": "2025-01-17T04:33:53Z",
+            "relatedDepartmentIds": null,
+            "relatedDepartments": null,
+            "relatedBusinessLineIds": [
+                {
+                    "businessLineId": 25,
+                    "departmentId": 30
+                }
+            ],
+            "relatedBusinessLines": [
+                {
+                    "id": "30-25",
+                    "name": "架构部",
+                    "chain": "技术部-后端-架构部",
+                    "originChain": "架构部",
+                    "parentId": null,
+                    "relatedDepartmentId": 30,
+                    "businessLine": {
+                        "id": 25,
+                        "name": "架构部",
+                        "parentId": 0,
+                        "level": 1,
+                        "specialField": false
+                    },
+                    "businessLineRelation": {
+                        "id": 29,
+                        "internalBusinessLineId": 25,
+                        "relationId": 30,
+                        "relationType": "DEPARTMENT"
+                    },
+                    "treeId": "30-25",
+                    "parentTreeId": null,
+                    "businessLineId": 25,
+                    "specialField": false
+                }
+            ],
+            "managers": null,
+            "targetName": "宋测试新建啊啊1",
+            "virtualOwnState": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "virtualId": null,
+            "virtualFlowState": null,
+            "virtualBusinessApplyType": null,
+            "targetCode": "Crane-Test.songtestcreate",
+            "targetId": 1273,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "virtualCurrentDataScope": null,
+            "shortName": "宋测试新建啊啊1",
+            "children": null
+        },
+        {
+            "securityLevel": "L1",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "businessApplyType": null,
+            "createTime": "2025-02-07 17:11:05",
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "interfaceConfigList": null,
+            "systemType": "INTERNAL_SYSTEM",
+            "id": 1434,
+            "feature": "Crane-Test.test1027",
+            "name": "Crane线上测试专用系统.线上测试权限1",
+            "desc": "",
+            "status": "ABLE",
+            "type": "GENERAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+            "admin": [
+                {
+                    "name": "刘奕彤",
+                    "workNumber": "05220",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋声林",
+                    "workNumber": "03183",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘文文",
+                    "workNumber": "03913",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘祯昆",
+                    "workNumber": "00152",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "李玉鹏",
+                    "workNumber": "05978",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "叶玮",
+                    "workNumber": "05211",
+                    "departmentName": "测试",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋玖志",
+                    "workNumber": "04870",
+                    "departmentName": "创意",
+                    "companyEmail": null
+                }
+            ],
+            "businessName": "Crane线上测试专用系统",
+            "businessCode": "Crane-Test",
+            "relatedRoles": null,
+            "updateTime": "2025-02-07T09:22:15Z",
+            "relatedDepartmentIds": [
+                1
+            ],
+            "relatedDepartments": [
+                {
+                    "id": 1,
+                    "parentId": -1,
+                    "name": "总部",
+                    "chain": "总部",
+                    "level": 1,
+                    "leaderId": 2,
+                    "leaderName": "刘永延",
+                    "leaderWorkNumber": "00001",
+                    "parentName": null,
+                    "relatedRoles": null,
+                    "isAvailable": "TRUE",
+                    "treeId": "1",
+                    "parentTreeId": "-1",
+                    "virtualData": false,
+                    "specialField": false
+                }
+            ],
+            "relatedBusinessLineIds": null,
+            "relatedBusinessLines": null,
+            "managers": null,
+            "targetName": "线上测试权限1",
+            "virtualOwnState": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "virtualId": null,
+            "virtualFlowState": null,
+            "virtualBusinessApplyType": null,
+            "targetCode": "Crane-Test.test1027",
+            "targetId": 1434,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "virtualCurrentDataScope": null,
+            "shortName": "线上测试权限1",
+            "children": null
+        },
+        {
+            "securityLevel": "L1",
+            "isVirtualNode": false,
+            "relatedRoleIds": [],
+            "roleId": null,
+            "ownStatusVO": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "businessApplyType": null,
+            "createTime": "2025-02-07 18:26:48",
+            "flowState": null,
+            "lastFlowState": null,
+            "oaFlowUrl": null,
+            "interfaceConfigList": null,
+            "systemType": "INTERNAL_SYSTEM",
+            "id": 1435,
+            "feature": "Crane-Test.test2027",
+            "name": "Crane线上测试专用系统.线上测试权限2",
+            "desc": "",
+            "status": "ABLE",
+            "type": "INTERNAL",
+            "supportDataRule": false,
+            "operationType": "QUERY",
+            "attributeCategoryIds": [],
+            "attributeCategoryNameList": [],
+            "categoryVOS": null,
+            "operator": "",
+            "systemRoleName": "Crane线上测试专用系统 - 系统管理员",
+            "admin": [
+                {
+                    "name": "刘奕彤",
+                    "workNumber": "05220",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋声林",
+                    "workNumber": "03183",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘文文",
+                    "workNumber": "03913",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "刘祯昆",
+                    "workNumber": "00152",
+                    "departmentName": "Web",
+                    "companyEmail": null
+                },
+                {
+                    "name": "李玉鹏",
+                    "workNumber": "05978",
+                    "departmentName": "后端",
+                    "companyEmail": null
+                },
+                {
+                    "name": "叶玮",
+                    "workNumber": "05211",
+                    "departmentName": "测试",
+                    "companyEmail": null
+                },
+                {
+                    "name": "宋玖志",
+                    "workNumber": "04870",
+                    "departmentName": "创意",
+                    "companyEmail": null
+                }
+            ],
+            "businessName": "Crane线上测试专用系统",
+            "businessCode": "Crane-Test",
+            "relatedRoles": null,
+            "updateTime": "2025-02-07T10:26:48Z",
+            "relatedDepartmentIds": [
+                1
+            ],
+            "relatedDepartments": [
+                {
+                    "id": 1,
+                    "parentId": -1,
+                    "name": "总部",
+                    "chain": "总部",
+                    "level": 1,
+                    "leaderId": 2,
+                    "leaderName": "刘永延",
+                    "leaderWorkNumber": "00001",
+                    "parentName": null,
+                    "relatedRoles": null,
+                    "isAvailable": "TRUE",
+                    "treeId": "1",
+                    "parentTreeId": "-1",
+                    "virtualData": false,
+                    "specialField": false
+                }
+            ],
+            "relatedBusinessLineIds": null,
+            "relatedBusinessLines": null,
+            "managers": null,
+            "targetName": "线上测试权限2",
+            "virtualOwnState": {
+                "timeStatus": "NO",
+                "dayDiff": null
+            },
+            "virtualId": null,
+            "virtualFlowState": null,
+            "virtualBusinessApplyType": null,
+            "targetCode": "Crane-Test.test2027",
+            "targetId": 1435,
+            "errorMsg": "",
+            "operateType": "PERMISSION",
+            "virtualCurrentDataScope": null,
+            "shortName": "线上测试权限2",
+            "children": null
+        }
+    ],
+    "status": {
+        "code": 0,
+        "type": "",
+        "detail": "",
+        "serverResponseTime": 1739886842010,
+        "displayType": "TOAST",
+        "url": null
+    }
+}
