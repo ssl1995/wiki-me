@@ -1,61 +1,53 @@
 {
   "permissionIds": [
-    4017
+    3422
   ],
-  "addRoleIds": [],
+  "addRoleIds": [
+    10012220
+  ],
   "deleteRoleIds": [],
   "permissionDataRule": [
     {
-      "permissionId": 4017,
-      "roleId": "10014032",
+      "permissionId": 3422,
+      "roleId": "10004531",
       "dataRule": {
         "ruleItems": [
-          [
-            {
-              "attributeCategoryId": "101",
-              "attributeFunctionId": 492
-            },
-            {
-              "attributeCategoryId": "101",
-              "attributeValueIds": [
-                -1
-              ]
-            }
-          ],
-          [
-            {
-              "attributeCategoryId": "102",
-              "attributeValueIds": [
-                7,
-                8,
-                32
-              ]
-            }
-          ]
+          {
+            "attributeCategoryId": 112,
+            "attributeFunctionId": 550
+          },
+          {
+            "attributeCategoryId": 112,
+            "attributeValueIds": [
+              2
+            ]
+          },
+          {
+            "attributeCategoryId": 113,
+            "attributeFunctionId": 552
+          },
+          {
+            "attributeCategoryId": 113,
+            "attributeValueIds": [
+              516
+            ]
+          }
         ]
       }
     },
     {
-      "permissionId": 4017,
-      "roleId": "10014033",
+      "permissionId": 3422,
+      "roleId": "10012220",
       "dataRule": {
         "ruleItems": [
-          [
-            {
-              "attributeCategoryId": 101,
-              "attributeValueIds": [
-                -1
-              ]
-            }
-          ],
-          [
-            {
-              "attributeCategoryId": 102,
-              "attributeValueIds": [
-                -1
-              ]
-            }
-          ]
+          {
+            "attributeCategoryId": "112",
+            "attributeFunctionId": 550
+          },
+          {
+            "attributeCategoryId": "113",
+            "attributeFunctionId": 552
+          }
         ]
       }
     }
