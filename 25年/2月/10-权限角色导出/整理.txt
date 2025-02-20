@@ -3,3 +3,7 @@
 系统名称-权限导出详情 yyyy-mm-dd
 
 ADMIN@NOTIFICATION.LIMIT_MIXED
+
+退出登录：05558
+
+http://localhost:8080/admin/test/permission/export
