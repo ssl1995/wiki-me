@@ -1,16 +1,6 @@
-宋第三次系统-权限点导出详情 2025-02-19 12-20-22
-
-系统名称-权限导出详情 yyyy-mm-dd
-
-ADMIN@NOTIFICATION.LIMIT_MIXED
-
-退出登录：05558
-
 http://localhost:8080/admin/test/permission/export
+http://localhost:8081/admin/test/permission/export
 
-crane.switch.newAuthorityBusinessList	ADMIN@NOTIFICATION
 
 
-crane.switch.partAuthorityList[27].businessCode  ADMIN@NOTIFICATION
-
-crane.switch.partAuthorityList[27].whiteList   04819,02886,04061,01420,01472,05156,05221,05057
+https://crane-test.yangqianguan.com/admin/test/permission/export
